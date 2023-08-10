@@ -1,0 +1,131 @@
+{
+  "name": "baseballplayers",
+  "fields": [
+    {
+      "name": "id",
+      "key": "true",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "playerID",
+      "key": "false",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "birthYear",
+      "type": "Edm.Int32",
+      "key": "false",
+      "searchable": "false",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "birthCountry",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "nameFirst",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "nameLast",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "primary_position",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "embeddings_str",
+      "type": "Edm.String",
+      "searchable": "false",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    { "name": "teams", "type": "Edm.ComplexType", 
+      "fields": [
+        {
+          "name": "total_games",
+          "type": "Edm.Int32",
+          "key": "false",
+          "searchable": "false",
+          "filterable": "true",
+          "sortable": "true",
+          "facetable": "true"
+        },
+        {
+          "name": "primary_team",
+          "type": "Edm.String",
+          "key": "false",
+          "searchable": "false",
+          "filterable": "true",
+          "sortable": "true",
+          "facetable": "true"
+        }
+      ]
+    },
+    { "name": "batting", "type": "Edm.ComplexType", 
+      "fields": [
+        {
+          "name": "HR",
+          "type": "Edm.Int32",
+          "key": "false",
+          "searchable": "false",
+          "filterable": "true",
+          "sortable": "true",
+          "facetable": "true"
+        }
+      ]
+    },
+    {
+      "name": "embeddings",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": true,
+      "dimensions": 1536,
+      "vectorSearchConfiguration": "vectorConfig"
+    }
+  ],
+  "vectorSearch": {
+    "algorithmConfigurations": [
+        {
+            "name": "vectorConfig",
+            "kind": "hnsw"
+        }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "baseballplayers",
+  "dataSourceName": "cosmosdb-nosql-dev-baseballplayers",
+  "targetIndexName": "baseballplayers",
+  "schedule": {
+    "interval": "PT1H"
+  }
+}

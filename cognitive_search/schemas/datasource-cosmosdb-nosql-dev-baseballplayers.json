@@ -1,0 +1,19 @@
+{
+  "name": "cosmosdb-nosql-dev-baseballplayers",
+  "description": null,
+  "type": "cosmosdb",
+  "subtype": null,
+  "credentials": {
+    "connectionString": "... populate me ..."
+  },
+  "container": {
+    "name": "airports",
+    "query": null
+  },
+  "dataChangeDetectionPolicy": {
+    "@odata.type": "#Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy",
+    "highWaterMarkColumnName": "_ts"
+  },
+  "dataDeletionDetectionPolicy": null,
+  "encryptionKey": null
+}

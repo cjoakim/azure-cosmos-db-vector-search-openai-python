@@ -1,0 +1,28 @@
+# This file lists the Python libraries used in the virtual enviroment.
+# See the venv.ps1 and venv.sh scripts in this directory.
+# Chris Joakim, Microsoft
+
+# Standard core libraries
+Jinja2
+azure-ai-ml
+azure-cosmos
+azure-identity
+azure-storage-blob
+certifi
+dnspython
+docopt
+matplotlib
+openai
+pandas
+plotly
+psutil
+pylint
+pymongo
+pytest==7.3.2
+pytest-cov
+pytz
+redis
+requests
+tiktoken>=0.4.0
+scikit-learn
+scipy

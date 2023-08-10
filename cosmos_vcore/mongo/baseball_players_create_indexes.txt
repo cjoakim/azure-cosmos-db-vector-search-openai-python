@@ -1,0 +1,32 @@
+
+use dev;
+
+db.baseball_players.getIndexes();
+
+db.baseball_players.createIndex({"playerID":1}, {background:true});
+
+db.baseball_players.createIndex({"birthYear":1}, {background:true});
+
+db.baseball_players.createIndex({"birthCountry":1}, {background:true});
+
+db.baseball_players.dropIndex('vectorSearchIndex');
+
+db.runCommand({
+  createIndexes: 'baseball_players',
+  indexes: [
+    {
+      name: 'vectorSearchIndex',
+      key: {
+        "embeddings": "cosmosSearch"
+      },
+      cosmosSearchOptions: {
+        kind: 'vector-ivf',
+        numLists: 100,
+        similarity: 'COS',
+        dimensions: 1536
+      }
+    }
+  ]
+});
+
+db.baseball_players.getIndexes();

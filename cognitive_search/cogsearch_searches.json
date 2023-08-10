@@ -1,0 +1,80 @@
+{
+  "all_players": {
+    "count": "true",
+    "search": "*",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "aaronha01": {
+    "count": "true",
+    "search": "playerID eq 'aaronha01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "aaronha01_full": {
+    "count": "true",
+    "search": "playerID eq 'aaronha01'",
+    "orderby": "playerID",
+    "select": "*"
+  },
+  "jeterde01": {
+    "count": "true",
+    "search": "playerID eq 'jeterde01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "jeterde01_full": {
+    "count": "true",
+    "search": "playerID eq 'jeterde01'",
+    "orderby": "playerID",
+    "select": "*"
+  },
+  "henderi01": {
+    "count": "true",
+    "search": "playerID eq 'henderi01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "henderi01_full": {
+    "count": "true",
+    "search": "playerID eq 'henderi01'",
+    "orderby": "playerID",
+    "select": "*"
+  },
+  "blombro01": {
+    "count": "true",
+    "search": "playerID eq 'blombro01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "blombro01_full": {
+    "count": "true",
+    "search": "playerID eq 'blombro01'",
+    "orderby": "playerID",
+    "select": "*"
+  },
+  "guidrro01": {
+    "count": "true",
+    "search": "playerID eq 'guidrro01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "guidrro01_full": {
+    "count": "true",
+    "search": "playerID eq 'guidrro01'",
+    "orderby": "playerID",
+    "select": "*"
+  },
+  "rosepe01": {
+    "count": "true",
+    "search": "playerID eq 'rosepe01'",
+    "orderby": "playerID",
+    "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str"
+  },
+  "rosepe01_full": {
+    "count": "true",
+    "search": "playerID eq 'rosepe01'",
+    "orderby": "playerID",
+    "select": "*"
+  }
+}
