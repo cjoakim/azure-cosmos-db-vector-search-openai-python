@@ -14,7 +14,7 @@ on your interest.
 ## Architecture of this Project
 
 <p align="center">
-    <img src="img/architecture.png" width="80%">
+    <img src="img/architecture.png" width="70%">
 </p>
 
 ---
