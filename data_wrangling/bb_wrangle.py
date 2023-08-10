@@ -34,7 +34,6 @@ import pandas as pd
 
 from docopt import docopt
 
-#from pysrc.aibundle import Bytes, Counter, Env, FS, Storage, System
 from pysrc.aibundle import Bytes, CogSvcsClient, Counter, Env, FS, Mongo, OpenAIClient, Storage, System
 
 EXPECTED_EMBEDDINGS_ARRAY_LENGTH = 1536
@@ -504,7 +503,7 @@ def add_embeddings():
                 doc['embeddings'] = []
                 doc = documents[pid]
                 estr = doc['embeddings_str']
-                if len(estr) > 50:
+                if len(estr) > 0:
                     embed = oaic.get_embedding(estr)
                     if embed is not None:
                         doc['embeddings'] = embed
@@ -513,6 +512,15 @@ def add_embeddings():
                 print(traceback.format_exc())
 
     FS.write_json(documents, outfile)
+
+def create_azure_oai_client():
+    config = {}
+    config['type'] = 'azure'
+    config['url']  = os.environ['AZURE_OPENAI_URL']
+    config['key']  = os.environ['AZURE_OPENAI_KEY1']
+    config['api_version'] = '2023-05-15'  # <-- subject to change
+    print('create_azure_oai_client, config: {}'.format(json.dumps(config)))
+    return OpenAIClient(config)
 
 def scan_embeddings():
     print(f'=== scan_embeddings')
@@ -557,13 +565,6 @@ def csv_reports():
 
     FS.write_lines(pitcher_rows, '../data/wrangled/pitchers.csv')
     FS.write_lines(fielder_rows, '../data/wrangled/fielders.csv')
-
-def create_azure_oai_client():
-    config = {}
-    config['type'] = 'azure'
-    config['url']  = os.environ['AZURE_OPENAI_URL']
-    config['key']  = os.environ['AZURE_OPENAI_KEY1']
-    return OpenAIClient(config)
 
 def float_value(dictionary: dict, key: str, default_value: float) -> float:
     try:
