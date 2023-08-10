@@ -1,0 +1,20 @@
+<project name="zip_embeddings_file" default="zip_embeddings_file" basedir=".">
+
+    <description>
+        Ant script to create a zip file backup the generated
+        'documents_with_embeddings.json' file.
+        Chris Joakim, Microsoft
+        ant -f zip_embeddings_file.xml
+    </description>
+
+    <target name="zip_embeddings_file">
+        <property name="zipFilename" value="documents_with_embeddings.zip" />
+        <delete file="${zipFilename}" />
+        <zip destfile="${zipFilename}">
+            <fileset dir="." includes="documents_with_embeddings.json"/>
+        </zip>
+        <echo message="file created: ${zipFilename}" />
+        <echo message="done." />
+    </target>
+
+</project>

@@ -15,7 +15,7 @@
 **/pyvenv.cfg
 
 **/documents_with_embeddings.json
-**/data/wrangled/zip/
+**/documents_with_embeddings.zip
 
 # =============================================================================
 
