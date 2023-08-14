@@ -14,9 +14,9 @@ python --version
 # The output data file from this step is NOT stored in GitHub.
 python bb_wrangle.py add_embeddings_to_documents
 
-python bb_wrangle.py scan_embeddings
+# python bb_wrangle.py scan_embeddings
 
-python bb_wrangle.py csv_reports
+# python bb_wrangle.py csv_reports
 
 echo 'listing of all tmp files:'
 ls -al tmp/*.*

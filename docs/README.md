@@ -70,7 +70,7 @@ While other search techniques can answer **simple searches** like:
     <img src="img/rickey-henderson.jpg" width="50%">
 </p>
 <p align="center">
-    Rickey Henderson (henderi01), MLB Hall of Fame Player, Unicorn
+    Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
 </p>
 
 ---
