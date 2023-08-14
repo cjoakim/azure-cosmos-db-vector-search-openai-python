@@ -24,6 +24,8 @@ python bb_wrangle.py calc_pitchers_stats
 # The output JSON files are saved in GitHub for end-user/customer processing.
 python bb_wrangle.py build_documents
 
+python bb_wrangle.py scan_documents
+
 echo 'listing of all tmp files:'
 ls -al tmp/*.*
 

@@ -237,66 +237,70 @@ def load_baseball_batters(envname, dbname):
         for idx, pid in enumerate(player_ids):
             try:
                 doc = documents[pid]
-                cat = doc['category']
-                if cat == 'fielder':
+                if doc['category'] == 'fielder':
                     embeddings = doc['embeddings']
                     if idx < 100_000:
                         if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:
                             id = idx + 1
                             pid = doc['playerID']
-                            print(f'loading {id} {pid}')
-                            column_values = []
-                            column_values.append(id)
-                            column_values.append(doc['playerID'])
-                            column_values.append(doc['birthYear'])
-                            column_values.append(doc['birthCountry'])
-                            column_values.append(str(doc['nameFirst']).replace("'",''))
-                            column_values.append(str(doc['nameLast']).replace("'",''))
-                            column_values.append(doc['bats'])
-                            column_values.append(doc['throws'])
-                            column_values.append(doc['primary_position'])
-                            column_values.append(doc['teams']['primary_team'])
-                            column_values.append(doc['debut_year'])
-                            column_values.append(doc['final_year'])
-                            column_values.append(doc['teams']['total_games'])
+                            pp = doc['primary_position']
+                            if pp == '?':
+                                pass
+                            else:
+                                print(f'loading {id} {pid} {pp}')
+                                column_values = []
+                                column_values.append(id)
+                                column_values.append(doc['playerID'])
+                                column_values.append(doc['birthYear'])
+                                column_values.append(doc['birthCountry'])
+                                column_values.append(str(doc['nameFirst']).replace("'",''))
+                                column_values.append(str(doc['nameLast']).replace("'",''))
+                                column_values.append(doc['bats'])
+                                column_values.append(doc['throws'])
+                                column_values.append(doc['primary_position'])
+                                column_values.append(doc['teams']['primary_team'])
+                                column_values.append(doc['debut_year'])
+                                column_values.append(doc['final_year'])
+                                column_values.append(doc['teams']['total_games'])
 
-                            batting = doc['batting']
-                            column_values.append(batting['AB'])
-                            column_values.append(batting['R'])
-                            column_values.append(batting['H'])
-                            column_values.append(batting['2B'])
-                            column_values.append(batting['3B'])
-                            column_values.append(batting['HR'])
-                            column_values.append(batting['RBI'])
-                            column_values.append(batting['SB'])
-                            column_values.append(batting['CS'])
-                            column_values.append(batting['BB'])
-                            column_values.append(batting['SO'])
-                            column_values.append(batting['IBB'])
-                            column_values.append(batting['HBP'])
-                            column_values.append(batting['SF'])
+                                batting = doc['batting']
+                                column_values.append(batting['AB'])
+                                column_values.append(batting['R'])
+                                column_values.append(batting['H'])
+                                column_values.append(batting['2B'])
+                                column_values.append(batting['3B'])
+                                column_values.append(batting['HR'])
+                                column_values.append(batting['RBI'])
+                                column_values.append(batting['SB'])
+                                column_values.append(batting['CS'])
+                                column_values.append(batting['BB'])
+                                column_values.append(batting['SO'])
+                                column_values.append(batting['IBB'])
+                                column_values.append(batting['HBP'])
+                                column_values.append(batting['SF'])
 
-                            calculated = batting['calculated']
-                            column_values.append(calculated['runs_per_ab'])
-                            column_values.append(calculated['batting_avg'])
-                            column_values.append(calculated['2b_avg'])
-                            column_values.append(calculated['3b_avg'])
-                            column_values.append(calculated['hr_avg'])
-                            column_values.append(calculated['rbi_avg'])
-                            column_values.append(calculated['bb_avg'])
-                            column_values.append(calculated['so_avg'])
-                            column_values.append(calculated['ibb_avg'])
-                            column_values.append(calculated['hbp_avg'])
-                            column_values.append(calculated['sb_pct'])
+                                calculated = batting['calculated']
+                                column_values.append(calculated['runs_per_ab'])
+                                column_values.append(calculated['batting_avg'])
+                                column_values.append(calculated['2b_avg'])
+                                column_values.append(calculated['3b_avg'])
+                                column_values.append(calculated['hr_avg'])
+                                column_values.append(calculated['rbi_avg'])
+                                column_values.append(calculated['bb_avg'])
+                                column_values.append(calculated['so_avg'])
+                                column_values.append(calculated['ibb_avg'])
+                                column_values.append(calculated['hbp_avg'])
+                                column_values.append(calculated['sb_pct'])
 
-                            column_values.append(doc['embeddings_str'])
-                            values_tup = tuple(column_values)
-                            sql_stmt = f'insert into batters {columns_tup} values {values_tup};'
-                            cursor.execute(sql_stmt)
-                            client.conn.commit()
+                                column_values.append(doc['embeddings_str'])
+                                values_tup = tuple(column_values)
+                                sql_stmt = f'insert into batters {columns_tup} values {values_tup};'
+                                cursor.execute(sql_stmt)
+                                client.conn.commit()
             except Exception as e:
                 print(f"Exception on doc: {idx} {values_tup}")
                 print(str(e))
+                print(str(sql_stmt))
                 print(traceback.format_exc())
     except Exception as excp:
         print(str(excp))

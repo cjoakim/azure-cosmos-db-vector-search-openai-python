@@ -583,6 +583,8 @@ def scan_documents():
     years_of_interest = [1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020]
     for pid in sorted(keys):
         doc = documents[pid]
+        category = doc['category']
+        counter.increment(category)
         debut = doc['debut_year']
         if debut < earliest_debut:
             earliest_debut = debut
@@ -592,7 +594,7 @@ def scan_documents():
     data = counter.get_data()
     data['documents_count'] = len(keys)
     data['earliest_debut'] = earliest_debut
-    FS.write_json(counter.get_data(), 'tmp/scan_documents_by_debut_year.json')
+    FS.write_json(counter.get_data(), 'tmp/scan_documents.json')
 
 def to_int(s: str) -> int:
     try:
