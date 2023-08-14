@@ -13,7 +13,9 @@ Usage:
   -
   python bb_wrangle.py build_documents
   -
-  python bb_wrangle.py add_embeddings_to_documents
+  python bb_wrangle.py add_embeddings_to_documents <min-debut-year>
+  python bb_wrangle.py add_embeddings_to_documents 1900
+  python bb_wrangle.py add_embeddings_to_documents 1960
   -
   python bb_wrangle.py scan_embeddings
   -
@@ -536,7 +538,7 @@ def calculate_embeddings_string_value_with_raw_numbers(player):
         print(traceback.format_exc())
         return None
 
-def add_embeddings():
+def add_embeddings(min_debut_year):
     print(f'=== add_embeddings')
     infile  = '../data/wrangled/documents.json'
     outfile = '../data/wrangled/documents_with_embeddings.json'
@@ -551,11 +553,12 @@ def add_embeddings():
             try:
                 doc['embeddings'] = []
                 doc = documents[pid]
-                estr = doc['embeddings_str']
-                if len(estr) > 0:
-                    embed = oaic.get_embedding(estr)
-                    if embed is not None:
-                        doc['embeddings'] = embed
+                if doc['debut_year'] >= min_debut_year:
+                    estr = doc['embeddings_str']
+                    if len(estr) > 0:
+                        embed = oaic.get_embedding(estr)
+                        if embed is not None:
+                            doc['embeddings'] = embed
             except Exception as e:
                 print(f"Exception on doc: {doc}")
                 print(traceback.format_exc())
@@ -722,7 +725,8 @@ if __name__ == "__main__":
             elif func == 'build_documents':
                 build_documents()
             elif func == 'add_embeddings_to_documents':
-                add_embeddings()
+                min_debut_year = int(sys.argv[2])
+                add_embeddings(min_debut_year)
             elif func == 'scan_embeddings':
                 scan_embeddings()
             elif func == 'csv_reports':
