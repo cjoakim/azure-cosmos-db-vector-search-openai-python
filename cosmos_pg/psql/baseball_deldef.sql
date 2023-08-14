@@ -3,6 +3,7 @@
 -- Chris Joakim, Microsoft 
 
 DROP TABLE IF EXISTS players CASCADE;
+DROP TABLE IF EXISTS batters CASCADE;
 
 create table players (
   id                   bigserial primary key,
@@ -72,3 +73,4 @@ create table batters (
 );
 
 \d players
+\d batters
