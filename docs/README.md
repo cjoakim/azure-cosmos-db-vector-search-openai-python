@@ -73,7 +73,7 @@ While other search techniques can answer **simple searches** like:
     Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
 </p>
 <p align="center">
-    <img src="query-greatest-base-stealers.png" width="70%">
+    <img src="img/query-greatest-base-stealers.png" width="70%">
 </p>
 
 ---
