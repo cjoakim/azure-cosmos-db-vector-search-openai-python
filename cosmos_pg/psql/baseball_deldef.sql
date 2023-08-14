@@ -5,6 +5,8 @@
 DROP TABLE IF EXISTS players CASCADE;
 DROP TABLE IF EXISTS batters CASCADE;
 
+-- this table is the one that is vector-searched, using the embeddings column
+
 create table players (
   id                   bigserial primary key,
   player_id            VARCHAR(32),
@@ -27,6 +29,8 @@ create table players (
   embeddings           vector(1536)
 );
 
+-- this table is only for ad-hoc queries of batters
+
 create table batters (
   id                   bigserial primary key,
   player_id            VARCHAR(32),
@@ -41,7 +45,6 @@ create table batters (
   debut_year           INTEGER,
   final_year           INTEGER,
   total_games          INTEGER,
-
   atbats               INTEGER,
   runs                 INTEGER,
   hits                 INTEGER,
@@ -56,7 +59,6 @@ create table batters (
   ibb                  INTEGER,
   hbp                  INTEGER,
   sacfly               INTEGER,
-
   runs_per_ab          NUMERIC(16, 12),
   batting_avg          NUMERIC(16, 12),
   double_avg           NUMERIC(16, 12),
@@ -67,10 +69,6 @@ create table batters (
   so_avg               NUMERIC(16, 12),
   ibb_avg              NUMERIC(16, 12),
   hbp_avg              NUMERIC(16, 12),
-  sb_pct               NUMERIC(16, 12)
-
+  sb_pct               NUMERIC(16, 12),
   embeddings_str       VARCHAR(255)
 );
-
-\d players
-\d batters
