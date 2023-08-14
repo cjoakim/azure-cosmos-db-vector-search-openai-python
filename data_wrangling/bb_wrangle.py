@@ -428,6 +428,7 @@ def calculate_embeddings_string_value_with_binned_text(player):
             values.append(labeled_binned_pct_text_value(calculated, 'so_avg', 1000)) 
             values.append(labeled_binned_pct_text_value(calculated, 'ibb_avg', 1000)) 
             values.append(labeled_binned_pct_text_value(calculated, 'hbp_avg', 1000))
+            values.append(labeled_text_value('sb', player['batting']['SB']))
             sb_value = 'sb_pct_na'
             if 'sb_pct' in calculated.keys():
                 if calculated['sb_pct'] >= 0:
