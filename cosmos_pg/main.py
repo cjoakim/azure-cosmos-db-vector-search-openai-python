@@ -254,14 +254,11 @@ def load_baseball_batters(envname, dbname):
                             column_values.append(str(doc['nameLast']).replace("'",''))
                             column_values.append(doc['bats'])
                             column_values.append(doc['throws'])
-                            column_values.append(doc['category'])
                             column_values.append(doc['primary_position'])
                             column_values.append(doc['teams']['primary_team'])
                             column_values.append(doc['debut_year'])
                             column_values.append(doc['final_year'])
                             column_values.append(doc['teams']['total_games'])
-                            column_values.append(doc['debut_year'])
-                            column_values.append(doc['final_year'])
 
                             batting = doc['batting']
                             column_values.append(batting['AB'])
@@ -274,6 +271,7 @@ def load_baseball_batters(envname, dbname):
                             column_values.append(batting['SB'])
                             column_values.append(batting['CS'])
                             column_values.append(batting['BB'])
+                            column_values.append(batting['SO'])
                             column_values.append(batting['IBB'])
                             column_values.append(batting['HBP'])
                             column_values.append(batting['SF'])
@@ -281,8 +279,8 @@ def load_baseball_batters(envname, dbname):
                             calculated = batting['calculated']
                             column_values.append(calculated['runs_per_ab'])
                             column_values.append(calculated['batting_avg'])
-                            column_values.append(calculated['double_avg'])
-                            column_values.append(calculated['triple_avg'])
+                            column_values.append(calculated['2b_avg'])
+                            column_values.append(calculated['3b_avg'])
                             column_values.append(calculated['hr_avg'])
                             column_values.append(calculated['rbi_avg'])
                             column_values.append(calculated['bb_avg'])
@@ -290,11 +288,10 @@ def load_baseball_batters(envname, dbname):
                             column_values.append(calculated['ibb_avg'])
                             column_values.append(calculated['hbp_avg'])
                             column_values.append(calculated['sb_pct'])
-                            column_values.append(calculated['xxx'])                      
 
                             column_values.append(doc['embeddings_str'])
                             values_tup = tuple(column_values)
-                            sql_stmt = f'insert into players {columns_tup} values {values_tup};'
+                            sql_stmt = f'insert into batters {columns_tup} values {values_tup};'
                             cursor.execute(sql_stmt)
                             client.conn.commit()
             except Exception as e:
