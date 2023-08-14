@@ -14,12 +14,11 @@ Usage:
   python bb_wrangle.py build_documents
   -
   python bb_wrangle.py add_embeddings_to_documents <min-debut-year>
-  python bb_wrangle.py add_embeddings_to_documents 1900
-  python bb_wrangle.py add_embeddings_to_documents 1960
+  python bb_wrangle.py add_embeddings_to_documents 1872
+  python bb_wrangle.py add_embeddings_to_documents 1970
+  python bb_wrangle.py add_embeddings_to_documents 2010
   -
-  python bb_wrangle.py scan_embeddings
-  -
-  python bb_wrangle.py csv_reports
+  python bb_wrangle.py scan_documents
 Options:
   -h --help     Show this screen.
   --version     Show version.
@@ -574,49 +573,26 @@ def create_azure_oai_client():
     print('create_azure_oai_client, config: {}'.format(json.dumps(config)))
     return OpenAIClient(config)
 
-def scan_embeddings():
-    print(f'=== scan_embeddings')
-    infile = '../data/wrangled/documents_with_embeddings.json'
+def scan_documents():
+    print(f'=== scan_documents')
+    infile = '../data/wrangled/documents.json'
     documents = FS.read_json(infile)
-    count = len(documents.keys())
-    with_count, without_count = 0, 0
-    for pid in sorted(documents.keys()):
+    counter = Counter()
+    keys = documents.keys()
+    with_count, without_count, earliest_debut = 0, 0, 2024
+    years_of_interest = [1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020]
+    for pid in sorted(keys):
         doc = documents[pid]
-        embeddings = doc['embeddings']
-        if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:
-            with_count += 1
-            print(f'{pid}: present {len(embeddings)}')
-        else:
-            without_count += 1
-            print(f'{pid}: absent {len(embeddings)}')
-    print(f'documents count: {count}')
-    print(f'with_count: {with_count}')
-    print(f'without_count: {without_count}')
-
-def csv_reports():
-    print(f'=== csv_reports')
-    infile = '../data/wrangled/documents_with_embeddings.json'
-    documents = FS.read_json(infile)
-    pitcher_rows = []
-    fielder_rows = []
-
-    # construct and add the csv header rows for the two output files.
-    common_cols  = 'category,category_code,primary_position,total_games,bats,throws'
-    pitcher_cols = 'W,L,full_games_pitched_equiv,era,opp_batting_avg,so_pct,bb_pct,hbp_pct,hr_pct,win_pct,sho_pct,cg_pct'
-    fielder_cols = 'H,HR,batting_avg,runs_per_ab,2b_avg,3b_avg,hr_avg,rbi_avg,bb_avg,so_avg,ibb_avg,hbp_avg'
-    pitcher_rows.append(f'{common_cols},{pitcher_cols}')
-    fielder_rows.append(f'{common_cols},{fielder_cols}')
-
-    for pid in sorted(documents.keys()):
-        player = documents[pid]
-        cat = player['category']
-        if cat == 'pitcher':
-            pitcher_rows.append(player['embeddings_str'])
-        else:
-            fielder_rows.append(player['embeddings_str'])
-
-    FS.write_lines(pitcher_rows, '../data/wrangled/pitchers.csv')
-    FS.write_lines(fielder_rows, '../data/wrangled/fielders.csv')
+        debut = doc['debut_year']
+        if debut < earliest_debut:
+            earliest_debut = debut
+        for year in years_of_interest:
+            if debut >= year:
+                counter.increment(str(year))
+    data = counter.get_data()
+    data['documents_count'] = len(keys)
+    data['earliest_debut'] = earliest_debut
+    FS.write_json(counter.get_data(), 'tmp/scan_documents_by_debut_year.json')
 
 def to_int(s: str) -> int:
     try:
@@ -727,10 +703,8 @@ if __name__ == "__main__":
             elif func == 'add_embeddings_to_documents':
                 min_debut_year = int(sys.argv[2])
                 add_embeddings(min_debut_year)
-            elif func == 'scan_embeddings':
-                scan_embeddings()
-            elif func == 'csv_reports':
-                csv_reports()
+            elif func == 'scan_documents':
+                scan_documents()
             else:
                 print_options('Error: invalid function: {}'.format(func))
         except Exception as e:
