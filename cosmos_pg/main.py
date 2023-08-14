@@ -7,6 +7,8 @@ Usage:
   python main.py load_baseball_players <envname> <dbname>
   python main.py load_baseball_players cosmos citus
   -
+  python main.py load_baseball_batters cosmos citus
+  -
   python main.py search_similar_baseball_players <envname> <dbname> <player-id>
   python main.py search_similar_baseball_players cosmos citus aaronha01
 Options:
@@ -104,25 +106,6 @@ def check_environment_variables():
     for env_var in env_vars:
         print('check_env, {}: {}'.format(env_var, str(Env.var(env_var))))
 
-def delete_define_players_table(envname, dbname):
-    print('TODO - implement delete_define_players_table()')
-    client = PostgreSqlClient(envname, dbname)
-    cursor = client.get_cursor()
-    tablename = 'players_xxx'
-
-    # Drop previous table of same name if one exists
-    cursor.execute(f"DROP TABLE IF EXISTS {tablename};")
-    print("Finished dropping table (if existed)")
-
-    # Create a table - TODO
-    cursor.execute(f"CREATE TABLE {tablename} (pharmacy_id integer, pharmacy_name text, city text, state text, zip_code integer);")
-    print("Finished creating table")
-
-    # Create a index
-    cursor.execute(f"CREATE INDEX idx_pharmacy_id ON {tablename}(pharmacy_id);")
-    print("Finished creating index")
-    client.close()
-
 def load_baseball_players(envname, dbname):
     try:
         client = PostgreSqlClient(envname, dbname)
@@ -138,6 +121,10 @@ def load_baseball_players(envname, dbname):
             'throws',
             'category',
             'primary_position',
+            'primary_team',
+            'debut_year',
+            'final_year',
+            'total_games',
             'teams_data',
             'pitching_data',
             'batting_data',
@@ -170,6 +157,10 @@ def load_baseball_players(envname, dbname):
                         column_values.append(doc['throws'])
                         column_values.append(doc['category'])
                         column_values.append(doc['primary_position'])
+                        column_values.append(doc['teams']['primary_team'])
+                        column_values.append(doc['debut_year'])
+                        column_values.append(doc['final_year'])
+                        column_values.append(doc['teams']['total_games'])
                         teams_data    = json.dumps(get_jsonb_value(doc, 'teams'))
                         pitching_data = json.dumps(get_jsonb_value(doc, 'pitching'))
                         batting_data  = json.dumps(get_jsonb_value(doc, 'batting'))
@@ -180,9 +171,132 @@ def load_baseball_players(envname, dbname):
                         column_values.append(str(doc['embeddings']))
                         values_tup = tuple(column_values)
                         sql_stmt = f'insert into players {columns_tup} values {values_tup};'
-                        #print(sql_stmt)
                         cursor.execute(sql_stmt)
                         client.conn.commit()
+            except Exception as e:
+                print(f"Exception on doc: {idx} {values_tup}")
+                print(str(e))
+                print(traceback.format_exc())
+    except Exception as excp:
+        print(str(excp))
+        print(traceback.format_exc())
+
+    client.close()
+
+def load_baseball_batters(envname, dbname):
+    try:
+        client = PostgreSqlClient(envname, dbname)
+        cursor = client.get_cursor()
+        columns_list = [
+            'id',
+            'player_id',
+            'birth_year',
+            'birth_country',
+            'first_name',
+            'last_name',
+            'bats',
+            'throws',
+            'primary_position',
+            'primary_team',
+            'debut_year',
+            'final_year',
+            'total_games',
+            'atbats',
+            'runs',
+            'hits',
+            'doubles',
+            'triples',
+            'homeruns',
+            'rbi',
+            'stolen_bases',
+            'caught_stealing',
+            'bb',
+            'so',
+            'ibb',
+            'hbp',
+            'sacfly',
+            'runs_per_ab',
+            'batting_avg',
+            'double_avg',
+            'triple_avg',
+            'hr_avg',
+            'rbi_avg',
+            'bb_avg',
+            'so_avg',
+            'ibb_avg',
+            'hbp_avg',
+            'sb_pct',
+            'embeddings_str',
+        ]
+        columns_tup = str(tuple(columns_list)).replace("'",'')
+
+        print('reading the wrangled_embeddings_file...')
+        documents = FS.read_json(wrangled_embeddings_file())
+        player_ids = sorted(documents.keys())
+
+        for idx, pid in enumerate(player_ids):
+            try:
+                doc = documents[pid]
+                cat = doc['category']
+                if cat == 'fielder':
+                    embeddings = doc['embeddings']
+                    if idx < 100_000:
+                        if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:
+                            id = idx + 1
+                            pid = doc['playerID']
+                            print(f'loading {id} {pid}')
+                            column_values = []
+                            column_values.append(id)
+                            column_values.append(doc['playerID'])
+                            column_values.append(doc['birthYear'])
+                            column_values.append(doc['birthCountry'])
+                            column_values.append(str(doc['nameFirst']).replace("'",''))
+                            column_values.append(str(doc['nameLast']).replace("'",''))
+                            column_values.append(doc['bats'])
+                            column_values.append(doc['throws'])
+                            column_values.append(doc['category'])
+                            column_values.append(doc['primary_position'])
+                            column_values.append(doc['teams']['primary_team'])
+                            column_values.append(doc['debut_year'])
+                            column_values.append(doc['final_year'])
+                            column_values.append(doc['teams']['total_games'])
+                            column_values.append(doc['debut_year'])
+                            column_values.append(doc['final_year'])
+
+                            batting = doc['batting']
+                            column_values.append(batting['AB'])
+                            column_values.append(batting['R'])
+                            column_values.append(batting['H'])
+                            column_values.append(batting['2B'])
+                            column_values.append(batting['3B'])
+                            column_values.append(batting['HR'])
+                            column_values.append(batting['RBI'])
+                            column_values.append(batting['SB'])
+                            column_values.append(batting['CS'])
+                            column_values.append(batting['BB'])
+                            column_values.append(batting['IBB'])
+                            column_values.append(batting['HBP'])
+                            column_values.append(batting['SF'])
+
+                            calculated = batting['calculated']
+                            column_values.append(calculated['runs_per_ab'])
+                            column_values.append(calculated['batting_avg'])
+                            column_values.append(calculated['double_avg'])
+                            column_values.append(calculated['triple_avg'])
+                            column_values.append(calculated['hr_avg'])
+                            column_values.append(calculated['rbi_avg'])
+                            column_values.append(calculated['bb_avg'])
+                            column_values.append(calculated['so_avg'])
+                            column_values.append(calculated['ibb_avg'])
+                            column_values.append(calculated['hbp_avg'])
+                            column_values.append(calculated['sb_pct'])
+                            column_values.append(calculated['xxx'])                      
+
+                            column_values.append(doc['embeddings_str'])
+                            values_tup = tuple(column_values)
+                            sql_stmt = f'insert into players {columns_tup} values {values_tup};'
+                            cursor.execute(sql_stmt)
+                            client.conn.commit()
             except Exception as e:
                 print(f"Exception on doc: {idx} {values_tup}")
                 print(str(e))
@@ -253,12 +367,12 @@ if __name__ == "__main__":
         func = sys.argv[1].lower()
         if func == 'check_environment_variables':
             check_environment_variables()
-        elif func == 'delete_define_players_table':
-            envname, dbname = sys.argv[2], sys.argv[3]
-            delete_define_players_table(envname, dbname)
         elif func == 'load_baseball_players':
             envname, dbname = sys.argv[2], sys.argv[3]
             load_baseball_players(envname, dbname)
+        elif func == 'load_baseball_batters':
+            envname, dbname = sys.argv[2], sys.argv[3]
+            load_baseball_batters(envname, dbname)
         elif func == 'search_similar_baseball_players':
             envname, dbname, player_id = sys.argv[2], sys.argv[3], sys.argv[4]
             search_similar_baseball_players(envname, dbname, player_id)
