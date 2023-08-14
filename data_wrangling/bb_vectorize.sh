@@ -5,6 +5,10 @@
 
 mkdir -p tmp/
 
+echo 'activate venv and display python version:'
+source venv/bin/activate
+python --version
+
 # Users/Customers generate the embeddings with their own Azure OpenAI account
 # per the AZURE_OPENAI_URL and AZURE_OPENAI_KEY1 environment variables.
 # The output data file from this step is NOT stored in GitHub.

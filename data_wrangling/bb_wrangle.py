@@ -53,6 +53,15 @@ def prune_people():
     df2.sort_values(by=['playerID'])
     write_df(df2, 'tmp/people.csv')
     rows = FS.read_csv_as_dicts('tmp/people.csv')
+    # Cast appropriate attributes to ints
+    int_cols = 'birthYear,weight,height'.split(',')
+    for row in rows:
+        try:
+            for int_col in int_cols:
+                row[int_col] = to_int(row[int_col])
+        except Exception as e:
+            print(f"Exception on row: {row}")
+            print(traceback.format_exc())
     FS.write_json(rows, 'tmp/people.json')
 
 def prune_player_positions():
@@ -75,6 +84,15 @@ def prune_player_teams():
     df2.sort_values(by=['playerID'])
     write_df(df2, 'tmp/player_teams.csv')
     rows = FS.read_csv_as_dicts('tmp/player_teams.csv')
+    # Cast appropriate attributes to ints
+    int_cols = 'yearID,G_all'.split(',')
+    for row in rows:
+        try:
+            for int_col in int_cols:
+                row[int_col] = to_int(row[int_col])
+        except Exception as e:
+            print(f"Exception on row: {row}")
+            print(traceback.format_exc())
     FS.write_json(rows, 'tmp/player_teams.json')
 
 def prune_batters():
@@ -87,6 +105,15 @@ def prune_batters():
     grouped = df2.groupby(['playerID'])
     grouped.sum().to_csv('tmp/batters.csv')
     rows = FS.read_csv_as_dicts('tmp/batters.csv')
+    # Cast appropriate attributes to ints
+    int_cols = 'G,AB,R,H,2B,3B,HR,RBI,SB,CS,BB,SO,IBB,HBP,SF'.split(',')
+    for row in rows:
+        try:
+            for int_col in int_cols:
+                row[int_col] = to_int(row[int_col])
+        except Exception as e:
+            print(f"Exception on row: {row}")
+            print(traceback.format_exc())
     FS.write_json(rows, 'tmp/batters.json')
 
 def prune_pitchers():
@@ -100,6 +127,19 @@ def prune_pitchers():
     grouped = df2.groupby(['playerID'])
     grouped.sum().to_csv('tmp/pitchers.csv')
     rows = FS.read_csv_as_dicts('tmp/pitchers.csv')
+    # Cast appropriate attributes to ints
+    int_cols = 'W,L,G,GS,CG,SHO,SV,IPouts,H,ER,HR,BB,SO,IBB,WP,HBP,BK'.split(',')
+    float_cols = 'BAOpp,ERA'.split(',')
+    for row in rows:
+        try:
+            for int_col in int_cols:
+                row[int_col] = to_int(row[int_col])
+            for float_col in float_cols:
+                row[float_col] = to_float(row[float_col])
+        except Exception as e:
+            print(f"Exception on row: {row}")
+            print(traceback.format_exc())
+
     FS.write_json(rows, 'tmp/pitchers.json')
 
 def calc_player_positions():
@@ -108,7 +148,6 @@ def calc_player_positions():
     outfile = 'tmp/player_positions.json'
     rows = FS.read_csv_as_dicts(infile)
     player_dict = {}
-
     position_cols = 'G_p,G_c,G_1b,G_2b,G_3b,G_ss,G_lf,G_cf,G_rf,G_dh'.split(',')
     for row_idx, player in enumerate(rows):
         player['primary_position'] = '?'
@@ -126,7 +165,6 @@ def calc_player_positions():
                 player['primary_position'] = position.upper()
         if verbose():
             print(json.dumps(player, sort_keys=False, indent=2))
-
     FS.write_json(player_dict, outfile)
 
 def calc_player_teams():
@@ -193,6 +231,12 @@ def calc_batters_stats():
                 calculated['so_avg']  = float_value(batter, 'SO', 0.0) / ab
                 calculated['ibb_avg'] = float_value(batter, 'IBB', 0.0) / ab
                 calculated['hbp_avg'] = float_value(batter, 'HBP', 0.0) / ab
+                sb = float_value(batter, 'SB', 0.0)
+                cs = float_value(batter, 'CS', 0.0)
+                calculated['sb_pct'] = -1.0
+                if sb > 50:
+                    sb_attempts = sb + cs
+                    calculated['sb_pct'] = sb / sb_attempts
                 calculated_count += 1
         except Exception as e:
             print(f"Exception on batter: {batter}")
@@ -383,8 +427,12 @@ def calculate_embeddings_string_value_with_binned_text(player):
             values.append(labeled_binned_pct_text_value(calculated, 'bb_avg', 1000))
             values.append(labeled_binned_pct_text_value(calculated, 'so_avg', 1000)) 
             values.append(labeled_binned_pct_text_value(calculated, 'ibb_avg', 1000)) 
-            values.append(labeled_binned_pct_text_value(calculated, 'hbp_avg', 1000)) 
-
+            values.append(labeled_binned_pct_text_value(calculated, 'hbp_avg', 1000))
+            sb_value = 'sb_pct_na'
+            if 'sb_pct' in calculated.keys():
+                if calculated['sb_pct'] >= 0:
+                    sb_value = labeled_binned_pct_text_value(calculated, 'sb_pct', 100)
+            values.append(sb_value)
         player['embeddings_str'] = ' '.join(values)
     except Exception as e:
         print(f"Exception on player: {player}")
@@ -565,6 +613,18 @@ def csv_reports():
 
     FS.write_lines(pitcher_rows, '../data/wrangled/pitchers.csv')
     FS.write_lines(fielder_rows, '../data/wrangled/fielders.csv')
+
+def to_int(s: str) -> int:
+    try:
+        return int(round(float(s)))
+    except:
+        return 0
+
+def to_float(s: str) -> float:
+    try:
+        return float(s)
+    except:
+        return 0.0
 
 def float_value(dictionary: dict, key: str, default_value: float) -> float:
     try:
