@@ -36,8 +36,8 @@ three Azure Cosmos DB APIs and Python.
 To make the most of this project's capabilities, follow these steps:
 
 1. Clone this repository to your local environment.
-2. [Provision your Azure PaaS services](docs/docs/azure_provisioning.md)
-3. [Configure your Workstation or VM](docs/docs/workstation_setup.md)
+2. [Provision your Azure PaaS services](docs/azure_provisioning.md)
+3. [Configure your Workstation or VM](docs/workstation_setup.md)
 4. Explore the provided [documentation](docs/README.md) for a range of usage examples.
 5. For each example, refer to the detailed instructions in the documentation to install and run them successfully.
 
