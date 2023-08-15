@@ -40,5 +40,5 @@ fi
 # use dev
 # show collections
 # [mongos] dev> db.baseball_players.deleteMany({ "category" : "pitcher" })
-# { acknowledged: true, deletedCount: 8897 }
-# db.baseball_players.count()
+# [mongos] dev> db.baseball_players.deleteMany({ "category" : "fielder" })
+# [mongos] dev> db.baseball_players.countDocuments()

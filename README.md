@@ -5,13 +5,18 @@ description: Demonstrating Azure Cosmos DB integration with OpenAI's API for vec
 
 # Azure Cosmos DB Vector Search with OpenAI API (Python)
 
-This project showcases the fusion of Azure Cosmos DB with OpenAI's API, enabling Python-driven vector-based search capabilities. By synergizing the strengths of Azure Cosmos DB and OpenAI, you can establish a resilient and effective system for performing sophisticated similarity searches within your data. 
+This project showcases the fusion of Azure Cosmos DB with OpenAI's API,
+enabling Python-driven vector-based search capabilities. By synergizing
+the strengths of Azure Cosmos DB and OpenAI, you can establish a resilient
+and effective system for performing sophisticated similarity searches within
+your data. 
 
 ---
 
 ## Features
 
-This repository also includes practical examples of Vector Search utilizing three Azure Cosmos DB APIs and Python.
+This repository also includes practical examples of Vector Search utilizing
+three Azure Cosmos DB APIs and Python.
 
 ### Examples include 
 
@@ -24,7 +29,7 @@ This repository also includes practical examples of Vector Search utilizing thre
 ## Requirements
 
 - Python 3.x
-- Azure Cosmos DB account
+- Azure Cosmos DB account(s)
 - OpenAI API key
 
 ## How to Use
@@ -32,11 +37,14 @@ This repository also includes practical examples of Vector Search utilizing thre
 To make the most of this project's capabilities, follow these steps:
 
 1. Clone this repository to your local environment.
-2. Configure your Azure Cosmos DB credentials and OpenAI API key by referring to the [Configuration Guide](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/tree/main/docs/configuration.md).
-3. Explore the provided [documentation](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/tree/main/docs) for a range of usage examples.
-4. For each example, refer to the detailed instructions in the documentation to install and run them successfully.
+2. [Provision your Azure PaaS services](docs/docs/azure_provisioning.md)
+3. [Configure your Workstation or VM](docs/docs/workstation_setup.md)
+4. Explore the provided [documentation](docs/README.md) for a range of usage examples.
+5. For each example, refer to the detailed instructions in the documentation to install and run them successfully.
 
-Feel free to experiment with and adapt the code to your specific use cases and requirements. If you have any questions or need assistance, don't hesitate to create an issue on the [GitHub repository](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/issues).
+Feel free to experiment with and adapt the code to your specific use cases and requirements.
+If you have any questions or need assistance, don't hesitate to create an issue on the
+[GitHub repository](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/issues).
 
 ## Contributions
 
@@ -48,8 +56,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Disclaimer
 
-This repository is not officially affiliated with Microsoft Azure or OpenAI. It serves as a community-driven resource to explore the capabilities of Azure Cosmos DB and OpenAI's API for vector-based search.
-
+This repository is not officially affiliated with Microsoft Azure or OpenAI.
+It serves as a community-driven resource to explore the capabilities of Azure Cosmos DB
+and OpenAI's API for vector-based search.
 
 <p align="center">
     <a href="https://en.wikipedia.org/wiki/The_Catch_(baseball)" target="_blank">
@@ -59,11 +68,3 @@ This repository is not officially affiliated with Microsoft Azure or OpenAI. It 
 <p align="center">
     Willie Mays making "The Catch", with amazing search, 1954 World Series
 </p>
-
-<pre>
-
-</pre>
-
----
-
-[**See the Presentation with Setup Instructions and Documentation**](docs/README.md)
