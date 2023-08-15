@@ -11,15 +11,31 @@ data_wrangling/bb_vectorize.ps1
 data_wrangling/bb_vectorize.sh
 ```
 
-## What are Emeddings?
+## What is Vectorization?
 
-[OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
-are calculated from an input text value (i.e. - embeddings_str),
-and are **used to measure the relatedness of text strings when searched**.
-Thus, similar baseball players can be searched.
+In this context, **vectorization** is the process of converting data into vectors,
+which are **one-dimensional arrays of scalar values**.
 
-This project invokes the **OpenAI API**, passing the embeddings_str value
-and the embedding model name **text-embedding-ada-002**.
+## What are Embeddings?
+
+Embeddings is another word for a vector.
+
+[OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) are
+**calculated from an input text value**.  The return value is an array,
+or vector, of floating-point numbers.
+
+**Embeddings are used to measure the relatedness of text strings when searched**.
+
+## How are Embeddings used in this Project?
+
+The pre-wrangled data file in this repo, **data/wrangled/documents.json**,
+contains approximately 18K Baseball Player documents.  Each Player document
+contains a pre-computed value named **embeddings_str**.  Think of the embeddings_str
+value as a set of **text-based features** for each player.
+
+This project invokes the **OpenAI API**, passing the **embeddings_str** value
+and the embedding model name **text-embedding-ada-002**.  The returned value,
+is **an array of 1536 floating-point values**.  See example below.
 
 The Python code to invoke the OpenAI API looks like the following, 
 were e is the returned embedding.
@@ -27,11 +43,6 @@ were e is the returned embedding.
 ```
 e = openai.Embedding.create(input=[text], engine='text-embedding-ada-002')
 ```
-
-The returned value, e, is **an array of 1536 floating-point values** that 
-looks like the following.   This array is added to the original document
-in file **documents.json** and saved as file 
-**data/wrangled/documents_with_embeddings.json**.
 
 ```
     "embeddings": [
@@ -45,9 +56,7 @@ in file **documents.json** and saved as file
       -0.006778487470000982,
       -0.031858891248703,
       -0.028865059837698936
-      
       ...
-
       0.01938929781317711,
       -0.007039741612970829,
       0.0302207563072443,
@@ -60,6 +69,14 @@ in file **documents.json** and saved as file
       -0.007526945322751999
     ]
 ```
+
+The returned embeddings values are added to the original documents
+and then saved to file **data/wrangled/documents_with_embeddings.json**.
+
+This one file - **documents_with_embeddings.json** - is then used to
+load all three Cosmos DB databases - Mongo vCore, NoSQL, and PostgreSQL.
+
+Thus, similar baseball players can be vector-searched.
 
 ## Execute the Data Vectorization Process
 
