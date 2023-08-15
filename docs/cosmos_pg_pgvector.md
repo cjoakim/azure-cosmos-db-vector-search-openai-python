@@ -138,7 +138,7 @@ and a vector column in that table, you can load that table as shown below.
 
 > python main.py load_baseball_players cosmos citus
 
->  python main.py load_baseball_batters cosmos citus   (optional step)
+> python main.py load_baseball_batters cosmos citus   (optional step)
 ```
 
 This **load_baseball_players** process will take several minutes to run
@@ -181,6 +181,10 @@ citus=> \d players
  throws           | character(1)           |           |          |
  category         | character varying(16)  |           |          |
  primary_position | character varying(2)   |           |          |
+ primary_team     | character varying(8)   |           |          |
+ debut_year       | integer                |           |          |
+ final_year       | integer                |           |          |
+ total_games      | integer                |           |          |
  teams_data       | jsonb                  |           |          |
  pitching_data    | jsonb                  |           |          |
  batting_data     | jsonb                  |           |          |
@@ -188,6 +192,52 @@ citus=> \d players
  embeddings       | vector(1536)           |           |          |
 Indexes:
     "players_pkey" PRIMARY KEY, btree (id)
+
+citus=> \d batters
+                                         Table "public.batters"
+      Column      |          Type          | Collation | Nullable |               Default
+------------------+------------------------+-----------+----------+-------------------------------------
+ id               | bigint                 |           | not null | nextval('batters_id_seq'::regclass)
+ player_id        | character varying(32)  |           |          |
+ birth_year       | integer                |           |          |
+ birth_country    | character varying(32)  |           |          |
+ first_name       | character varying(32)  |           |          |
+ last_name        | character varying(32)  |           |          |
+ bats             | character(1)           |           |          |
+ throws           | character(1)           |           |          |
+ primary_position | character varying(2)   |           |          |
+ primary_team     | character varying(8)   |           |          |
+ debut_year       | integer                |           |          |
+ final_year       | integer                |           |          |
+ total_games      | integer                |           |          |
+ atbats           | integer                |           |          |
+ runs             | integer                |           |          |
+ hits             | integer                |           |          |
+ doubles          | integer                |           |          |
+ triples          | integer                |           |          |
+ homeruns         | integer                |           |          |
+ rbi              | integer                |           |          |
+ stolen_bases     | integer                |           |          |
+ caught_stealing  | integer                |           |          |
+ bb               | integer                |           |          |
+ so               | integer                |           |          |
+ ibb              | integer                |           |          |
+ hbp              | integer                |           |          |
+ sacfly           | integer                |           |          |
+ runs_per_ab      | numeric(16,12)         |           |          |
+ batting_avg      | numeric(16,12)         |           |          |
+ double_avg       | numeric(16,12)         |           |          |
+ triple_avg       | numeric(16,12)         |           |          |
+ hr_avg           | numeric(16,12)         |           |          |
+ rbi_avg          | numeric(16,12)         |           |          |
+ bb_avg           | numeric(16,12)         |           |          |
+ so_avg           | numeric(16,12)         |           |          |
+ ibb_avg          | numeric(16,12)         |           |          |
+ hbp_avg          | numeric(16,12)         |           |          |
+ sb_pct           | numeric(16,12)         |           |          |
+ embeddings_str   | character varying(255) |           |          |
+Indexes:
+    "batters_pkey" PRIMARY KEY, btree (id)
 
 \q
 ```

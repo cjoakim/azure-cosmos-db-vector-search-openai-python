@@ -16,6 +16,19 @@ data_wrangling/bb_vectorize.sh
 In this context, **vectorization** is the process of converting data into vectors,
 which are **one-dimensional arrays of scalar values**.
 
+## Why use Vector Search?
+
+There are several reasons, but these are the most significant:
+
+- More Relevant Search Results
+- Query Syntax Simplicity
+- Capability of searching both Text and Binary data - Images, Movies, etc
+- Searching Graph Data
+  - This will be explored in an enhancement to this repo later this year.
+
+This is a good [article](https://www.linkedin.com/pulse/vector-search-vs-traditional-sanjay-kumar/)
+on this subject.
+
 ## What are Embeddings?
 
 Embeddings is another word for a vector.
