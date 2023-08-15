@@ -181,6 +181,9 @@ used to lookup the given playerID in the Index.  Then, if the lookup was
 successful, the **embeddings** value of that search result are used
 to execute a vector search for players similar to those embeddings.
 
+Note that it is **Azure Cognitive Search that is searched**, not
+the Cosmos DB source container.
+
 ### Executing Searches
 
 Script **cogsearch_baseballplayers_searches.ps1** will execute 
@@ -203,39 +206,13 @@ Here's the output for just Hank Aaron (aaronha01).
 The response data from Azure Cognitive Search is in JSON format.
 
 ```
-['cogsearch_main.py', 'vector_search_like', 'baseballplayers', 'aaronha01']
-file written: tmp/search_lookup_aaronha01.json
-lookup search successful for player: aaronha01
-{
-  "count": "true",
-  "select": "id,playerID,nameFirst,nameLast,primary_position",
-  "orderby": "playerID",
-  "vectors": [
-    {
-      "value": [
-        -0.03235216,
-        0.016530998,
-        -0.004801634,
-
-        ...
-        
-        -0.010333581,
-        -0.031642325,
-        -0.006484083
-      ],
-      "fields": "embeddings",
-      "k": 10
-    }
-  ]
-}
-file written: tmp/search_vector_aaronha01.json
 {
   "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
   "@odata.count": 10,
   "value": [
     {
       "@search.score": 1.0,
-      "id": "98a97855-b773-4c23-bc3a-3db353990429",
+      "id": "b55efe79-8286-408a-8aa1-5b03c987fa5c",
       "playerID": "aaronha01",
       "nameFirst": "Hank",
       "nameLast": "Aaron",
@@ -243,15 +220,7 @@ file written: tmp/search_vector_aaronha01.json
     },
     {
       "@search.score": 1.0,
-      "id": "53a22a8a-5f69-42fc-a9bf-1b6849bcce13",
-      "playerID": "chambwe01",
-      "nameFirst": "Wes",
-      "nameLast": "Chamberlain",
-      "primary_position": "RF"
-    },
-    {
-      "@search.score": 1.0,
-      "id": "ecbd8806-7396-4b6b-8709-c208079848d9",
+      "id": "5a7e203e-2b46-454e-b8c9-3f0163445219",
       "playerID": "dawsoan01",
       "nameFirst": "Andre",
       "nameLast": "Dawson",
@@ -259,15 +228,15 @@ file written: tmp/search_vector_aaronha01.json
     },
     {
       "@search.score": 1.0,
-      "id": "e525a44a-6270-4bd1-9fd1-bb5dd07d71c3",
-      "playerID": "garciad02",
-      "nameFirst": "Adolis",
-      "nameLast": "Garcia",
+      "id": "433c8a00-b694-4779-97fa-4b979114a526",
+      "playerID": "denorch01",
+      "nameFirst": "Chris",
+      "nameLast": "Denorfia",
       "primary_position": "RF"
     },
     {
       "@search.score": 1.0,
-      "id": "0097cbc5-7450-495f-8e3b-3f81e75e6675",
+      "id": "5ff256e8-f68d-4016-98a7-f4ad766319a2",
       "playerID": "guerrvl01",
       "nameFirst": "Vladimir",
       "nameLast": "Guerrero",
@@ -275,7 +244,7 @@ file written: tmp/search_vector_aaronha01.json
     },
     {
       "@search.score": 1.0,
-      "id": "9017f888-1828-445c-aedb-90ba585ba371",
+      "id": "365b27a0-4187-4e46-a42d-9f9922b881fa",
       "playerID": "kalinal01",
       "nameFirst": "Al",
       "nameLast": "Kaline",
@@ -283,15 +252,15 @@ file written: tmp/search_vector_aaronha01.json
     },
     {
       "@search.score": 1.0,
-      "id": "3b6e988b-455d-4316-a410-48cd4f2020ec",
-      "playerID": "ottme01",
-      "nameFirst": "Mel",
-      "nameLast": "Ott",
+      "id": "ecb75456-7f61-4ae4-bf53-4e7ce5f658cf",
+      "playerID": "puigya01",
+      "nameFirst": "Yasiel",
+      "nameLast": "Puig",
       "primary_position": "RF"
     },
     {
       "@search.score": 1.0,
-      "id": "d8efef35-6b61-4168-9590-0709b5d3df4e",
+      "id": "9858158a-5442-4df7-99f8-41e8d0f9f1d6",
       "playerID": "robinfr02",
       "nameFirst": "Frank",
       "nameLast": "Robinson",
@@ -299,18 +268,26 @@ file written: tmp/search_vector_aaronha01.json
     },
     {
       "@search.score": 1.0,
-      "id": "aa939301-1cfa-4264-a799-9e59b31ee3ab",
-      "playerID": "rominke01",
-      "nameFirst": "Kevin",
-      "nameLast": "Romine",
+      "id": "fe2e9004-ef1a-4f63-8651-187508edd8f3",
+      "playerID": "sheffga01",
+      "nameFirst": "Gary",
+      "nameLast": "Sheffield",
       "primary_position": "RF"
     },
     {
       "@search.score": 1.0,
-      "id": "4f0336f3-f394-4de2-a68b-0f4530e15245",
-      "playerID": "sheffga01",
-      "nameFirst": "Gary",
-      "nameLast": "Sheffield",
+      "id": "93621781-4d5b-4a15-96cd-883578939f3c",
+      "playerID": "suzukic01",
+      "nameFirst": "Ichiro",
+      "nameLast": "Suzuki",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "182d9ca5-034a-4365-9671-7c447b9767f7",
+      "playerID": "winfida01",
+      "nameFirst": "Dave",
+      "nameLast": "Winfield",
       "primary_position": "RF"
     }
   ]

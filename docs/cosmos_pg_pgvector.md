@@ -33,10 +33,11 @@ You'll see output like this that shows that the **vector** extension has been in
 
 ## Create the table
 
-Execute the following in your client shell program.  It will create
-a table named **players** which has several columns.
+Execute the following in your client shell program, such as **Azure Data Studio**.
+It will create a table named **players** which has several columns.
+The **batters** table is optional, and is used for ad-hoc analysis.
 
-The column named **embeddings** is for the vectorized data - the 
+The players column named **embeddings** is for the vectorized data - the 
 arrays of 1536 floating-point values you created earlier in section
 [Data Vectorization](data_vectorization.md).
 
@@ -48,6 +49,9 @@ See https://www.postgresql.org/docs/current/datatype-json.html#JSON-INDEXING
 
 ```
 DROP TABLE IF EXISTS players CASCADE;
+DROP TABLE IF EXISTS batters CASCADE;
+
+-- this table is the one that is vector-searched, using the embeddings column
 
 create table players (
   id                   bigserial primary key,
@@ -60,22 +64,61 @@ create table players (
   throws               CHAR(1),
   category             VARCHAR(16),
   primary_position     VARCHAR(2),
+  primary_team         VARCHAR(8),
+  debut_year           INTEGER,
+  final_year           INTEGER,
+  total_games          INTEGER,
   teams_data           jsonb,
   pitching_data        jsonb,
   batting_data         jsonb,
   embeddings_str       VARCHAR(255),
   embeddings           vector(1536)
 );
+
+-- this table is only for ad-hoc queries of batters
+
+create table batters (
+  id                   bigserial primary key,
+  player_id            VARCHAR(32),
+  birth_year           INTEGER,
+  birth_country        VARCHAR(32),
+  first_name           VARCHAR(32),
+  last_name            VARCHAR(32),
+  bats                 CHAR(1),
+  throws               CHAR(1),
+  primary_position     VARCHAR(2),
+  primary_team         VARCHAR(8),
+  debut_year           INTEGER,
+  final_year           INTEGER,
+  total_games          INTEGER,
+  atbats               INTEGER,
+  runs                 INTEGER,
+  hits                 INTEGER,
+  doubles              INTEGER,
+  triples              INTEGER,
+  homeruns             INTEGER,
+  rbi                  INTEGER,
+  stolen_bases         INTEGER,
+  caught_stealing      INTEGER,
+  bb                   INTEGER,
+  so                   INTEGER,
+  ibb                  INTEGER,
+  hbp                  INTEGER,
+  sacfly               INTEGER,
+  runs_per_ab          NUMERIC(16, 12),
+  batting_avg          NUMERIC(16, 12),
+  double_avg           NUMERIC(16, 12),
+  triple_avg           NUMERIC(16, 12),
+  hr_avg               NUMERIC(16, 12),
+  rbi_avg              NUMERIC(16, 12),
+  bb_avg               NUMERIC(16, 12),
+  so_avg               NUMERIC(16, 12),
+  ibb_avg              NUMERIC(16, 12),
+  hbp_avg              NUMERIC(16, 12),
+  sb_pct               NUMERIC(16, 12),
+  embeddings_str       VARCHAR(255)
+);
 ```
-
-### Output in ADS 
-
-This screen-shots shows table "players2", but please use the name "players"
-in your database.
-
-<p align="center">
-    <img src="img//ads-postgresql-delete-define.png" width="70%">
-</p>
 
 ---
 
@@ -94,6 +137,8 @@ and a vector column in that table, you can load that table as shown below.
 > mkdir tmp
 
 > python main.py load_baseball_players cosmos citus
+
+>  python main.py load_baseball_batters cosmos citus   (optional step)
 ```
 
 This **load_baseball_players** process will take several minutes to run

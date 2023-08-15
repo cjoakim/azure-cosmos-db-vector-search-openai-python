@@ -34,7 +34,7 @@ contains a pre-computed value named **embeddings_str**.  Think of the embeddings
 value as a set of **text-based features** for each player.
 
 This project invokes the **OpenAI API**, passing the **embeddings_str** value
-and the embedding model name **text-embedding-ada-002**.  The returned value,
+and the model name **text-embedding-ada-002**.  The returned value,
 is **an array of 1536 floating-point values**.  See example below.
 
 The Python code to invoke the OpenAI API looks like the following, 

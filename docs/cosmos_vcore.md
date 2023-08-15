@@ -217,60 +217,60 @@ as the search embeddings are equivalent to the result embedding.
 searching for: aaronha01
 found player: aaronha01 Hank Aaron RF
 result 1: aaronha01 Hank Aaron RF
-result 2: winfida01 Dave Winfield RF
-result 3: dawsoan01 Andre Dawson RF
-result 4: guerrvl01 Vladimir Guerrero RF
-result 5: garciad02 Adolis Garcia RF
-result 6: suzukic01 Ichiro Suzuki RF
-result 7: staubru01 Rusty Staub RF
-result 8: ottme01 Mel Ott RF
-result 9: chambwe01 Wes Chamberlain RF
-result 10: sheffga01 Gary Sheffield RF
+result 2: kalinal01 Al Kaline RF
+result 3: winfida01 Dave Winfield RF
+result 4: robinfr02 Frank Robinson RF
+result 5: suzukic01 Ichiro Suzuki RF
+result 6: denorch01 Chris Denorfia RF
+result 7: ottme01 Mel Ott RF
+result 8: sierrru01 Ruben Sierra RF
+result 9: flickel01 Elmer Flick RF
+result 10: ricesa01 Sam Rice RF
 result_count: 10
 file written: tmp/search_player_like_aaronha01.json
 ===
 searching for: jeterde01
 found player: jeterde01 Derek Jeter SS
 result 1: jeterde01 Derek Jeter SS
-result 2: maranra01 Rabbit Maranville SS
-result 3: dejesiv01 Ivan de Jesus SS
+result 2: rodrial01 Alex Rodriguez SS
+result 3: yountro01 Robin Yount SS
 result 4: conceda01 Dave Concepcion SS
-result 5: marioma01 Marty Marion SS
-result 6: garcino01 Nomar Garciaparra SS
-result 7: vizquom01 Omar Vizquel SS
-result 8: tejadmi01 Miguel Tejada SS
-result 9: wilsoja02 Jack Wilson SS
-result 10: jackstr01 Travis Jackson SS
+result 5: castrst01 Starlin Castro SS
+result 6: francju01 Julio Franco SS
+result 7: larkiba01 Barry Larkin SS
+result 8: ramiral03 Alexei Ramirez SS
+result 9: thondi01 Dickie Thon SS
+result 10: blausje01 Jeff Blauser SS
 result_count: 10
 file written: tmp/search_player_like_jeterde01.json
 ===
 searching for: henderi01
 found player: henderi01 Rickey Henderson LF
 result 1: henderi01 Rickey Henderson LF
-result 2: bondsba01 Barry Bonds LF
-result 3: quinnma01 Mark Quinn LF
-result 4: mageesh01 Sherry Magee LF
-result 5: drakede01 Delos Drake LF
-result 6: riceji01 Jim Rice LF
-result 7: burkeje01 Jesse Burkett LF
-result 8: duncach01 Chris Duncan LF
-result 9: duceyro01 Rob Ducey LF
-result 10: radclri01 Rip Radcliff LF
+result 2: mageesh01 Sherry Magee LF
+result 3: bondsba01 Barry Bonds LF
+result 4: riceji01 Jim Rice LF
+result 5: wheatza01 Zack Wheat LF
+result 6: brocklo01 Lou Brock LF
+result 7: quinnma01 Mark Quinn LF
+result 8: willibi01 Billy Williams LF
+result 9: burkeje01 Jesse Burkett LF
+result 10: meusebo01 Bob Meusel LF
 result_count: 10
 file written: tmp/search_player_like_henderi01.json
 ===
 searching for: blombro01
 found player: blombro01 Ron Blomberg DH
 result 1: blombro01 Ron Blomberg DH
-result 2: adamsgl01 Glenn Adams DH
-result 3: alvaryo01 Yordan Alvarez DH
-result 4: lecroma01 Matt LeCroy DH
-result 5: pagemi02 Mitchell Page DH
-result 6: sheetla01 Larry Sheets DH
-result 7: vogelda01 Dan Vogelbach DH
-result 8: crowlte01 Terry Crowley DH
+result 2: alvaryo01 Yordan Alvarez DH
+result 3: lecroma01 Matt LeCroy DH
+result 4: sheetla01 Larry Sheets DH
+result 5: vogelda01 Dan Vogelbach DH
+result 6: hamelbo01 Bob Hamelin DH
+result 7: phelpjo01 Josh Phelps DH
+result 8: velezot01 Otto Velez DH
 result 9: giambje01 Jeremy Giambi DH
-result 10: hamelbo01 Bob Hamelin DH
+result 10: berroge01 Geronimo Berroa DH
 result_count: 10
 file written: tmp/search_player_like_blombro01.json
 ===
@@ -292,35 +292,35 @@ file written: tmp/search_player_like_guidrro01.json
 searching for: rosepe01
 found player: rosepe01 Pete Rose 1B
 result 1: rosepe01 Pete Rose 1B
-result 2: jeffegr01 Gregg Jefferies 1B
-result 3: adamsma01 Matt Adams 1B
-result 4: lisjo01 Joe Lis 1B
-result 5: mcganda01 Dan McGann 1B
-result 6: coopega03 Garrett Cooper 1B
-result 7: thomeji01 Jim Thome 1B
-result 8: lindeji01 Jim Lindeman 1B
-result 9: reverda01 Dave Revering 1B
-result 10: murraed02 Eddie Murray 1B
+result 2: murraed02 Eddie Murray 1B
+result 3: davisha01 Harry Davis 1B
+result 4: clarkto02 Tony Clark 1B
+result 5: karroer01 Eric Karros 1B
+result 6: morneju01 Justin Morneau 1B
+result 7: garkory01 Ryan Garko 1B
+result 8: allendi01 Dick Allen 1B
+result 9: spiezsc01 Scott Spiezio 1B
+result 10: coxst01 Steve Cox 1B
 result_count: 10
 file written: tmp/search_player_like_rosepe01.json
 ===
 random_player_search...
-random_pid: sandeke01
+random_pid: daviara01
 ===
-searching for: sandeke01
-found player: sandeke01 Ken Sanders P
-result 1: sandeke01 Ken Sanders P
-result 2: kochbi01 Billy Koch P
-result 3: lucasga01 Gary Lucas P
-result 4: adamsmi03 Mike Adams P
-result 5: mcallza01 Zach McAllister P
-result 6: fulmemi01 Michael Fulmer P
-result 7: wilsobr01 Brian Wilson P
-result 8: maytr01 Trevor May P
-result 9: rayji01 Jim Ray P
-result 10: akerja01 Jack Aker P
+searching for: daviara01
+found player: daviara01 Ray Daviault P
+result 1: daviara01 Ray Daviault P
+result 2: reynoar01 Archie Reynolds P
+result 3: palmqed01 Ed Palmquist P
+result 4: mahonbo01 Bob Mahoney P
+result 5: mauner01 Ernie Maun P
+result 6: drewti01 Tim Drew P
+result 7: hollibo01 Bonnie Hollingsworth P
+result 8: delacto01 Tommy de la Cruz P
+result 9: koestel01 Elmer Koestner P
+result 10: richmsc01 Scott Richmond P
 result_count: 10
-file written: tmp/search_player_like_sandeke01.json
+file written: tmp/search_player_like_daviara01.json
 done
 ```
 
