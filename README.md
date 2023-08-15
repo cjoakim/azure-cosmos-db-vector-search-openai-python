@@ -26,11 +26,10 @@ three Azure Cosmos DB APIs and Python.
 - Vector Searching this data with the Azure Cosmos DB NoSQL API, with Azure Cognitive Search
 - Vector Searching this data with the Azure Cosmos DB PostgreSQL API, with the pgvector extension
 
-## Requirements
+## Primary Requirements
 
 - Python 3.x
-- Azure Cosmos DB account(s)
-- OpenAI API key
+- Azure PaaS Services: OpenAI, Cosmos DB account(s), Cognitive Search
 
 ## How to Use
 
