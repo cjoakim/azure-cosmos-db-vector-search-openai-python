@@ -38,8 +38,9 @@ To make the most of this project's capabilities, follow these steps:
 1. Clone this repository to your local environment.
 2. [Provision your Azure PaaS services](docs/azure_provisioning.md)
 3. [Configure your Workstation or VM](docs/workstation_setup.md)
-4. Explore the provided [documentation](docs/README.md) for a range of usage examples.
-5. For each example, refer to the detailed instructions in the documentation to install and run them successfully.
+4. [Vectorize the provided data with OpenAI](docs/data_vectorization.md)
+5. Explore the provided [documentation](docs/README.md) for a range of usage examples.
+6. For each example, refer to the detailed instructions in the documentation to install and run them successfully.
 
 Feel free to experiment with and adapt the code to your specific use cases and requirements.
 If you have any questions or need assistance, don't hesitate to create an issue on the
