@@ -10,6 +10,7 @@ azure-storage-blob
 certifi
 dnspython
 docopt
+levenshtein
 matplotlib
 openai
 pandas

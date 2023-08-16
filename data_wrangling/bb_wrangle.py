@@ -35,7 +35,7 @@ import pandas as pd
 
 from docopt import docopt
 
-from pysrc.aibundle import Bytes, CogSvcsClient, Counter, Env, FS, Mongo, OpenAIClient, Storage, System
+from pysrc.aibundle import Bytes, CogSearchClient, CogSvcsClient, Counter, Env, FS, Mongo, OpenAIClient, Storage, StringUtil, System
 
 EXPECTED_EMBEDDINGS_ARRAY_LENGTH = 1536
 ALGORITHM_RAW_NUMBERS =  'raw-numbers'

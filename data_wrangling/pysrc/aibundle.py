@@ -1,9 +1,9 @@
 """
 Module aibundle.py - bundled standard codebase.
 Copyright (c) 2023 Chris Joakim, MIT License
-Timestamp: 2023-08-10 13:28
+Timestamp: 2023-08-15 17:29
 
-Usage:  from pysrc.aibundle import Bytes, CogSearchClient, CogSvcsClient, Counter, Env, FS, Mongo, OpenAIClient, Storage, System
+Usage:  from pysrc.aibundle import Bytes, CogSearchClient, CogSvcsClient, Counter, Env, FS, Mongo, OpenAIClient, Storage, StringUtil, System
 """
 
 import csv
@@ -27,6 +27,7 @@ import tiktoken
 from numbers import Number
 from typing import Iterator
 
+from Levenshtein import distance
 from azure.storage.blob import BlobServiceClient
 from bson.objectid import ObjectId
 from docopt import docopt
@@ -1567,6 +1568,16 @@ class Storage():
         blob_client = self.blob_service_client.get_blob_client(container=cname, blob=blob_name)
         downloader = blob_client.download_blob(max_concurrency=1, encoding='UTF-8')
         return downloader.readall()
+# ==============================================================================
+
+class StringUtil():
+    """
+    This class is used to do common string operations.
+    """
+    @classmethod
+    def levenshtein_distance(cls, str1: str, str2: str) -> int:
+        """ Return the levenshtein distance between the two given strings. """
+        return distance(str(str1), str(str2))
 # ==============================================================================
 
 class System():
