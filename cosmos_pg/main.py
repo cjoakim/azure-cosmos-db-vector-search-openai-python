@@ -310,7 +310,9 @@ def load_baseball_batters(envname, dbname):
 
 def search_similar_baseball_players(envname, dbname, player_id):
     print(f'search_similar_baseball_players: {envname} {dbname} {player_id}')
+    outfile = 'tmp/pgvector_search_player_like_{}.json'.format(player_id)
     client = None
+    search_result_docs = []
     try:
         # See https://wiki.postgresql.org/wiki/Psycopg2_Tutorial
         client = PostgreSqlClient(envname, dbname)
@@ -329,13 +331,18 @@ def search_similar_baseball_players(envname, dbname, player_id):
             cursor.execute(sql)
             rows = cursor.fetchall()
             for row_idx, row in enumerate(rows):
-                seq = row_idx + 1
-                pid = row[0]
-                first_name = row[1]
-                last_name = row[2]
-                position = row[5]
-                print(f'result {seq}: {pid} {first_name} {last_name} {position}')
-
+                result_doc = {}
+                result_doc['seq'] = row_idx + 1
+                result_doc['player_id'] = row[0]
+                result_doc['first_name'] = row[1]
+                result_doc['last_name'] = row[2]
+                result_doc['bats'] = row[3]
+                result_doc['throws'] = row[4]
+                result_doc['primary_position'] = row[5]
+                result_doc['embeddings_str'] = row[6]
+                search_result_docs.append(result_doc)
+                print(result_doc)
+        FS.write_json(search_result_docs, outfile) 
     except Exception as excp:
         print(str(excp))
         print(traceback.format_exc())
@@ -345,7 +352,7 @@ def search_similar_baseball_players(envname, dbname, player_id):
 
 def vector_query_sql(embeddings):
     return """
-select player_id, first_name, last_name, bats, throws, primary_position, batting_data
+select player_id, first_name, last_name, bats, throws, primary_position, embeddings_str
 from players
 order by embeddings <-> '{}'
 limit 10;
