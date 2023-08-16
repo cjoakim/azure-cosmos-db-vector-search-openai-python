@@ -87,7 +87,7 @@ def load_vcore_baseball_players():
 
 def search_player_like(pid):
     # create the output document:
-    outfile = 'tmp/search_player_like_{}.json'.format(pid)
+    outfile = 'tmp/vcore_search_player_like_{}.json'.format(pid)
     output_doc = {}
     output_doc['pid'] = pid
     output_doc['player'] = {}
