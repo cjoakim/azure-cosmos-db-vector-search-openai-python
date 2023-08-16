@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "be88d3a3-d77a-4759-8c26-aeead35579ab",
+      "playerID": "castrst01",
+      "nameFirst": "Starlin",
+      "nameLast": "Castro",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "717ebfaf-716f-4952-a99f-168001f20fce",
+      "playerID": "conceda01",
+      "nameFirst": "Dave",
+      "nameLast": "Concepcion",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "8ba5b955-6812-48d3-ab10-4b82b83a8b22",
+      "playerID": "dejesiv01",
+      "nameFirst": "Ivan",
+      "nameLast": "de Jesus",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "4daef016-8e7f-4735-ba09-2909dbcb2ab5",
+      "playerID": "francju01",
+      "nameFirst": "Julio",
+      "nameLast": "Franco",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "64d193b0-194a-4249-8095-0ce24aa37a87",
+      "playerID": "garcino01",
+      "nameFirst": "Nomar",
+      "nameLast": "Garciaparra",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "cf01d69d-6d30-4751-ac68-308761088fc0",
+      "playerID": "jeterde01",
+      "nameFirst": "Derek",
+      "nameLast": "Jeter",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "ccb74548-cb81-4a1e-aba9-1a8ca0cb5717",
+      "playerID": "maranra01",
+      "nameFirst": "Rabbit",
+      "nameLast": "Maranville",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "e419c608-1624-4934-a2ce-40d37c007abe",
+      "playerID": "rodrial01",
+      "nameFirst": "Alex",
+      "nameLast": "Rodriguez",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "c00a800a-3525-48ba-b0ae-07c7dbc5b69b",
+      "playerID": "vizquom01",
+      "nameFirst": "Omar",
+      "nameLast": "Vizquel",
+      "primary_position": "SS"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "fc5f54ef-63d8-4bf5-9279-649824d012a2",
+      "playerID": "yountro01",
+      "nameFirst": "Robin",
+      "nameLast": "Yount",
+      "primary_position": "SS"
+    }
+  ]
+}

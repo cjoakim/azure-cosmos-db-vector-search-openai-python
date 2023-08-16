@@ -1,0 +1,102 @@
+[
+  {
+    "seq": 1,
+    "player_id": "aaronha01",
+    "first_name": "Hank",
+    "last_name": "Aaron",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755 batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186 bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3 sb_240 sb_pct_77"
+  },
+  {
+    "seq": 2,
+    "player_id": "kalinal01",
+    "first_name": "Al",
+    "last_name": "Kaline",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2834 bats_r throws_r hits_3007 hr_399 batting_avg_297 runs_per_ab_160 2b_avg_49 3b_avg_7 hr_avg_39 rbi_avg_156 bb_avg_126 so_avg_101 ibb_avg_13 hbp_avg_5 sb_137 sb_pct_68"
+  },
+  {
+    "seq": 3,
+    "player_id": "dawsoan01",
+    "first_name": "Andre",
+    "last_name": "Dawson",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2627 bats_r throws_r hits_2774 hr_438 batting_avg_279 runs_per_ab_138 2b_avg_51 3b_avg_10 hr_avg_44 rbi_avg_160 bb_avg_59 so_avg_152 ibb_avg_14 hbp_avg_11 sb_314 sb_pct_74"
+  },
+  {
+    "seq": 4,
+    "player_id": "winfida01",
+    "first_name": "Dave",
+    "last_name": "Winfield",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2973 bats_r throws_r hits_3110 hr_465 batting_avg_283 runs_per_ab_152 2b_avg_49 3b_avg_8 hr_avg_42 rbi_avg_167 bb_avg_111 so_avg_153 ibb_avg_16 hbp_avg_2 sb_223 sb_pct_70"
+  },
+  {
+    "seq": 5,
+    "player_id": "robinfr02",
+    "first_name": "Frank",
+    "last_name": "Robinson",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2808 bats_r throws_r hits_2943 hr_586 batting_avg_294 runs_per_ab_183 2b_avg_53 3b_avg_7 hr_avg_59 rbi_avg_181 bb_avg_142 so_avg_153 ibb_avg_22 hbp_avg_20 sb_204 sb_pct_73"
+  },
+  {
+    "seq": 6,
+    "player_id": "guerrvl01",
+    "first_name": "Vladimir",
+    "last_name": "Guerrero",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2147 bats_r throws_r hits_2590 hr_449 batting_avg_318 runs_per_ab_163 2b_avg_58 3b_avg_6 hr_avg_55 rbi_avg_183 bb_avg_90 so_avg_121 ibb_avg_31 hbp_avg_13 sb_181 sb_pct_66"
+  },
+  {
+    "seq": 7,
+    "player_id": "puigya01",
+    "first_name": "Yasiel",
+    "last_name": "Puig",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_861 bats_r throws_r hits_834 hr_132 batting_avg_277 runs_per_ab_146 2b_avg_53 3b_avg_7 hr_avg_44 rbi_avg_138 bb_avg_99 so_avg_226 ibb_avg_7 hbp_avg_14 sb_79 sb_pct_68"
+  },
+  {
+    "seq": 8,
+    "player_id": "suzukic01",
+    "first_name": "Ichiro",
+    "last_name": "Suzuki",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2653 bats_l throws_r hits_3089 hr_117 batting_avg_311 runs_per_ab_143 2b_avg_36 3b_avg_10 hr_avg_12 rbi_avg_79 bb_avg_65 so_avg_109 ibb_avg_18 hbp_avg_6 sb_509 sb_pct_81"
+  },
+  {
+    "seq": 9,
+    "player_id": "sheffga01",
+    "first_name": "Gary",
+    "last_name": "Sheffield",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_2576 bats_r throws_r hits_2689 hr_509 batting_avg_292 runs_per_ab_177 2b_avg_51 3b_avg_3 hr_avg_55 rbi_avg_182 bb_avg_160 so_avg_127 ibb_avg_14 hbp_avg_15 sb_253 sb_pct_71"
+  },
+  {
+    "seq": 10,
+    "player_id": "denorch01",
+    "first_name": "Chris",
+    "last_name": "Denorfia",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "RF",
+    "embeddings_str": "fielder primary_position_rf total_games_808 bats_r throws_r hits_587 hr_41 batting_avg_272 runs_per_ab_134 2b_avg_48 3b_avg_8 hr_avg_19 rbi_avg_91 bb_avg_86 so_avg_189 ibb_avg_4 hbp_avg_4 sb_56 sb_pct_74"
+  }
+]

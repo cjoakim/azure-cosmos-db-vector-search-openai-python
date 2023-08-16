@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "e58db773-ddb7-4a87-9696-6e01056b1912",
+      "playerID": "carewro01",
+      "nameFirst": "Rod",
+      "nameLast": "Carew",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "334c9429-5b90-49fb-8604-a7095ea00256",
+      "playerID": "clenddo01",
+      "nameFirst": "Donn",
+      "nameLast": "Clendenon",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "1b93c1b7-b876-4050-a44e-38d925f770ba",
+      "playerID": "erstada01",
+      "nameFirst": "Darin",
+      "nameLast": "Erstad",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "83cf1487-740e-4c25-b883-7be4fd0aedfa",
+      "playerID": "jeffegr01",
+      "nameFirst": "Gregg",
+      "nameLast": "Jefferies",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "b75681bb-d9b1-4321-8b2d-15b002bcb70f",
+      "playerID": "mcganda01",
+      "nameFirst": "Dan",
+      "nameLast": "McGann",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "0cf214ae-aeb7-40f0-924f-bb22b58098b9",
+      "playerID": "merklfr01",
+      "nameFirst": "Fred",
+      "nameLast": "Merkle",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "560f32ad-5b46-4234-aa56-8b1a685a6ca2",
+      "playerID": "milledo02",
+      "nameFirst": "Dots",
+      "nameLast": "Miller",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "7be50242-01bd-466f-aa92-77d0ec6fc404",
+      "playerID": "murraed02",
+      "nameFirst": "Eddie",
+      "nameLast": "Murray",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "04581604-8d31-43a3-9f59-fede3febdcef",
+      "playerID": "palmera01",
+      "nameFirst": "Rafael",
+      "nameLast": "Palmeiro",
+      "primary_position": "1B"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "6364f138-842e-4189-8759-2036da9a1b2b",
+      "playerID": "rosepe01",
+      "nameFirst": "Pete",
+      "nameLast": "Rose",
+      "primary_position": "1B"
+    }
+  ]
+}

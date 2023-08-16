@@ -1,0 +1,102 @@
+[
+  {
+    "seq": 1,
+    "player_id": "jeterde01",
+    "first_name": "Derek",
+    "last_name": "Jeter",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2747 bats_r throws_r hits_3465 hr_260 batting_avg_310 runs_per_ab_172 2b_avg_49 3b_avg_6 hr_avg_23 rbi_avg_117 bb_avg_97 so_avg_164 ibb_avg_3 hbp_avg_15 sb_358 sb_pct_79"
+  },
+  {
+    "seq": 2,
+    "player_id": "rodrial01",
+    "first_name": "Alex",
+    "last_name": "Rodriguez",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2784 bats_r throws_r hits_3115 hr_696 batting_avg_295 runs_per_ab_191 2b_avg_52 3b_avg_3 hr_avg_66 rbi_avg_197 bb_avg_127 so_avg_216 ibb_avg_9 hbp_avg_17 sb_329 sb_pct_81"
+  },
+  {
+    "seq": 3,
+    "player_id": "maranra01",
+    "first_name": "Rabbit",
+    "last_name": "Maranville",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2670 bats_r throws_r hits_2605 hr_28 batting_avg_258 runs_per_ab_125 2b_avg_38 3b_avg_18 hr_avg_3 rbi_avg_88 bb_avg_83 so_avg_75 ibb_avg_0 hbp_avg_4 sb_291 sb_pct_76"
+  },
+  {
+    "seq": 4,
+    "player_id": "yountro01",
+    "first_name": "Robin",
+    "last_name": "Yount",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2856 bats_r throws_r hits_3142 hr_251 batting_avg_285 runs_per_ab_148 2b_avg_53 3b_avg_11 hr_avg_23 rbi_avg_128 bb_avg_88 so_avg_123 ibb_avg_9 hbp_avg_4 sb_271 sb_pct_72"
+  },
+  {
+    "seq": 5,
+    "player_id": "conceda01",
+    "first_name": "Dave",
+    "last_name": "Concepcion",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2488 bats_r throws_r hits_2326 hr_101 batting_avg_267 runs_per_ab_114 2b_avg_45 3b_avg_6 hr_avg_12 rbi_avg_109 bb_avg_84 so_avg_136 ibb_avg_11 hbp_avg_2 sb_321 sb_pct_75"
+  },
+  {
+    "seq": 6,
+    "player_id": "castrst01",
+    "first_name": "Starlin",
+    "last_name": "Castro",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_1573 bats_r throws_r hits_1722 hr_138 batting_avg_280 runs_per_ab_114 2b_avg_52 3b_avg_7 hr_avg_22 rbi_avg_110 bb_avg_55 so_avg_180 ibb_avg_5 hbp_avg_6 sb_89 sb_pct_63"
+  },
+  {
+    "seq": 7,
+    "player_id": "dejesiv01",
+    "first_name": "Ivan",
+    "last_name": "de Jesus",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_1371 bats_r throws_r hits_1167 hr_21 batting_avg_254 runs_per_ab_129 2b_avg_38 3b_avg_10 hr_avg_5 rbi_avg_70 bb_avg_101 so_avg_144 ibb_avg_10 hbp_avg_3 sb_194 sb_pct_69"
+  },
+  {
+    "seq": 8,
+    "player_id": "vizquom01",
+    "first_name": "Omar",
+    "last_name": "Vizquel",
+    "bats": "B",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2968 bats_b throws_r hits_2877 hr_80 batting_avg_272 runs_per_ab_137 2b_avg_43 3b_avg_7 hr_avg_8 rbi_avg_90 bb_avg_97 so_avg_103 ibb_avg_2 hbp_avg_5 sb_404 sb_pct_71"
+  },
+  {
+    "seq": 9,
+    "player_id": "garcino01",
+    "first_name": "Nomar",
+    "last_name": "Garciaparra",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_1434 bats_r throws_r hits_1747 hr_229 batting_avg_313 runs_per_ab_166 2b_avg_66 3b_avg_9 hr_avg_41 rbi_avg_168 bb_avg_72 so_avg_99 ibb_avg_10 hbp_avg_11 sb_95 sb_pct_75"
+  },
+  {
+    "seq": 10,
+    "player_id": "francju01",
+    "first_name": "Julio",
+    "last_name": "Franco",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "SS",
+    "embeddings_str": "fielder primary_position_ss total_games_2527 bats_r throws_r hits_2586 hr_173 batting_avg_298 runs_per_ab_148 2b_avg_47 3b_avg_6 hr_avg_20 rbi_avg_138 bb_avg_106 so_avg_155 ibb_avg_8 hbp_avg_4 sb_281 sb_pct_72"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "b55efe79-8286-408a-8aa1-5b03c987fa5c",
+      "playerID": "aaronha01",
+      "nameFirst": "Hank",
+      "nameLast": "Aaron",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "5a7e203e-2b46-454e-b8c9-3f0163445219",
+      "playerID": "dawsoan01",
+      "nameFirst": "Andre",
+      "nameLast": "Dawson",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "433c8a00-b694-4779-97fa-4b979114a526",
+      "playerID": "denorch01",
+      "nameFirst": "Chris",
+      "nameLast": "Denorfia",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "5ff256e8-f68d-4016-98a7-f4ad766319a2",
+      "playerID": "guerrvl01",
+      "nameFirst": "Vladimir",
+      "nameLast": "Guerrero",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "365b27a0-4187-4e46-a42d-9f9922b881fa",
+      "playerID": "kalinal01",
+      "nameFirst": "Al",
+      "nameLast": "Kaline",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "ecb75456-7f61-4ae4-bf53-4e7ce5f658cf",
+      "playerID": "puigya01",
+      "nameFirst": "Yasiel",
+      "nameLast": "Puig",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "9858158a-5442-4df7-99f8-41e8d0f9f1d6",
+      "playerID": "robinfr02",
+      "nameFirst": "Frank",
+      "nameLast": "Robinson",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "fe2e9004-ef1a-4f63-8651-187508edd8f3",
+      "playerID": "sheffga01",
+      "nameFirst": "Gary",
+      "nameLast": "Sheffield",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "93621781-4d5b-4a15-96cd-883578939f3c",
+      "playerID": "suzukic01",
+      "nameFirst": "Ichiro",
+      "nameLast": "Suzuki",
+      "primary_position": "RF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "182d9ca5-034a-4365-9671-7c447b9767f7",
+      "playerID": "winfida01",
+      "nameFirst": "Dave",
+      "nameLast": "Winfield",
+      "primary_position": "RF"
+    }
+  ]
+}

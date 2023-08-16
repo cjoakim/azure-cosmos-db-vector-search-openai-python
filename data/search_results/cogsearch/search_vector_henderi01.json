@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "e4cc38fd-18c8-4418-8841-98a1403f5ef1",
+      "playerID": "bondsba01",
+      "nameFirst": "Barry",
+      "nameLast": "Bonds",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "c9867b7b-8c34-4e95-a672-16f1bdb393cf",
+      "playerID": "brocklo01",
+      "nameFirst": "Lou",
+      "nameLast": "Brock",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "dff54db9-24c5-42f4-9713-edee804001aa",
+      "playerID": "burkeje01",
+      "nameFirst": "Jesse",
+      "nameLast": "Burkett",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "a12910e7-9542-4c59-a767-4ebb3fddc463",
+      "playerID": "henderi01",
+      "nameFirst": "Rickey",
+      "nameLast": "Henderson",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "949d799f-c8e9-4ee0-a105-91c5f795af18",
+      "playerID": "mageesh01",
+      "nameFirst": "Sherry",
+      "nameLast": "Magee",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "b0c9c139-eec9-4a5a-9d95-1dfa2c80859d",
+      "playerID": "meusebo01",
+      "nameFirst": "Bob",
+      "nameLast": "Meusel",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "f1bd535f-f16c-4353-9e2d-338537064404",
+      "playerID": "quinnma01",
+      "nameFirst": "Mark",
+      "nameLast": "Quinn",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "c029e026-09d6-44d8-a5ab-df27ee734d2c",
+      "playerID": "riceji01",
+      "nameFirst": "Jim",
+      "nameLast": "Rice",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "48cb95a5-f818-4101-8b7b-54896cd973d7",
+      "playerID": "wheatza01",
+      "nameFirst": "Zack",
+      "nameLast": "Wheat",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "58516a65-d06b-4db3-a3b4-d6d8e39e28b5",
+      "playerID": "willibi01",
+      "nameFirst": "Billy",
+      "nameLast": "Williams",
+      "primary_position": "LF"
+    }
+  ]
+}

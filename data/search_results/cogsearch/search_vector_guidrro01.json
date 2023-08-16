@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "ae1cf618-d425-43ad-a7c2-ad5976070beb",
+      "playerID": "brettke01",
+      "nameFirst": "Ken",
+      "nameLast": "Brett",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "a67937fa-41b9-49b1-b2ab-2f9336ab20b7",
+      "playerID": "daalom01",
+      "nameFirst": "Omar",
+      "nameLast": "Daal",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "1cc121dd-7007-4a96-97ac-c09497c9d200",
+      "playerID": "guidrro01",
+      "nameFirst": "Ron",
+      "nameLast": "Guidry",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "ea612801-7fda-42b6-9e24-c6e8809f8f83",
+      "playerID": "heatone01",
+      "nameFirst": "Neal",
+      "nameLast": "Heaton",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "3f92bf60-abb3-4b01-afa6-ea68f74c2326",
+      "playerID": "hurstbr01",
+      "nameFirst": "Bruce",
+      "nameLast": "Hurst",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "ef609ac9-d927-4e81-b8e6-99e48ec84d70",
+      "playerID": "lushjo01",
+      "nameFirst": "Johnny",
+      "nameLast": "Lush",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "5c7a17ae-4ca9-4bab-85cb-7ec5928dcf3d",
+      "playerID": "mcwilla01",
+      "nameFirst": "Larry",
+      "nameLast": "McWilliams",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "b222fae3-3fe6-441a-a9f8-01345a13f968",
+      "playerID": "mizelvi01",
+      "nameFirst": "Vinegar Bend",
+      "nameLast": "Mizell",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "fac65e3c-8e2d-405f-93ff-efd0557d9b17",
+      "playerID": "richepe01",
+      "nameFirst": "Pete",
+      "nameLast": "Richert",
+      "primary_position": "P"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "97634713-9555-456c-94d9-a7304a8783bd",
+      "playerID": "underto01",
+      "nameFirst": "Tom",
+      "nameLast": "Underwood",
+      "primary_position": "P"
+    }
+  ]
+}

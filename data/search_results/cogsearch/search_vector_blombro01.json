@@ -1,0 +1,86 @@
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "019ff8ce-01ae-4a8e-9d9b-439dc9c0404a",
+      "playerID": "adamsgl01",
+      "nameFirst": "Glenn",
+      "nameLast": "Adams",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "624444e8-1422-4efe-91d5-c9d404f5e850",
+      "playerID": "alvaryo01",
+      "nameFirst": "Yordan",
+      "nameLast": "Alvarez",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "3f3a3d96-5c3e-4666-9326-e80694c22937",
+      "playerID": "blombro01",
+      "nameFirst": "Ron",
+      "nameLast": "Blomberg",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "c48b65a9-2f0d-4db1-ab70-8d19cea7cba8",
+      "playerID": "giambje01",
+      "nameFirst": "Jeremy",
+      "nameLast": "Giambi",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "15ff30c7-f8d0-4a85-ab06-538782a66ccc",
+      "playerID": "hamelbo01",
+      "nameFirst": "Bob",
+      "nameLast": "Hamelin",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "7954c9c9-f008-4704-a721-f8ef9873dbac",
+      "playerID": "lecroma01",
+      "nameFirst": "Matt",
+      "nameLast": "LeCroy",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "aef0f13e-eb97-4616-9e4e-dd10cf102673",
+      "playerID": "phelpjo01",
+      "nameFirst": "Josh",
+      "nameLast": "Phelps",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "b8fa9a54-9c8b-4056-8346-bc5019e644b3",
+      "playerID": "sheetla01",
+      "nameFirst": "Larry",
+      "nameLast": "Sheets",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "2c191c13-444b-45fd-89c5-398fba4c3054",
+      "playerID": "velezot01",
+      "nameFirst": "Otto",
+      "nameLast": "Velez",
+      "primary_position": "DH"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "4488a7a2-6211-4f90-9740-6b6e7e0b735c",
+      "playerID": "vogelda01",
+      "nameFirst": "Dan",
+      "nameLast": "Vogelbach",
+      "primary_position": "DH"
+    }
+  ]
+}

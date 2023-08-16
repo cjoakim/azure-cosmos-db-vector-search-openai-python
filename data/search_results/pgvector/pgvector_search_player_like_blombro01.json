@@ -1,0 +1,102 @@
+[
+  {
+    "seq": 1,
+    "player_id": "blombro01",
+    "first_name": "Ron",
+    "last_name": "Blomberg",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_461 bats_l throws_r hits_391 hr_52 batting_avg_293 runs_per_ab_138 2b_avg_50 3b_avg_6 hr_avg_39 rbi_avg_168 bb_avg_105 so_avg_101 ibb_avg_12 hbp_avg_4 sb_6 sb_pct_na"
+  },
+  {
+    "seq": 2,
+    "player_id": "adamsgl01",
+    "first_name": "Glenn",
+    "last_name": "Adams",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_661 bats_l throws_r hits_452 hr_34 batting_avg_280 runs_per_ab_94 2b_avg_49 3b_avg_3 hr_avg_21 rbi_avg_139 bb_avg_69 so_avg_113 ibb_avg_5 hbp_avg_2 sb_6 sb_pct_na"
+  },
+  {
+    "seq": 3,
+    "player_id": "alvaryo01",
+    "first_name": "Yordan",
+    "last_name": "Alvarez",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_368 bats_l throws_r hits_393 hr_98 batting_avg_296 runs_per_ab_186 2b_avg_68 3b_avg_2 hr_avg_74 rbi_avg_213 bb_avg_136 so_avg_261 ibb_avg_12 hbp_avg_13 sb_2 sb_pct_na"
+  },
+  {
+    "seq": 4,
+    "player_id": "lecroma01",
+    "first_name": "Matt",
+    "last_name": "LeCroy",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_476 bats_r throws_r hits_361 hr_60 batting_avg_260 runs_per_ab_105 2b_avg_49 3b_avg_1 hr_avg_43 rbi_avg_157 bb_avg_89 so_avg_239 ibb_avg_4 hbp_avg_12 sb_0 sb_pct_na"
+  },
+  {
+    "seq": 5,
+    "player_id": "sheetla01",
+    "first_name": "Larry",
+    "last_name": "Sheets",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_748 bats_l throws_r hits_607 hr_94 batting_avg_266 runs_per_ab_120 2b_avg_43 3b_avg_2 hr_avg_41 rbi_avg_148 bb_avg_77 so_avg_154 ibb_avg_10 hbp_avg_8 sb_6 sb_pct_na"
+  },
+  {
+    "seq": 6,
+    "player_id": "vogelda01",
+    "first_name": "Dan",
+    "last_name": "Vogelbach",
+    "bats": "L",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_467 bats_l throws_r hits_284 hr_67 batting_avg_218 runs_per_ab_134 2b_avg_38 3b_avg_1 hr_avg_51 rbi_avg_146 bb_avg_188 so_avg_302 ibb_avg_5 hbp_avg_5 sb_0 sb_pct_na"
+  },
+  {
+    "seq": 7,
+    "player_id": "hamelbo01",
+    "first_name": "Bob",
+    "last_name": "Hamelin",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_497 bats_l throws_l hits_313 hr_67 batting_avg_246 runs_per_ab_141 2b_avg_55 3b_avg_2 hr_avg_53 rbi_avg_164 bb_avg_162 so_avg_230 ibb_avg_8 hbp_avg_9 sb_11 sb_pct_na"
+  },
+  {
+    "seq": 8,
+    "player_id": "phelpjo01",
+    "first_name": "Josh",
+    "last_name": "Phelps",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_465 bats_r throws_r hits_380 hr_64 batting_avg_273 runs_per_ab_142 2b_avg_53 3b_avg_4 hr_avg_46 rbi_avg_175 bb_avg_83 so_avg_285 ibb_avg_4 hbp_avg_26 sb_2 sb_pct_na"
+  },
+  {
+    "seq": 9,
+    "player_id": "velezot01",
+    "first_name": "Otto",
+    "last_name": "Velez",
+    "bats": "R",
+    "throws": "R",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_637 bats_r throws_r hits_452 hr_78 batting_avg_251 runs_per_ab_135 2b_avg_48 3b_avg_6 hr_avg_43 rbi_avg_151 bb_avg_186 so_avg_230 ibb_avg_9 hbp_avg_6 sb_6 sb_pct_na"
+  },
+  {
+    "seq": 10,
+    "player_id": "giambje01",
+    "first_name": "Jeremy",
+    "last_name": "Giambi",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "DH",
+    "embeddings_str": "fielder primary_position_dh total_games_510 bats_l throws_l hits_372 hr_52 batting_avg_263 runs_per_ab_155 2b_avg_53 3b_avg_2 hr_avg_37 rbi_avg_147 bb_avg_177 so_avg_251 ibb_avg_7 hbp_avg_11 sb_1 sb_pct_na"
+  }
+]

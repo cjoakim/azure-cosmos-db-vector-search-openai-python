@@ -1,0 +1,102 @@
+[
+  {
+    "seq": 1,
+    "player_id": "guidrro01",
+    "first_name": "Ron",
+    "last_name": "Guidry",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_170 losses_91 full_games_pitched_equiv_266 era_3288 opp_batting_avg_234 so_pct_177 bb_pct_63 hbp_pct_1 hr_pct_23 win_pct_65 sho_pct_10 cg_pct_29"
+  },
+  {
+    "seq": 2,
+    "player_id": "mcwilla01",
+    "first_name": "Larry",
+    "last_name": "McWilliams",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_78 losses_90 full_games_pitched_equiv_173 era_3985 opp_batting_avg_249 so_pct_138 bb_pct_80 hbp_pct_8 hr_pct_20 win_pct_46 sho_pct_8 cg_pct_15"
+  },
+  {
+    "seq": 3,
+    "player_id": "hurstbr01",
+    "first_name": "Bruce",
+    "last_name": "Hurst",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_145 losses_113 full_games_pitched_equiv_269 era_3917 opp_batting_avg_254 so_pct_161 bb_pct_71 hbp_pct_3 hr_pct_25 win_pct_56 sho_pct_9 cg_pct_23"
+  },
+  {
+    "seq": 4,
+    "player_id": "brettke01",
+    "first_name": "Ken",
+    "last_name": "Brett",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_386 bats_l throws_l wins_83 losses_85 full_games_pitched_equiv_170 era_3927 opp_batting_avg_246 so_pct_121 bb_pct_84 hbp_pct_3 hr_pct_19 win_pct_49 sho_pct_5 cg_pct_28"
+  },
+  {
+    "seq": 5,
+    "player_id": "underto01",
+    "first_name": "Tom",
+    "last_name": "Underwood",
+    "bats": "R",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_380 bats_r throws_l wins_86 losses_87 full_games_pitched_equiv_176 era_3887 opp_batting_avg_246 so_pct_135 bb_pct_95 hbp_pct_4 hr_pct_19 win_pct_50 sho_pct_3 cg_pct_17"
+  },
+  {
+    "seq": 6,
+    "player_id": "heatone01",
+    "first_name": "Neal",
+    "last_name": "Heaton",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_388 bats_l throws_l wins_80 losses_96 full_games_pitched_equiv_167 era_4372 opp_batting_avg_260 so_pct_105 bb_pct_79 hbp_pct_5 hr_pct_24 win_pct_45 sho_pct_3 cg_pct_11"
+  },
+  {
+    "seq": 7,
+    "player_id": "mizelvi01",
+    "first_name": "Vinegar Bend",
+    "last_name": "Mizell",
+    "bats": "R",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_268 bats_r throws_l wins_90 losses_88 full_games_pitched_equiv_170 era_3850 opp_batting_avg_238 so_pct_136 bb_pct_101 hbp_pct_4 hr_pct_21 win_pct_51 sho_pct_8 cg_pct_27"
+  },
+  {
+    "seq": 8,
+    "player_id": "lushjo01",
+    "first_name": "Johnny",
+    "last_name": "Lush",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_378 bats_l throws_l wins_66 losses_85 full_games_pitched_equiv_138 era_2680 opp_batting_avg_239 so_pct_91 bb_pct_77 hbp_pct_12 hr_pct_3 win_pct_44 sho_pct_11 cg_pct_68"
+  },
+  {
+    "seq": 9,
+    "player_id": "daalom01",
+    "first_name": "Omar",
+    "last_name": "Daal",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_392 bats_l throws_l wins_68 losses_78 full_games_pitched_equiv_133 era_4550 opp_batting_avg_258 so_pct_151 bb_pct_83 hbp_pct_6 hr_pct_26 win_pct_47 sho_pct_1 cg_pct_3"
+  },
+  {
+    "seq": 10,
+    "player_id": "richepe01",
+    "first_name": "Pete",
+    "last_name": "Richert",
+    "bats": "L",
+    "throws": "L",
+    "primary_position": "P",
+    "embeddings_str": "pitcher primary_position_p total_games_446 bats_l throws_l wins_80 losses_73 full_games_pitched_equiv_130 era_3189 opp_batting_avg_215 so_pct_189 bb_pct_87 hbp_pct_3 hr_pct_24 win_pct_52 sho_pct_2 cg_pct_18"
+  }
+]
