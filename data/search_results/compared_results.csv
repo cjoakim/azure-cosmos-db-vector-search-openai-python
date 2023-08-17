@@ -1,68 +1,67 @@
-search_subject,sequence,cogsearch_results,vcore_results,pgvector_results
-,,,,
-aaronha01,1,aaronha01 (3),aaronha01 (3),aaronha01 (3)
-aaronha01,2,dawsoan01 (2),kalinal01 (3),kalinal01 (3)
-aaronha01,3,denorch01 (3),winfida01 (3),dawsoan01 (2)
-aaronha01,4,guerrvl01 (2),robinfr02 (3),winfida01 (3)
-aaronha01,5,kalinal01 (3),suzukic01 (3),robinfr02 (3)
-aaronha01,6,puigya01 (2),denorch01 (3),guerrvl01 (2)
-aaronha01,7,robinfr02 (3),ottme01 (1),puigya01 (2)
-aaronha01,8,sheffga01 (2),sierrru01 (1),suzukic01 (3)
-aaronha01,9,suzukic01 (3),flickel01 (1),sheffga01 (2)
-aaronha01,10,winfida01 (3),ricesa01 (1),denorch01 (3)
-,,,,
-blombro01,1,adamsgl01 (2),blombro01 (3),blombro01 (3)
-blombro01,2,alvaryo01 (3),alvaryo01 (3),adamsgl01 (2)
-blombro01,3,blombro01 (3),lecroma01 (3),alvaryo01 (3)
-blombro01,4,giambje01 (3),sheetla01 (3),lecroma01 (3)
-blombro01,5,hamelbo01 (3),vogelda01 (3),sheetla01 (3)
-blombro01,6,lecroma01 (3),hamelbo01 (3),vogelda01 (3)
-blombro01,7,phelpjo01 (3),phelpjo01 (3),hamelbo01 (3)
-blombro01,8,sheetla01 (3),velezot01 (3),phelpjo01 (3)
-blombro01,9,velezot01 (3),giambje01 (3),velezot01 (3)
-blombro01,10,vogelda01 (3),berroge01 (1),giambje01 (3)
-,,,,
-guidrro01,1,brettke01 (3),guidrro01 (3),guidrro01 (3)
-guidrro01,2,daalom01 (3),mcwilla01 (3),mcwilla01 (3)
-guidrro01,3,guidrro01 (3),hurstbr01 (3),hurstbr01 (3)
-guidrro01,4,heatone01 (3),brettke01 (3),brettke01 (3)
-guidrro01,5,hurstbr01 (3),underto01 (3),underto01 (3)
-guidrro01,6,lushjo01 (3),heatone01 (3),heatone01 (3)
-guidrro01,7,mcwilla01 (3),mizelvi01 (3),mizelvi01 (3)
-guidrro01,8,mizelvi01 (3),lushjo01 (3),lushjo01 (3)
-guidrro01,9,richepe01 (3),daalom01 (3),daalom01 (3)
-guidrro01,10,underto01 (3),richepe01 (3),richepe01 (3)
-,,,,
-henderi01,1,bondsba01 (3),henderi01 (3),henderi01 (3)
-henderi01,2,brocklo01 (3),mageesh01 (3),mageesh01 (3)
-henderi01,3,burkeje01 (3),bondsba01 (3),bondsba01 (3)
-henderi01,4,henderi01 (3),riceji01 (3),riceji01 (3)
-henderi01,5,mageesh01 (3),wheatza01 (3),wheatza01 (3)
-henderi01,6,meusebo01 (3),brocklo01 (3),brocklo01 (3)
-henderi01,7,quinnma01 (3),quinnma01 (3),quinnma01 (3)
-henderi01,8,riceji01 (3),willibi01 (3),willibi01 (3)
-henderi01,9,wheatza01 (3),burkeje01 (3),burkeje01 (3)
-henderi01,10,willibi01 (3),meusebo01 (3),meusebo01 (3)
-,,,,
-jeterde01,1,castrst01 (3),jeterde01 (3),jeterde01 (3)
-jeterde01,2,conceda01 (3),rodrial01 (3),rodrial01 (3)
-jeterde01,3,dejesiv01 (2),yountro01 (3),maranra01 (2)
-jeterde01,4,francju01 (3),conceda01 (3),yountro01 (3)
-jeterde01,5,garcino01 (2),castrst01 (3),conceda01 (3)
-jeterde01,6,jeterde01 (3),francju01 (3),castrst01 (3)
-jeterde01,7,maranra01 (2),larkiba01 (1),dejesiv01 (2)
-jeterde01,8,rodrial01 (3),ramiral03 (1),vizquom01 (2)
-jeterde01,9,vizquom01 (2),thondi01 (1),garcino01 (2)
-jeterde01,10,yountro01 (3),blausje01 (1),francju01 (3)
-,,,,
-rosepe01,1,carewro01 (2),rosepe01 (3),rosepe01 (3)
-rosepe01,2,clenddo01 (2),murraed02 (3),jeffegr01 (2)
-rosepe01,3,erstada01 (2),davisha01 (1),mcganda01 (2)
-rosepe01,4,jeffegr01 (2),clarkto02 (1),clenddo01 (2)
-rosepe01,5,mcganda01 (2),karroer01 (1),murraed02 (3)
-rosepe01,6,merklfr01 (2),morneju01 (1),merklfr01 (2)
-rosepe01,7,milledo02 (2),garkory01 (1),milledo02 (2)
-rosepe01,8,murraed02 (3),allendi01 (1),palmera01 (2)
-rosepe01,9,palmera01 (2),spiezsc01 (1),carewro01 (2)
-rosepe01,10,rosepe01 (3),coxst01 (1),erstada01 (2)
-,,,,
+search_subject,sequence,cogsearch_results,vcore_results,pgvector_results,,
+,,,,,,
+aaronha01,1,aaronha01 (3),aaronha01 (3),aaronha01 (3),,
+aaronha01,2,dawsoan01 (2),kalinal01 (3),kalinal01 (3),,
+aaronha01,3,denorch01 (3),winfida01 (3),dawsoan01 (2),,
+aaronha01,4,guerrvl01 (2),robinfr02 (3),winfida01 (3),,
+aaronha01,5,kalinal01 (3),suzukic01 (3),robinfr02 (3),,
+aaronha01,6,puigya01 (2),denorch01 (3),guerrvl01 (2),,
+aaronha01,7,robinfr02 (3),ottme01 (1),puigya01 (2),,
+aaronha01,8,sheffga01 (2),sierrru01 (1),suzukic01 (3),,
+aaronha01,9,suzukic01 (3),flickel01 (1),sheffga01 (2),,
+aaronha01,10,winfida01 (3),ricesa01 (1),denorch01 (3),,
+,,,,,,
+blombro01,1,adamsgl01 (2),blombro01 (3),blombro01 (3),,
+blombro01,2,alvaryo01 (3),alvaryo01 (3),adamsgl01 (2),,
+blombro01,3,blombro01 (3),lecroma01 (3),alvaryo01 (3),,
+blombro01,4,giambje01 (3),sheetla01 (3),lecroma01 (3),,
+blombro01,5,hamelbo01 (3),vogelda01 (3),sheetla01 (3),,
+blombro01,6,lecroma01 (3),hamelbo01 (3),vogelda01 (3),,
+blombro01,7,phelpjo01 (3),phelpjo01 (3),hamelbo01 (3),,
+blombro01,8,sheetla01 (3),velezot01 (3),phelpjo01 (3),,
+blombro01,9,velezot01 (3),giambje01 (3),velezot01 (3),,
+blombro01,10,vogelda01 (3),berroge01 (1),giambje01 (3),,
+,,,,,,
+guidrro01,1,brettke01 (3),guidrro01 (3),guidrro01 (3),,
+guidrro01,2,daalom01 (3),mcwilla01 (3),mcwilla01 (3),,
+guidrro01,3,guidrro01 (3),hurstbr01 (3),hurstbr01 (3),,
+guidrro01,4,heatone01 (3),brettke01 (3),brettke01 (3),,
+guidrro01,5,hurstbr01 (3),underto01 (3),underto01 (3),,
+guidrro01,6,lushjo01 (3),heatone01 (3),heatone01 (3),,
+guidrro01,7,mcwilla01 (3),mizelvi01 (3),mizelvi01 (3),,
+guidrro01,8,mizelvi01 (3),lushjo01 (3),lushjo01 (3),,
+guidrro01,9,richepe01 (3),daalom01 (3),daalom01 (3),,
+guidrro01,10,underto01 (3),richepe01 (3),richepe01 (3),,
+,,,,,,
+henderi01,1,bondsba01 (3),henderi01 (3),henderi01 (3),,
+henderi01,2,brocklo01 (3),mageesh01 (3),mageesh01 (3),,
+henderi01,3,burkeje01 (3),bondsba01 (3),bondsba01 (3),,
+henderi01,4,henderi01 (3),riceji01 (3),riceji01 (3),,
+henderi01,5,mageesh01 (3),wheatza01 (3),wheatza01 (3),,
+henderi01,6,meusebo01 (3),brocklo01 (3),brocklo01 (3),,
+henderi01,7,quinnma01 (3),quinnma01 (3),quinnma01 (3),,
+henderi01,8,riceji01 (3),willibi01 (3),willibi01 (3),,
+henderi01,9,wheatza01 (3),burkeje01 (3),burkeje01 (3),,
+henderi01,10,willibi01 (3),meusebo01 (3),meusebo01 (3),,
+,,,,,,
+jeterde01,1,castrst01 (3),jeterde01 (3),jeterde01 (3),,
+jeterde01,2,conceda01 (3),rodrial01 (3),rodrial01 (3),,
+jeterde01,3,dejesiv01 (2),yountro01 (3),maranra01 (2),,
+jeterde01,4,francju01 (3),conceda01 (3),yountro01 (3),,
+jeterde01,5,garcino01 (2),castrst01 (3),conceda01 (3),,
+jeterde01,6,jeterde01 (3),francju01 (3),castrst01 (3),,
+jeterde01,7,maranra01 (2),larkiba01 (1),dejesiv01 (2),,
+jeterde01,8,rodrial01 (3),ramiral03 (1),vizquom01 (2),,
+jeterde01,9,vizquom01 (2),thondi01 (1),garcino01 (2),,
+jeterde01,10,yountro01 (3),blausje01 (1),francju01 (3),,
+,,,,,,
+rosepe01,1,carewro01 (2),rosepe01 (3),rosepe01 (3),,
+rosepe01,2,clenddo01 (2),murraed02 (3),jeffegr01 (2),,
+rosepe01,3,erstada01 (2),davisha01 (1),mcganda01 (2),,
+rosepe01,4,jeffegr01 (2),clarkto02 (1),clenddo01 (2),,
+rosepe01,5,mcganda01 (2),karroer01 (1),murraed02 (3),,
+rosepe01,6,merklfr01 (2),morneju01 (1),merklfr01 (2),,
+rosepe01,7,milledo02 (2),garkory01 (1),milledo02 (2),,
+rosepe01,8,murraed02 (3),allendi01 (1),palmera01 (2),,
+rosepe01,9,palmera01 (2),spiezsc01 (1),carewro01 (2),,
+rosepe01,10,rosepe01 (3),coxst01 (1),erstada01 (2),,
