@@ -129,7 +129,7 @@ def compare_results():
     csv_rows.append(','.join(header_fields))
     
     for pid in sorted(searched_player_ids()):
-        csv_rows.append(',,,,,x')
+        csv_rows.append(',,,,,')
         c = Counter()
         pid_estr = PLAYERS_DICT[pid]
         cogsearch_pid_list = SEARCH_RESULTS_DICT[f'cogsearch_{pid}']
