@@ -6,17 +6,27 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 ## About Chris Joakim
 
-- Role: Americas Team **Cosmos DB Global Black Belt (GBB)**
-- Location: Charlotte, NC, USA
-- Career Path: Non-IT --> Software Developer --> Azure Cloud Solution Architect --> GBB
-- Primary Languages: COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- Secondary Languages: Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
+- Role:
+  - **Microsoft Cosmos DB Global Black Belt (GBB)**
+- Location:
+  - Charlotte, NC, USA
+- Career Path:
+  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> GBB
+- Primary Languages:
+  - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
+- Secondary Languages:
+  - Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
+- GitHub:
+  - https://github.com/cjoakim
+  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python (this repo)
+  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md
 - [PyPi Packages - m26, ggps, gdg](https://pypi.org/user/cjoakim/)
 
 ### Why Python now?
 
 - Simplicity, pragmatic, universally used/understood, and wide range of use-cases
   - console apps, web apps, Docker, Spark (Synapse), ML/AML/AI, Azure Functions
+  - Currently the defacto "Programming Language of Data Science" (IMO)
 
 ---
 
