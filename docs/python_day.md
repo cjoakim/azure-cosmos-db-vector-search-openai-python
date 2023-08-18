@@ -40,7 +40,9 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
   - [Azure Cosmos DB NoSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/)
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
-  - The [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
+  - [The Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
+
+### Presentation Outline
 
   - [Part 1 - Concepts](#part1)
   - [Part 2 - Implementation](#part2)
@@ -69,8 +71,9 @@ which are **one-dimensional arrays of scalar values**.
 
 Think of them as a **numpy array of floats**.
 
-These vectors are called **embeddings** in OpenAI.  The **OpenAI SDK** contains
-the functionality to produce a vector, or an embedding, from text data.
+These vectors are called **embeddings** in OpenAI.
+
+The **OpenAI SDK** contains the functionality to produce a vector, or an embedding, from text data.
 
 ### What does a Vector, or Embedding, look like?
 
@@ -106,7 +109,7 @@ This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point
 
 - Searching a database, or search-engine, using vectors
 - A vector is passed in as the query criteria
-- The DB/engine matches rows/documents based on the given vector
+- The DB/engine matches rows/documents based on the given vector column/attribute in the DB
 
 ### Can I use both standard search and vector search in my Azure Search Engine?
 
@@ -126,8 +129,6 @@ But, IMO, it doesn't replace standard search.  It augments it.
 
 ## What is Azure OpenAI, and why use it here?
 
-[Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
-
 > Azure OpenAI Service provides REST API access to OpenAI's powerful language models
 > including the GPT-4, GPT-35-Turbo, and Embeddings model series. 
 >
@@ -140,6 +141,8 @@ But, IMO, it doesn't replace standard search.  It augments it.
 
 Note: This presentation isn't about the **generative AI** functionality available in OpenAI.
 But we'll use OpenAI to vectorize our data.
+
+[Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
 
 ---
 
@@ -155,13 +158,13 @@ While other search techniques can answer **simple searches** like:
 
 - **Who has a similar OVERALL PERFORMANCE PROFILE as player x?**
 
-This is more nuanced and subtle, and **can yield more relevant search results**.
+This type of search is more nuanced and subtle, but **can yield more relevant search results**.
 
 <p align="center">
-    <img src="img/rickey-henderson.jpg" width="40%">
+    <img src="img/rickey-henderson.jpg" width="60%">
 </p>
 <p align="center">
-    **Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn**
+    Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
 </p>
 
 This simplistic SQL query (in Azure Cosmos DB PostgreSQL API) identifies a few
@@ -170,13 +173,12 @@ similar players.
 But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrun"** query.
 
 <p align="center">
-    <img src="img/query-greatest-base-stealers.png" width="80%">
+    <img src="img/query-greatest-base-stealers.png" width="90%">
 </p>
 
 #### But what if you're not in the baseball business?
 
-This vector search solution is just an example;
-it's easily modifiable for your use-cases.
+This vector search solution is just an example; it's easily modifiable for your use-cases.
 
 ---
 
@@ -188,11 +190,12 @@ it's easily modifiable for your use-cases.
 - CSV rows were transformed into JSON documents
 - JSON documents augmented with calculations
 - JSON documents augmented with a **embeddings_str** value for vectorization
+- See the [Data Wrangling](data_wrangling.md) page for details
 
 ### Example Document for Hank Aaron 
 
 ```
-  "aaronha01": {
+  {
     "playerID": "aaronha01",
     "birthYear": 1934,
     "birthCountry": "USA",
@@ -251,10 +254,20 @@ it's easily modifiable for your use-cases.
   }
 ```
 
+Here's an embeddings_str text value in an easier to read format:
+```
+fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755
+batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186
+bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3
+```
+
 I used the approach of creating **binned-text** values in the embeddings_str.
-For example batting average of 0.30499838240051763 becomes "batting_avg_305".
+
+For example, a batting average of **0.30499838240051763** becomes **"batting_avg_305"**.
 
 A common example of this is T-shirt sizes - "S", "M", "L", "XL".
+
+See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/component-reference/group-data-into-bins?view=azureml-api-2)
 
 ### Machine Learning "Features" vs Text Words
 
@@ -264,19 +277,147 @@ Since OpenAI embeddings calculation is based on **text**, the binned-text approa
 
 ## Step 2: Vectorization
 
+The code required to do this is quite simple.
+
+#### requirements.txt
+
+```
+openai
+```
+
+#### Python Code
+
+```
+from openai.embeddings_utils import get_embedding
+from openai.openai_object import OpenAIObject
+
+...
+
+# Configure the openai client library
+openai.api_base    = opts['url']   # <-- value from an environment variable, Azure Key Vault, etc
+openai.api_key     = opts['key']   # <-- value from an environment variable, Azure Key Vault, etc
+openai.api_type    = 'azure'
+openai.api_version = '2023-05-15'  # '2022-06-01-preview' '2023-05-15'
+
+
+# Ask the OpenAI SDK to calculate and return the embedding value
+e = openai.Embedding.create(input=[text], engine=self.embedding_model)
+return e['data'][0]['embedding']  # returns a list of 1536 floats
+```
+
+See class OpenAIClient in the repo for the full code; my reusable client module.
 
 ---
 
 ## Step 3: Loading the Azure Cosmos DB NoSQL API container
 
 
+#### requirements.txt
+
+```
+azure-cosmos
+```
+
+#### Python Code
+
+```
+from azure.cosmos import cosmos_client
+from azure.cosmos import diagnostics
+from azure.cosmos import exceptions
+
+...
+
+class Cosmos():
+    """
+    This class is used to access a Cosmos DB NoSQL API account.
+    """
+    def __init__(self, opts):
+        self._dbname = None
+        self._dbproxy = None
+        self._ctrproxy = None
+        self._cname = None
+        self.reset_record_diagnostics()
+        url = opts['url']
+        key = opts['key']
+        if 'enable_query_metrics' in opts.keys():
+            self._query_metrics = True
+        else:
+            self._query_metrics = False
+        self._client = cosmos_client.CosmosClient(url, {'masterKey': key})
+
+
+...
+    # Load the Cosmos DB container with the JSON documents which contain the embeddings array
+
+    def load_nosql_baseballplayers():
+
+        # Connect to Cosmos DB, select database, select container
+        opts = dict()
+        opts['url'] = Env.var('AZURE_COSMOSDB_NOSQL_URI')
+        opts['key'] = Env.var('AZURE_COSMOSDB_NOSQL_RW_KEY1')
+        c = Cosmos(opts)
+        c.set_db('dev')
+        c.set_container('baseballplayers')
+
+        # Read the pre-wrangled documents
+        documents = FS.read_json(wrangled_embeddings_file())
+        player_ids = sorted(documents.keys())
+
+        # Iterate and load Cosmos DB
+        for idx, pid in enumerate(player_ids):
+            try:
+                doc = documents[pid]
+                embeddings = doc['embeddings']
+                if idx < 100_000:
+                    if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:  # 1536
+                        doc['id'] = str(uuid.uuid4()) 
+                        result = c.upsert_doc(doc)
+                        #print('result: {}'.format(result))
+            except Exception as e:
+                print(f"Exception on doc: {idx} {doc}")
+                print(str(e))
+                print(traceback.format_exc())
+```
+
+See class Cosmos in the repo for the full code; my "DAO" for Cosmos DB NoSQL.
+
 ---
 
 ## Step 4: Configuring Azure Cognitive Search
+
+A full coverage of this is beyond the scope for this brief presentation.
+
+In short, Azure Cognitive Search has a **beautiful and easy to use**
+[REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/ (IMO).
+
+With the REST API these objects are created **Datasource**, **Index**, and **Indexer**.
+JSON payloads are used to define these objects.
+
+- **Datasource** - defines where the source data is (i.e. - the Cosmos DB account, database, and container)
+- **Index** - defines what document attributes to index and make searchable
+- **Indexer** - associates a Datasource to an Index, with a schedule
+
+See [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
+for more information on these.
+
+This repo uses the **Python requests library** to invoke the REST API via HTTPs.
+
+Once the Indexer is created, it will read the documents from Cosmos DB to
+populate the search Index.
+
+See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
 
 ---
 
 ## Step 5: Excuting Vector Searches vs Azure Cognitive Search
 
 
+
+
+
+
+
+
+
+See script cognitive_search/cogsearch_baseballplayers_searches.ps1 in the repo.
 
