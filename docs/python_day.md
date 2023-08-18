@@ -1,17 +1,86 @@
 # Python Day Presentation
 
-This page summarizes this repo as a **TL;DR**
+This page summarizes this repo as a **TL;DR**, or short presentation.
 
-## About Chris
+---
 
-- Americas Team Cosmos DB Global Black Belt (GBB)
-- Charlotte, NC, USA
-- Software Developer -> Azure Cloud Solution Architect -> GBB
-- COBOL -> Smalltalk -> Java -> Ruby on Rails -> Node.js -> Java -> **Python**
-  - Perl, Awk, Flex, Clojure, CoffeeScript, TypeScript, C#
-  - Python ~= 12th language?
-  - My code may thus look like "spanglish" to you
+## About Chris Joakim
 
+- Role: Americas Team **Cosmos DB Global Black Belt (GBB)**
+- Location: Charlotte, NC, USA
+- Career Path: Non-IT --> Software Developer --> Azure Cloud Solution Architect --> GBB
+- Primary Languages: COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
+- Secondary Languages: Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
+- [PyPi Packages - m26, ggps, gdg](https://pypi.org/user/cjoakim/)
+
+### Why Python now?
+
+- Simplicity, pragmatic, universally used/understood, and wide range of use-cases
+  - console apps, web apps, Docker, Spark (Synapse), ML/AML/AI, Azure Functions
+
+---
+
+## This Presentation
+
+- Vector Search in Microsoft Azure with:
+  - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+  - [Azure Cosmos DB NoSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/)
+  - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
+  - The [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
+
+### Also in this Repo but NOT covered in this presentation
+
+  - Azure PaaS Service Provisioning
+  - Workstation Setup
+  - Baseball Database CSV file "data wrangling"
+  - Vector Search with Azure Cosmos DB Mongo vCore API
+  - Vector Search with Azure Cosmos DB PostgreSQL API
+  - See the [README](README.md) for details
+
+---
+
+## What is Vector Search?
+
+
+---
+
+## What is Azure OpenAI, and why use it here?
+
+
+---
+
+## What's the Business Problem?
+
+
+---
+
+## Step 1: Data Wrangling
+
+
+---
+
+## Step 2: Vectorization
+
+
+---
+
+## Step 3: Loading the Azure Cosmos DB NoSQL API container
+
+
+---
+
+## Step 4: Configuring Azure Cognitive Search
+
+---
+
+## Step 5: Excuting Vector Searches vs Azure Cognitive Search
+
+
+
+
+---
+---
+---
 
 ## The Example Apps
 
