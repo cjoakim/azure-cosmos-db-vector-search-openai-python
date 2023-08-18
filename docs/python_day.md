@@ -6,20 +6,20 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 ## About Chris Joakim
 
-- Role:
+- Role
   - **Microsoft Cosmos DB Global Black Belt (GBB)**
-- Location:
+- Location
   - Charlotte, NC, USA
-- Career Path:
+- Career Path
   - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> GBB
-- Primary Languages:
+- Primary Languages
   - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- Secondary Languages:
+- Secondary Languages
   - Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
-- GitHub:
+- GitHub
   - https://github.com/cjoakim
   - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python (this repo)
-  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md
+  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md (this presentation)
 - [PyPi Packages - m26, ggps, gdg](https://pypi.org/user/cjoakim/)
 
 ### Why Python now?
@@ -32,20 +32,24 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 ## This Presentation
 
-- Vector Search in Microsoft Azure with:
+- **Vector Search in Microsoft Azure** with:
   - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
   - [Azure Cosmos DB NoSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/)
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
   - The [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
 
-### Also in this Repo but NOT covered in this presentation
+#### Also in this Repo but not covered in this presentation
 
   - Azure PaaS Service Provisioning
   - Workstation Setup
-  - Baseball Database CSV file "data wrangling"
-  - Vector Search with Azure Cosmos DB Mongo vCore API
-  - Vector Search with Azure Cosmos DB PostgreSQL API
-  - See the [README](README.md) for details
+  - Baseball Database CSV file "data wrangling" process
+  - Vector Search with [Azure Cosmos DB Mongo vCore API](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/)
+  - Vector Search with [Azure Cosmos DB PostgreSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/)
+  - See the [README](README.md) where these topics are covered
+
+### Also not covered in this presentation
+
+  - The basics of [NoSQL](https://en.wikipedia.org/wiki/NoSQL) and [Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
 
 ---
 
@@ -59,94 +63,7 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 ---
 
-## What's the Business Problem?
-
-
----
-
-## Step 1: Data Wrangling
-
-
----
-
-## Step 2: Vectorization
-
-
----
-
-## Step 3: Loading the Azure Cosmos DB NoSQL API container
-
-
----
-
-## Step 4: Configuring Azure Cognitive Search
-
----
-
-## Step 5: Excuting Vector Searches vs Azure Cognitive Search
-
-
-
-
----
----
----
-
-## The Example Apps
-
-This repo implements several sample **Azure Vector Search examples using Cosmos DB**, including:
-
-- **Azure Cosmos DB for MongoDB vCore API**
-- **Azure Cosmos DB NoSQL API with Azure Cognitive Search**
-- **Azure Cosmos DB PostgreSQL API, with the pgvector extension**
-
-Use can use this repo to run one, or two, or all three of these apps depending
-on your interest.
-
-## Architecture of this Project
-
-<p align="center">
-    <img src="img/architecture.png" width="70%">
-</p>
-
----
-
-## This Documentation
-
-All documentation in this repository is intended to be **User Documentation**
-so that you can successfully execute this set of demonstration apps.
-
-The audience is Software Developers, Architects, or similar roles
-who have an interest in Azure OpenAI, Azure Cosmos DB, and vector search.
-
-**Code documentation** is beyond the scope of this project, but the code
-should be understandable to Developers.
-
----
-
-## The Dataset
-
-One dataset, the **Sean Lahman Baseball Database** (see below), is used for all
-of these example apps.  Baseball was chosen as the data domain for this project
-because **the game has a very long history, and rich set of data and statistics.**
-This "database" contains a large set of CSV files.  This repo uses only four 
-of these files; see the data/seanhahman-baseballdatabank-2023.1/core/ directory.
-
-The logic in the **data_wrangling** directory contains the logic to transform
-the raw baseball CSV data into documents and rows with vectorized data (i.e. - embeddings)
-using an **Azure OpenAI** PaaS service.
-
-This repo contains file **data/wrangled/documents.json** which is the output of
-the wrangling (i.e. - transformation) process.
-But **you must use the provided code and scripts to add the OpenAI vectorized embedding values**
-before loading this vectorized data into the database.
-
-Once the data is vectorized, **the same vectorized data file is used for ALL THREE APPS**.
-So, in short, you need to execute the vectorization process just once.
-
----
-
-## The Business Problem
+## What's the Business Problem we're trying to solve?
 
 While other search techniques can answer **simple searches** like:
 
@@ -168,56 +85,107 @@ While other search techniques can answer **simple searches** like:
     <img src="img/query-greatest-base-stealers.png" width="80%">
 </p>
 
----
+#### But what if you're not in the baseball business?
 
-## The Project Implementation
-
-The implementation programming language in this repo is **Python 3**;
-it was developed with Python **3.11.1**. Python was chosen because it is a
-widely-used language, has a low learning curve, is cross-platform, and
-is considered to be the **primary programming language for data science**
-at this time.
-
-The project is executable on **Windows, macOS, and Linux** hosts.
-Windows PowerShell (.ps1) scripts, and Bash (.sh) scripts for macOS and Linux
-are provided in this repo.
-
-**This project is intended for demonstration purposes, and also as a starting point for Azure customers to implement their own vector search applications in Azure.**
-
-For users new to Python, please see the
-[Python Notes](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/workstation_setup.md)
-section of the workstation setup instructions.
+This vector search solution is just an example, it's easily modifiable for your use-cases.
 
 ---
 
-## Project Links
+## Step 1: Data Wrangling
 
-- [Azure Provisioning](azure_provisioning.md)
-- [Workstation Setup](workstation_setup.md)
-- [Data Wrangling (optional)](data_wrangling.md)
-- [Data Vectorization](data_vectorization.md)
-- [Azure Cosmos DB vCore Mongo API searching](cosmos_vcore.md)
-- [Azure Cosmos DB NoSQL API with Azure Cognitive Search searching](cosmos_nosql_and_cogsearch.md)
-- [Azure Cosmos DB PostgreSQL API with pgvector](cosmos_pg_pgvector.md)
+- The data started as CSV from the Sean Lahman Baseball Database
+- CSV rows were transformed into JSON documents
+- JSON documents augmented with calculations
+- JSON documents augmented with a **embeddings_str** value for vectorization
+
+### Example Document for Hank Aaron 
+
+```
+  "aaronha01": {
+    "playerID": "aaronha01",
+    "birthYear": 1934,
+    "birthCountry": "USA",
+    "deathYear": "2021.0",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "weight": 180,
+    "height": 72,
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "teams": {
+      "total_games": 3298,
+      "teams": {
+        "ML1": 1806,
+        "ATL": 1270,
+        "ML4": 222
+      },
+      "primary_team": "ML1"
+    },
+    "primary_position": "RF",
+    "batting": {
+      "G": "3298",
+      "AB": "12364",
+      "R": "2174",
+      "H": "3771",
+      "2B": "624",
+      "3B": "98",
+      "HR": "755",
+      "RBI": "2297.0",
+      "SB": "240.0",
+      "CS": "73.0",
+      "BB": "1402",
+      "SO": "1383.0",
+      "IBB": "293.0",
+      "HBP": "32.0",
+      "SF": "121.0",
+      "calculated": {
+        "runs_per_ab": 0.17583306373341961,
+        "batting_avg": 0.30499838240051763,
+        "2b_avg": 0.050469103849886766,
+        "3b_avg": 0.007926237463604012,
+        "hr_avg": 0.06106438045939825,
+        "rbi_avg": 0.18578130054998382,
+        "bb_avg": 0.11339372371400841,
+        "so_avg": 0.11185700420575866,
+        "ibb_avg": 0.023697832416693626,
+        "hbp_avg": 0.002588159171789065
+      }
+    },
+    "category": "fielder",
+    "debut_year": 1954,
+    "final_year": 1976,
+    "embeddings_str": "fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755 batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186 bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3"
+  }
+```
+
+I used the approach of creating **binned-text** values in the embeddings_str.
+For example batting average of 0.30499838240051763 becomes "batting_avg_305".
+
+A common example of this is T-shirt sizes - "S", "M", "L", "XL".
+
+### Machine Learning "Features" vs Text Words
+
+Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used.
 
 ---
 
-## Azure Links
+## Step 2: Vectorization
 
-### Azure OpenAI
 
-- https://learn.microsoft.com/en-us/azure/ai-services/openai/overview
-- https://platform.openai.com/docs/guides/embeddings
+---
 
-### Azure Cosmos DB vCore API
+## Step 3: Loading the Azure Cosmos DB NoSQL API container
 
-- https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/vector-search
 
-### Azure Cosmos DB NoSQL API with Azure Cognitive Search
+---
 
-- https://learn.microsoft.com/en-us/azure/search/vector-search-overview
-- https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-query
+## Step 4: Configuring Azure Cognitive Search
 
-### pgvector extension with Azure Cosmos DB PostgreSQL API
+---
 
-- https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/howto-use-pgvector
+## Step 5: Excuting Vector Searches vs Azure Cognitive Search
+
+
+
