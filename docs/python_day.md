@@ -11,11 +11,13 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 - Location
   - Charlotte, NC, USA
 - Career Path
-  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> GBB
-- Primary Languages
+  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> Azure NoSQL GBB
+- Primary Languages Path
   - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- Secondary Languages
+- Secondary Languages Path
   - Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
+- Databases Path
+  - IMS/DB (Hierarchical) --> DB2/Oracle/Sybase/MySQL/PostgreSQL --> **MongoDB (2009) --> Cosmos DB**
 - GitHub
   - https://github.com/cjoakim
   - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python (this repo)
@@ -27,7 +29,7 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 - Simplicity, pragmatic, universally used/understood, and wide range of use-cases
   - console apps, web apps, Docker, Spark (Synapse), ML/AML/AI, Azure Functions
-  - Currently the defacto "Programming Language of Data Science" (IMO)
+  - Currently, IMO, the defacto "Programming Language of Data Science"
 
 ---
 
@@ -39,6 +41,9 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - [Azure Cosmos DB NoSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/)
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
   - The [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
+
+  - [Part 1 - Concepts](#part1)
+  - [Part 2 - Implementation](#part2)
 
 #### Also in this Repo, but not covered in this presentation
 
@@ -54,6 +59,8 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - The basics of [NoSQL](https://en.wikipedia.org/wiki/NoSQL) and [Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
 
 ---
+
+# <a name="part1"> Part 1 - Concepts
 
 ## What is Vectorization?
 
@@ -150,18 +157,17 @@ While other search techniques can answer **simple searches** like:
 
 This is more nuanced and subtle, and **can yield more relevant search results**.
 
-### Example Baseball Player - Rickey Henderson
-
 <p align="center">
     <img src="img/rickey-henderson.jpg" width="40%">
 </p>
 <p align="center">
-    Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
+    **Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn**
 </p>
 
 This simplistic SQL query (in Azure Cosmos DB PostgreSQL API) identifies a few
-similar players.  But the **WHERE clause only contains three attributes** ...
-it's not a **full-spectrun** query.
+similar players.
+
+But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrun"** query.
 
 <p align="center">
     <img src="img/query-greatest-base-stealers.png" width="80%">
@@ -173,6 +179,8 @@ This vector search solution is just an example;
 it's easily modifiable for your use-cases.
 
 ---
+
+# <a name="part2"> Part 2 - Implementation
 
 ## Step 1: Data Wrangling
 
