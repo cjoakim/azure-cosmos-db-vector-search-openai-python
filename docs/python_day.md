@@ -40,7 +40,7 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
   - The [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
 
-#### Also in this Repo but not covered in this presentation
+#### Also in this Repo, but not covered in this presentation
 
   - Azure PaaS Service Provisioning
   - Workstation Setup
@@ -105,23 +105,34 @@ This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point
 
 Yes.  But with different search syntax and parameters.
 
-
-https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db
-
-
 ### Use-Cases for Vector Search
 
 - Find images that are similar to a given image based on their visual content and style
 - Find documents that are similar to a given document based on their topic and sentiment
 - Find products that are similar to a given product based on their features and ratings
 
-In short, any search use-case.
+In short, many use-cases.
 
+But, IMO, it doesn't replace standard search.  It augments it.
 
 ---
 
 ## What is Azure OpenAI, and why use it here?
 
+[Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+
+> Azure OpenAI Service provides REST API access to OpenAI's powerful language models
+> including the GPT-4, GPT-35-Turbo, and Embeddings model series. 
+>
+> These models can be easily adapted to your specific task including but not limited
+> to content generation, summarization, semantic search, and natural language to code
+> translation.
+>
+> Users can access the service through REST APIs, Python SDK, or our
+> web-based interface in the Azure OpenAI Studio.
+
+Note: This presentation isn't about the **generative AI** functionality available in OpenAI.
+But we'll use OpenAI to vectorize our data.
 
 ---
 
