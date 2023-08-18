@@ -19,7 +19,7 @@
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
-**pylint** often hurts my feelings, as my code is ~70% pythonic.
+[pylint](https://pypi.org/project/pylint/) often hurts my feelings, as my code is ~70% pythonic.
 
 ### Why Python now?
 
@@ -613,8 +613,8 @@ core codebase in a private repo.  I develop and test the reusable classes there,
 then **bundle** them into function-specific single python modules for use
 in my implementation repos.  For example **aibundle.py** and **nosqlbundle.py**.
 
-Since I do about half of my Python programming in Spark/PySpark this 
-approach works well for me because I can simply copy a bundle module into 
+Since I do about half of my Python programming in Spark/PySpark (in Synapse and AML)
+this approach works well for me because I can simply copy a bundle module into 
 a Spark Notebook cell verbatim.
 
 ---
