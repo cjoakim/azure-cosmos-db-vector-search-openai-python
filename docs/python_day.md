@@ -20,7 +20,8 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - https://github.com/cjoakim
   - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python (this repo)
   - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md (this presentation)
-- [PyPi Packages - m26, ggps, gdg](https://pypi.org/user/cjoakim/)
+- PyPi Packages
+  - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
 ### Why Python now?
 
