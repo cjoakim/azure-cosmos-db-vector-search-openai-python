@@ -4,12 +4,8 @@
 
 ---
 
-## About Chris Joakim
+## About Chris
 
-- Role
-  - **Microsoft Cosmos DB Global Black Belt (GBB)**
-- Location
-  - Charlotte, NC, USA
 - Career Path
   - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> Azure NoSQL GBB
 - Primary Languages Path
@@ -20,8 +16,6 @@
   - IMS/DB (Hierarchical) --> DB2/Oracle/Sybase/MySQL/PostgreSQL --> **MongoDB (2009) --> Cosmos DB**
 - GitHub
   - https://github.com/cjoakim
-  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python (this repo)
-  - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md (this presentation)
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
@@ -42,7 +36,7 @@
   - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
   - [Azure Cosmos DB NoSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/)
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
-  - [The Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) CSV files
+  - [The Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) (CSV files)
 
 ### Presentation Outline
 
@@ -116,9 +110,11 @@ This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point
 - A vector is passed in as the query criteria
 - The DB/engine matches rows/documents based on the given vector column/attribute in the DB
 
-### Can I use both standard search and vector search in my Azure Search Engine?
+### Can I use both standard search and vector search in my Azure Search Engine*?
 
 Yes.  But with different search syntax and parameters.
+
+* = Azure Cognitive Search, Cosmos DB Mongo vCore, Cosmos DB PostgreSQL
 
 ### Use-Cases for Vector Search
 
@@ -165,11 +161,10 @@ While other search techniques can answer **simple searches** like:
 
 This type of search is more nuanced and subtle, but **can yield more relevant search results**.
 
+### Example Player: Rickey Henderson - Hall of Fame Player, Statistical Unicorn
+
 <p align="center">
     <img src="img/rickey-henderson.jpg" width="60%">
-</p>
-<p align="center">
-    Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
 </p>
 
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
@@ -285,7 +280,7 @@ Since OpenAI embeddings calculation is based on **text**, the binned-text approa
 
 ## Step 2: Vectorization
 
-The code required to do this is quite simple, thanks to the OpenAI SDK.
+The code required to do this is quite simple, thanks to the **OpenAI SDK** at PyPI.
 
 #### requirements.txt
 
@@ -319,6 +314,7 @@ See class OpenAIClient in the repo for the full code; my reusable client module.
 
 ## Step 3: Loading the Azure Cosmos DB NoSQL API container
 
+It's just a regular Cosmos DB container; no special indexing or required attributes.
 
 #### requirements.txt
 
@@ -412,6 +408,70 @@ for more information on these.
 
 This repo uses the **Python requests library** to invoke the REST API via HTTPs.
 
+### Define the embeddings attribute in the Index
+
+```
+{
+  "name": "baseballplayers",
+  "fields": [
+    {
+      "name": "id",
+      "key": "true",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "playerID",
+      "key": "false",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "birthYear",
+      "type": "Edm.Int32",
+      "key": "false",
+      "searchable": "false",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+    {
+      "name": "birthCountry",
+      "type": "Edm.String",
+      "searchable": "true",
+      "filterable": "true",
+      "sortable": "true",
+      "facetable": "true"
+    },
+
+    ... 
+
+    {
+      "name": "embeddings",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": true,
+      "dimensions": 1536,
+      "vectorSearchConfiguration": "vectorConfig"
+    }
+  ],
+  "vectorSearch": {
+    "algorithmConfigurations": [
+        {
+            "name": "vectorConfig",
+            "kind": "hnsw"
+        }
+    ]
+  }
+}
+```
+
 Once the Indexer is created, it will read the documents from Cosmos DB to
 populate the search Index.
 
@@ -421,15 +481,126 @@ See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
 
 ## Step 5: Excuting Vector Searches vs Azure Cognitive Search
 
+### Initial Simple Search
+
+First search the index for the target player (i.e. - Rickey Henderson)
+to get their **embeddings value**.  Then use that value for the follow-up
+vector search.
+
+#### Alternative workflow
+
+Given user search criteria, invoke the OpenAI embeddings API with those values
+then use the returned embeddings in the follow-up vector search.
 
 
+### The Vector Search JSON Request looks like this
 
+``` 
+{
+  "count": "true",
+  "select": "id,playerID,nameFirst,nameLast,primary_position",
+  "orderby": "playerID",
+  "vectors": [
+    {
+      "value": [
+        -0.028514497,
+        0.024909372,
+        -0.0064178025,
+        
+        ...
 
+        -0.014093998,
+        -0.026895592,
+        -0.0070129884
+      ],
+      "fields": "embeddings",
+      "k": 10
+    }
+  ]
+}
+```
 
+### Search from the command line for players like Rickey Henderson (henderi01)
 
+```
+(venv) PS ...\cognitive_search> python cogsearch_main.py vector_search_like baseballplayers henderi01
 
+...
 
-See script cognitive_search/cogsearch_baseballplayers_searches.ps1 in the repo.
+{
+  "@odata.context": "https://gbbcjsearch.search.windows.net/indexes('baseballplayers')/$metadata#docs(*)",
+  "@odata.count": 10,
+  "value": [
+    {
+      "@search.score": 1.0,
+      "id": "e4cc38fd-18c8-4418-8841-98a1403f5ef1",
+      "playerID": "bondsba01",
+      "nameFirst": "Barry",
+      "nameLast": "Bonds",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "c9867b7b-8c34-4e95-a672-16f1bdb393cf",
+      "playerID": "brocklo01",
+      "nameFirst": "Lou",
+      "nameLast": "Brock",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "dff54db9-24c5-42f4-9713-edee804001aa",
+      "playerID": "burkeje01",
+      "nameFirst": "Jesse",
+      "nameLast": "Burkett",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "a12910e7-9542-4c59-a767-4ebb3fddc463",
+      "playerID": "henderi01",
+      "nameFirst": "Rickey",
+      "nameLast": "Henderson",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "949d799f-c8e9-4ee0-a105-91c5f795af18",
+      "playerID": "mageesh01",
+      "nameFirst": "Sherry",
+      "nameLast": "Magee",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "b0c9c139-eec9-4a5a-9d95-1dfa2c80859d",
+      "playerID": "meusebo01",
+      "nameFirst": "Bob",
+      "nameLast": "Meusel",
+      "primary_position": "LF"
+    },
+    {
+      "@search.score": 1.0,
+      "id": "f1bd535f-f16c-4353-9e2d-338537064404",
+      "playerID": "quinnma01",
+      "nameFirst": "Mark",
+      "nameLast": "Quinn",
+      "primary_position": "LF"
+    },
+
+```
+
+These search results are more relevant than the simple SQL query as they are
+based on **all** of the attributes for the baseball players.
+
+Rickey Henderson, a prolific base stealer as well as power hitter,
+thus matches both Barry Bonds (power hitter) and Lou Brock (base stealer).
+
+### Links/References
+
+- https://learn.microsoft.com/en-us/azure/search/vector-search-overview
+- https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-query?tabs=portal-vector-query
+- File cognitive_search/cogsearch_baseballplayers_searches.ps1 in the repo
 
 ---
 
