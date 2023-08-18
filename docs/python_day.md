@@ -1,6 +1,6 @@
-# Python Day Presentation
-
-This page summarizes this repo as a **TL;DR**, or short presentation.
+<p align="center">
+    <img src="img/PythonDay.png" width="90%">
+</p>
 
 ---
 
@@ -24,6 +24,8 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
   - https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/blob/main/docs/python_day.md (this presentation)
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
+
+**pylint** often hurts my feelings, as my code is ~70% pythonic.
 
 ### Why Python now?
 
@@ -49,16 +51,19 @@ This page summarizes this repo as a **TL;DR**, or short presentation.
 
 #### Also in this Repo, but not covered in this presentation
 
-  - Azure PaaS Service Provisioning
-  - Workstation Setup
-  - Baseball Database CSV file "data wrangling" process
-  - Vector Search with [Azure Cosmos DB Mongo vCore API](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/)
-  - Vector Search with [Azure Cosmos DB PostgreSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/)
-  - See the [README](README.md) where these topics are covered
+- Azure PaaS Service Provisioning
+- Workstation Setup
+- Baseball Database CSV file "data wrangling" process
+- Vector Search with [Azure Cosmos DB Mongo vCore API](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/)
+- Vector Search with [Azure Cosmos DB PostgreSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/)
+- See the [README](README.md) where these topics are covered
+
+The **Cosmos DB Mongo vCore** and **Cosmos DB PostgreSQL** APIs support
+**in-database vector searching**; Azure Cognitive Search is not required.
 
 ### Also not covered in this presentation
 
-  - The basics of [NoSQL](https://en.wikipedia.org/wiki/NoSQL) and [Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
+- The basics of [NoSQL](https://en.wikipedia.org/wiki/NoSQL) and [Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
 
 ---
 
@@ -142,7 +147,7 @@ But, IMO, it doesn't replace standard search.  It augments it.
 Note: This presentation isn't about the **generative AI** functionality available in OpenAI.
 But we'll use OpenAI to vectorize our data.
 
-[Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+See [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/).
 
 ---
 
@@ -167,14 +172,17 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
     Rickey Henderson (henderi01), MLB Hall of Fame Player, Statistical Unicorn
 </p>
 
-This simplistic SQL query (in Azure Cosmos DB PostgreSQL API) identifies a few
-similar players.
+You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
+to identify similar players.
 
 But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrun"** query.
 
 <p align="center">
     <img src="img/query-greatest-base-stealers.png" width="90%">
 </p>
+
+In the vector query search below (bottom of page) we'll simply ask instead:
+**find me players like Rickey Henderson**.
 
 #### But what if you're not in the baseball business?
 
@@ -265,19 +273,19 @@ I used the approach of creating **binned-text** values in the embeddings_str.
 
 For example, a batting average of **0.30499838240051763** becomes **"batting_avg_305"**.
 
-A common example of this is T-shirt sizes - "S", "M", "L", "XL".
+A common example of this is **T-shirt sizes** - "S", "M", "L", "XL".
 
 See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/component-reference/group-data-into-bins?view=azureml-api-2)
 
-### Machine Learning "Features" vs Text Words
+### Sidebar: Machine Learning "Features" vs Text Words
 
-Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used.
+Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used here.
 
 ---
 
 ## Step 2: Vectorization
 
-The code required to do this is quite simple.
+The code required to do this is quite simple, thanks to the OpenAI SDK.
 
 #### requirements.txt
 
@@ -345,8 +353,9 @@ class Cosmos():
             self._query_metrics = False
         self._client = cosmos_client.CosmosClient(url, {'masterKey': key})
 
-
 ...
+
+    # main.py
     # Load the Cosmos DB container with the JSON documents which contain the embeddings array
 
     def load_nosql_baseballplayers():
@@ -380,6 +389,7 @@ class Cosmos():
 ```
 
 See class Cosmos in the repo for the full code; my "DAO" for Cosmos DB NoSQL.
+File cosmos_nosql/pysrc/nosqlbundle.py.
 
 ---
 
@@ -420,4 +430,23 @@ See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
 
 
 See script cognitive_search/cogsearch_baseballplayers_searches.ps1 in the repo.
+
+---
+
+## Confessions of a Python Developer
+
+You might be asking what are these **xxxbundle.py** modules are in the repo?!
+
+To achieve agile **code reuse** across my many demo repos, I have a standard
+core codebase in a private repo.  I develop and test the reusable classes there,
+then **bundle** them into function-specific single python modules for use
+in my implementation repos.  For example **aibundle.py** and **nosqlbundle.py**.
+
+Since I do about half of my Python programming in Spark/PySpark this 
+approach works well for me because I can simply copy a bundle module into 
+a Spark Notebook cell verbatim.
+
+---
+
+## Questions?  Thank you!
 
