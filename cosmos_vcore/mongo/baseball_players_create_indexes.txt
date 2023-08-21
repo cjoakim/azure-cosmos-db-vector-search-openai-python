@@ -21,7 +21,7 @@ db.runCommand({
       },
       cosmosSearchOptions: {
         kind: 'vector-ivf',
-        numLists: 100,
+        numLists: 19,
         similarity: 'COS',
         dimensions: 1536
       }

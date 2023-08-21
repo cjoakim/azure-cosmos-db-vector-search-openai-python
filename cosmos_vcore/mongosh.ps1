@@ -63,3 +63,6 @@ else {
 
 # [mongos] dev> db.baseball_players.deleteMany({ "category" : "pitcher" })
 # [mongos] dev> db.baseball_players.deleteMany({ "category" : "fielder" })
+# [mongos] dev> db.baseball_players.drop()
+# [mongos] dev> db.baseball_players.getIndexes();
+# [mongos] dev> db.baseball_players.createIndex({"playerID":1}, {background:true});
