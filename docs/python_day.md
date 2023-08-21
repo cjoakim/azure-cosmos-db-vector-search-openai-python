@@ -17,10 +17,8 @@
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
-[pylint](https://pypi.org/project/pylint/) often hurts my feelings.  
-
 Why show this timeline?
-Have a [growth Mindset; always be learning](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
+Have a [growth Mindset; always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
 
 ### Why do I use Python now?
 
@@ -166,11 +164,12 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
 to identify similar players.
 
-But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrum"** query.
-
 <p align="center">
     <img src="img/query-greatest-base-stealers.png" width="90%">
 </p>
+
+But this **WHERE clause only contains three attributes** ... 
+it's not a **"full-spectrum" query of the many dimensions of baseball player statistics**.
 
 In the vector query search below (bottom of page)
 **we'll simply ask instead: find me players like Rickey Henderson!**.
@@ -274,11 +273,14 @@ See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/
 
 Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used here.
 
-In Maching Learning, one instead typically uses normalized numeric "features".
+In Maching Learning, conversely, one instead typically uses **normalized numeric "features"**.
 
 ---
 
 ## Step 2: Vectorization
+
+**Vectorization** is the process of converting **text data** into vectors,
+which are **one-dimensional arrays of scalar values (floats)**.  
 
 The code required to do this is quite simple, thanks to the **OpenAI SDK** at PyPI.
 
@@ -297,17 +299,23 @@ from openai.openai_object import OpenAIObject
 ...
 
 # Configure the openai client library
+
 openai.api_base    = opts['url']   # <-- value from an environment variable, Azure Key Vault, etc
 openai.api_key     = opts['key']   # <-- value from an environment variable, Azure Key Vault, etc
 openai.api_type    = 'azure'
 openai.api_version = '2023-05-15'  # '2022-06-01-preview' '2023-05-15'
 
 
-# Ask the OpenAI SDK to calculate and return the embedding value
+# Ask the OpenAI SDK to calculate and return the embedding value.
+# The OpenAI embedding model used here is 'text-embedding-ada-002'.
+
 e = openai.Embedding.create(input=[text], engine=self.embedding_model)
 
 return e['data'][0]['embedding']  # returns a list of 1536 floats
 ```
+
+See [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models).
+These include **GPT-4, GPT-3, text-embedding-ada-002**, etc..
 
 See class OpenAIClient in the repo for the full code; my reusable client module.
 
@@ -315,7 +323,7 @@ See class OpenAIClient in the repo for the full code; my reusable client module.
 
 ## Step 3: Loading the Azure Cosmos DB NoSQL API container
 
-It's just a regular Cosmos DB container; no special indexing or required attributes.
+It's just a regular Cosmos DB container; no special indexing or attributes are required.
 
 #### requirements.txt
 
@@ -326,7 +334,7 @@ azure-cosmos
 #### Python Code
 
 ```
-from azure.cosmos import cosmos_client
+from azure.cosmos import cosmos_client    <-- client in the Cosmos DB SDK
 from azure.cosmos import diagnostics
 from azure.cosmos import exceptions
 
@@ -348,7 +356,7 @@ class Cosmos():
             self._query_metrics = True
         else:
             self._query_metrics = False
-        self._client = cosmos_client.CosmosClient(url, {'masterKey': key})   <--- SDK client
+        self._client = cosmos_client.CosmosClient(url, {'masterKey': key})   <--- create SDK client
 
 ...
 
