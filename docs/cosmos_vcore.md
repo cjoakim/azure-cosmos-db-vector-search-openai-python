@@ -63,16 +63,10 @@ in the repo.
 **Please pay particular attention to the configuration of your vector index**
 as described here: https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/vector-search.
 
-### Screen-shots of Azure Data Studio
+### Screen-shot of Azure Data Studio
 
-These screen-shots show collection "baseball_players2", but please use the name "baseball_players"
-in your database.
-
-<p align="center">
-    <img src="img/azure-data-studio-vcore-create-index.png" width="60%">
-</p>
-
----
+These screen-shots shows the indexes now defined in collection "baseball_players", 
+after the above command was executed.
 
 <p align="center">
     <img src="img/azure-data-studio-vcore-get-indexes.png" width="50%">
