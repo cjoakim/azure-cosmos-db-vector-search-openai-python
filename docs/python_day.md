@@ -57,7 +57,7 @@ For this **Python Day presentation**, I'll cover the middle solution in the diag
 
 ## What is Vectorization?
 
-In this context, **vectorization** is the process of converting text data into vectors,
+In this context, **vectorization** is the process of **converting text data into vectors**,
 which are **one-dimensional arrays of scalar values**.
 
 Think of them as a **numpy array of floats**.
@@ -132,7 +132,7 @@ But, IMO, it doesn't replace standard search.  It augments it.
 > Users can access the service through REST APIs, Python SDK, or our
 > web-based interface in the Azure OpenAI Studio.
 
-Note: This presentation isn't about the **generative AI** functionality available in OpenAI.
+Note: This presentation isn't about the **Generative AI** functionality available in OpenAI.
 But we'll use OpenAI to vectorize our data.
 
 See [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/).
@@ -155,11 +155,16 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
 
 --- 
 
-## Example Player: Rickey Henderson - Hall of Fame, Statistical Unicorn
+## Example Player: Rickey Henderson
 
 <p align="center">
     <img src="img/rickey-henderson.jpg" width="50%">
 </p>
+
+Hall of Fame Player, **Statistical Unicorn** - extremely rare combination of speed
+and power.  All-time MLB leader in stolen bases, by far.  Also very high,
+statistically, in home runs, triples, walks, IBB, and HBP.
+playerID henderi01 in the database.
 
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
 to identify similar players.
@@ -190,80 +195,97 @@ This vector search app is just an example; it's easily modifiable for your use-c
 - JSON documents augmented with a **embeddings_str** value for vectorization
 - See the [Data Wrangling](data_wrangling.md) page for details
 
-### Example Document for Hank Aaron 
+### Example Document for Rickey Henderson
 
 ```
-  {
-    "playerID": "aaronha01",
-    "birthYear": 1934,
+"henderi01": {
+    "playerID": "henderi01",
+    "birthYear": 1958,
     "birthCountry": "USA",
-    "deathYear": "2021.0",
-    "nameFirst": "Hank",
-    "nameLast": "Aaron",
+    "deathYear": "",
+    "nameFirst": "Rickey",
+    "nameLast": "Henderson",
     "weight": 180,
-    "height": 72,
+    "height": 70,
     "bats": "R",
-    "throws": "R",
-    "debut": "1954-04-13",
-    "finalGame": "1976-10-03",
+    "throws": "L",
+    "debut": "1979-06-24",
+    "finalGame": "2003-09-19",
     "teams": {
-      "total_games": 3298,
+      "total_games": 3081,
       "teams": {
-        "ML1": 1806,
-        "ATL": 1270,
-        "ML4": 222
+        "OAK": 1704,
+        "NYA": 596,
+        "TOR": 44,
+        "SDN": 359,
+        "ANA": 32,
+        "NYN": 152,
+        "SEA": 92,
+        "BOS": 72,
+        "LAN": 30
       },
-      "primary_team": "ML1"
+      "primary_team": "OAK"
     },
-    "primary_position": "RF",
+    "primary_position": "LF",
     "batting": {
-      "G": "3298",
-      "AB": "12364",
-      "R": "2174",
-      "H": "3771",
-      "2B": "624",
-      "3B": "98",
-      "HR": "755",
-      "RBI": "2297.0",
-      "SB": "240.0",
-      "CS": "73.0",
-      "BB": "1402",
-      "SO": "1383.0",
-      "IBB": "293.0",
-      "HBP": "32.0",
-      "SF": "121.0",
+      "G": 3081,
+      "AB": 10961,
+      "R": 2295,
+      "H": 3055,
+      "2B": 510,
+      "3B": 66,
+      "HR": 297,
+      "RBI": 1115,
+      "SB": 1406,
+      "CS": 335,
+      "BB": 2190,
+      "SO": 1694,
+      "IBB": 61,
+      "HBP": 98,
+      "SF": 67,
       "calculated": {
-        "runs_per_ab": 0.17583306373341961,
-        "batting_avg": 0.30499838240051763,
-        "2b_avg": 0.050469103849886766,
-        "3b_avg": 0.007926237463604012,
-        "hr_avg": 0.06106438045939825,
-        "rbi_avg": 0.18578130054998382,
-        "bb_avg": 0.11339372371400841,
-        "so_avg": 0.11185700420575866,
-        "ibb_avg": 0.023697832416693626,
-        "hbp_avg": 0.002588159171789065
+        "runs_per_ab": 0.20937870632241584,
+        "batting_avg": 0.2787154456710154,
+        "2b_avg": 0.046528601404981294,
+        "3b_avg": 0.006021348417115227,
+        "hr_avg": 0.027096067877018522,
+        "rbi_avg": 0.10172429522853754,
+        "bb_avg": 0.19979928838609615,
+        "so_avg": 0.15454794270595748,
+        "ibb_avg": 0.005565185658242861,
+        "hbp_avg": 0.008940790073898367,
+        "sb_pct": 0.8075818495117748
       }
     },
     "category": "fielder",
-    "debut_year": 1954,
-    "final_year": 1976,
-    "embeddings_str": "fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755 batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186 bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3"
-  }
+    "debut_year": 1979,
+    "final_year": 2003,
+    "embeddings_str": "fielder primary_position_lf total_games_3081 bats_r throws_l hits_3055 hr_297 batting_avg_279 runs_per_ab_209 2b_avg_47 3b_avg_6 hr_avg_27 rbi_avg_102 bb_avg_200 so_avg_155 ibb_avg_6 hbp_avg_9 sb_1406 sb_pct_81",
+    "embeddings": [
+      -0.028514496982097626,
+      0.02490937151014805,
+      -0.006417802534997463,
+      ...
+      -0.01409399788826704,
+      -0.026895591989159584,
+      -0.007012988440692425
+    ]
+  },
 ```
 
 Here's an **embeddings_str text value** in an easier to read format.
 This text value is passed to OpenAI to be "vectorized".
 
 ```
-fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755
-batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186
-bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3
+fielder primary_position_lf total_games_3081 bats_r throws_l
+hits_3055 hr_297 batting_avg_279 runs_per_ab_209 2b_avg_47 3b_avg_6 
+hr_avg_27 rbi_avg_102 bb_avg_200 so_avg_155 ibb_avg_6 hbp_avg_9
+sb_1406 sb_pct_81
 ```
 
 I used the approach of creating **binned-text values** in the embeddings_str.
 
-For example, a batting average of **0.30499838240051763** becomes **"batting_avg_305"**.
+For example, a batting average of **0.2787154456710154** becomes **"batting_avg_279"**.
 
 A common example of this is **T-shirt sizes** - "S", "M", "L", "XL".
 
@@ -528,15 +550,13 @@ then use the returned embeddings in the follow-up vector search.
   "vectors": [
     {
       "value": [
-        -0.028514497,
-        0.024909372,
-        -0.0064178025,
-        
+        -0.028514496982097626,
+        0.02490937151014805,
+        -0.006417802534997463,
         ...
-
-        -0.014093998,
-        -0.026895592,
-        -0.0070129884
+        -0.01409399788826704,
+        -0.026895591989159584,
+        -0.007012988440692425
       ],
       "fields": "embeddings",
       "k": 10
@@ -544,6 +564,12 @@ then use the returned embeddings in the follow-up vector search.
   ]
 }
 ```
+
+The **value** is the **vector that you want to match**.
+
+**k** is the max number of documents to match.
+
+**embeddings** is the vector attribute in the Index to be matched.
 
 ### Search from the command line for players like Rickey Henderson (henderi01)
 
@@ -612,14 +638,21 @@ then use the returned embeddings in the follow-up vector search.
       "nameLast": "Quinn",
       "primary_position": "LF"
     },
-
 ```
 
 These search results are more relevant than the simple SQL query as they are
 based on **all** of the attributes for the baseball players.
 
 Rickey Henderson, a prolific base stealer as well as power hitter,
-thus matches both Barry Bonds (power hitter) and Lou Brock (base stealer).
+thus **matches both Barry Bonds (power hitter) and Lou Brock (base stealer)**.
+
+### Beware of Your Data
+
+Jesse Burkett is in the search results.  He played from 1890-1905.
+He stole 389 bases, but was caught stealing (CS) zero times - because
+that statistic was not kept back then.  Therefore, he appears to
+be a prolific and successful base stealer like Rickey Henderson.
+
 
 ### Links/References
 
