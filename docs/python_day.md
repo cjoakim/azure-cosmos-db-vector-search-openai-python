@@ -8,10 +8,8 @@
 
 - Career Path
   - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> Azure NoSQL GBB
-- Primary Languages Path
+- Primary Programming Languages Path
   - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- Secondary Languages Path
-  - Perl, Awk/Sed, Flex, Clojure, CoffeeScript, TypeScript, C#
 - Databases Path
   - IMS/DB (Hierarchical) --> DB2/Oracle/Sybase/MySQL/PostgreSQL --> **MongoDB (2009) --> Cosmos DB**
 - GitHub
@@ -19,13 +17,13 @@
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
-[pylint](https://pypi.org/project/pylint/) often hurts my feelings, as my code is ~70% pythonic.
+[pylint](https://pypi.org/project/pylint/) often hurts my feelings.
 
 ### Why Python now?
 
-- Simplicity, pragmatic, universally used/understood, and wide range of use-cases
+- Simplicity, pragmatic, universally used/understood, and supports a wide range of use-cases:
   - console apps, web apps, Docker, Spark (Synapse), ML/AML/AI, Azure Functions
-  - Currently, IMO, the defacto "Programming Language of Data Science"
+  - Currently, IMO, the defacto "Programming Language of Data Science" (ML, Spark)
 
 ---
 
@@ -43,21 +41,13 @@
   - [Part 1 - Concepts](#part1)
   - [Part 2 - Implementation](#part2)
 
-#### Also in this Repo, but not covered in this presentation
+### Architecture of this Project
 
-- Azure PaaS Service Provisioning
-- Workstation Setup
-- Baseball Database CSV file "data wrangling" process
-- Vector Search with [Azure Cosmos DB Mongo vCore API](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/)
-- Vector Search with [Azure Cosmos DB PostgreSQL API](https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/)
-- See the [README](README.md) where these topics are covered
+<p align="center">
+    <img src="img/architecture.png" width="70%">
+</p>
 
-The **Cosmos DB Mongo vCore** and **Cosmos DB PostgreSQL** APIs support
-**in-database vector searching**; Azure Cognitive Search is not required.
-
-### Also not covered in this presentation
-
-- The basics of [NoSQL](https://en.wikipedia.org/wiki/NoSQL) and [Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
+For this **Python Day presentation**, I'll cover the middle solution in the diagram.
 
 ---
 
@@ -161,7 +151,9 @@ While other search techniques can answer **simple searches** like:
 
 This type of search is more nuanced and subtle, but **can yield more relevant search results**.
 
-### Example Player: Rickey Henderson - Hall of Fame Player, Statistical Unicorn
+--- 
+
+## Example Player: Rickey Henderson - Hall of Fame, Statistical Unicorn
 
 <p align="center">
     <img src="img/rickey-henderson.jpg" width="60%">
@@ -170,18 +162,18 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
 to identify similar players.
 
-But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrun"** query.
+But the **WHERE clause only contains three attributes** ... it's not a **"full-spectrum"** query.
 
 <p align="center">
     <img src="img/query-greatest-base-stealers.png" width="90%">
 </p>
 
-In the vector query search below (bottom of page) we'll simply ask instead:
-**find me players like Rickey Henderson**.
+In the vector query search below (bottom of page)
+**we'll simply ask instead: find me players like Rickey Henderson!**.
 
 #### But what if you're not in the baseball business?
 
-This vector search solution is just an example; it's easily modifiable for your use-cases.
+This vector search app is just an example; it's easily modifiable for your use-cases.
 
 ---
 
@@ -264,7 +256,7 @@ batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186
 bb_avg_113 so_avg_112 ibb_avg_24 hbp_avg_3
 ```
 
-I used the approach of creating **binned-text** values in the embeddings_str.
+I used the approach of creating **binned-text values** in the embeddings_str.
 
 For example, a batting average of **0.30499838240051763** becomes **"batting_avg_305"**.
 
@@ -305,6 +297,7 @@ openai.api_version = '2023-05-15'  # '2022-06-01-preview' '2023-05-15'
 
 # Ask the OpenAI SDK to calculate and return the embedding value
 e = openai.Embedding.create(input=[text], engine=self.embedding_model)
+
 return e['data'][0]['embedding']  # returns a list of 1536 floats
 ```
 
@@ -347,7 +340,7 @@ class Cosmos():
             self._query_metrics = True
         else:
             self._query_metrics = False
-        self._client = cosmos_client.CosmosClient(url, {'masterKey': key})
+        self._client = cosmos_client.CosmosClient(url, {'masterKey': key})   <--- SDK client
 
 ...
 
@@ -376,8 +369,7 @@ class Cosmos():
                 if idx < 100_000:
                     if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:  # 1536
                         doc['id'] = str(uuid.uuid4()) 
-                        result = c.upsert_doc(doc)
-                        #print('result: {}'.format(result))
+                        result = c.upsert_doc(doc)           <--- insert/update the doc
             except Exception as e:
                 print(f"Exception on doc: {idx} {doc}")
                 print(str(e))
@@ -394,9 +386,9 @@ File cosmos_nosql/pysrc/nosqlbundle.py.
 A full coverage of this is beyond the scope for this brief presentation.
 
 In short, Azure Cognitive Search has a **beautiful and easy to use**
-[REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/ (IMO).
+[REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/).
 
-With the REST API these objects are created **Datasource**, **Index**, and **Indexer**.
+With the REST API these key objects are created - **Datasource**, **Index**, and **Indexer**.
 JSON payloads are used to define these objects.
 
 - **Datasource** - defines where the source data is (i.e. - the Cosmos DB account, database, and container)
@@ -407,6 +399,23 @@ See [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
 for more information on these.
 
 This repo uses the **Python requests library** to invoke the REST API via HTTPs.
+
+### Sidebar: Why is it called "Cognitive Search"?
+
+In addition to search functionality, Azure Cognitive Search offers 
+[AI Enrichment](https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro)
+functionality, by working with [Azure Cognitive Services](https://azure.microsoft.com/en-ca/products/cognitive-services).
+
+For example:
+- Ingest and "crack" PDF and Word documents
+- Extract and identify the images
+- Extract the text from the images
+- Identify the key words in the text.
+- Recognize the language and translate the text into another language
+- Make the "enriched" content searchable
+
+Azure Cognitive Services has a nice 
+[Python SDK](https://learn.microsoft.com/en-us/python/api/overview/azure/cognitive-services?view=azure-python).
 
 ### Define the embeddings attribute in the Index
 
