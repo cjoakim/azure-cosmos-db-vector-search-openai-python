@@ -17,11 +17,14 @@
 - PyPi Packages
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
-[pylint](https://pypi.org/project/pylint/) often hurts my feelings.
+[pylint](https://pypi.org/project/pylint/) often hurts my feelings.  
+
+Why show this timeline?
+Have a [growth Mindset; always be learning](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
 
 ### Why do I use Python now?
 
-- Simplicity, pragmatic, universally used/understood, great libraries, cross-platform
+- Simple, pragmatic, universally used/understood, great libraries, cross-platform
 - **App Dev**: console apps, web apps, Docker, ACI, Functions
 - **Data Science**: Spark (Synapse), ML/AML/AI... and data wrangling
   - It's currently, IMO, the defacto "Programming Language of Data Science"
