@@ -46,7 +46,7 @@ db.runCommand({
       },
       cosmosSearchOptions: {
         kind: 'vector-ivf',
-        numLists: 100,
+        numLists: 19,
         similarity: 'COS',
         dimensions: 1536
       }
@@ -59,6 +59,9 @@ db.baseball_players.getIndexes();
 
 These commands exist as file **cosmos_vcore/mongo/baseball_players_create_indexes.txt**
 in the repo.
+
+**Please pay particular attention to the configuration of your vector index**
+as described here: https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/vector-search.
 
 ### Screen-shots of Azure Data Studio
 
