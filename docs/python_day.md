@@ -19,11 +19,12 @@
 
 [pylint](https://pypi.org/project/pylint/) often hurts my feelings.
 
-### Why Python now?
+### Why do I use Python now?
 
-- Simplicity, pragmatic, universally used/understood, and supports a wide range of use-cases:
-  - console apps, web apps, Docker, Spark (Synapse), ML/AML/AI, Azure Functions
-  - Currently, IMO, the defacto "Programming Language of Data Science" (ML, Spark)
+- Simplicity, pragmatic, universally used/understood, great libraries, cross-platform
+- **App Dev**: console apps, web apps, Docker, ACI, Functions
+- **Data Science**: Spark (Synapse), ML/AML/AI... and data wrangling
+  - It's currently, IMO, the defacto "Programming Language of Data Science"
 
 ---
 
@@ -97,8 +98,8 @@ This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point
 ## What is Vector Search?
 
 - Searching a database, or search-engine, using vectors
-- A vector is passed in as the query criteria
-- The DB/engine matches rows/documents based on the given vector column/attribute in the DB
+- A vector is passed in as the **query criteria**
+- The DB/engine matches rows/documents **based on the given vector column/attribute in the DB**
 
 ### Can I use both standard search and vector search in my Azure Search Engine*?
 
@@ -156,7 +157,7 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
 ## Example Player: Rickey Henderson - Hall of Fame, Statistical Unicorn
 
 <p align="center">
-    <img src="img/rickey-henderson.jpg" width="60%">
+    <img src="img/rickey-henderson.jpg" width="50%">
 </p>
 
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
@@ -249,7 +250,9 @@ This vector search app is just an example; it's easily modifiable for your use-c
   }
 ```
 
-Here's an embeddings_str text value in an easier to read format:
+Here's an **embeddings_str text value** in an easier to read format.
+This text value is passed to OpenAI to be "vectorized".
+
 ```
 fielder primary_position_rf total_games_3298 bats_r throws_r hits_3771 hr_755
 batting_avg_305 runs_per_ab_176 2b_avg_50 3b_avg_8 hr_avg_61 rbi_avg_186
@@ -267,6 +270,8 @@ See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/
 ### Sidebar: Machine Learning "Features" vs Text Words
 
 Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used here.
+
+In Maching Learning, one instead typically uses normalized numeric "features".
 
 ---
 
