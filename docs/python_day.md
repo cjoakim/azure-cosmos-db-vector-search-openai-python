@@ -18,7 +18,7 @@
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
 Why show this timeline?
-Have a [growth Mindset; always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
+Have a [Growth Mindset; always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
 
 ### Why do I use Python now?
 
@@ -38,7 +38,7 @@ Have a [growth Mindset; always be learning!](https://www.linkedin.com/pulse/saty
   - [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
   - [The Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/) (CSV files)
 
-### Presentation Outline
+- **Outline**:
 
   - [Part 1 - Concepts](#part1)
   - [Part 2 - Implementation](#part2)
@@ -133,7 +133,7 @@ But, IMO, it doesn't replace standard search.  It augments it.
 > web-based interface in the Azure OpenAI Studio.
 
 Note: This presentation isn't about the **Generative AI** functionality available in OpenAI.
-But we'll use OpenAI to vectorize our data.
+But **we'll use OpenAI to vectorize our data**.
 
 See [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/).
 
@@ -295,7 +295,7 @@ See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/
 
 Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used here.
 
-In Maching Learning, conversely, one instead typically uses **normalized numeric "features"**.
+In Machine Learning, conversely, one instead typically uses **normalized numeric "feature" columns**.
 
 ---
 
@@ -519,7 +519,7 @@ Azure Cognitive Services has a nice
 }
 ```
 
-Once the Indexer is created, it will read the documents from Cosmos DB to
+Once the **Indexer** is created, it will read the documents from Cosmos DB to
 populate the search Index.
 
 See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
@@ -531,8 +531,9 @@ See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
 ### Initial Simple Search
 
 First search the index for the target player (i.e. - Rickey Henderson)
-to get their **embeddings value**.  Then use that value for the follow-up
-vector search.
+to get their **embeddings value**.
+
+Then use that value for the follow-up vector search.
 
 #### Alternative workflow
 
@@ -570,6 +571,10 @@ The **value** is the **vector that you want to match**.
 **k** is the max number of documents to match.
 
 **embeddings** is the vector attribute in the Index to be matched.
+
+### TODO
+
+Indicate the target URL and HTTP method here
 
 ### Search from the command line for players like Rickey Henderson (henderi01)
 
