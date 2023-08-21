@@ -299,4 +299,4 @@ Connection closed
 
 - We didn't have to create verbose explicit SQL queries with many attributes, and value ranges for these attributes
 - We simply asked the database to "find me players like Hank Aaron"
-- And the results are very accurate
+- And the results are very relevant

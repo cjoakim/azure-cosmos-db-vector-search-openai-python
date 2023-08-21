@@ -300,4 +300,4 @@ The response data from Azure Cognitive Search is in JSON format.
 
 - We didn't have to create verbose explicit queries with many attributes, and value ranges for these attributes
 - We simply asked Azure Cognitive Search to "find me players like Hank Aaron"
-- And the results are very accurate
+- And the results are very relevant
