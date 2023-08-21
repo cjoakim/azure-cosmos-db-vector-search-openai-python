@@ -60,23 +60,15 @@
     "milledo02": "fielder primary_position_1b total_games_1591 bats_r throws_r hits_1526 hr_32 batting_avg_263 runs_per_ab_122 2b_avg_40 3b_avg_19 hr_avg_6 rbi_avg_123 bb_avg_67 so_avg_87 ibb_avg_0 hbp_avg_8 sb_177 sb_pct_86",
     "murraed02": "fielder primary_position_1b total_games_3026 bats_b throws_r hits_3255 hr_504 batting_avg_287 runs_per_ab_144 2b_avg_49 3b_avg_3 hr_avg_44 rbi_avg_169 bb_avg_118 so_avg_134 ibb_avg_20 hbp_avg_2 sb_110 sb_pct_72",
     "palmera01": "fielder primary_position_1b total_games_2831 bats_l throws_l hits_3020 hr_569 batting_avg_288 runs_per_ab_159 2b_avg_56 3b_avg_4 hr_avg_54 rbi_avg_175 bb_avg_129 so_avg_129 ibb_avg_16 hbp_avg_8 sb_97 sb_pct_71",
-    "ottme01": "fielder primary_position_rf total_games_2730 bats_l throws_r hits_2876 hr_511 batting_avg_304 runs_per_ab_197 2b_avg_52 3b_avg_8 hr_avg_54 rbi_avg_197 bb_avg_181 so_avg_95 ibb_avg_0 hbp_avg_7 sb_89 sb_pct_98",
-    "sierrru01": "fielder primary_position_rf total_games_2186 bats_b throws_r hits_2152 hr_306 batting_avg_268 runs_per_ab_135 2b_avg_53 3b_avg_7 hr_avg_38 rbi_avg_164 bb_avg_76 so_avg_154 ibb_avg_13 hbp_avg_1 sb_142 sb_pct_73",
-    "flickel01": "fielder primary_position_rf total_games_686 bats_l throws_r hits_1752 hr_48 batting_avg_313 runs_per_ab_170 2b_avg_48 3b_avg_29 hr_avg_9 rbi_avg_135 bb_avg_107 so_avg_101 ibb_avg_0 hbp_avg_18 sb_330 sb_pct_98",
-    "ricesa01": "fielder primary_position_rf total_games_2405 bats_l throws_r hits_2987 hr_34 batting_avg_322 runs_per_ab_163 2b_avg_54 3b_avg_20 hr_avg_4 rbi_avg_116 bb_avg_76 so_avg_30 ibb_avg_0 hbp_avg_6 sb_351 sb_pct_71",
-    "berroge01": "fielder primary_position_dh total_games_779 bats_r throws_r hits_692 hr_101 batting_avg_276 runs_per_ab_151 2b_avg_45 3b_avg_4 hr_avg_40 rbi_avg_152 bb_avg_110 so_avg_204 ibb_avg_4 hbp_avg_7 sb_19 sb_pct_na",
-    "larkiba01": "fielder primary_position_ss total_games_2180 bats_r throws_r hits_2340 hr_198 batting_avg_295 runs_per_ab_167 2b_avg_56 3b_avg_10 hr_avg_25 rbi_avg_121 bb_avg_118 so_avg_103 ibb_avg_8 hbp_avg_7 sb_379 sb_pct_83",
-    "ramiral03": "fielder primary_position_ss total_games_1371 bats_r throws_r hits_1387 hr_115 batting_avg_270 runs_per_ab_117 2b_avg_49 3b_avg_3 hr_avg_22 rbi_avg_115 bb_avg_51 so_avg_127 ibb_avg_4 hbp_avg_6 sb_143 sb_pct_69",
-    "thondi01": "fielder primary_position_ss total_games_1387 bats_r throws_r hits_1176 hr_71 batting_avg_264 runs_per_ab_111 2b_avg_43 3b_avg_9 hr_avg_16 rbi_avg_98 bb_avg_78 so_avg_148 ibb_avg_11 hbp_avg_2 sb_167 sb_pct_73",
-    "blausje01": "fielder primary_position_ss total_games_1407 bats_r throws_r hits_1187 hr_122 batting_avg_262 runs_per_ab_153 2b_avg_48 3b_avg_7 hr_avg_27 rbi_avg_113 bb_avg_126 so_avg_207 ibb_avg_5 hbp_avg_20 sb_65 sb_pct_61",
-    "davisha01": "fielder primary_position_1b total_games_1061 bats_r throws_r hits_1841 hr_75 batting_avg_277 runs_per_ab_150 2b_avg_54 3b_avg_22 hr_avg_11 rbi_avg_143 bb_avg_79 so_avg_93 ibb_avg_0 hbp_avg_9 sb_285 sb_pct_98",
-    "clarkto02": "fielder primary_position_1b total_games_1559 bats_b throws_r hits_1188 hr_251 batting_avg_262 runs_per_ab_139 2b_avg_51 3b_avg_2 hr_avg_55 rbi_avg_182 bb_avg_116 so_avg_267 ibb_avg_12 hbp_avg_5 sb_6 sb_pct_na",
-    "karroer01": "fielder primary_position_1b total_games_1755 bats_r throws_r hits_1724 hr_284 batting_avg_268 runs_per_ab_124 2b_avg_50 3b_avg_2 hr_avg_44 rbi_avg_159 bb_avg_86 so_avg_181 ibb_avg_3 hbp_avg_5 sb_59 sb_pct_66",
-    "morneju01": "fielder primary_position_1b total_games_1545 bats_l throws_r hits_1603 hr_247 batting_avg_281 runs_per_ab_135 2b_avg_61 3b_avg_4 hr_avg_43 rbi_avg_173 bb_avg_101 so_avg_173 ibb_avg_16 hbp_avg_8 sb_5 sb_pct_na",
-    "garkory01": "fielder primary_position_1b total_games_463 bats_r throws_r hits_427 hr_55 batting_avg_275 runs_per_ab_122 2b_avg_48 3b_avg_2 hr_avg_35 rbi_avg_161 bb_avg_81 so_avg_175 ibb_avg_3 hbp_avg_35 sb_0 sb_pct_na",
-    "allendi01": "fielder primary_position_1b total_games_1749 bats_r throws_r hits_1848 hr_351 batting_avg_292 runs_per_ab_174 2b_avg_51 3b_avg_12 hr_avg_55 rbi_avg_177 bb_avg_141 so_avg_246 ibb_avg_22 hbp_avg_3 sb_133 sb_pct_72",
-    "spiezsc01": "fielder primary_position_1b total_games_1274 bats_b throws_r hits_996 hr_119 batting_avg_255 runs_per_ab_133 2b_avg_58 3b_avg_7 hr_avg_31 rbi_avg_141 bb_avg_106 so_avg_152 ibb_avg_9 hbp_avg_9 sb_33 sb_pct_na",
-    "coxst01": "fielder primary_position_1b total_games_378 bats_l throws_l hits_324 hr_39 batting_avg_262 runs_per_ab_118 2b_avg_58 3b_avg_2 hr_avg_31 rbi_avg_128 bb_avg_104 so_avg_194 ibb_avg_6 hbp_avg_18 sb_8 sb_pct_na"
+    "drakede01": "fielder primary_position_lf total_games_332 bats_r throws_l hits_308 hr_5 batting_avg_263 runs_per_ab_102 2b_avg_43 3b_avg_18 hr_avg_4 rbi_avg_102 bb_avg_61 so_avg_72 ibb_avg_0 hbp_avg_5 sb_43 sb_pct_na",
+    "ibanera01": "fielder primary_position_lf total_games_2161 bats_l throws_r hits_2034 hr_305 batting_avg_272 runs_per_ab_141 2b_avg_57 3b_avg_7 hr_avg_41 rbi_avg_162 bb_avg_95 so_avg_184 ibb_avg_11 hbp_avg_4 sb_50 sb_pct_na",
+    "cartejo01": "fielder primary_position_lf total_games_2189 bats_r throws_r hits_2184 hr_396 batting_avg_259 runs_per_ab_139 2b_avg_51 3b_avg_6 hr_avg_47 rbi_avg_172 bb_avg_63 so_avg_165 ibb_avg_10 hbp_avg_11 sb_231 sb_pct_78",
+    "mooredy01": "fielder primary_position_lf total_games_381 bats_r throws_r hits_192 hr_35 batting_avg_208 runs_per_ab_152 2b_avg_49 3b_avg_7 hr_avg_38 rbi_avg_122 bb_avg_123 so_avg_350 ibb_avg_2 hbp_avg_37 sb_65 sb_pct_71",
+    "frazilo01": "fielder primary_position_lf total_games_309 bats_b throws_r hits_138 hr_1 batting_avg_252 runs_per_ab_150 2b_avg_29 3b_avg_5 hr_avg_2 rbi_avg_84 bb_avg_108 so_avg_173 ibb_avg_0 hbp_avg_11 sb_58 sb_pct_87",
+    "carreez01": "fielder primary_position_lf total_games_508 bats_l throws_l hits_305 hr_19 batting_avg_262 runs_per_ab_149 2b_avg_39 3b_avg_8 hr_avg_16 rbi_avg_83 bb_avg_82 so_avg_240 ibb_avg_2 hbp_avg_12 sb_44 sb_pct_na",
+    "jollesm01": "fielder primary_position_lf total_games_473 bats_l throws_r hits_521 hr_46 batting_avg_305 runs_per_ab_110 2b_avg_65 3b_avg_12 hr_avg_27 rbi_avg_183 bb_avg_52 so_avg_61 ibb_avg_0 hbp_avg_6 sb_5 sb_pct_na",
+    "hosmeer01": "fielder primary_position_1b total_games_1658 bats_l throws_l hits_1731 hr_196 batting_avg_277 runs_per_ab_129 2b_avg_51 3b_avg_3 hr_avg_31 rbi_avg_141 bb_avg_89 so_avg_193 ibb_avg_8 hbp_avg_4 sb_76 sb_pct_72",
+    "hoppjo01": "fielder primary_position_1b total_games_1395 bats_l throws_l hits_1262 hr_46 batting_avg_296 runs_per_ab_164 2b_avg_51 3b_avg_17 hr_avg_11 rbi_avg_108 bb_avg_109 so_avg_89 ibb_avg_0 hbp_avg_4 sb_128 sb_pct_98"
   },
   "SEARCH_RESULTS_LIST": [
     [
@@ -455,49 +447,49 @@
       "vcore",
       "aaronha01",
       3,
-      "winfida01"
+      "dawsoan01"
     ],
     [
       "vcore",
       "aaronha01",
       4,
-      "robinfr02"
+      "winfida01"
     ],
     [
       "vcore",
       "aaronha01",
       5,
-      "suzukic01"
+      "robinfr02"
     ],
     [
       "vcore",
       "aaronha01",
       6,
-      "denorch01"
+      "guerrvl01"
     ],
     [
       "vcore",
       "aaronha01",
       7,
-      "ottme01"
+      "puigya01"
     ],
     [
       "vcore",
       "aaronha01",
       8,
-      "sierrru01"
+      "suzukic01"
     ],
     [
       "vcore",
       "aaronha01",
       9,
-      "flickel01"
+      "sheffga01"
     ],
     [
       "vcore",
       "aaronha01",
       10,
-      "ricesa01"
+      "denorch01"
     ],
     [
       "vcore",
@@ -509,55 +501,55 @@
       "vcore",
       "blombro01",
       2,
-      "alvaryo01"
+      "adamsgl01"
     ],
     [
       "vcore",
       "blombro01",
       3,
-      "lecroma01"
+      "alvaryo01"
     ],
     [
       "vcore",
       "blombro01",
       4,
-      "sheetla01"
+      "lecroma01"
     ],
     [
       "vcore",
       "blombro01",
       5,
-      "vogelda01"
+      "sheetla01"
     ],
     [
       "vcore",
       "blombro01",
       6,
-      "hamelbo01"
+      "vogelda01"
     ],
     [
       "vcore",
       "blombro01",
       7,
-      "phelpjo01"
+      "hamelbo01"
     ],
     [
       "vcore",
       "blombro01",
       8,
-      "velezot01"
+      "phelpjo01"
     ],
     [
       "vcore",
       "blombro01",
       9,
-      "giambje01"
+      "velezot01"
     ],
     [
       "vcore",
       "blombro01",
       10,
-      "berroge01"
+      "giambje01"
     ],
     [
       "vcore",
@@ -629,55 +621,55 @@
       "vcore",
       "henderi01",
       2,
-      "mageesh01"
-    ],
-    [
-      "vcore",
-      "henderi01",
-      3,
       "bondsba01"
     ],
     [
       "vcore",
       "henderi01",
-      4,
-      "riceji01"
-    ],
-    [
-      "vcore",
-      "henderi01",
-      5,
-      "wheatza01"
-    ],
-    [
-      "vcore",
-      "henderi01",
-      6,
-      "brocklo01"
-    ],
-    [
-      "vcore",
-      "henderi01",
-      7,
+      3,
       "quinnma01"
     ],
     [
       "vcore",
       "henderi01",
+      4,
+      "drakede01"
+    ],
+    [
+      "vcore",
+      "henderi01",
+      5,
+      "ibanera01"
+    ],
+    [
+      "vcore",
+      "henderi01",
+      6,
+      "cartejo01"
+    ],
+    [
+      "vcore",
+      "henderi01",
+      7,
+      "mooredy01"
+    ],
+    [
+      "vcore",
+      "henderi01",
       8,
-      "willibi01"
+      "frazilo01"
     ],
     [
       "vcore",
       "henderi01",
       9,
-      "burkeje01"
+      "carreez01"
     ],
     [
       "vcore",
       "henderi01",
       10,
-      "meusebo01"
+      "jollesm01"
     ],
     [
       "vcore",
@@ -695,49 +687,49 @@
       "vcore",
       "jeterde01",
       3,
-      "yountro01"
+      "maranra01"
     ],
     [
       "vcore",
       "jeterde01",
       4,
-      "conceda01"
+      "yountro01"
     ],
     [
       "vcore",
       "jeterde01",
       5,
-      "castrst01"
+      "conceda01"
     ],
     [
       "vcore",
       "jeterde01",
       6,
-      "francju01"
+      "castrst01"
     ],
     [
       "vcore",
       "jeterde01",
       7,
-      "larkiba01"
+      "dejesiv01"
     ],
     [
       "vcore",
       "jeterde01",
       8,
-      "ramiral03"
+      "vizquom01"
     ],
     [
       "vcore",
       "jeterde01",
       9,
-      "thondi01"
+      "garcino01"
     ],
     [
       "vcore",
       "jeterde01",
       10,
-      "blausje01"
+      "francju01"
     ],
     [
       "vcore",
@@ -749,55 +741,55 @@
       "vcore",
       "rosepe01",
       2,
-      "murraed02"
+      "jeffegr01"
     ],
     [
       "vcore",
       "rosepe01",
       3,
-      "davisha01"
+      "mcganda01"
     ],
     [
       "vcore",
       "rosepe01",
       4,
-      "clarkto02"
+      "clenddo01"
     ],
     [
       "vcore",
       "rosepe01",
       5,
-      "karroer01"
+      "murraed02"
     ],
     [
       "vcore",
       "rosepe01",
       6,
-      "morneju01"
+      "milledo02"
     ],
     [
       "vcore",
       "rosepe01",
       7,
-      "garkory01"
+      "palmera01"
     ],
     [
       "vcore",
       "rosepe01",
       8,
-      "allendi01"
+      "carewro01"
     ],
     [
       "vcore",
       "rosepe01",
       9,
-      "spiezsc01"
+      "hosmeer01"
     ],
     [
       "vcore",
       "rosepe01",
       10,
-      "coxst01"
+      "hoppjo01"
     ],
     [
       "pgvector",
@@ -1236,17 +1228,18 @@
     "vcore_aaronha01": [
       "aaronha01",
       "kalinal01",
+      "dawsoan01",
       "winfida01",
       "robinfr02",
+      "guerrvl01",
+      "puigya01",
       "suzukic01",
-      "denorch01",
-      "ottme01",
-      "sierrru01",
-      "flickel01",
-      "ricesa01"
+      "sheffga01",
+      "denorch01"
     ],
     "vcore_blombro01": [
       "blombro01",
+      "adamsgl01",
       "alvaryo01",
       "lecroma01",
       "sheetla01",
@@ -1254,8 +1247,7 @@
       "hamelbo01",
       "phelpjo01",
       "velezot01",
-      "giambje01",
-      "berroge01"
+      "giambje01"
     ],
     "vcore_guidrro01": [
       "guidrro01",
@@ -1271,39 +1263,39 @@
     ],
     "vcore_henderi01": [
       "henderi01",
-      "mageesh01",
       "bondsba01",
-      "riceji01",
-      "wheatza01",
-      "brocklo01",
       "quinnma01",
-      "willibi01",
-      "burkeje01",
-      "meusebo01"
+      "drakede01",
+      "ibanera01",
+      "cartejo01",
+      "mooredy01",
+      "frazilo01",
+      "carreez01",
+      "jollesm01"
     ],
     "vcore_jeterde01": [
       "jeterde01",
       "rodrial01",
+      "maranra01",
       "yountro01",
       "conceda01",
       "castrst01",
-      "francju01",
-      "larkiba01",
-      "ramiral03",
-      "thondi01",
-      "blausje01"
+      "dejesiv01",
+      "vizquom01",
+      "garcino01",
+      "francju01"
     ],
     "vcore_rosepe01": [
       "rosepe01",
+      "jeffegr01",
+      "mcganda01",
+      "clenddo01",
       "murraed02",
-      "davisha01",
-      "clarkto02",
-      "karroer01",
-      "morneju01",
-      "garkory01",
-      "allendi01",
-      "spiezsc01",
-      "coxst01"
+      "milledo02",
+      "palmera01",
+      "carewro01",
+      "hosmeer01",
+      "hoppjo01"
     ],
     "pgvector_aaronha01": [
       "aaronha01",

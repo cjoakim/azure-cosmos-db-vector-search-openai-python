@@ -1,7 +1,7 @@
 {
   "pid": "guidrro01",
   "player": {
-    "_id": "64da965f30eb0bce23e21a10",
+    "_id": "64e38a116041ec6cf46d130b",
     "playerID": "guidrro01",
     "birthYear": 1950,
     "birthCountry": "USA",
@@ -78,7 +78,7 @@
     "final_year": 1988,
     "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_170 losses_91 full_games_pitched_equiv_266 era_3288 opp_batting_avg_234 so_pct_177 bb_pct_63 hbp_pct_1 hr_pct_23 win_pct_65 sho_pct_10 cg_pct_29",
     "embeddings": "removed",
-    "id": "a0179b92-c4f6-4ddd-8eae-61abdcc6c2ce"
+    "id": "a8aca453-53a9-40cc-99f0-d56f0ba1e21e"
   },
   "pipeline": [
     {
@@ -1631,7 +1631,7 @@
   ],
   "results": [
     {
-      "_id": "64da965f30eb0bce23e21a10",
+      "_id": "64e38a116041ec6cf46d130b",
       "playerID": "guidrro01",
       "birthYear": 1950,
       "birthCountry": "USA",
@@ -1708,10 +1708,10 @@
       "final_year": 1988,
       "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_170 losses_91 full_games_pitched_equiv_266 era_3288 opp_batting_avg_234 so_pct_177 bb_pct_63 hbp_pct_1 hr_pct_23 win_pct_65 sho_pct_10 cg_pct_29",
       "embeddings": "removed",
-      "id": "a0179b92-c4f6-4ddd-8eae-61abdcc6c2ce"
+      "id": "a8aca453-53a9-40cc-99f0-d56f0ba1e21e"
     },
     {
-      "_id": "64da96f530eb0bce23e22afe",
+      "_id": "64e38aa66041ec6cf46d23f9",
       "playerID": "mcwilla01",
       "birthYear": 1954,
       "birthCountry": "USA",
@@ -1804,10 +1804,10 @@
       "final_year": 1990,
       "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_78 losses_90 full_games_pitched_equiv_173 era_3985 opp_batting_avg_249 so_pct_138 bb_pct_80 hbp_pct_8 hr_pct_20 win_pct_46 sho_pct_8 cg_pct_15",
       "embeddings": "removed",
-      "id": "7d222244-33d6-4c8b-a686-863565a465aa"
+      "id": "872e907a-398d-4196-b8b6-2dd9d2bb450a"
     },
     {
-      "_id": "64da968c30eb0bce23e21f36",
+      "_id": "64e38a3e6041ec6cf46d1831",
       "playerID": "hurstbr01",
       "birthYear": 1958,
       "birthCountry": "USA",
@@ -1899,10 +1899,10 @@
       "final_year": 1994,
       "embeddings_str": "pitcher primary_position_p total_games_380 bats_l throws_l wins_145 losses_113 full_games_pitched_equiv_269 era_3917 opp_batting_avg_254 so_pct_161 bb_pct_71 hbp_pct_3 hr_pct_25 win_pct_56 sho_pct_9 cg_pct_23",
       "embeddings": "removed",
-      "id": "f0b9075b-43e1-4683-9f02-4298de577547"
+      "id": "382e4f3e-c69f-493b-b75a-36c0078e7752"
     },
     {
-      "_id": "64da95bf30eb0bce23e2080c",
+      "_id": "64e389736041ec6cf46d0107",
       "playerID": "brettke01",
       "birthYear": 1948,
       "birthCountry": "USA",
@@ -2000,10 +2000,10 @@
       "final_year": 1981,
       "embeddings_str": "pitcher primary_position_p total_games_386 bats_l throws_l wins_83 losses_85 full_games_pitched_equiv_170 era_3927 opp_batting_avg_246 so_pct_121 bb_pct_84 hbp_pct_3 hr_pct_19 win_pct_49 sho_pct_5 cg_pct_28",
       "embeddings": "removed",
-      "id": "f1da8a77-0d64-4830-bacc-396ea089bdd5"
+      "id": "58746e37-129f-43aa-a385-555951cb92c9"
     },
     {
-      "_id": "64da97c330eb0bce23e24231",
+      "_id": "64e38b786041ec6cf46d3b2c",
       "playerID": "underto01",
       "birthYear": 1953,
       "birthCountry": "USA",
@@ -2097,10 +2097,10 @@
       "final_year": 1984,
       "embeddings_str": "pitcher primary_position_p total_games_380 bats_r throws_l wins_86 losses_87 full_games_pitched_equiv_176 era_3887 opp_batting_avg_246 so_pct_135 bb_pct_95 hbp_pct_4 hr_pct_19 win_pct_50 sho_pct_3 cg_pct_17",
       "embeddings": "removed",
-      "id": "ce2d8769-fc4c-47ad-95ae-4c451ead3250"
+      "id": "1c90c520-83df-4459-a85f-a6aa845d4c6a"
     },
     {
-      "_id": "64da967130eb0bce23e21c1c",
+      "_id": "64e38a236041ec6cf46d1517",
       "playerID": "heatone01",
       "birthYear": 1960,
       "birthCountry": "USA",
@@ -2195,10 +2195,10 @@
       "final_year": 1993,
       "embeddings_str": "pitcher primary_position_p total_games_388 bats_l throws_l wins_80 losses_96 full_games_pitched_equiv_167 era_4372 opp_batting_avg_260 so_pct_105 bb_pct_79 hbp_pct_5 hr_pct_24 win_pct_45 sho_pct_3 cg_pct_11",
       "embeddings": "removed",
-      "id": "bc47b782-d8be-491f-9cc3-0b57cf42070d"
+      "id": "c6f4c376-ac3b-4e97-8ff2-60e60d9c3129"
     },
     {
-      "_id": "64da970330eb0bce23e22c91",
+      "_id": "64e38ab56041ec6cf46d258c",
       "playerID": "mizelvi01",
       "birthYear": 1930,
       "birthCountry": "USA",
@@ -2289,10 +2289,10 @@
       "final_year": 1962,
       "embeddings_str": "pitcher primary_position_p total_games_268 bats_r throws_l wins_90 losses_88 full_games_pitched_equiv_170 era_3850 opp_batting_avg_238 so_pct_136 bb_pct_101 hbp_pct_4 hr_pct_21 win_pct_51 sho_pct_8 cg_pct_27",
       "embeddings": "removed",
-      "id": "381b91e5-0987-4b9f-852e-468f038b3f7e"
+      "id": "5055599a-a634-429c-94f1-3b4deb0260dc"
     },
     {
-      "_id": "64da96d330eb0bce23e22723",
+      "_id": "64e38a846041ec6cf46d201e",
       "playerID": "lushjo01",
       "birthYear": 1885,
       "birthCountry": "USA",
@@ -2382,10 +2382,10 @@
       "final_year": 1910,
       "embeddings_str": "pitcher primary_position_p total_games_378 bats_l throws_l wins_66 losses_85 full_games_pitched_equiv_138 era_2680 opp_batting_avg_239 so_pct_91 bb_pct_77 hbp_pct_12 hr_pct_3 win_pct_44 sho_pct_11 cg_pct_68",
       "embeddings": "removed",
-      "id": "c77267dd-d05c-4387-acb5-4b223168ba29"
+      "id": "3c56009e-f4da-4569-8e93-19f1072714d5"
     },
     {
-      "_id": "64da95ff30eb0bce23e20f51",
+      "_id": "64e389b26041ec6cf46d084c",
       "playerID": "daalom01",
       "birthYear": 1972,
       "birthCountry": "Venezuela",
@@ -2479,10 +2479,10 @@
       "final_year": 2003,
       "embeddings_str": "pitcher primary_position_p total_games_392 bats_l throws_l wins_68 losses_78 full_games_pitched_equiv_133 era_4550 opp_batting_avg_258 so_pct_151 bb_pct_83 hbp_pct_6 hr_pct_26 win_pct_47 sho_pct_1 cg_pct_3",
       "embeddings": "removed",
-      "id": "7e84b80d-d8a0-4eaa-804d-a45038e092c4"
+      "id": "66a68dc7-12fd-458a-8a7d-f25b40a75c22"
     },
     {
-      "_id": "64da975a30eb0bce23e2365f",
+      "_id": "64e38b106041ec6cf46d2f5a",
       "playerID": "richepe01",
       "birthYear": 1939,
       "birthCountry": "USA",
@@ -2575,7 +2575,7 @@
       "final_year": 1974,
       "embeddings_str": "pitcher primary_position_p total_games_446 bats_l throws_l wins_80 losses_73 full_games_pitched_equiv_130 era_3189 opp_batting_avg_215 so_pct_189 bb_pct_87 hbp_pct_3 hr_pct_24 win_pct_52 sho_pct_2 cg_pct_18",
       "embeddings": "removed",
-      "id": "b5666d30-1486-40a9-9a76-b3aff6eced24"
+      "id": "a39bb3ca-8fb4-4bff-818d-c6b62bb7456f"
     }
   ]
 }

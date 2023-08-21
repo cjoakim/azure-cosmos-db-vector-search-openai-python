@@ -1,7 +1,7 @@
 {
   "pid": "blombro01",
   "player": {
-    "_id": "64da95b230eb0bce23e2068d",
+    "_id": "64e389656041ec6cf46cff88",
     "playerID": "blombro01",
     "birthYear": 1948,
     "birthCountry": "USA",
@@ -58,7 +58,7 @@
     "final_year": 1978,
     "embeddings_str": "fielder primary_position_dh total_games_461 bats_l throws_r hits_391 hr_52 batting_avg_293 runs_per_ab_138 2b_avg_50 3b_avg_6 hr_avg_39 rbi_avg_168 bb_avg_105 so_avg_101 ibb_avg_12 hbp_avg_4 sb_6 sb_pct_na",
     "embeddings": "removed",
-    "id": "3d743087-1285-4ecf-becd-4973a3109143"
+    "id": "2db8cf05-5326-4292-a439-210e8ba1d2e7"
   },
   "pipeline": [
     {
@@ -1611,7 +1611,7 @@
   ],
   "results": [
     {
-      "_id": "64da95b230eb0bce23e2068d",
+      "_id": "64e389656041ec6cf46cff88",
       "playerID": "blombro01",
       "birthYear": 1948,
       "birthCountry": "USA",
@@ -1668,10 +1668,71 @@
       "final_year": 1978,
       "embeddings_str": "fielder primary_position_dh total_games_461 bats_l throws_r hits_391 hr_52 batting_avg_293 runs_per_ab_138 2b_avg_50 3b_avg_6 hr_avg_39 rbi_avg_168 bb_avg_105 so_avg_101 ibb_avg_12 hbp_avg_4 sb_6 sb_pct_na",
       "embeddings": "removed",
-      "id": "3d743087-1285-4ecf-becd-4973a3109143"
+      "id": "2db8cf05-5326-4292-a439-210e8ba1d2e7"
     },
     {
-      "_id": "64da958830eb0bce23e20213",
+      "_id": "64e389366041ec6cf46cfa2d",
+      "playerID": "adamsgl01",
+      "birthYear": 1947,
+      "birthCountry": "USA",
+      "deathYear": "",
+      "nameFirst": "Glenn",
+      "nameLast": "Adams",
+      "weight": 180,
+      "height": 73,
+      "bats": "L",
+      "throws": "R",
+      "debut": "1975-05-04",
+      "finalGame": "1982-10-03",
+      "teams": {
+        "total_games": 661,
+        "teams": {
+          "SFN": 130,
+          "MIN": 501,
+          "TOR": 30
+        },
+        "primary_team": "MIN"
+      },
+      "primary_position": "DH",
+      "batting": {
+        "G": 661,
+        "AB": 1617,
+        "R": 152,
+        "H": 452,
+        "2B": 79,
+        "3B": 5,
+        "HR": 34,
+        "RBI": 225,
+        "SB": 6,
+        "CS": 10,
+        "BB": 111,
+        "SO": 183,
+        "IBB": 8,
+        "HBP": 4,
+        "SF": 19,
+        "calculated": {
+          "runs_per_ab": 0.09400123685837972,
+          "batting_avg": 0.2795299938157081,
+          "2b_avg": 0.04885590599876314,
+          "3b_avg": 0.0030921459492888066,
+          "hr_avg": 0.021026592455163882,
+          "rbi_avg": 0.1391465677179963,
+          "bb_avg": 0.0686456400742115,
+          "so_avg": 0.11317254174397032,
+          "ibb_avg": 0.004947433518862091,
+          "hbp_avg": 0.0024737167594310453,
+          "sb_pct": -1.0
+        }
+      },
+      "category": "fielder",
+      "debut_year": 1975,
+      "final_year": 1982,
+      "embeddings_str": "fielder primary_position_dh total_games_661 bats_l throws_r hits_452 hr_34 batting_avg_280 runs_per_ab_94 2b_avg_49 3b_avg_3 hr_avg_21 rbi_avg_139 bb_avg_69 so_avg_113 ibb_avg_5 hbp_avg_2 sb_6 sb_pct_na",
+      "embeddings": "removed",
+      "id": "6ed25b11-2ab6-4b5c-b19e-a92da95bbe06"
+    },
+    {
+      "_id": "64e3893e6041ec6cf46cfb0e",
       "playerID": "alvaryo01",
       "birthYear": 1997,
       "birthCountry": "Cuba",
@@ -1727,10 +1788,10 @@
       "final_year": 2022,
       "embeddings_str": "fielder primary_position_dh total_games_368 bats_l throws_r hits_393 hr_98 batting_avg_296 runs_per_ab_186 2b_avg_68 3b_avg_2 hr_avg_74 rbi_avg_213 bb_avg_136 so_avg_261 ibb_avg_12 hbp_avg_13 sb_2 sb_pct_na",
       "embeddings": "removed",
-      "id": "c366ff4f-d7d1-4fc4-a806-a7540acfb03c"
+      "id": "06150605-ae1f-4cff-9291-7a38ce7ead06"
     },
     {
-      "_id": "64da96c030eb0bce23e22506",
+      "_id": "64e38a716041ec6cf46d1e01",
       "playerID": "lecroma01",
       "birthYear": 1975,
       "birthCountry": "USA",
@@ -1787,10 +1848,10 @@
       "final_year": 2007,
       "embeddings_str": "fielder primary_position_dh total_games_476 bats_r throws_r hits_361 hr_60 batting_avg_260 runs_per_ab_105 2b_avg_49 3b_avg_1 hr_avg_43 rbi_avg_157 bb_avg_89 so_avg_239 ibb_avg_4 hbp_avg_12 sb_0 sb_pct_na",
       "embeddings": "removed",
-      "id": "5a7e6cc3-2b9f-465b-a1ad-5f5c5af7558b"
+      "id": "9a5b4fa6-7e12-4dd9-a167-29c4f27e2121"
     },
     {
-      "_id": "64da978630eb0bce23e23b59",
+      "_id": "64e38b3c6041ec6cf46d3454",
       "playerID": "sheetla01",
       "birthYear": 1959,
       "birthCountry": "USA",
@@ -1848,10 +1909,10 @@
       "final_year": 1993,
       "embeddings_str": "fielder primary_position_dh total_games_748 bats_l throws_r hits_607 hr_94 batting_avg_266 runs_per_ab_120 2b_avg_43 3b_avg_2 hr_avg_41 rbi_avg_148 bb_avg_77 so_avg_154 ibb_avg_10 hbp_avg_8 sb_6 sb_pct_na",
       "embeddings": "removed",
-      "id": "622935b9-1fa0-40e3-bd1f-09c3f40edc47"
+      "id": "2c38e54d-4c3f-4e48-919b-c036b1c90188"
     },
     {
-      "_id": "64da97cd30eb0bce23e24347",
+      "_id": "64e38b816041ec6cf46d3c42",
       "playerID": "vogelda01",
       "birthYear": 1992,
       "birthCountry": "USA",
@@ -1911,10 +1972,10 @@
       "final_year": 2022,
       "embeddings_str": "fielder primary_position_dh total_games_467 bats_l throws_r hits_284 hr_67 batting_avg_218 runs_per_ab_134 2b_avg_38 3b_avg_1 hr_avg_51 rbi_avg_146 bb_avg_188 so_avg_302 ibb_avg_5 hbp_avg_5 sb_0 sb_pct_na",
       "embeddings": "removed",
-      "id": "53ef63c7-aa5b-49cd-87c1-5fe4e6ed2542"
+      "id": "4fe4ad55-1b98-4c89-82bb-f66d99b6703e"
     },
     {
-      "_id": "64da966530eb0bce23e21abf",
+      "_id": "64e38a176041ec6cf46d13ba",
       "playerID": "hamelbo01",
       "birthYear": 1967,
       "birthCountry": "USA",
@@ -1972,10 +2033,10 @@
       "final_year": 1998,
       "embeddings_str": "fielder primary_position_dh total_games_497 bats_l throws_l hits_313 hr_67 batting_avg_246 runs_per_ab_141 2b_avg_55 3b_avg_2 hr_avg_53 rbi_avg_164 bb_avg_162 so_avg_230 ibb_avg_8 hbp_avg_9 sb_11 sb_pct_na",
       "embeddings": "removed",
-      "id": "eee12140-f27b-470f-92a4-90be99397aac"
+      "id": "ea9033f2-ed8c-41e1-9413-f7f9ea83c566"
     },
     {
-      "_id": "64da973d30eb0bce23e2331d",
+      "_id": "64e38af36041ec6cf46d2c18",
       "playerID": "phelpjo01",
       "birthYear": 1978,
       "birthCountry": "USA",
@@ -2036,10 +2097,10 @@
       "final_year": 2008,
       "embeddings_str": "fielder primary_position_dh total_games_465 bats_r throws_r hits_380 hr_64 batting_avg_273 runs_per_ab_142 2b_avg_53 3b_avg_4 hr_avg_46 rbi_avg_175 bb_avg_83 so_avg_285 ibb_avg_4 hbp_avg_26 sb_2 sb_pct_na",
       "embeddings": "removed",
-      "id": "12c614d2-b9d6-45e8-958c-a5f52ab24b24"
+      "id": "546d0a46-0919-4fa6-9532-06445455cbd2"
     },
     {
-      "_id": "64da97ca30eb0bce23e242ec",
+      "_id": "64e38b7e6041ec6cf46d3be7",
       "playerID": "velezot01",
       "birthYear": 1950,
       "birthCountry": "P.R.",
@@ -2097,10 +2158,10 @@
       "final_year": 1983,
       "embeddings_str": "fielder primary_position_dh total_games_637 bats_r throws_r hits_452 hr_78 batting_avg_251 runs_per_ab_135 2b_avg_48 3b_avg_6 hr_avg_43 rbi_avg_151 bb_avg_186 so_avg_230 ibb_avg_9 hbp_avg_6 sb_6 sb_pct_na",
       "embeddings": "removed",
-      "id": "aac377cf-6625-429d-bbc9-a8968ec9ddfd"
+      "id": "e0ceb5ae-fea1-4b01-b44d-87d7917aabbb"
     },
     {
-      "_id": "64da964930eb0bce23e217ab",
+      "_id": "64e389fc6041ec6cf46d10a6",
       "playerID": "giambje01",
       "birthYear": 1974,
       "birthCountry": "USA",
@@ -2159,74 +2220,7 @@
       "final_year": 2003,
       "embeddings_str": "fielder primary_position_dh total_games_510 bats_l throws_l hits_372 hr_52 batting_avg_263 runs_per_ab_155 2b_avg_53 3b_avg_2 hr_avg_37 rbi_avg_147 bb_avg_177 so_avg_251 ibb_avg_7 hbp_avg_11 sb_1 sb_pct_na",
       "embeddings": "removed",
-      "id": "298bfa78-794f-4cf5-bb80-9aa9a3601ef0"
-    },
-    {
-      "_id": "64da95ab30eb0bce23e205b8",
-      "playerID": "berroge01",
-      "birthYear": 1965,
-      "birthCountry": "D.R.",
-      "deathYear": "",
-      "nameFirst": "Geronimo",
-      "nameLast": "Berroa",
-      "weight": 165,
-      "height": 72,
-      "bats": "R",
-      "throws": "R",
-      "debut": "1989-04-05",
-      "finalGame": "2000-05-30",
-      "teams": {
-        "total_games": 779,
-        "teams": {
-          "ATL": 88,
-          "CIN": 13,
-          "FLO": 14,
-          "OAK": 463,
-          "BAL": 83,
-          "CLE": 20,
-          "DET": 52,
-          "TOR": 22,
-          "LAN": 24
-        },
-        "primary_team": "OAK"
-      },
-      "primary_position": "DH",
-      "batting": {
-        "G": 779,
-        "AB": 2506,
-        "R": 379,
-        "H": 692,
-        "2B": 113,
-        "3B": 9,
-        "HR": 101,
-        "RBI": 382,
-        "SB": 19,
-        "CS": 16,
-        "BB": 276,
-        "SO": 510,
-        "IBB": 10,
-        "HBP": 17,
-        "SF": 26,
-        "calculated": {
-          "runs_per_ab": 0.1512370311252993,
-          "batting_avg": 0.2761372705506784,
-          "2b_avg": 0.045091779728651235,
-          "3b_avg": 0.003591380686352753,
-          "hr_avg": 0.04030327214684756,
-          "rbi_avg": 0.1524341580207502,
-          "bb_avg": 0.11013567438148444,
-          "so_avg": 0.20351157222665603,
-          "ibb_avg": 0.0039904229848363925,
-          "hbp_avg": 0.006783719074221868,
-          "sb_pct": -1.0
-        }
-      },
-      "category": "fielder",
-      "debut_year": 1989,
-      "final_year": 2000,
-      "embeddings_str": "fielder primary_position_dh total_games_779 bats_r throws_r hits_692 hr_101 batting_avg_276 runs_per_ab_151 2b_avg_45 3b_avg_4 hr_avg_40 rbi_avg_152 bb_avg_110 so_avg_204 ibb_avg_4 hbp_avg_7 sb_19 sb_pct_na",
-      "embeddings": "removed",
-      "id": "bf569157-b6d1-4b75-80c8-f125f22d51ae"
+      "id": "013fc1ce-dc36-4f60-9044-b39a7d943cf9"
     }
   ]
 }
