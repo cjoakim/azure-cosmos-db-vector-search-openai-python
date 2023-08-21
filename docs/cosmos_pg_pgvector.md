@@ -2,9 +2,10 @@
 
 ## Documentation
 
-Please refer to this Azure documentation page.
+Please refer to these Azure documentation pages.
 
 - https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/howto-use-pgvector
+- https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/howto-optimize-performance-pgvector
 
 ## Add the pgvector extension
 
