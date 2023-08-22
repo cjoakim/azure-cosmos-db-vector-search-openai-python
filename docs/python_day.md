@@ -68,7 +68,8 @@ Think of them as a **numpy array of floats**.
 
 These vectors are called [embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) in OpenAI.
 
-The **OpenAI SDK** contains the functionality to produce a vector, or an **embedding**, from text data.
+The [OpenAI SDK](https://platform.openai.com/docs/libraries) contains the functionality
+to produce a vector, or an **embedding**, from text data.
 
 OpenAI’s text embeddings measure the **relatedness** of text strings.
 
