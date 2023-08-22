@@ -66,9 +66,14 @@ Think of them as a **numpy array of floats**.
 
 **Vectorization** is the process of **converting text data into vectors**.
 
-These vectors are called **embeddings** in OpenAI.
+These vectors are called [embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) in OpenAI.
 
-The **OpenAI SDK** contains the functionality to produce a vector, or an embedding, from text data.
+The **OpenAI SDK** contains the functionality to produce a vector, or an **embedding**, from text data.
+
+OpenAI’s text embeddings measure the **relatedness** of text strings.
+
+Embeddings are dense and are computationally efficient.
+They use [Cosine similarity](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/understand-embeddings#cosine-similarity) to measure semantic similarity.
 
 ### What does a Vector, or Embedding, look like?
 
