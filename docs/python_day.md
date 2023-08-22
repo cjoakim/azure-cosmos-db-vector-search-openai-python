@@ -40,7 +40,7 @@ Have a [Growth Mindset; and always be learning!](https://www.linkedin.com/pulse/
 
 - **Outline**:
 
-  - [Part 1 - Concepts - Vectors, Vectorization](#part1)
+  - [Part 1 - Concepts - Vectors, Vectorization, Vector Search](#part1)
   - [Part 2 - Business Use-Case](#part2)
   - [Part 3 - Implementation](#part3)
 
@@ -72,7 +72,8 @@ The **OpenAI SDK** contains the functionality to produce a vector, or an embeddi
 
 ### What does a Vector, or Embedding, look like?
 
-This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point values**.
+This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point values**
+in the range -1 to +1.
 
 ```
 [
@@ -655,11 +656,14 @@ based on **all** of the attributes for the baseball players.
 Rickey Henderson, a prolific base stealer as well as power hitter,
 thus **matches both Barry Bonds (power hitter) and Lou Brock (base stealer)**.
 
+This search result included only Left-Fielders (**LF**), like Rickey.
+The above SQL query result included all positions, which is less relevant.
+
 ### Beware of Your Data
 
 Jesse Burkett is in the search results.  He played from 1890-1905.
 He stole 389 bases, but was caught stealing (CS) zero times - because
-that statistic was not kept back then.  Therefore, he appears to
+that statistic was not kept back then!  Therefore, he appears to
 be a prolific and successful base stealer like Rickey Henderson.
 
 Also notice Hugh Duffy in the above SQL query screen-shot; 574 steals, zero times caught!
