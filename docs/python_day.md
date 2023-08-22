@@ -6,19 +6,19 @@
 
 ## About Chris
 
-- Career Path
+- **Career Path**
   - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> Azure NoSQL GBB
-- Primary Programming Languages Path
+- **Primary Programming Languages Path**
   - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- Databases Path
+- **Databases Path**
   - IMS/DB (Hierarchical) --> DB2/Oracle/Sybase/MySQL/PostgreSQL --> **MongoDB (2009) --> Cosmos DB**
-- GitHub
+- **GitHub**
   - https://github.com/cjoakim
-- PyPi Packages
+- **PyPi Packages**
   - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
 
 Why show this timeline?
-Have a [Growth Mindset; always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
+Have a [Growth Mindset; and always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
 
 ### Why do I use Python now?
 
@@ -40,8 +40,9 @@ Have a [Growth Mindset; always be learning!](https://www.linkedin.com/pulse/saty
 
 - **Outline**:
 
-  - [Part 1 - Concepts](#part1)
-  - [Part 2 - Implementation](#part2)
+  - [Part 1 - Concepts - Vectors, Vectorization](#part1)
+  - [Part 2 - Business Use-Case](#part2)
+  - [Part 3 - Implementation](#part3)
 
 ### Architecture of this Project
 
@@ -55,12 +56,15 @@ For this **Python Day presentation**, I'll cover the middle solution in the diag
 
 # <a name="part1"> Part 1 - Concepts
 
-## What is Vectorization?
+## What is a Vector?
 
-In this context, **vectorization** is the process of **converting text data into vectors**,
-which are **one-dimensional arrays of scalar values**.
+**A Vector is a one-dimensional array of scalar values**.
 
 Think of them as a **numpy array of floats**.
+
+## What is Vectorization?
+
+**Vectorization** is the process of **converting text data into vectors**.
 
 These vectors are called **embeddings** in OpenAI.
 
@@ -137,7 +141,7 @@ But **we'll use OpenAI to vectorize our data**.
 
 See [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/).
 
----
+# <a name="part2"> Part 2 - Business Use-Case
 
 ## What's the Business Problem we're trying to solve?
 
@@ -173,8 +177,8 @@ to identify similar players.
     <img src="img/query-greatest-base-stealers.png" width="90%">
 </p>
 
-But this **WHERE clause only contains three attributes** ... 
-it's not a **"full-spectrum" query of the many dimensions of baseball player statistics**.
+But this **WHERE clause only contains only three attributes** ... 
+it's not a **"full-spectrum" query of the MANY dimensions of baseball player statistics**.
 
 In the vector query search below (bottom of page)
 **we'll simply ask instead: find me players like Rickey Henderson!**.
@@ -185,7 +189,7 @@ This vector search app is just an example; it's easily modifiable for your use-c
 
 ---
 
-# <a name="part2"> Part 2 - Implementation
+# <a name="part3"> Part 3 - Implementation
 
 ## Step 1: Data Wrangling
 
@@ -657,6 +661,8 @@ Jesse Burkett is in the search results.  He played from 1890-1905.
 He stole 389 bases, but was caught stealing (CS) zero times - because
 that statistic was not kept back then.  Therefore, he appears to
 be a prolific and successful base stealer like Rickey Henderson.
+
+Also notice Hugh Duffy in the above SQL query screen-shot; 574 steals, zero times caught!
 
 
 ### Links/References
