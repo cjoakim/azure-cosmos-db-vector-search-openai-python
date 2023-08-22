@@ -294,6 +294,10 @@ For example, a batting average of **0.2787154456710154** becomes **"batting_avg_
 
 A common example of this is **T-shirt sizes** - "S", "M", "L", "XL".
 
+<p align="center">
+    <img src="img/tshirt-sizes.png" width="40%">
+</p>
+
 See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/component-reference/group-data-into-bins?view=azureml-api-2)
 
 ### Sidebar: Machine Learning "Features" vs Text Words
