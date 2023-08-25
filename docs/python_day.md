@@ -7,7 +7,7 @@
 ## About Chris
 
 - **Career Path**
-  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> Azure NoSQL GBB
+  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> **Azure Cosmos DB Global Black Belt (GBB)**
 - **Primary Programming Languages Path**
   - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
 - **Databases Path**
