@@ -44,10 +44,8 @@ To encourage you to have a [Growth Mindset; and always be learning!](https://www
   - [Part 2 - The Business Use-Case](#part2)
   - [Part 3 - Implementation](#part3)
 
-### Architecture of this Project
-
 <p align="center">
-    <img src="img/architecture.png" width="70%">
+    <img src="img/architecture.png" width="90%">
 </p>
 
 For this **Python Day presentation**, I'll cover the middle solution in the diagram.
