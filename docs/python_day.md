@@ -45,7 +45,7 @@ To encourage you to have a [Growth Mindset; and always be learning!](https://www
   - [Part 3 - Implementation](#part3)
 
 <p align="center">
-    <img src="img/architecture.png" width="90%">
+    <img src="img/architecture.png" width="80%">
 </p>
 
 For this **Python Day presentation**, I'll cover the middle solution in the diagram.
