@@ -689,18 +689,42 @@ Also notice Hugh Duffy in the above SQL query screen-shot; 574 steals, zero time
 
 ## Confessions of a Python Developer
 
+### "bundle" modules
+
 You might be asking what are these **xxxbundle.py** modules are in the repo?!
 
 To achieve agile **code reuse** across my many demo repos, I have a standard
 core codebase in a private repo.  I develop and test the reusable classes there,
-then **bundle** them into function-specific single python modules for use
-in my implementation repos.  For example **aibundle.py** and **nosqlbundle.py**.
+then **bundle** them, with a python script, into function-specific single-file
+python modules for use in my implementation repos.  For example **aibundle.py**
+and **nosqlbundle.py**.
 
-Since I do about half of my Python programming in Spark/PySpark (in Synapse and AML)
-this approach works well for me because I can simply copy a bundle module into 
-a Spark Notebook cell verbatim.
+Since I do about half of my Python programming in **Spark/PySpark**
+(in Azure Synapse and Azure Machine Learning) this approach works well for me
+because I can simply copy a bundle module into a Spark Notebook cell verbatim.
+
+Yes, alternatively, I could publish a PyPi package for this.
+
+### pylint
+
+I use [pylint](https://pypi.org/project/pylint/) in my core repo.
+Sometimes it hurts my feelings, but it's a good impartial code reviewer.
+
+### typings
+
+I just stated to use the [typing](https://docs.python.org/3/library/typing.html)
+standard library this year.  I find that it helps me remember the datatypes of
+method args and returned values, like this:
+
+```
+  def greeting(name: str) -> str:
+      return 'Hello ' + name
+```
+
+See [Python Enhancement Proposal (PEP) 483](https://peps.python.org/pep-0483/)
 
 ---
 
-## Questions?  Thank you!
-
+<p align="center">
+    <img src="img/questions-thank-you.png" width="50%">
+</p>
