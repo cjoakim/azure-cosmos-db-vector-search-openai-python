@@ -314,7 +314,8 @@ See [Binning in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/
 
 Since OpenAI embeddings calculation is based on **text**, the binned-text approach is used here.
 
-In Machine Learning, conversely, one instead typically uses **normalized numeric "feature" columns**.
+In Machine Learning, conversely, one instead typically uses **normalized numeric "feature" columns**
+in the training dataset.
 
 ---
 
@@ -557,7 +558,7 @@ See the [full documentation in this repo](cosmos_nosql_and_cogsearch.md).
 
 ---
 
-## Step 5: Excuting Vector Searches vs Azure Cognitive Search
+## Step 5: Executing Vector Searches vs Azure Cognitive Search
 
 ### Initial Simple Search
 
@@ -612,10 +613,6 @@ The **value** is the **vector that you want to match**.
 **k** is the max number of documents to match.
 
 **embeddings** is the vector attribute in the Index to be matched.
-
-### TODO
-
-Indicate the target URL and HTTP method here
 
 ### Search from the command line for players like Rickey Henderson (henderi01)
 
@@ -698,7 +695,7 @@ The above SQL query result included all positions, which is less relevant.
 ### Beware of Your Data
 
 Jesse Burkett is in the search results.  He played from 1890-1905.
-He stole 389 bases, but was caught stealing (CS) zero times - because
+He stole 389 bases, but was **caught stealing (CS)** zero times - because
 that statistic was not kept back then!  Therefore, he appears to
 be a prolific and successful base stealer like Rickey Henderson.
 
@@ -749,8 +746,19 @@ method args and returned values, like this:
 
 See [Python Enhancement Proposal (PEP) 483](https://peps.python.org/pep-0483/)
 
+### GitHub CoPilot
+
+It's amazing; it reads my mind and saves me a lot of dev time.  "AI pair programmer".
+
+It utilizes the [OpenAI Codex model](https://openai.com/blog/openai-codex).
+
+I use it with both [Visual Studio Code](https://code.visualstudio.com/docs/editor/artificial-intelligence)
+and [JetBrains PyCharm](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=jetbrains).
+
+See https://github.com/features/copilot
+
 ---
 
 <p align="center">
-    <img src="img/questions-thank-you.png" width="50%">
+    <img src="img/questions-thank-you.png" width="40%">
 </p>
