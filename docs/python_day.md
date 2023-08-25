@@ -23,7 +23,7 @@ Have a [Growth Mindset; and always be learning!](https://www.linkedin.com/pulse/
 ### Why do I use Python now?
 
 - Simple, pragmatic, universally used/understood, great libraries, cross-platform
-- **App Dev**: console apps, web apps, Docker, ACI, Functions
+- **App Dev**: console apps, web apps, Docker, Azure Container Instances, Azure Functions
 - **Data Science**: Spark (Synapse), ML/AML/AI... and data wrangling
   - It's currently, IMO, the defacto "Programming Language of Data Science"
 
@@ -41,7 +41,7 @@ Have a [Growth Mindset; and always be learning!](https://www.linkedin.com/pulse/
 - **Outline**:
 
   - [Part 1 - Concepts - Vectors, Vectorization, Vector Search](#part1)
-  - [Part 2 - Business Use-Case](#part2)
+  - [Part 2 - The Business Use-Case](#part2)
   - [Part 3 - Implementation](#part3)
 
 ### Architecture of this Project
@@ -80,6 +80,9 @@ They use [Cosine similarity](https://learn.microsoft.com/en-us/azure/ai-services
 
 This repo uses **OpenAI embeddings** which are **an array of 1536 floating-point values**
 in the range -1 to +1.
+
+It looks very large and verbose, but it's actually **very efficient data structure**
+and it enables computational efficiency vs text data.
 
 ```
 [
@@ -148,7 +151,7 @@ But **we'll use OpenAI to vectorize our data**.
 
 See [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/).
 
-# <a name="part2"> Part 2 - Business Use-Case
+# <a name="part2"> Part 2 - The Business Use-Case
 
 ## What's the Business Problem we're trying to solve?
 
@@ -175,17 +178,18 @@ This type of search is more nuanced and subtle, but **can yield more relevant se
 Hall of Fame Player, **Statistical Unicorn** - extremely rare combination of speed
 and power.  All-time MLB leader in stolen bases, by far.  Also very high,
 statistically, in home runs, triples, walks, IBB, and HBP.
-playerID henderi01 in the database.
 
 You can try to use a simplistic query (this example is SQL in Azure Cosmos DB PostgreSQL API)
 to identify similar players.
 
 <p align="center">
-    <img src="img/query-greatest-base-stealers.png" width="90%">
+    <img src="img/query-greatest-base-stealers.png" width="95%">
 </p>
 
 But this **WHERE clause only contains only three attributes** ... 
 it's not a **"full-spectrum" query of the MANY dimensions of baseball player statistics**.
+
+And the results are **sorted by only one column**.
 
 In the vector query search below (bottom of page)
 **we'll simply ask instead: find me players like Rickey Henderson!**.
@@ -200,16 +204,16 @@ This vector search app is just an example; it's easily modifiable for your use-c
 
 ## Step 1: Data Wrangling
 
-- The data started as CSV from the Sean Lahman Baseball Database
-- CSV rows were transformed into JSON documents
-- JSON documents augmented with calculations
+- The data started as CSV files from the [Sean Lahman Baseball Database](http://seanlahman.com/download-baseball-database/)
+- CSV rows were transformed into **JSON documents**
+- JSON documents augmented with **calculations**
 - JSON documents augmented with a **embeddings_str** value for vectorization
 - See the [Data Wrangling](data_wrangling.md) page for details
 
 ### Example Document for Rickey Henderson
 
 ```
-"henderi01": {
+  {
     "playerID": "henderi01",
     "birthYear": 1958,
     "birthCountry": "USA",
@@ -281,11 +285,11 @@ This vector search app is just an example; it's easily modifiable for your use-c
       -0.026895591989159584,
       -0.007012988440692425
     ]
-  },
+  }
 ```
 
 Here's an **embeddings_str text value** in an easier to read format.
-This text value is passed to OpenAI to be "vectorized".
+**This text value is passed to OpenAI to be "vectorized".**
 
 ```
 fielder primary_position_lf total_games_3081 bats_r throws_l
@@ -321,7 +325,7 @@ which are **one-dimensional arrays of scalar values (floats)**.
 
 The code required to do this is quite simple, thanks to the **OpenAI SDK** at PyPI.
 
-#### requirements.txt
+#### requirements.txt - include the OpenAI SDK library
 
 ```
 openai
@@ -346,7 +350,7 @@ openai.api_version = '2023-05-15'  # '2022-06-01-preview' '2023-05-15'
 # Ask the OpenAI SDK to calculate and return the embedding value.
 # The OpenAI embedding model used here is 'text-embedding-ada-002'.
 
-e = openai.Embedding.create(input=[text], engine=self.embedding_model)
+e = openai.Embedding.create(input=[embeddings_str], engine='text-embedding-ada-002')
 
 return e['data'][0]['embedding']  # returns a list of 1536 floats
 ```
@@ -361,8 +365,12 @@ See class OpenAIClient in the repo for the full code; my reusable client module.
 ## Step 3: Loading the Azure Cosmos DB NoSQL API container
 
 It's just a regular Cosmos DB container; no special indexing or attributes are required.
+/playerID is the partition key.
 
-#### requirements.txt
+#### requirements.txt - include the Cosmos DB NoSQL API SDK library
+
+See [Azure Cosmos DB Python SDK for API for NoSQL](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/sdk-python)
+and the [docs](https://learn.microsoft.com/en-us/python/api/azure-cosmos/azure.cosmos?preserve-view=true&view=azure-python).
 
 ```
 azure-cosmos
@@ -410,22 +418,21 @@ class Cosmos():
         c.set_db('dev')
         c.set_container('baseballplayers')
 
-        # Read the pre-wrangled documents
+        # Read the pre-wrangled documents from a file into a list
         documents = FS.read_json(wrangled_embeddings_file())
         player_ids = sorted(documents.keys())
 
-        # Iterate and load Cosmos DB
+        # Iterate the list of documents and load Cosmos DB
         for idx, pid in enumerate(player_ids):
             try:
                 doc = documents[pid]
                 embeddings = doc['embeddings']
                 if idx < 100_000:
                     if len(embeddings) == EXPECTED_EMBEDDINGS_ARRAY_LENGTH:  # 1536
-                        doc['id'] = str(uuid.uuid4()) 
+                        doc['id'] = str(uuid.uuid4())        <--- create a unique document id
                         result = c.upsert_doc(doc)           <--- insert/update the doc
             except Exception as e:
                 print(f"Exception on doc: {idx} {doc}")
-                print(str(e))
                 print(traceback.format_exc())
 ```
 
@@ -451,26 +458,35 @@ JSON payloads are used to define these objects.
 See [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/)
 for more information on these.
 
+See these **JSON schema** files in the repo:
+```
+cognitive_search/schemas/baseballplayers_index.json
+cognitive_search/schemas/baseballplayers_indexer.json
+cognitive_search/schemas/datasource-cosmosdb-nosql-dev-baseballplayers.json
+```
+
 This repo uses the **Python requests library** to invoke the REST API via HTTPs.
 
 ### Sidebar: Why is it called "Cognitive Search"?
 
-In addition to search functionality, Azure Cognitive Search offers 
+In addition to search functionality, **Azure Cognitive Search** offers 
 [AI Enrichment](https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro)
 functionality, by working with [Azure Cognitive Services](https://azure.microsoft.com/en-ca/products/cognitive-services).
 
-For example:
+For example, create a document processing **pipeline** to:
 - Ingest and "crack" PDF and Word documents
 - Extract and identify the images
 - Extract the text from the images
-- Identify the key words in the text.
+- Identify the key words in the text
 - Recognize the language and translate the text into another language
 - Make the "enriched" content searchable
 
-Azure Cognitive Services has a nice 
+[Azure Cognitive Services (ACS)](https://learn.microsoft.com/en-us/azure/ai-services/) has a nice 
 [Python SDK](https://learn.microsoft.com/en-us/python/api/overview/azure/cognitive-services?view=azure-python).
 
-### Define the embeddings attribute in the Index
+Azure Cognitive Services is being renamed to Azure AI Services as it now includes Azure OpenAI.
+
+### Define the embeddings attribute in the Index (see the end of this JSON)
 
 ```
 {
@@ -549,6 +565,16 @@ First search the index for the target player (i.e. - Rickey Henderson)
 to get their **embeddings value**.
 
 Then use that value for the follow-up vector search.
+
+The HTTP POSTed search request looks like this:
+```
+{
+  "count": "true",
+  "search": "playerID eq 'henderi01'",
+  "orderby": "playerID",
+  "select": "id,playerID,nameFirst,nameLast,primary_position,embeddings_str,embeddings"
+}
+```
 
 #### Alternative workflow
 
