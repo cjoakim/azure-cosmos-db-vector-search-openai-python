@@ -4,31 +4,6 @@
 
 ---
 
-## About Chris
-
-- **Career Path**
-  - Non-IT --> Software Developer --> Azure Cloud Solution Architect --> **Azure Cosmos DB Global Black Belt (GBB)**
-- **Primary Programming Languages Path**
-  - COBOL --> Smalltalk --> Java --> Ruby (RoR) --> Node.js (MEAN) --> Java --> **Python**
-- **Databases Path**
-  - IMS/DB (Hierarchical) --> DB2/Oracle/Sybase/MySQL/PostgreSQL --> **MongoDB (2009) --> Cosmos DB**
-- **GitHub**
-  - https://github.com/cjoakim
-- **PyPi Packages**
-  - [m26](https://pypi.org/project/m26/), [ggps](https://pypi.org/project/ggps/), [gdg](https://pypi.org/project/gdg/)
-
-Why show this timeline?
-To encourage you to have a [Growth Mindset; and always be learning!](https://www.linkedin.com/pulse/satya-nadella-growth-mindsets-learn-it-all-does-better-jessi-hempel/)
-
-### Why do I use Python now?
-
-- Simple, pragmatic, universally used/understood, great libraries, cross-platform
-- **App Dev**: console apps, web apps, Docker, Azure Container Instances, Azure Functions
-- **Data Science**: Spark (Synapse), ML/AML/AI... and data wrangling
-  - It's currently, IMO, the defacto "Programming Language of Data Science"
-
----
-
 ## This Presentation
 
 - **Vector Search in Microsoft Azure** with:
