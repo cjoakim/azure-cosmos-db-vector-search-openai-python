@@ -46,6 +46,11 @@ Feel free to experiment with and adapt the code to your specific use cases and r
 If you have any questions or need assistance, don't hesitate to create an issue on the
 [GitHub repository](https://github.com/cjoakim/azure-cosmos-db-vector-search-openai-python/issues).
 
+## Presentations
+
+- [Python Day Presentation PDF](docs/Azure-Developers-Python-Day-Joakim-Vector-Search.pdf)
+- [Python Day YouTube Video](https://www.youtube.com/watch?v=5z32NS4IG0w)
+
 ## Contributions
 
 Contributions to enhance this repository are welcome! Feel free to submit pull requests for bug fixes, additional features, or improvements.
