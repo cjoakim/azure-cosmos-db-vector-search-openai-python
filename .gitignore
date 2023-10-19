@@ -2,6 +2,7 @@
 
 **/.idea/
 **/bin/
+**/flattened/
 **/include/
 **/lib/
 **/lib64/
@@ -13,6 +14,7 @@
 **/Scripts/
 
 **/pyvenv.cfg
+**/flattened.zip
 
 **/documents_with_embeddings.json
 **/documents_with_embeddings.zip

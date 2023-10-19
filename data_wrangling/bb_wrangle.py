@@ -19,6 +19,7 @@ Usage:
   python bb_wrangle.py add_embeddings_to_documents 2010
   -
   python bb_wrangle.py scan_documents
+  puthon bb_wrangle.py flatten_documents
 Options:
   -h --help     Show this screen.
   --version     Show version.
@@ -596,6 +597,23 @@ def scan_documents():
     data['earliest_debut'] = earliest_debut
     FS.write_json(counter.get_data(), 'tmp/scan_documents.json')
 
+def flatten_documents():
+    #print(f'=== flatten_documents')
+    # python bb_wrangle.py flatten_documents > ../data/wrangled/documents_with_embeddings_flat.json
+    infile = '../data/wrangled/documents_with_embeddings.json'
+    documents = FS.read_json(infile)
+    counter = Counter()
+    keys = documents.keys()
+    #print('keys len: {}'.format(len(keys)))
+
+    for idx, key in enumerate(sorted(keys)):
+        doc = documents[key]
+        print(json.dumps(doc))
+            
+
+    
+
+
 def to_int(s: str) -> int:
     try:
         return int(round(float(s)))
@@ -707,6 +725,8 @@ if __name__ == "__main__":
                 add_embeddings(min_debut_year)
             elif func == 'scan_documents':
                 scan_documents()
+            elif func == 'flatten_documents':
+                flatten_documents()
             else:
                 print_options('Error: invalid function: {}'.format(func))
         except Exception as e:
