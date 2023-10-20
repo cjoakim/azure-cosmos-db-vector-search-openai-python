@@ -20,6 +20,7 @@ Usage:
   -
   python bb_wrangle.py scan_documents
   puthon bb_wrangle.py flatten_documents
+  puthon bb_wrangle.py filter_documents
 Options:
   -h --help     Show this screen.
   --version     Show version.
@@ -610,9 +611,25 @@ def flatten_documents():
         doc = documents[key]
         print(json.dumps(doc))
             
+def filter_documents():
+    print(f'=== filter_documents')
+    infile = '../data/wrangled/documents.json'
+    outfile = '../data/wrangled/documents_mini.json'
+    documents = FS.read_json(infile)
+    print(str(type(documents)))
+    keys = documents.keys()
+    filtered_docs = []
+    print('keys len: {}'.format(len(keys)))
 
-    
+    games_threshold = 162 * 10  # 162 games in a season
+    for idx, key in enumerate(sorted(keys)):
+        doc = documents[key]
+        if doc['birthYear'] >= 1960:
+            if doc['teams']['total_games'] > games_threshold:
+                filtered_docs.append(doc)
 
+    print('filtered_docs len: {}'.format(len(filtered_docs)))
+    FS.write_json(filtered_docs, outfile)
 
 def to_int(s: str) -> int:
     try:
@@ -727,6 +744,8 @@ if __name__ == "__main__":
                 scan_documents()
             elif func == 'flatten_documents':
                 flatten_documents()
+            elif func == 'filter_documents':
+                filter_documents()
             else:
                 print_options('Error: invalid function: {}'.format(func))
         except Exception as e:
