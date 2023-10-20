@@ -58,7 +58,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_rf total_games_2425 bats_l throws_r hits_2470 hr_288 batting_avg_291 runs_per_ab_171 2b_avg_68 3b_avg_7 hr_avg_34 rbi_avg_161 bb_avg_174 so_avg_217 ibb_avg_14 hbp_avg_4 sb_400 sb_pct_76"
+    "embeddings_str": "fielder primary_position_rf total_games_2425 bats_l throws_r hits_2470 hr_288 batting_avg_291 runs_per_ab_171 2b_avg_68 3b_avg_7 hr_avg_34 rbi_avg_161 bb_avg_174 so_avg_217 ibb_avg_14 hbp_avg_4 sb_400 sb_pct_76",
+    "pk": "abreubo01"
   },
   {
     "playerID": "alomaro01",
@@ -120,7 +121,8 @@
     "category": "fielder",
     "debut_year": 1988,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_2b total_games_2379 bats_b throws_r hits_2724 hr_210 batting_avg_300 runs_per_ab_166 2b_avg_56 3b_avg_9 hr_avg_23 rbi_avg_125 bb_avg_114 so_avg_126 ibb_avg_7 hbp_avg_6 sb_474 sb_pct_81"
+    "embeddings_str": "fielder primary_position_2b total_games_2379 bats_b throws_r hits_2724 hr_210 batting_avg_300 runs_per_ab_166 2b_avg_56 3b_avg_9 hr_avg_23 rbi_avg_125 bb_avg_114 so_avg_126 ibb_avg_7 hbp_avg_6 sb_474 sb_pct_81",
+    "pk": "alomaro01"
   },
   {
     "playerID": "aloumo01",
@@ -182,7 +184,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_lf total_games_1942 bats_r throws_r hits_2134 hr_332 batting_avg_303 runs_per_ab_158 2b_avg_60 3b_avg_6 hr_avg_47 rbi_avg_183 bb_avg_105 so_avg_127 ibb_avg_13 hbp_avg_7 sb_106 sb_pct_74"
+    "embeddings_str": "fielder primary_position_lf total_games_1942 bats_r throws_r hits_2134 hr_332 batting_avg_303 runs_per_ab_158 2b_avg_60 3b_avg_6 hr_avg_47 rbi_avg_183 bb_avg_105 so_avg_127 ibb_avg_13 hbp_avg_7 sb_106 sb_pct_74",
+    "pk": "aloumo01"
   },
   {
     "playerID": "anderbr01",
@@ -240,7 +243,8 @@
     "category": "fielder",
     "debut_year": 1988,
     "final_year": 2002,
-    "embeddings_str": "fielder primary_position_cf total_games_1834 bats_l throws_l hits_1661 hr_210 batting_avg_256 runs_per_ab_163 2b_avg_52 3b_avg_10 hr_avg_32 rbi_avg_117 bb_avg_148 so_avg_183 ibb_avg_9 hbp_avg_24 sb_315 sb_pct_76"
+    "embeddings_str": "fielder primary_position_cf total_games_1834 bats_l throws_l hits_1661 hr_210 batting_avg_256 runs_per_ab_163 2b_avg_52 3b_avg_10 hr_avg_32 rbi_avg_117 bb_avg_148 so_avg_183 ibb_avg_9 hbp_avg_24 sb_315 sb_pct_76",
+    "pk": "anderbr01"
   },
   {
     "playerID": "anderga01",
@@ -300,7 +304,8 @@
     "category": "fielder",
     "debut_year": 1994,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_lf total_games_2228 bats_l throws_l hits_2529 hr_287 batting_avg_293 runs_per_ab_125 2b_avg_60 3b_avg_4 hr_avg_33 rbi_avg_158 bb_avg_50 so_avg_142 ibb_avg_12 hbp_avg_1 sb_80 sb_pct_63"
+    "embeddings_str": "fielder primary_position_lf total_games_2228 bats_l throws_l hits_2529 hr_287 batting_avg_293 runs_per_ab_125 2b_avg_60 3b_avg_4 hr_avg_33 rbi_avg_158 bb_avg_50 so_avg_142 ibb_avg_12 hbp_avg_1 sb_80 sb_pct_63",
+    "pk": "anderga01"
   },
   {
     "playerID": "andruel01",
@@ -358,7 +363,8 @@
     "category": "fielder",
     "debut_year": 2009,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_ss total_games_1947 bats_r throws_r hits_1997 hr_96 batting_avg_270 runs_per_ab_138 2b_avg_49 3b_avg_7 hr_avg_13 rbi_avg_99 bb_avg_79 so_avg_153 ibb_avg_1 hbp_avg_7 sb_335 sb_pct_75"
+    "embeddings_str": "fielder primary_position_ss total_games_1947 bats_r throws_r hits_1997 hr_96 batting_avg_270 runs_per_ab_138 2b_avg_49 3b_avg_7 hr_avg_13 rbi_avg_99 bb_avg_79 so_avg_153 ibb_avg_1 hbp_avg_7 sb_335 sb_pct_75",
+    "pk": "andruel01"
   },
   {
     "playerID": "aurilri01",
@@ -417,7 +423,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_ss total_games_1652 bats_r throws_r hits_1576 hr_186 batting_avg_275 runs_per_ab_130 2b_avg_53 3b_avg_4 hr_avg_33 rbi_avg_132 bb_avg_79 so_avg_150 ibb_avg_4 hbp_avg_4 sb_23 sb_pct_na"
+    "embeddings_str": "fielder primary_position_ss total_games_1652 bats_r throws_r hits_1576 hr_186 batting_avg_275 runs_per_ab_130 2b_avg_53 3b_avg_4 hr_avg_33 rbi_avg_132 bb_avg_79 so_avg_150 ibb_avg_4 hbp_avg_4 sb_23 sb_pct_na",
+    "pk": "aurilri01"
   },
   {
     "playerID": "ausmubr01",
@@ -476,7 +483,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_c total_games_1971 bats_r throws_r hits_1579 hr_80 batting_avg_251 runs_per_ab_114 2b_avg_43 3b_avg_5 hr_avg_13 rbi_avg_97 bb_avg_101 so_avg_165 ibb_avg_11 hbp_avg_11 sb_102 sb_pct_66"
+    "embeddings_str": "fielder primary_position_c total_games_1971 bats_r throws_r hits_1579 hr_80 batting_avg_251 runs_per_ab_114 2b_avg_43 3b_avg_5 hr_avg_13 rbi_avg_97 bb_avg_101 so_avg_165 ibb_avg_11 hbp_avg_11 sb_102 sb_pct_66",
+    "pk": "ausmubr01"
   },
   {
     "playerID": "baergca01",
@@ -537,7 +545,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_2b total_games_1630 bats_b throws_r hits_1583 hr_134 batting_avg_291 runs_per_ab_134 2b_avg_51 3b_avg_3 hr_avg_25 rbi_avg_142 bb_avg_54 so_avg_107 ibb_avg_8 hbp_avg_13 sb_59 sb_pct_71"
+    "embeddings_str": "fielder primary_position_2b total_games_1630 bats_b throws_r hits_1583 hr_134 batting_avg_291 runs_per_ab_134 2b_avg_51 3b_avg_3 hr_avg_25 rbi_avg_142 bb_avg_54 so_avg_107 ibb_avg_8 hbp_avg_13 sb_59 sb_pct_71",
+    "pk": "baergca01"
   },
   {
     "playerID": "bagweje01",
@@ -593,7 +602,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_1b total_games_2150 bats_r throws_r hits_2314 hr_449 batting_avg_297 runs_per_ab_195 2b_avg_63 3b_avg_4 hr_avg_58 rbi_avg_196 bb_avg_180 so_avg_200 ibb_avg_20 hbp_avg_16 sb_202 sb_pct_72"
+    "embeddings_str": "fielder primary_position_1b total_games_2150 bats_r throws_r hits_2314 hr_449 batting_avg_297 runs_per_ab_195 2b_avg_63 3b_avg_4 hr_avg_58 rbi_avg_196 bb_avg_180 so_avg_200 ibb_avg_20 hbp_avg_16 sb_202 sb_pct_72",
+    "pk": "bagweje01"
   },
   {
     "playerID": "bautijo02",
@@ -656,7 +666,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_rf total_games_1798 bats_r throws_r hits_1496 hr_344 batting_avg_247 runs_per_ab_169 2b_avg_52 3b_avg_3 hr_avg_57 rbi_avg_161 bb_avg_171 so_avg_230 ibb_avg_10 hbp_avg_13 sb_70 sb_pct_69"
+    "embeddings_str": "fielder primary_position_rf total_games_1798 bats_r throws_r hits_1496 hr_344 batting_avg_247 runs_per_ab_169 2b_avg_52 3b_avg_3 hr_avg_57 rbi_avg_161 bb_avg_171 so_avg_230 ibb_avg_10 hbp_avg_13 sb_70 sb_pct_69",
+    "pk": "bautijo02"
   },
   {
     "playerID": "bellja01",
@@ -716,7 +727,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_ss total_games_2063 bats_r throws_r hits_1963 hr_195 batting_avg_265 runs_per_ab_152 2b_avg_53 3b_avg_9 hr_avg_26 rbi_avg_116 bb_avg_115 so_avg_195 ibb_avg_3 hbp_avg_8 sb_91 sb_pct_60"
+    "embeddings_str": "fielder primary_position_ss total_games_2063 bats_r throws_r hits_1963 hr_195 batting_avg_265 runs_per_ab_152 2b_avg_53 3b_avg_9 hr_avg_26 rbi_avg_116 bb_avg_115 so_avg_195 ibb_avg_3 hbp_avg_8 sb_91 sb_pct_60",
+    "pk": "bellja01"
   },
   {
     "playerID": "beltrad01",
@@ -775,7 +787,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_3b total_games_2933 bats_r throws_r hits_3166 hr_477 batting_avg_286 runs_per_ab_138 2b_avg_57 3b_avg_3 hr_avg_43 rbi_avg_154 bb_avg_77 so_avg_156 ibb_avg_10 hbp_avg_9 sb_121 sb_pct_74"
+    "embeddings_str": "fielder primary_position_3b total_games_2933 bats_r throws_r hits_3166 hr_477 batting_avg_286 runs_per_ab_138 2b_avg_57 3b_avg_3 hr_avg_43 rbi_avg_154 bb_avg_77 so_avg_156 ibb_avg_10 hbp_avg_9 sb_121 sb_pct_74",
+    "pk": "beltrad01"
   },
   {
     "playerID": "beltrca01",
@@ -837,7 +850,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2017,
-    "embeddings_str": "fielder primary_position_cf total_games_2586 bats_b throws_r hits_2725 hr_435 batting_avg_279 runs_per_ab_162 2b_avg_58 3b_avg_8 hr_avg_45 rbi_avg_162 bb_avg_111 so_avg_184 ibb_avg_11 hbp_avg_5 sb_312 sb_pct_86"
+    "embeddings_str": "fielder primary_position_cf total_games_2586 bats_b throws_r hits_2725 hr_435 batting_avg_279 runs_per_ab_162 2b_avg_58 3b_avg_8 hr_avg_45 rbi_avg_162 bb_avg_111 so_avg_184 ibb_avg_11 hbp_avg_5 sb_312 sb_pct_86",
+    "pk": "beltrca01"
   },
   {
     "playerID": "berkmla01",
@@ -896,7 +910,8 @@
     "category": "fielder",
     "debut_year": 1999,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_1b total_games_1879 bats_b throws_l hits_1905 hr_366 batting_avg_293 runs_per_ab_177 2b_avg_65 3b_avg_5 hr_avg_56 rbi_avg_190 bb_avg_185 so_avg_200 ibb_avg_25 hbp_avg_10 sb_86 sb_pct_64"
+    "embeddings_str": "fielder primary_position_1b total_games_1879 bats_b throws_l hits_1905 hr_366 batting_avg_293 runs_per_ab_177 2b_avg_65 3b_avg_5 hr_avg_56 rbi_avg_190 bb_avg_185 so_avg_200 ibb_avg_25 hbp_avg_10 sb_86 sb_pct_64",
+    "pk": "berkmla01"
   },
   {
     "playerID": "bicheda01",
@@ -956,7 +971,8 @@
     "category": "fielder",
     "debut_year": 1988,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_rf total_games_1704 bats_r throws_r hits_1906 hr_274 batting_avg_299 runs_per_ab_146 2b_avg_63 3b_avg_4 hr_avg_43 rbi_avg_179 bb_avg_56 so_avg_169 ibb_avg_5 hbp_avg_6 sb_152 sb_pct_68"
+    "embeddings_str": "fielder primary_position_rf total_games_1704 bats_r throws_r hits_1906 hr_274 batting_avg_299 runs_per_ab_146 2b_avg_63 3b_avg_4 hr_avg_43 rbi_avg_179 bb_avg_56 so_avg_169 ibb_avg_5 hbp_avg_6 sb_152 sb_pct_68",
+    "pk": "bicheda01"
   },
   {
     "playerID": "biggicr01",
@@ -1012,7 +1028,8 @@
     "category": "fielder",
     "debut_year": 1988,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_2b total_games_2850 bats_r throws_r hits_3060 hr_291 batting_avg_281 runs_per_ab_170 2b_avg_61 3b_avg_5 hr_avg_27 rbi_avg_108 bb_avg_107 so_avg_161 ibb_avg_6 hbp_avg_26 sb_414 sb_pct_77"
+    "embeddings_str": "fielder primary_position_2b total_games_2850 bats_r throws_r hits_3060 hr_291 batting_avg_281 runs_per_ab_170 2b_avg_61 3b_avg_5 hr_avg_27 rbi_avg_108 bb_avg_107 so_avg_161 ibb_avg_6 hbp_avg_26 sb_414 sb_pct_77",
+    "pk": "biggicr01"
   },
   {
     "playerID": "bondsba01",
@@ -1069,7 +1086,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_lf total_games_2986 bats_l throws_l hits_2935 hr_762 batting_avg_298 runs_per_ab_226 2b_avg_61 3b_avg_8 hr_avg_77 rbi_avg_203 bb_avg_260 so_avg_156 ibb_avg_70 hbp_avg_11 sb_514 sb_pct_78"
+    "embeddings_str": "fielder primary_position_lf total_games_2986 bats_l throws_l hits_2935 hr_762 batting_avg_298 runs_per_ab_226 2b_avg_61 3b_avg_8 hr_avg_77 rbi_avg_203 bb_avg_260 so_avg_156 ibb_avg_70 hbp_avg_11 sb_514 sb_pct_78",
+    "pk": "bondsba01"
   },
   {
     "playerID": "bonilbo01",
@@ -1165,7 +1183,8 @@
     },
     "debut_year": 1986,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_3b total_games_2113 bats_b throws_r hits_2010 hr_287 batting_avg_279 runs_per_ab_150 2b_avg_57 3b_avg_8 hr_avg_40 rbi_avg_163 bb_avg_126 so_avg_167 ibb_avg_18 hbp_avg_4 sb_45 sb_pct_na"
+    "embeddings_str": "fielder primary_position_3b total_games_2113 bats_b throws_r hits_2010 hr_287 batting_avg_279 runs_per_ab_150 2b_avg_57 3b_avg_8 hr_avg_40 rbi_avg_163 bb_avg_126 so_avg_167 ibb_avg_18 hbp_avg_4 sb_45 sb_pct_na",
+    "pk": "bonilbo01"
   },
   {
     "playerID": "boonebr01",
@@ -1225,7 +1244,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_2b total_games_1780 bats_r throws_r hits_1775 hr_252 batting_avg_266 runs_per_ab_139 2b_avg_55 3b_avg_4 hr_avg_38 rbi_avg_153 bb_avg_83 so_avg_194 ibb_avg_5 hbp_avg_10 sb_94 sb_pct_64"
+    "embeddings_str": "fielder primary_position_2b total_games_1780 bats_r throws_r hits_1775 hr_252 batting_avg_266 runs_per_ab_139 2b_avg_55 3b_avg_4 hr_avg_38 rbi_avg_153 bb_avg_83 so_avg_194 ibb_avg_5 hbp_avg_10 sb_94 sb_pct_64",
+    "pk": "boonebr01"
   },
   {
     "playerID": "bordimi01",
@@ -1284,7 +1304,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_ss total_games_1720 bats_r throws_r hits_1500 hr_91 batting_avg_260 runs_per_ab_117 2b_avg_45 3b_avg_5 hr_avg_16 rbi_avg_108 bb_avg_87 so_avg_139 ibb_avg_2 hbp_avg_11 sb_96 sb_pct_62"
+    "embeddings_str": "fielder primary_position_ss total_games_1720 bats_r throws_r hits_1500 hr_91 batting_avg_260 runs_per_ab_117 2b_avg_45 3b_avg_5 hr_avg_16 rbi_avg_108 bb_avg_87 so_avg_139 ibb_avg_2 hbp_avg_11 sb_96 sb_pct_62",
+    "pk": "bordimi01"
   },
   {
     "playerID": "braunry02",
@@ -1340,7 +1361,8 @@
     "category": "fielder",
     "debut_year": 2007,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_lf total_games_1766 bats_r throws_r hits_1963 hr_352 batting_avg_296 runs_per_ab_163 2b_avg_62 3b_avg_7 hr_avg_53 rbi_avg_174 bb_avg_88 so_avg_206 ibb_avg_8 hbp_avg_12 sb_216 sb_pct_78"
+    "embeddings_str": "fielder primary_position_lf total_games_1766 bats_r throws_r hits_1963 hr_352 batting_avg_296 runs_per_ab_163 2b_avg_62 3b_avg_7 hr_avg_53 rbi_avg_174 bb_avg_88 so_avg_206 ibb_avg_8 hbp_avg_12 sb_216 sb_pct_78",
+    "pk": "braunry02"
   },
   {
     "playerID": "bruceja01",
@@ -1401,7 +1423,8 @@
     "category": "fielder",
     "debut_year": 2008,
     "final_year": 2021,
-    "embeddings_str": "fielder primary_position_rf total_games_1650 bats_l throws_l hits_1455 hr_319 batting_avg_244 runs_per_ab_141 2b_avg_52 3b_avg_5 hr_avg_53 rbi_avg_159 bb_avg_101 so_avg_264 ibb_avg_12 hbp_avg_5 sb_65 sb_pct_62"
+    "embeddings_str": "fielder primary_position_rf total_games_1650 bats_l throws_l hits_1455 hr_319 batting_avg_244 runs_per_ab_141 2b_avg_52 3b_avg_5 hr_avg_53 rbi_avg_159 bb_avg_101 so_avg_264 ibb_avg_12 hbp_avg_5 sb_65 sb_pct_62",
+    "pk": "bruceja01"
   },
   {
     "playerID": "brunato01",
@@ -1461,7 +1484,8 @@
     "category": "fielder",
     "debut_year": 1981,
     "final_year": 1994,
-    "embeddings_str": "fielder primary_position_rf total_games_1800 bats_r throws_r hits_1543 hr_271 batting_avg_245 runs_per_ab_128 2b_avg_49 3b_avg_5 hr_avg_43 rbi_avg_146 bb_avg_122 so_avg_189 ibb_avg_7 hbp_avg_5 sb_69 sb_pct_50"
+    "embeddings_str": "fielder primary_position_rf total_games_1800 bats_r throws_r hits_1543 hr_271 batting_avg_245 runs_per_ab_128 2b_avg_49 3b_avg_5 hr_avg_43 rbi_avg_146 bb_avg_122 so_avg_189 ibb_avg_7 hbp_avg_5 sb_69 sb_pct_50",
+    "pk": "brunato01"
   },
   {
     "playerID": "burksel01",
@@ -1521,7 +1545,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_cf total_games_2000 bats_r throws_r hits_2107 hr_352 batting_avg_291 runs_per_ab_173 2b_avg_56 3b_avg_9 hr_avg_49 rbi_avg_167 bb_avg_110 so_avg_185 ibb_avg_5 hbp_avg_8 sb_181 sb_pct_68"
+    "embeddings_str": "fielder primary_position_cf total_games_2000 bats_r throws_r hits_2107 hr_352 batting_avg_291 runs_per_ab_173 2b_avg_56 3b_avg_9 hr_avg_49 rbi_avg_167 bb_avg_110 so_avg_185 ibb_avg_5 hbp_avg_8 sb_181 sb_pct_68",
+    "pk": "burksel01"
   },
   {
     "playerID": "burnije01",
@@ -1584,7 +1609,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_rf total_games_1694 bats_l throws_r hits_1447 hr_315 batting_avg_253 runs_per_ab_161 2b_avg_52 3b_avg_5 hr_avg_55 rbi_avg_172 bb_avg_129 so_avg_241 ibb_avg_13 hbp_avg_14 sb_74 sb_pct_56"
+    "embeddings_str": "fielder primary_position_rf total_games_1694 bats_l throws_r hits_1447 hr_315 batting_avg_253 runs_per_ab_161 2b_avg_52 3b_avg_5 hr_avg_55 rbi_avg_172 bb_avg_129 so_avg_241 ibb_avg_13 hbp_avg_14 sb_74 sb_pct_56",
+    "pk": "burnije01"
   },
   {
     "playerID": "burrepa01",
@@ -1642,7 +1668,8 @@
     "category": "fielder",
     "debut_year": 2000,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_lf total_games_1640 bats_r throws_r hits_1393 hr_292 batting_avg_253 runs_per_ab_139 2b_avg_54 3b_avg_3 hr_avg_53 rbi_avg_177 bb_avg_169 so_avg_284 ibb_avg_10 hbp_avg_6 sb_7 sb_pct_na"
+    "embeddings_str": "fielder primary_position_lf total_games_1640 bats_r throws_r hits_1393 hr_292 batting_avg_253 runs_per_ab_139 2b_avg_54 3b_avg_3 hr_avg_53 rbi_avg_177 bb_avg_169 so_avg_284 ibb_avg_10 hbp_avg_6 sb_7 sb_pct_na",
+    "pk": "burrepa01"
   },
   {
     "playerID": "cabreas01",
@@ -1738,7 +1765,8 @@
     },
     "debut_year": 2007,
     "final_year": 2021,
-    "embeddings_str": "fielder primary_position_ss total_games_1822 bats_b throws_r hits_1763 hr_195 batting_avg_266 runs_per_ab_134 2b_avg_60 3b_avg_4 hr_avg_29 rbi_avg_131 bb_avg_89 so_avg_201 ibb_avg_4 hbp_avg_10 sb_91 sb_pct_74"
+    "embeddings_str": "fielder primary_position_ss total_games_1822 bats_b throws_r hits_1763 hr_195 batting_avg_266 runs_per_ab_134 2b_avg_60 3b_avg_4 hr_avg_29 rbi_avg_131 bb_avg_89 so_avg_201 ibb_avg_4 hbp_avg_10 sb_91 sb_pct_74",
+    "pk": "cabreas01"
   },
   {
     "playerID": "cabreme01",
@@ -1801,7 +1829,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_lf total_games_1887 bats_b throws_l hits_1962 hr_144 batting_avg_285 runs_per_ab_130 2b_avg_56 3b_avg_7 hr_avg_21 rbi_avg_124 bb_avg_74 so_avg_130 ibb_avg_6 hbp_avg_4 sb_101 sb_pct_73"
+    "embeddings_str": "fielder primary_position_lf total_games_1887 bats_b throws_l hits_1962 hr_144 batting_avg_285 runs_per_ab_130 2b_avg_56 3b_avg_7 hr_avg_21 rbi_avg_124 bb_avg_74 so_avg_130 ibb_avg_6 hbp_avg_4 sb_101 sb_pct_73",
+    "pk": "cabreme01"
   },
   {
     "playerID": "cabremi01",
@@ -1858,7 +1887,8 @@
     "category": "fielder",
     "debut_year": 2003,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_2699 bats_r throws_r hits_3088 hr_507 batting_avg_308 runs_per_ab_153 2b_avg_61 3b_avg_2 hr_avg_51 rbi_avg_184 bb_avg_122 so_avg_203 ibb_avg_24 hbp_avg_7 sb_40 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2699 bats_r throws_r hits_3088 hr_507 batting_avg_308 runs_per_ab_153 2b_avg_61 3b_avg_2 hr_avg_51 rbi_avg_184 bb_avg_122 so_avg_203 ibb_avg_24 hbp_avg_7 sb_40 sb_pct_na",
+    "pk": "cabremi01"
   },
   {
     "playerID": "cabreor01",
@@ -1922,7 +1952,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_ss total_games_1985 bats_r throws_r hits_2055 hr_123 batting_avg_272 runs_per_ab_130 2b_avg_61 3b_avg_4 hr_avg_16 rbi_avg_113 bb_avg_68 so_avg_99 ibb_avg_3 hbp_avg_4 sb_216 sb_pct_79"
+    "embeddings_str": "fielder primary_position_ss total_games_1985 bats_r throws_r hits_2055 hr_123 batting_avg_272 runs_per_ab_130 2b_avg_61 3b_avg_4 hr_avg_16 rbi_avg_113 bb_avg_68 so_avg_99 ibb_avg_3 hbp_avg_4 sb_216 sb_pct_79",
+    "pk": "cabreor01"
   },
   {
     "playerID": "camermi01",
@@ -1985,7 +2016,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_cf total_games_1955 bats_r throws_r hits_1700 hr_278 batting_avg_249 runs_per_ab_156 2b_avg_56 3b_avg_9 hr_avg_41 rbi_avg_142 bb_avg_127 so_avg_278 ibb_avg_3 hbp_avg_13 sb_297 sb_pct_78"
+    "embeddings_str": "fielder primary_position_cf total_games_1955 bats_r throws_r hits_1700 hr_278 batting_avg_249 runs_per_ab_156 2b_avg_56 3b_avg_9 hr_avg_41 rbi_avg_142 bb_avg_127 so_avg_278 ibb_avg_3 hbp_avg_13 sb_297 sb_pct_78",
+    "pk": "camermi01"
   },
   {
     "playerID": "caminke01",
@@ -2044,7 +2076,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_3b total_games_1760 bats_b throws_r hits_1710 hr_239 batting_avg_272 runs_per_ab_142 2b_avg_55 3b_avg_3 hr_avg_38 rbi_avg_156 bb_avg_116 so_avg_185 ibb_avg_18 hbp_avg_5 sb_88 sb_pct_69"
+    "embeddings_str": "fielder primary_position_3b total_games_1760 bats_b throws_r hits_1710 hr_239 batting_avg_272 runs_per_ab_142 2b_avg_55 3b_avg_3 hr_avg_38 rbi_avg_156 bb_avg_116 so_avg_185 ibb_avg_18 hbp_avg_5 sb_88 sb_pct_69",
+    "pk": "caminke01"
   },
   {
     "playerID": "canoro01",
@@ -2104,7 +2137,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_2b total_games_2267 bats_l throws_r hits_2639 hr_335 batting_avg_301 runs_per_ab_144 2b_avg_65 3b_avg_4 hr_avg_38 rbi_avg_149 bb_avg_71 so_avg_138 ibb_avg_13 hbp_avg_10 sb_51 sb_pct_57"
+    "embeddings_str": "fielder primary_position_2b total_games_2267 bats_l throws_r hits_2639 hr_335 batting_avg_301 runs_per_ab_144 2b_avg_65 3b_avg_4 hr_avg_38 rbi_avg_149 bb_avg_71 so_avg_138 ibb_avg_13 hbp_avg_10 sb_51 sb_pct_57",
+    "pk": "canoro01"
   },
   {
     "playerID": "cansejo01",
@@ -2199,7 +2233,8 @@
     },
     "debut_year": 1985,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_dh total_games_1887 bats_r throws_r hits_1877 hr_462 batting_avg_266 runs_per_ab_168 2b_avg_48 3b_avg_2 hr_avg_65 rbi_avg_199 bb_avg_128 so_avg_275 ibb_avg_9 hbp_avg_12 sb_200 sb_pct_69"
+    "embeddings_str": "fielder primary_position_dh total_games_1887 bats_r throws_r hits_1877 hr_462 batting_avg_266 runs_per_ab_168 2b_avg_48 3b_avg_2 hr_avg_65 rbi_avg_199 bb_avg_128 so_avg_275 ibb_avg_9 hbp_avg_12 sb_200 sb_pct_69",
+    "pk": "cansejo01"
   },
   {
     "playerID": "cartejo01",
@@ -2260,7 +2295,8 @@
     "category": "fielder",
     "debut_year": 1983,
     "final_year": 1998,
-    "embeddings_str": "fielder primary_position_lf total_games_2189 bats_r throws_r hits_2184 hr_396 batting_avg_259 runs_per_ab_139 2b_avg_51 3b_avg_6 hr_avg_47 rbi_avg_172 bb_avg_63 so_avg_165 ibb_avg_10 hbp_avg_11 sb_231 sb_pct_78"
+    "embeddings_str": "fielder primary_position_lf total_games_2189 bats_r throws_r hits_2184 hr_396 batting_avg_259 runs_per_ab_139 2b_avg_51 3b_avg_6 hr_avg_47 rbi_avg_172 bb_avg_63 so_avg_165 ibb_avg_10 hbp_avg_11 sb_231 sb_pct_78",
+    "pk": "cartejo01"
   },
   {
     "playerID": "castilu01",
@@ -2318,7 +2354,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_2b total_games_1720 bats_b throws_r hits_1889 hr_28 batting_avg_290 runs_per_ab_154 2b_avg_30 3b_avg_9 hr_avg_4 rbi_avg_68 bb_avg_123 so_avg_131 ibb_avg_2 hbp_avg_2 sb_370 sb_pct_72"
+    "embeddings_str": "fielder primary_position_2b total_games_1720 bats_b throws_r hits_1889 hr_28 batting_avg_290 runs_per_ab_154 2b_avg_30 3b_avg_9 hr_avg_4 rbi_avg_68 bb_avg_123 so_avg_131 ibb_avg_2 hbp_avg_2 sb_370 sb_pct_72",
+    "pk": "castilu01"
   },
   {
     "playerID": "castivi02",
@@ -2379,7 +2416,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_3b total_games_1854 bats_r throws_r hits_1884 hr_320 batting_avg_276 runs_per_ab_132 2b_avg_51 3b_avg_4 hr_avg_47 rbi_avg_162 bb_avg_62 so_avg_157 ibb_avg_9 hbp_avg_9 sb_33 sb_pct_na"
+    "embeddings_str": "fielder primary_position_3b total_games_1854 bats_r throws_r hits_1884 hr_320 batting_avg_276 runs_per_ab_132 2b_avg_51 3b_avg_4 hr_avg_47 rbi_avg_162 bb_avg_62 so_avg_157 ibb_avg_9 hbp_avg_9 sb_33 sb_pct_na",
+    "pk": "castivi02"
   },
   {
     "playerID": "choosh01",
@@ -2438,7 +2476,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_rf total_games_1652 bats_l throws_l hits_1671 hr_218 batting_avg_275 runs_per_ab_158 2b_avg_56 3b_avg_5 hr_avg_36 rbi_avg_128 bb_avg_143 so_avg_259 ibb_avg_7 hbp_avg_25 sb_157 sb_pct_74"
+    "embeddings_str": "fielder primary_position_rf total_games_1652 bats_l throws_l hits_1671 hr_218 batting_avg_275 runs_per_ab_158 2b_avg_56 3b_avg_5 hr_avg_36 rbi_avg_128 bb_avg_143 so_avg_259 ibb_avg_7 hbp_avg_25 sb_157 sb_pct_74",
+    "pk": "choosh01"
   },
   {
     "playerID": "clarkwi02",
@@ -2497,7 +2536,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2000,
-    "embeddings_str": "fielder primary_position_1b total_games_1976 bats_l throws_l hits_2176 hr_284 batting_avg_303 runs_per_ab_165 2b_avg_61 3b_avg_7 hr_avg_40 rbi_avg_168 bb_avg_131 so_avg_166 ibb_avg_22 hbp_avg_8 sb_67 sb_pct_58"
+    "embeddings_str": "fielder primary_position_1b total_games_1976 bats_l throws_l hits_2176 hr_284 batting_avg_303 runs_per_ab_165 2b_avg_61 3b_avg_7 hr_avg_40 rbi_avg_168 bb_avg_131 so_avg_166 ibb_avg_22 hbp_avg_8 sb_67 sb_pct_58",
+    "pk": "clarkwi02"
   },
   {
     "playerID": "claytro01",
@@ -2563,7 +2603,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_ss total_games_2108 bats_r throws_r hits_1904 hr_110 batting_avg_258 runs_per_ab_127 2b_avg_49 3b_avg_7 hr_avg_15 rbi_avg_98 bb_avg_77 so_avg_192 ibb_avg_5 hbp_avg_6 sb_231 sb_pct_70"
+    "embeddings_str": "fielder primary_position_ss total_games_2108 bats_r throws_r hits_1904 hr_110 batting_avg_258 runs_per_ab_127 2b_avg_49 3b_avg_7 hr_avg_15 rbi_avg_98 bb_avg_77 so_avg_192 ibb_avg_5 hbp_avg_6 sb_231 sb_pct_70",
+    "pk": "claytro01"
   },
   {
     "playerID": "coninje01",
@@ -2624,7 +2665,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_1b total_games_2024 bats_r throws_r hits_1982 hr_214 batting_avg_285 runs_per_ab_125 2b_avg_55 3b_avg_5 hr_avg_31 rbi_avg_154 bb_avg_96 so_avg_168 ibb_avg_7 hbp_avg_6 sb_54 sb_pct_65"
+    "embeddings_str": "fielder primary_position_1b total_games_2024 bats_r throws_r hits_1982 hr_214 batting_avg_285 runs_per_ab_125 2b_avg_55 3b_avg_5 hr_avg_31 rbi_avg_154 bb_avg_96 so_avg_168 ibb_avg_7 hbp_avg_6 sb_54 sb_pct_65",
+    "pk": "coninje01"
   },
   {
     "playerID": "counscr01",
@@ -2684,7 +2726,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_2b total_games_1624 bats_l throws_r hits_1208 hr_42 batting_avg_255 runs_per_ab_136 2b_avg_46 3b_avg_8 hr_avg_9 rbi_avg_82 bb_avg_124 so_avg_140 ibb_avg_7 hbp_avg_11 sb_103 sb_pct_68"
+    "embeddings_str": "fielder primary_position_2b total_games_1624 bats_l throws_r hits_1208 hr_42 batting_avg_255 runs_per_ab_136 2b_avg_46 3b_avg_8 hr_avg_9 rbi_avg_82 bb_avg_124 so_avg_140 ibb_avg_7 hbp_avg_11 sb_103 sb_pct_68",
+    "pk": "counscr01"
   },
   {
     "playerID": "crawfca02",
@@ -2742,7 +2785,8 @@
     "category": "fielder",
     "debut_year": 2002,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_lf total_games_1716 bats_l throws_l hits_1931 hr_136 batting_avg_290 runs_per_ab_150 2b_avg_46 3b_avg_18 hr_avg_20 rbi_avg_115 bb_avg_57 so_avg_160 ibb_avg_4 hbp_avg_7 sb_480 sb_pct_81"
+    "embeddings_str": "fielder primary_position_lf total_games_1716 bats_l throws_l hits_1931 hr_136 batting_avg_290 runs_per_ab_150 2b_avg_46 3b_avg_18 hr_avg_20 rbi_avg_115 bb_avg_57 so_avg_160 ibb_avg_4 hbp_avg_7 sb_480 sb_pct_81",
+    "pk": "crawfca02"
   },
   {
     "playerID": "cruzne02",
@@ -2804,7 +2848,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_dh total_games_2006 bats_r throws_r hits_2018 hr_459 batting_avg_274 runs_per_ab_147 2b_avg_50 3b_avg_2 hr_avg_62 rbi_avg_177 bb_avg_99 so_avg_254 ibb_avg_10 hbp_avg_11 sb_83 sb_pct_72"
+    "embeddings_str": "fielder primary_position_dh total_games_2006 bats_r throws_r hits_2018 hr_459 batting_avg_274 runs_per_ab_147 2b_avg_50 3b_avg_2 hr_avg_62 rbi_avg_177 bb_avg_99 so_avg_254 ibb_avg_10 hbp_avg_11 sb_83 sb_pct_72",
+    "pk": "cruzne02"
   },
   {
     "playerID": "damonjo01",
@@ -2866,7 +2911,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_cf total_games_2490 bats_l throws_l hits_2769 hr_235 batting_avg_284 runs_per_ab_171 2b_avg_54 3b_avg_11 hr_avg_24 rbi_avg_117 bb_avg_103 so_avg_129 ibb_avg_4 hbp_avg_5 sb_408 sb_pct_80"
+    "embeddings_str": "fielder primary_position_cf total_games_2490 bats_l throws_l hits_2769 hr_235 batting_avg_284 runs_per_ab_171 2b_avg_54 3b_avg_11 hr_avg_24 rbi_avg_117 bb_avg_103 so_avg_129 ibb_avg_4 hbp_avg_5 sb_408 sb_pct_80",
+    "pk": "damonjo01"
   },
   {
     "playerID": "davisch01",
@@ -2959,7 +3005,8 @@
     },
     "debut_year": 1981,
     "final_year": 1999,
-    "embeddings_str": "fielder primary_position_dh total_games_2436 bats_b throws_r hits_2380 hr_350 batting_avg_274 runs_per_ab_143 2b_avg_49 3b_avg_3 hr_avg_40 rbi_avg_158 bb_avg_138 so_avg_196 ibb_avg_22 hbp_avg_2 sb_142 sb_pct_59"
+    "embeddings_str": "fielder primary_position_dh total_games_2436 bats_b throws_r hits_2380 hr_350 batting_avg_274 runs_per_ab_143 2b_avg_49 3b_avg_3 hr_avg_40 rbi_avg_158 bb_avg_138 so_avg_196 ibb_avg_22 hbp_avg_2 sb_142 sb_pct_59",
+    "pk": "davisch01"
   },
   {
     "playerID": "daviser01",
@@ -3020,7 +3067,8 @@
     "category": "fielder",
     "debut_year": 1984,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_cf total_games_1626 bats_r throws_r hits_1430 hr_282 batting_avg_269 runs_per_ab_176 2b_avg_45 3b_avg_5 hr_avg_53 rbi_avg_176 bb_avg_139 so_avg_263 ibb_avg_11 hbp_avg_6 sb_349 sb_pct_84"
+    "embeddings_str": "fielder primary_position_cf total_games_1626 bats_r throws_r hits_1430 hr_282 batting_avg_269 runs_per_ab_176 2b_avg_45 3b_avg_5 hr_avg_53 rbi_avg_176 bb_avg_139 so_avg_263 ibb_avg_11 hbp_avg_6 sb_349 sb_pct_84",
+    "pk": "daviser01"
   },
   {
     "playerID": "delgaca01",
@@ -3078,7 +3126,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_1b total_games_2035 bats_l throws_r hits_2038 hr_473 batting_avg_280 runs_per_ab_170 2b_avg_66 3b_avg_2 hr_avg_65 rbi_avg_208 bb_avg_152 so_avg_240 ibb_avg_26 hbp_avg_24 sb_14 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2035 bats_l throws_r hits_2038 hr_473 batting_avg_280 runs_per_ab_170 2b_avg_66 3b_avg_2 hr_avg_65 rbi_avg_208 bb_avg_152 so_avg_240 ibb_avg_26 hbp_avg_24 sb_14 sb_pct_na",
+    "pk": "delgaca01"
   },
   {
     "playerID": "dunnad01",
@@ -3171,7 +3220,8 @@
     },
     "debut_year": 2001,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_lf total_games_2001 bats_l throws_r hits_1631 hr_462 batting_avg_237 runs_per_ab_159 2b_avg_49 3b_avg_1 hr_avg_67 rbi_avg_170 bb_avg_191 so_avg_346 ibb_avg_18 hbp_avg_12 sb_63 sb_pct_72"
+    "embeddings_str": "fielder primary_position_lf total_games_2001 bats_l throws_r hits_1631 hr_462 batting_avg_237 runs_per_ab_159 2b_avg_49 3b_avg_1 hr_avg_67 rbi_avg_170 bb_avg_191 so_avg_346 ibb_avg_18 hbp_avg_12 sb_63 sb_pct_72",
+    "pk": "dunnad01"
   },
   {
     "playerID": "dunstsh01",
@@ -3232,7 +3282,8 @@
     "category": "fielder",
     "debut_year": 1985,
     "final_year": 2002,
-    "embeddings_str": "fielder primary_position_ss total_games_1814 bats_r throws_r hits_1597 hr_150 batting_avg_269 runs_per_ab_124 2b_avg_49 3b_avg_10 hr_avg_25 rbi_avg_113 bb_avg_34 so_avg_169 ibb_avg_7 hbp_avg_7 sb_212 sb_pct_72"
+    "embeddings_str": "fielder primary_position_ss total_games_1814 bats_r throws_r hits_1597 hr_150 batting_avg_269 runs_per_ab_124 2b_avg_49 3b_avg_10 hr_avg_25 rbi_avg_113 bb_avg_34 so_avg_169 ibb_avg_7 hbp_avg_7 sb_212 sb_pct_72",
+    "pk": "dunstsh01"
   },
   {
     "playerID": "durhara01",
@@ -3291,7 +3342,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_2b total_games_1975 bats_b throws_r hits_2054 hr_192 batting_avg_277 runs_per_ab_169 2b_avg_59 3b_avg_11 hr_avg_26 rbi_avg_118 bb_avg_111 so_avg_162 ibb_avg_5 hbp_avg_10 sb_273 sb_pct_74"
+    "embeddings_str": "fielder primary_position_2b total_games_1975 bats_b throws_r hits_2054 hr_192 batting_avg_277 runs_per_ab_169 2b_avg_59 3b_avg_11 hr_avg_26 rbi_avg_118 bb_avg_111 so_avg_162 ibb_avg_5 hbp_avg_10 sb_273 sb_pct_74",
+    "pk": "durhara01"
   },
   {
     "playerID": "dyeje01",
@@ -3350,7 +3402,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_rf total_games_1763 bats_r throws_r hits_1779 hr_325 batting_avg_274 runs_per_ab_152 2b_avg_56 3b_avg_4 hr_avg_50 rbi_avg_165 bb_avg_92 so_avg_202 ibb_avg_6 hbp_avg_10 sb_46 sb_pct_na"
+    "embeddings_str": "fielder primary_position_rf total_games_1763 bats_r throws_r hits_1779 hr_325 batting_avg_274 runs_per_ab_152 2b_avg_56 3b_avg_4 hr_avg_50 rbi_avg_165 bb_avg_92 so_avg_202 ibb_avg_6 hbp_avg_10 sb_46 sb_pct_na",
+    "pk": "dyeje01"
   },
   {
     "playerID": "easleda01",
@@ -3411,7 +3464,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_2b total_games_1706 bats_r throws_r hits_1386 hr_163 batting_avg_253 runs_per_ab_134 2b_avg_52 3b_avg_5 hr_avg_30 rbi_avg_125 bb_avg_93 so_avg_170 ibb_avg_4 hbp_avg_24 sb_114 sb_pct_67"
+    "embeddings_str": "fielder primary_position_2b total_games_1706 bats_r throws_r hits_1386 hr_163 batting_avg_253 runs_per_ab_134 2b_avg_52 3b_avg_5 hr_avg_30 rbi_avg_125 bb_avg_93 so_avg_170 ibb_avg_4 hbp_avg_24 sb_114 sb_pct_67",
+    "pk": "easleda01"
   },
   {
     "playerID": "edmonji01",
@@ -3473,7 +3527,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_cf total_games_2011 bats_l throws_l hits_1949 hr_393 batting_avg_284 runs_per_ab_182 2b_avg_64 3b_avg_4 hr_avg_57 rbi_avg_175 bb_avg_146 so_avg_252 ibb_avg_13 hbp_avg_7 sb_67 sb_pct_57"
+    "embeddings_str": "fielder primary_position_cf total_games_2011 bats_l throws_l hits_1949 hr_393 batting_avg_284 runs_per_ab_182 2b_avg_64 3b_avg_4 hr_avg_57 rbi_avg_175 bb_avg_146 so_avg_252 ibb_avg_13 hbp_avg_7 sb_67 sb_pct_57",
+    "pk": "edmonji01"
   },
   {
     "playerID": "encared01",
@@ -3534,7 +3589,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_dh total_games_1960 bats_r throws_r hits_1832 hr_424 batting_avg_260 runs_per_ab_156 2b_avg_53 3b_avg_1 hr_avg_60 rbi_avg_179 bb_avg_128 so_avg_203 ibb_avg_8 hbp_avg_15 sb_61 sb_pct_81"
+    "embeddings_str": "fielder primary_position_dh total_games_1960 bats_r throws_r hits_1832 hr_424 batting_avg_260 runs_per_ab_156 2b_avg_53 3b_avg_1 hr_avg_60 rbi_avg_179 bb_avg_128 so_avg_203 ibb_avg_8 hbp_avg_15 sb_61 sb_pct_81",
+    "pk": "encared01"
   },
   {
     "playerID": "erstada01",
@@ -3594,7 +3650,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_1b total_games_1654 bats_l throws_l hits_1697 hr_124 batting_avg_282 runs_per_ab_152 2b_avg_52 3b_avg_5 hr_avg_21 rbi_avg_116 bb_avg_79 so_avg_156 ibb_avg_8 hbp_avg_6 sb_179 sb_pct_76"
+    "embeddings_str": "fielder primary_position_1b total_games_1654 bats_l throws_l hits_1697 hr_124 batting_avg_282 runs_per_ab_152 2b_avg_52 3b_avg_5 hr_avg_21 rbi_avg_116 bb_avg_79 so_avg_156 ibb_avg_8 hbp_avg_6 sb_179 sb_pct_76",
+    "pk": "erstada01"
   },
   {
     "playerID": "fernato01",
@@ -3656,7 +3713,8 @@
     "category": "fielder",
     "debut_year": 1983,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_ss total_games_2158 bats_b throws_r hits_2276 hr_94 batting_avg_288 runs_per_ab_134 2b_avg_52 3b_avg_12 hr_avg_12 rbi_avg_107 bb_avg_87 so_avg_99 ibb_avg_6 hbp_avg_8 sb_246 sb_pct_64"
+    "embeddings_str": "fielder primary_position_ss total_games_2158 bats_b throws_r hits_2276 hr_94 batting_avg_288 runs_per_ab_134 2b_avg_52 3b_avg_12 hr_avg_12 rbi_avg_107 bb_avg_87 so_avg_99 ibb_avg_6 hbp_avg_8 sb_246 sb_pct_64",
+    "pk": "fernato01"
   },
   {
     "playerID": "finlest01",
@@ -3752,7 +3810,8 @@
     },
     "debut_year": 1989,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_cf total_games_2583 bats_l throws_l hits_2548 hr_304 batting_avg_271 runs_per_ab_154 2b_avg_48 3b_avg_13 hr_avg_32 rbi_avg_124 bb_avg_90 so_avg_138 ibb_avg_7 hbp_avg_6 sb_320 sb_pct_73"
+    "embeddings_str": "fielder primary_position_cf total_games_2583 bats_l throws_l hits_2548 hr_304 batting_avg_271 runs_per_ab_154 2b_avg_48 3b_avg_13 hr_avg_32 rbi_avg_124 bb_avg_90 so_avg_138 ibb_avg_7 hbp_avg_6 sb_320 sb_pct_73",
+    "pk": "finlest01"
   },
   {
     "playerID": "floydcl01",
@@ -3814,7 +3873,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_lf total_games_1621 bats_l throws_r hits_1479 hr_233 batting_avg_278 runs_per_ab_155 2b_avg_64 3b_avg_4 hr_avg_44 rbi_avg_163 bb_avg_113 so_avg_200 ibb_avg_16 hbp_avg_17 sb_148 sb_pct_77"
+    "embeddings_str": "fielder primary_position_lf total_games_1621 bats_l throws_r hits_1479 hr_233 batting_avg_278 runs_per_ab_155 2b_avg_64 3b_avg_4 hr_avg_44 rbi_avg_163 bb_avg_113 so_avg_200 ibb_avg_16 hbp_avg_17 sb_148 sb_pct_77",
+    "pk": "floydcl01"
   },
   {
     "playerID": "freemfr01",
@@ -3871,7 +3931,8 @@
     "category": "fielder",
     "debut_year": 2010,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_1724 bats_l throws_r hits_1903 hr_292 batting_avg_298 runs_per_ab_170 2b_avg_65 3b_avg_4 hr_avg_46 rbi_avg_163 bb_avg_135 so_avg_222 ibb_avg_18 hbp_avg_13 sb_66 sb_pct_71"
+    "embeddings_str": "fielder primary_position_1b total_games_1724 bats_l throws_r hits_1903 hr_292 batting_avg_298 runs_per_ab_170 2b_avg_65 3b_avg_4 hr_avg_46 rbi_avg_163 bb_avg_135 so_avg_222 ibb_avg_18 hbp_avg_13 sb_66 sb_pct_71",
+    "pk": "freemfr01"
   },
   {
     "playerID": "frymatr01",
@@ -3928,7 +3989,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2002,
-    "embeddings_str": "fielder primary_position_3b total_games_1698 bats_r throws_r hits_1776 hr_223 batting_avg_274 runs_per_ab_138 2b_avg_53 3b_avg_6 hr_avg_34 rbi_avg_158 bb_avg_93 so_avg_211 ibb_avg_3 hbp_avg_6 sb_72 sb_pct_65"
+    "embeddings_str": "fielder primary_position_3b total_games_1698 bats_r throws_r hits_1776 hr_223 batting_avg_274 runs_per_ab_138 2b_avg_53 3b_avg_6 hr_avg_34 rbi_avg_158 bb_avg_93 so_avg_211 ibb_avg_3 hbp_avg_6 sb_72 sb_pct_65",
+    "pk": "frymatr01"
   },
   {
     "playerID": "gagnegr01",
@@ -3986,7 +4048,8 @@
     "category": "fielder",
     "debut_year": 1983,
     "final_year": 1997,
-    "embeddings_str": "fielder primary_position_ss total_games_1798 bats_r throws_r hits_1440 hr_111 batting_avg_254 runs_per_ab_126 2b_avg_52 3b_avg_9 hr_avg_20 rbi_avg_106 bb_avg_65 so_avg_198 ibb_avg_4 hbp_avg_7 sb_108 sb_pct_53"
+    "embeddings_str": "fielder primary_position_ss total_games_1798 bats_r throws_r hits_1440 hr_111 batting_avg_254 runs_per_ab_126 2b_avg_52 3b_avg_9 hr_avg_20 rbi_avg_106 bb_avg_65 so_avg_198 ibb_avg_4 hbp_avg_7 sb_108 sb_pct_53",
+    "pk": "gagnegr01"
   },
   {
     "playerID": "galaran01",
@@ -4048,7 +4111,8 @@
     "category": "fielder",
     "debut_year": 1985,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_1b total_games_2257 bats_r throws_r hits_2333 hr_399 batting_avg_288 runs_per_ab_148 2b_avg_55 3b_avg_4 hr_avg_49 rbi_avg_176 bb_avg_72 so_avg_247 ibb_avg_13 hbp_avg_22 sb_128 sb_pct_61"
+    "embeddings_str": "fielder primary_position_1b total_games_2257 bats_r throws_r hits_2333 hr_399 batting_avg_288 runs_per_ab_148 2b_avg_55 3b_avg_4 hr_avg_49 rbi_avg_176 bb_avg_72 so_avg_247 ibb_avg_13 hbp_avg_22 sb_128 sb_pct_61",
+    "pk": "galaran01"
   },
   {
     "playerID": "gantro01",
@@ -4111,7 +4175,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_lf total_games_1832 bats_r throws_r hits_1651 hr_321 batting_avg_256 runs_per_ab_167 2b_avg_47 3b_avg_8 hr_avg_50 rbi_avg_156 bb_avg_119 so_avg_219 ibb_avg_6 hbp_avg_5 sb_243 sb_pct_70"
+    "embeddings_str": "fielder primary_position_lf total_games_1832 bats_r throws_r hits_1651 hr_321 batting_avg_256 runs_per_ab_167 2b_avg_47 3b_avg_8 hr_avg_50 rbi_avg_156 bb_avg_119 so_avg_219 ibb_avg_6 hbp_avg_5 sb_243 sb_pct_70",
+    "pk": "gantro01"
   },
   {
     "playerID": "gardnbr01",
@@ -4167,7 +4232,8 @@
     "category": "fielder",
     "debut_year": 2008,
     "final_year": 2021,
-    "embeddings_str": "fielder primary_position_lf total_games_1688 bats_l throws_l hits_1470 hr_139 batting_avg_256 runs_per_ab_164 2b_avg_44 3b_avg_13 hr_avg_24 rbi_avg_101 bb_avg_122 so_avg_217 ibb_avg_1 hbp_avg_12 sb_274 sb_pct_81"
+    "embeddings_str": "fielder primary_position_lf total_games_1688 bats_l throws_l hits_1470 hr_139 batting_avg_256 runs_per_ab_164 2b_avg_44 3b_avg_13 hr_avg_24 rbi_avg_101 bb_avg_122 so_avg_217 ibb_avg_1 hbp_avg_12 sb_274 sb_pct_81",
+    "pk": "gardnbr01"
   },
   {
     "playerID": "giambja01",
@@ -4226,7 +4292,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_1b total_games_2260 bats_l throws_r hits_2010 hr_440 batting_avg_277 runs_per_ab_169 2b_avg_56 3b_avg_1 hr_avg_61 rbi_avg_198 bb_avg_188 so_avg_216 ibb_avg_13 hbp_avg_25 sb_20 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2260 bats_l throws_r hits_2010 hr_440 batting_avg_277 runs_per_ab_169 2b_avg_56 3b_avg_1 hr_avg_61 rbi_avg_198 bb_avg_188 so_avg_216 ibb_avg_13 hbp_avg_25 sb_20 sb_pct_na",
+    "pk": "giambja01"
   },
   {
     "playerID": "gilesbr02",
@@ -4284,7 +4351,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_rf total_games_1847 bats_l throws_l hits_1897 hr_287 batting_avg_291 runs_per_ab_172 2b_avg_63 3b_avg_8 hr_avg_44 rbi_avg_165 bb_avg_181 so_avg_128 ibb_avg_17 hbp_avg_8 sb_109 sb_pct_71"
+    "embeddings_str": "fielder primary_position_rf total_games_1847 bats_l throws_l hits_1897 hr_287 batting_avg_291 runs_per_ab_172 2b_avg_63 3b_avg_8 hr_avg_44 rbi_avg_165 bb_avg_181 so_avg_128 ibb_avg_17 hbp_avg_8 sb_109 sb_pct_71",
+    "pk": "gilesbr02"
   },
   {
     "playerID": "gonzaad01",
@@ -4344,7 +4412,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_1b total_games_1929 bats_l throws_l hits_2050 hr_317 batting_avg_287 runs_per_ab_140 2b_avg_61 3b_avg_2 hr_avg_44 rbi_avg_168 bb_avg_110 so_avg_196 ibb_avg_22 hbp_avg_6 sb_6 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1929 bats_l throws_l hits_2050 hr_317 batting_avg_287 runs_per_ab_140 2b_avg_61 3b_avg_2 hr_avg_44 rbi_avg_168 bb_avg_110 so_avg_196 ibb_avg_22 hbp_avg_6 sb_6 sb_pct_na",
+    "pk": "gonzaad01"
   },
   {
     "playerID": "gonzaju03",
@@ -4403,7 +4472,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_rf total_games_1689 bats_r throws_r hits_1936 hr_434 batting_avg_295 runs_per_ab_162 2b_avg_59 3b_avg_4 hr_avg_66 rbi_avg_214 bb_avg_70 so_avg_194 ibb_avg_11 hbp_avg_9 sb_26 sb_pct_na"
+    "embeddings_str": "fielder primary_position_rf total_games_1689 bats_r throws_r hits_1936 hr_434 batting_avg_295 runs_per_ab_162 2b_avg_59 3b_avg_4 hr_avg_66 rbi_avg_214 bb_avg_70 so_avg_194 ibb_avg_11 hbp_avg_9 sb_26 sb_pct_na",
+    "pk": "gonzaju03"
   },
   {
     "playerID": "gonzalu01",
@@ -4464,7 +4534,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_lf total_games_2591 bats_l throws_r hits_2591 hr_354 batting_avg_283 runs_per_ab_154 2b_avg_65 3b_avg_7 hr_avg_39 rbi_avg_157 bb_avg_126 so_avg_133 ibb_avg_16 hbp_avg_12 sb_128 sb_pct_60"
+    "embeddings_str": "fielder primary_position_lf total_games_2591 bats_l throws_r hits_2591 hr_354 batting_avg_283 runs_per_ab_154 2b_avg_65 3b_avg_7 hr_avg_39 rbi_avg_157 bb_avg_126 so_avg_133 ibb_avg_16 hbp_avg_12 sb_128 sb_pct_60",
+    "pk": "gonzalu01"
   },
   {
     "playerID": "gordoal01",
@@ -4553,7 +4624,8 @@
     },
     "debut_year": 2007,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_lf total_games_1753 bats_l throws_r hits_1643 hr_190 batting_avg_257 runs_per_ab_136 2b_avg_56 3b_avg_4 hr_avg_30 rbi_avg_117 bb_avg_107 so_avg_240 ibb_avg_8 hbp_avg_19 sb_113 sb_pct_72"
+    "embeddings_str": "fielder primary_position_lf total_games_1753 bats_l throws_r hits_1643 hr_190 batting_avg_257 runs_per_ab_136 2b_avg_56 3b_avg_4 hr_avg_30 rbi_avg_117 bb_avg_107 so_avg_240 ibb_avg_8 hbp_avg_19 sb_113 sb_pct_72",
+    "pk": "gordoal01"
   },
   {
     "playerID": "gracema01",
@@ -4643,7 +4715,8 @@
     },
     "debut_year": 1988,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_1b total_games_2245 bats_l throws_l hits_2445 hr_173 batting_avg_303 runs_per_ab_146 2b_avg_63 3b_avg_6 hr_avg_21 rbi_avg_142 bb_avg_133 so_avg_80 ibb_avg_14 hbp_avg_4 sb_70 sb_pct_59"
+    "embeddings_str": "fielder primary_position_1b total_games_2245 bats_l throws_l hits_2445 hr_173 batting_avg_303 runs_per_ab_146 2b_avg_63 3b_avg_6 hr_avg_21 rbi_avg_142 bb_avg_133 so_avg_80 ibb_avg_14 hbp_avg_4 sb_70 sb_pct_59",
+    "pk": "gracema01"
   },
   {
     "playerID": "grandcu01",
@@ -4705,7 +4778,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_cf total_games_2057 bats_l throws_r hits_1800 hr_344 batting_avg_249 runs_per_ab_168 2b_avg_48 3b_avg_13 hr_avg_48 rbi_avg_129 bb_avg_128 so_avg_265 ibb_avg_4 hbp_avg_9 sb_153 sb_pct_75"
+    "embeddings_str": "fielder primary_position_cf total_games_2057 bats_l throws_r hits_1800 hr_344 batting_avg_249 runs_per_ab_168 2b_avg_48 3b_avg_13 hr_avg_48 rbi_avg_129 bb_avg_128 so_avg_265 ibb_avg_4 hbp_avg_9 sb_153 sb_pct_75",
+    "pk": "grandcu01"
   },
   {
     "playerID": "greensh01",
@@ -4764,7 +4838,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_rf total_games_1951 bats_l throws_l hits_2003 hr_328 batting_avg_283 runs_per_ab_159 2b_avg_63 3b_avg_5 hr_avg_46 rbi_avg_151 bb_avg_105 so_avg_186 ibb_avg_11 hbp_avg_11 sb_162 sb_pct_76"
+    "embeddings_str": "fielder primary_position_rf total_games_1951 bats_l throws_l hits_2003 hr_328 batting_avg_283 runs_per_ab_159 2b_avg_63 3b_avg_5 hr_avg_46 rbi_avg_151 bb_avg_105 so_avg_186 ibb_avg_11 hbp_avg_11 sb_162 sb_pct_76",
+    "pk": "greensh01"
   },
   {
     "playerID": "griffke02",
@@ -4822,7 +4897,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_cf total_games_2671 bats_l throws_l hits_2781 hr_630 batting_avg_284 runs_per_ab_170 2b_avg_53 3b_avg_4 hr_avg_64 rbi_avg_187 bb_avg_134 so_avg_182 ibb_avg_25 hbp_avg_8 sb_184 sb_pct_73"
+    "embeddings_str": "fielder primary_position_cf total_games_2671 bats_l throws_l hits_2781 hr_630 batting_avg_284 runs_per_ab_170 2b_avg_53 3b_avg_4 hr_avg_64 rbi_avg_187 bb_avg_134 so_avg_182 ibb_avg_25 hbp_avg_8 sb_184 sb_pct_73",
+    "pk": "griffke02"
   },
   {
     "playerID": "grissma02",
@@ -4883,7 +4959,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_cf total_games_2165 bats_r throws_r hits_2251 hr_227 batting_avg_272 runs_per_ab_143 2b_avg_47 3b_avg_7 hr_avg_27 rbi_avg_117 bb_avg_67 so_avg_150 ibb_avg_5 hbp_avg_4 sb_429 sb_pct_79"
+    "embeddings_str": "fielder primary_position_cf total_games_2165 bats_r throws_r hits_2251 hr_227 batting_avg_272 runs_per_ab_143 2b_avg_47 3b_avg_7 hr_avg_27 rbi_avg_117 bb_avg_67 so_avg_150 ibb_avg_5 hbp_avg_4 sb_429 sb_pct_79",
+    "pk": "grissma02"
   },
   {
     "playerID": "grudzma01",
@@ -4944,7 +5021,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_2b total_games_1802 bats_r throws_r hits_2040 hr_90 batting_avg_289 runs_per_ab_134 2b_avg_55 3b_avg_5 hr_avg_13 rbi_avg_91 bb_avg_52 so_avg_135 ibb_avg_3 hbp_avg_15 sb_133 sb_pct_72"
+    "embeddings_str": "fielder primary_position_2b total_games_1802 bats_r throws_r hits_2040 hr_90 batting_avg_289 runs_per_ab_134 2b_avg_55 3b_avg_5 hr_avg_13 rbi_avg_91 bb_avg_52 so_avg_135 ibb_avg_3 hbp_avg_15 sb_133 sb_pct_72",
+    "pk": "grudzma01"
   },
   {
     "playerID": "guerrvl01",
@@ -5004,7 +5082,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_rf total_games_2147 bats_r throws_r hits_2590 hr_449 batting_avg_318 runs_per_ab_163 2b_avg_58 3b_avg_6 hr_avg_55 rbi_avg_183 bb_avg_90 so_avg_121 ibb_avg_31 hbp_avg_13 sb_181 sb_pct_66"
+    "embeddings_str": "fielder primary_position_rf total_games_2147 bats_r throws_r hits_2590 hr_449 batting_avg_318 runs_per_ab_163 2b_avg_58 3b_avg_6 hr_avg_55 rbi_avg_183 bb_avg_90 so_avg_121 ibb_avg_31 hbp_avg_13 sb_181 sb_pct_66",
+    "pk": "guerrvl01"
   },
   {
     "playerID": "guilljo01",
@@ -5069,7 +5148,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_rf total_games_1650 bats_r throws_r hits_1591 hr_214 batting_avg_270 runs_per_ab_127 2b_avg_52 3b_avg_4 hr_avg_36 rbi_avg_151 bb_avg_55 so_avg_187 ibb_avg_5 hbp_avg_25 sb_31 sb_pct_na"
+    "embeddings_str": "fielder primary_position_rf total_games_1650 bats_r throws_r hits_1591 hr_214 batting_avg_270 runs_per_ab_127 2b_avg_52 3b_avg_4 hr_avg_36 rbi_avg_151 bb_avg_55 so_avg_187 ibb_avg_5 hbp_avg_25 sb_31 sb_pct_na",
+    "pk": "guilljo01"
   },
   {
     "playerID": "guilloz01",
@@ -5128,7 +5208,8 @@
     "category": "fielder",
     "debut_year": 1985,
     "final_year": 2000,
-    "embeddings_str": "fielder primary_position_ss total_games_1993 bats_l throws_r hits_1764 hr_28 batting_avg_264 runs_per_ab_116 2b_avg_41 3b_avg_10 hr_avg_4 rbi_avg_93 bb_avg_36 so_avg_76 ibb_avg_4 hbp_avg_1 sb_169 sb_pct_61"
+    "embeddings_str": "fielder primary_position_ss total_games_1993 bats_l throws_r hits_1764 hr_28 batting_avg_264 runs_per_ab_116 2b_avg_41 3b_avg_10 hr_avg_4 rbi_avg_93 bb_avg_36 so_avg_76 ibb_avg_4 hbp_avg_1 sb_169 sb_pct_61",
+    "pk": "guilloz01"
   },
   {
     "playerID": "gwynnto01",
@@ -5184,7 +5265,8 @@
     "category": "fielder",
     "debut_year": 1982,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_rf total_games_2440 bats_l throws_l hits_3141 hr_135 batting_avg_338 runs_per_ab_149 2b_avg_58 3b_avg_9 hr_avg_15 rbi_avg_123 bb_avg_85 so_avg_47 ibb_avg_22 hbp_avg_3 sb_319 sb_pct_72"
+    "embeddings_str": "fielder primary_position_rf total_games_2440 bats_l throws_l hits_3141 hr_135 batting_avg_338 runs_per_ab_149 2b_avg_58 3b_avg_9 hr_avg_15 rbi_avg_123 bb_avg_85 so_avg_47 ibb_avg_22 hbp_avg_3 sb_319 sb_pct_72",
+    "pk": "gwynnto01"
   },
   {
     "playerID": "harrile01",
@@ -5280,7 +5362,8 @@
     },
     "debut_year": 1988,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_3b total_games_1903 bats_l throws_r hits_1055 hr_37 batting_avg_269 runs_per_ab_117 2b_avg_41 3b_avg_5 hr_avg_9 rbi_avg_94 bb_avg_71 so_avg_86 ibb_avg_7 hbp_avg_4 sb_131 sb_pct_71"
+    "embeddings_str": "fielder primary_position_3b total_games_1903 bats_l throws_r hits_1055 hr_37 batting_avg_269 runs_per_ab_117 2b_avg_41 3b_avg_5 hr_avg_9 rbi_avg_94 bb_avg_71 so_avg_86 ibb_avg_7 hbp_avg_4 sb_131 sb_pct_71",
+    "pk": "harrile01"
   },
   {
     "playerID": "heltoto01",
@@ -5336,7 +5419,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_1b total_games_2247 bats_l throws_l hits_2519 hr_369 batting_avg_316 runs_per_ab_176 2b_avg_74 3b_avg_5 hr_avg_46 rbi_avg_177 bb_avg_168 so_avg_148 ibb_avg_23 hbp_avg_7 sb_37 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2247 bats_l throws_l hits_2519 hr_369 batting_avg_316 runs_per_ab_176 2b_avg_74 3b_avg_5 hr_avg_46 rbi_avg_177 bb_avg_168 so_avg_148 ibb_avg_23 hbp_avg_7 sb_37 sb_pct_na",
+    "pk": "heltoto01"
   },
   {
     "playerID": "hollima01",
@@ -5395,7 +5479,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_lf total_games_1903 bats_r throws_r hits_2096 hr_316 batting_avg_299 runs_per_ab_165 2b_avg_67 3b_avg_5 hr_avg_45 rbi_avg_174 bb_avg_114 so_avg_194 ibb_avg_8 hbp_avg_18 sb_108 sb_pct_74"
+    "embeddings_str": "fielder primary_position_lf total_games_1903 bats_r throws_r hits_2096 hr_316 batting_avg_299 runs_per_ab_165 2b_avg_67 3b_avg_5 hr_avg_45 rbi_avg_174 bb_avg_114 so_avg_194 ibb_avg_8 hbp_avg_18 sb_108 sb_pct_74",
+    "pk": "hollima01"
   },
   {
     "playerID": "hosmeer01",
@@ -5453,7 +5538,8 @@
     "category": "fielder",
     "debut_year": 2011,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_1658 bats_l throws_l hits_1731 hr_196 batting_avg_277 runs_per_ab_129 2b_avg_51 3b_avg_3 hr_avg_31 rbi_avg_141 bb_avg_89 so_avg_193 ibb_avg_8 hbp_avg_4 sb_76 sb_pct_72"
+    "embeddings_str": "fielder primary_position_1b total_games_1658 bats_l throws_l hits_1731 hr_196 batting_avg_277 runs_per_ab_129 2b_avg_51 3b_avg_3 hr_avg_31 rbi_avg_141 bb_avg_89 so_avg_193 ibb_avg_8 hbp_avg_4 sb_76 sb_pct_72",
+    "pk": "hosmeer01"
   },
   {
     "playerID": "hrbekke01",
@@ -5509,7 +5595,8 @@
     "category": "fielder",
     "debut_year": 1981,
     "final_year": 1994,
-    "embeddings_str": "fielder primary_position_1b total_games_1747 bats_l throws_r hits_1749 hr_293 batting_avg_282 runs_per_ab_146 2b_avg_50 3b_avg_3 hr_avg_47 rbi_avg_175 bb_avg_135 so_avg_129 ibb_avg_18 hbp_avg_4 sb_37 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1747 bats_l throws_r hits_1749 hr_293 batting_avg_282 runs_per_ab_146 2b_avg_50 3b_avg_3 hr_avg_47 rbi_avg_175 bb_avg_135 so_avg_129 ibb_avg_18 hbp_avg_4 sb_37 sb_pct_na",
+    "pk": "hrbekke01"
   },
   {
     "playerID": "huffau01",
@@ -5569,7 +5656,8 @@
     "category": "fielder",
     "debut_year": 2000,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_1b total_games_1681 bats_l throws_r hits_1699 hr_242 batting_avg_278 runs_per_ab_132 2b_avg_59 3b_avg_4 hr_avg_40 rbi_avg_148 bb_avg_94 so_avg_149 ibb_avg_13 hbp_avg_8 sb_37 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1681 bats_l throws_r hits_1699 hr_242 batting_avg_278 runs_per_ab_132 2b_avg_59 3b_avg_4 hr_avg_40 rbi_avg_148 bb_avg_94 so_avg_149 ibb_avg_13 hbp_avg_8 sb_37 sb_pct_na",
+    "pk": "huffau01"
   },
   {
     "playerID": "hunteto01",
@@ -5627,7 +5715,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2015,
-    "embeddings_str": "fielder primary_position_cf total_games_2372 bats_r throws_r hits_2452 hr_353 batting_avg_277 runs_per_ab_146 2b_avg_56 3b_avg_4 hr_avg_40 rbi_avg_157 bb_avg_75 so_avg_197 ibb_avg_6 hbp_avg_11 sb_195 sb_pct_66"
+    "embeddings_str": "fielder primary_position_cf total_games_2372 bats_r throws_r hits_2452 hr_353 batting_avg_277 runs_per_ab_146 2b_avg_56 3b_avg_4 hr_avg_40 rbi_avg_157 bb_avg_75 so_avg_197 ibb_avg_6 hbp_avg_11 sb_195 sb_pct_66",
+    "pk": "hunteto01"
   },
   {
     "playerID": "ibanera01",
@@ -5687,7 +5776,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_lf total_games_2161 bats_l throws_r hits_2034 hr_305 batting_avg_272 runs_per_ab_141 2b_avg_57 3b_avg_7 hr_avg_41 rbi_avg_162 bb_avg_95 so_avg_184 ibb_avg_11 hbp_avg_4 sb_50 sb_pct_na"
+    "embeddings_str": "fielder primary_position_lf total_games_2161 bats_l throws_r hits_2034 hr_305 batting_avg_272 runs_per_ab_141 2b_avg_57 3b_avg_7 hr_avg_41 rbi_avg_162 bb_avg_95 so_avg_184 ibb_avg_11 hbp_avg_4 sb_50 sb_pct_na",
+    "pk": "ibanera01"
   },
   {
     "playerID": "javiest01",
@@ -5750,7 +5840,8 @@
     "category": "fielder",
     "debut_year": 1984,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_cf total_games_1763 bats_b throws_r hits_1358 hr_57 batting_avg_269 runs_per_ab_155 2b_avg_45 3b_avg_8 hr_avg_11 rbi_avg_100 bb_avg_115 so_avg_166 ibb_avg_5 hbp_avg_5 sb_246 sb_pct_83"
+    "embeddings_str": "fielder primary_position_cf total_games_1763 bats_b throws_r hits_1358 hr_57 batting_avg_269 runs_per_ab_155 2b_avg_45 3b_avg_8 hr_avg_11 rbi_avg_100 bb_avg_115 so_avg_166 ibb_avg_5 hbp_avg_5 sb_246 sb_pct_83",
+    "pk": "javiest01"
   },
   {
     "playerID": "jeterde01",
@@ -5806,7 +5897,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_ss total_games_2747 bats_r throws_r hits_3465 hr_260 batting_avg_310 runs_per_ab_172 2b_avg_49 3b_avg_6 hr_avg_23 rbi_avg_117 bb_avg_97 so_avg_164 ibb_avg_3 hbp_avg_15 sb_358 sb_pct_79"
+    "embeddings_str": "fielder primary_position_ss total_games_2747 bats_r throws_r hits_3465 hr_260 batting_avg_310 runs_per_ab_172 2b_avg_49 3b_avg_6 hr_avg_23 rbi_avg_117 bb_avg_97 so_avg_164 ibb_avg_3 hbp_avg_15 sb_358 sb_pct_79",
+    "pk": "jeterde01"
   },
   {
     "playerID": "jonesad01",
@@ -5864,7 +5956,8 @@
     "category": "fielder",
     "debut_year": 2006,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_cf total_games_1823 bats_r throws_r hits_1939 hr_282 batting_avg_277 runs_per_ab_137 2b_avg_48 3b_avg_4 hr_avg_40 rbi_avg_135 bb_avg_49 so_avg_199 ibb_avg_3 hbp_avg_15 sb_97 sb_pct_73"
+    "embeddings_str": "fielder primary_position_cf total_games_1823 bats_r throws_r hits_1939 hr_282 batting_avg_277 runs_per_ab_137 2b_avg_48 3b_avg_4 hr_avg_40 rbi_avg_135 bb_avg_49 so_avg_199 ibb_avg_3 hbp_avg_15 sb_97 sb_pct_73",
+    "pk": "jonesad01"
   },
   {
     "playerID": "jonesan01",
@@ -5924,7 +6017,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_cf total_games_2196 bats_r throws_r hits_1933 hr_434 batting_avg_254 runs_per_ab_158 2b_avg_50 3b_avg_5 hr_avg_57 rbi_avg_170 bb_avg_117 so_avg_230 ibb_avg_9 hbp_avg_13 sb_152 sb_pct_72"
+    "embeddings_str": "fielder primary_position_cf total_games_2196 bats_r throws_r hits_1933 hr_434 batting_avg_254 runs_per_ab_158 2b_avg_50 3b_avg_5 hr_avg_57 rbi_avg_170 bb_avg_117 so_avg_230 ibb_avg_9 hbp_avg_13 sb_152 sb_pct_72",
+    "pk": "jonesan01"
   },
   {
     "playerID": "jonesch06",
@@ -5980,7 +6074,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_3b total_games_2499 bats_b throws_r hits_2726 hr_468 batting_avg_303 runs_per_ab_180 2b_avg_61 3b_avg_4 hr_avg_52 rbi_avg_181 bb_avg_168 so_avg_157 ibb_avg_20 hbp_avg_2 sb_150 sb_pct_77"
+    "embeddings_str": "fielder primary_position_3b total_games_2499 bats_b throws_r hits_2726 hr_468 batting_avg_303 runs_per_ab_180 2b_avg_61 3b_avg_4 hr_avg_52 rbi_avg_181 bb_avg_168 so_avg_157 ibb_avg_20 hbp_avg_2 sb_150 sb_pct_77",
+    "pk": "jonesch06"
   },
   {
     "playerID": "joynewa01",
@@ -6040,7 +6135,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_1b total_games_2033 bats_l throws_l hits_2060 hr_204 batting_avg_289 runs_per_ab_137 2b_avg_57 3b_avg_4 hr_avg_29 rbi_avg_155 bb_avg_117 so_avg_116 ibb_avg_15 hbp_avg_5 sb_60 sb_pct_61"
+    "embeddings_str": "fielder primary_position_1b total_games_2033 bats_l throws_l hits_2060 hr_204 batting_avg_289 runs_per_ab_137 2b_avg_57 3b_avg_4 hr_avg_29 rbi_avg_155 bb_avg_117 so_avg_116 ibb_avg_15 hbp_avg_5 sb_60 sb_pct_61",
+    "pk": "joynewa01"
   },
   {
     "playerID": "karroer01",
@@ -6098,7 +6194,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_1b total_games_1755 bats_r throws_r hits_1724 hr_284 batting_avg_268 runs_per_ab_124 2b_avg_50 3b_avg_2 hr_avg_44 rbi_avg_159 bb_avg_86 so_avg_181 ibb_avg_3 hbp_avg_5 sb_59 sb_pct_66"
+    "embeddings_str": "fielder primary_position_1b total_games_1755 bats_r throws_r hits_1724 hr_284 batting_avg_268 runs_per_ab_124 2b_avg_50 3b_avg_2 hr_avg_44 rbi_avg_159 bb_avg_86 so_avg_181 ibb_avg_3 hbp_avg_5 sb_59 sb_pct_66",
+    "pk": "karroer01"
   },
   {
     "playerID": "kempma01",
@@ -6158,7 +6255,8 @@
     "category": "fielder",
     "debut_year": 2006,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_cf total_games_1750 bats_r throws_r hits_1808 hr_287 batting_avg_284 runs_per_ab_149 2b_avg_53 3b_avg_6 hr_avg_45 rbi_avg_162 bb_avg_81 so_avg_258 ibb_avg_11 hbp_avg_4 sb_184 sb_pct_74"
+    "embeddings_str": "fielder primary_position_cf total_games_1750 bats_r throws_r hits_1808 hr_287 batting_avg_284 runs_per_ab_149 2b_avg_53 3b_avg_6 hr_avg_45 rbi_avg_162 bb_avg_81 so_avg_258 ibb_avg_11 hbp_avg_4 sb_184 sb_pct_74",
+    "pk": "kempma01"
   },
   {
     "playerID": "kendaja01",
@@ -6218,7 +6316,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_c total_games_2085 bats_r throws_r hits_2195 hr_75 batting_avg_288 runs_per_ab_135 2b_avg_52 3b_avg_5 hr_avg_10 rbi_avg_98 bb_avg_95 so_avg_90 ibb_avg_7 hbp_avg_33 sb_189 sb_pct_68"
+    "embeddings_str": "fielder primary_position_c total_games_2085 bats_r throws_r hits_2195 hr_75 batting_avg_288 runs_per_ab_135 2b_avg_52 3b_avg_5 hr_avg_10 rbi_avg_98 bb_avg_95 so_avg_90 ibb_avg_7 hbp_avg_33 sb_189 sb_pct_68",
+    "pk": "kendaja01"
   },
   {
     "playerID": "kendrho01",
@@ -6277,7 +6376,8 @@
     "category": "fielder",
     "debut_year": 2006,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_2b total_games_1621 bats_r throws_r hits_1747 hr_127 batting_avg_294 runs_per_ab_133 2b_avg_59 3b_avg_6 hr_avg_21 rbi_avg_122 bb_avg_59 so_avg_185 ibb_avg_6 hbp_avg_10 sb_126 sb_pct_73"
+    "embeddings_str": "fielder primary_position_2b total_games_1621 bats_r throws_r hits_1747 hr_127 batting_avg_294 runs_per_ab_133 2b_avg_59 3b_avg_6 hr_avg_21 rbi_avg_122 bb_avg_59 so_avg_185 ibb_avg_6 hbp_avg_10 sb_126 sb_pct_73",
+    "pk": "kendrho01"
   },
   {
     "playerID": "kennead01",
@@ -6339,7 +6439,8 @@
     "category": "fielder",
     "debut_year": 1999,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_2b total_games_1691 bats_l throws_r hits_1488 hr_80 batting_avg_272 runs_per_ab_125 2b_avg_53 3b_avg_8 hr_avg_15 rbi_avg_104 bb_avg_73 so_avg_153 ibb_avg_8 hbp_avg_13 sb_179 sb_pct_74"
+    "embeddings_str": "fielder primary_position_2b total_games_1691 bats_l throws_r hits_1488 hr_80 batting_avg_272 runs_per_ab_125 2b_avg_53 3b_avg_8 hr_avg_15 rbi_avg_104 bb_avg_73 so_avg_153 ibb_avg_8 hbp_avg_13 sb_179 sb_pct_74",
+    "pk": "kennead01"
   },
   {
     "playerID": "kentje01",
@@ -6400,7 +6501,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_2b total_games_2298 bats_r throws_r hits_2461 hr_377 batting_avg_290 runs_per_ab_155 2b_avg_66 3b_avg_6 hr_avg_44 rbi_avg_179 bb_avg_94 so_avg_179 ibb_avg_7 hbp_avg_15 sb_94 sb_pct_61"
+    "embeddings_str": "fielder primary_position_2b total_games_2298 bats_r throws_r hits_2461 hr_377 batting_avg_290 runs_per_ab_155 2b_avg_66 3b_avg_6 hr_avg_44 rbi_avg_179 bb_avg_94 so_avg_179 ibb_avg_7 hbp_avg_15 sb_94 sb_pct_61",
+    "pk": "kentje01"
   },
   {
     "playerID": "kinslia01",
@@ -6493,7 +6595,8 @@
     },
     "debut_year": 2006,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_2b total_games_1888 bats_r throws_r hits_1999 hr_257 batting_avg_269 runs_per_ab_167 2b_avg_56 3b_avg_6 hr_avg_35 rbi_avg_122 bb_avg_93 so_avg_141 ibb_avg_1 hbp_avg_12 sb_243 sb_pct_77"
+    "embeddings_str": "fielder primary_position_2b total_games_1888 bats_r throws_r hits_1999 hr_257 batting_avg_269 runs_per_ab_167 2b_avg_56 3b_avg_6 hr_avg_35 rbi_avg_122 bb_avg_93 so_avg_141 ibb_avg_1 hbp_avg_12 sb_243 sb_pct_77",
+    "pk": "kinslia01"
   },
   {
     "playerID": "kleskry01",
@@ -6551,7 +6654,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_lf total_games_1736 bats_l throws_l hits_1564 hr_278 batting_avg_279 runs_per_ab_156 2b_avg_61 3b_avg_6 hr_avg_50 rbi_avg_176 bb_avg_146 so_avg_192 ibb_avg_15 hbp_avg_5 sb_91 sb_pct_69"
+    "embeddings_str": "fielder primary_position_lf total_games_1736 bats_l throws_l hits_1564 hr_278 batting_avg_279 runs_per_ab_156 2b_avg_61 3b_avg_6 hr_avg_50 rbi_avg_176 bb_avg_146 so_avg_192 ibb_avg_15 hbp_avg_5 sb_91 sb_pct_69",
+    "pk": "kleskry01"
   },
   {
     "playerID": "knoblch01",
@@ -6609,7 +6713,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2002,
-    "embeddings_str": "fielder primary_position_2b total_games_1632 bats_r throws_r hits_1839 hr_98 batting_avg_289 runs_per_ab_178 2b_avg_51 3b_avg_10 hr_avg_15 rbi_avg_97 bb_avg_126 so_avg_115 ibb_avg_3 hbp_avg_22 sb_407 sb_pct_78"
+    "embeddings_str": "fielder primary_position_2b total_games_1632 bats_r throws_r hits_1839 hr_98 batting_avg_289 runs_per_ab_178 2b_avg_51 3b_avg_10 hr_avg_15 rbi_avg_97 bb_avg_126 so_avg_115 ibb_avg_3 hbp_avg_22 sb_407 sb_pct_78",
+    "pk": "knoblch01"
   },
   {
     "playerID": "konerpa01",
@@ -6667,7 +6772,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_1b total_games_2349 bats_r throws_r hits_2340 hr_439 batting_avg_279 runs_per_ab_138 2b_avg_49 3b_avg_1 hr_avg_52 rbi_avg_168 bb_avg_110 so_avg_166 ibb_avg_10 hbp_avg_12 sb_9 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2349 bats_r throws_r hits_2340 hr_439 batting_avg_279 runs_per_ab_138 2b_avg_49 3b_avg_1 hr_avg_52 rbi_avg_168 bb_avg_110 so_avg_166 ibb_avg_10 hbp_avg_12 sb_9 sb_pct_na",
+    "pk": "konerpa01"
   },
   {
     "playerID": "kotsama01",
@@ -6729,7 +6835,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_cf total_games_1914 bats_l throws_l hits_1784 hr_127 batting_avg_276 runs_per_ab_122 2b_avg_55 3b_avg_7 hr_avg_20 rbi_avg_111 bb_avg_86 so_avg_117 ibb_avg_6 hbp_avg_2 sb_98 sb_pct_60"
+    "embeddings_str": "fielder primary_position_cf total_games_1914 bats_l throws_l hits_1784 hr_127 batting_avg_276 runs_per_ab_122 2b_avg_55 3b_avg_7 hr_avg_20 rbi_avg_111 bb_avg_86 so_avg_117 ibb_avg_6 hbp_avg_2 sb_98 sb_pct_60",
+    "pk": "kotsama01"
   },
   {
     "playerID": "lankfra01",
@@ -6786,7 +6893,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_cf total_games_1701 bats_l throws_l hits_1561 hr_238 batting_avg_272 runs_per_ab_168 2b_avg_62 3b_avg_9 hr_avg_41 rbi_avg_152 bb_avg_144 so_avg_270 ibb_avg_12 hbp_avg_6 sb_258 sb_pct_69"
+    "embeddings_str": "fielder primary_position_cf total_games_1701 bats_l throws_l hits_1561 hr_238 batting_avg_272 runs_per_ab_168 2b_avg_62 3b_avg_9 hr_avg_41 rbi_avg_152 bb_avg_144 so_avg_270 ibb_avg_12 hbp_avg_6 sb_258 sb_pct_69",
+    "pk": "lankfra01"
   },
   {
     "playerID": "larkiba01",
@@ -6842,7 +6950,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_ss total_games_2180 bats_r throws_r hits_2340 hr_198 batting_avg_295 runs_per_ab_167 2b_avg_56 3b_avg_10 hr_avg_25 rbi_avg_121 bb_avg_118 so_avg_103 ibb_avg_8 hbp_avg_7 sb_379 sb_pct_83"
+    "embeddings_str": "fielder primary_position_ss total_games_2180 bats_r throws_r hits_2340 hr_198 batting_avg_295 runs_per_ab_167 2b_avg_56 3b_avg_10 hr_avg_25 rbi_avg_121 bb_avg_118 so_avg_103 ibb_avg_8 hbp_avg_7 sb_379 sb_pct_83",
+    "pk": "larkiba01"
   },
   {
     "playerID": "leeca01",
@@ -6902,7 +7011,8 @@
     "category": "fielder",
     "debut_year": 1999,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_lf total_games_2099 bats_r throws_r hits_2273 hr_358 batting_avg_285 runs_per_ab_141 2b_avg_59 3b_avg_2 hr_avg_45 rbi_avg_171 bb_avg_82 so_avg_123 ibb_avg_8 hbp_avg_6 sb_125 sb_pct_73"
+    "embeddings_str": "fielder primary_position_lf total_games_2099 bats_r throws_r hits_2273 hr_358 batting_avg_285 runs_per_ab_141 2b_avg_59 3b_avg_2 hr_avg_45 rbi_avg_171 bb_avg_82 so_avg_123 ibb_avg_8 hbp_avg_6 sb_125 sb_pct_73",
+    "pk": "leeca01"
   },
   {
     "playerID": "leede02",
@@ -6963,7 +7073,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_1b total_games_1942 bats_r throws_r hits_1959 hr_331 batting_avg_281 runs_per_ab_155 2b_avg_62 3b_avg_4 hr_avg_48 rbi_avg_155 bb_avg_126 so_avg_233 ibb_avg_10 hbp_avg_10 sb_104 sb_pct_68"
+    "embeddings_str": "fielder primary_position_1b total_games_1942 bats_r throws_r hits_1959 hr_331 batting_avg_281 runs_per_ab_155 2b_avg_62 3b_avg_4 hr_avg_48 rbi_avg_155 bb_avg_126 so_avg_233 ibb_avg_10 hbp_avg_10 sb_104 sb_pct_68",
+    "pk": "leede02"
   },
   {
     "playerID": "loftoke01",
@@ -7029,7 +7140,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_cf total_games_2103 bats_l throws_l hits_2428 hr_130 batting_avg_299 runs_per_ab_188 2b_avg_47 3b_avg_14 hr_avg_16 rbi_avg_96 bb_avg_116 so_avg_125 ibb_avg_5 hbp_avg_4 sb_622 sb_pct_80"
+    "embeddings_str": "fielder primary_position_cf total_games_2103 bats_l throws_l hits_2428 hr_130 batting_avg_299 runs_per_ab_188 2b_avg_47 3b_avg_14 hr_avg_16 rbi_avg_96 bb_avg_116 so_avg_125 ibb_avg_5 hbp_avg_4 sb_622 sb_pct_80",
+    "pk": "loftoke01"
   },
   {
     "playerID": "longoev01",
@@ -7086,7 +7198,8 @@
     "category": "fielder",
     "debut_year": 2008,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_3b total_games_1912 bats_r throws_r hits_1883 hr_331 batting_avg_265 runs_per_ab_140 2b_avg_59 3b_avg_4 hr_avg_47 rbi_avg_159 bb_avg_100 so_avg_229 ibb_avg_12 hbp_avg_10 sb_58 sb_pct_75"
+    "embeddings_str": "fielder primary_position_3b total_games_1912 bats_r throws_r hits_1883 hr_331 batting_avg_265 runs_per_ab_140 2b_avg_59 3b_avg_4 hr_avg_47 rbi_avg_159 bb_avg_100 so_avg_229 ibb_avg_12 hbp_avg_10 sb_58 sb_pct_75",
+    "pk": "longoev01"
   },
   {
     "playerID": "loretma01",
@@ -7180,7 +7293,8 @@
     },
     "debut_year": 1995,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_2b total_games_1726 bats_r throws_r hits_1713 hr_76 batting_avg_295 runs_per_ab_132 2b_avg_53 3b_avg_4 hr_avg_13 rbi_avg_108 bb_avg_95 so_avg_104 ibb_avg_3 hbp_avg_12 sb_47 sb_pct_na"
+    "embeddings_str": "fielder primary_position_2b total_games_1726 bats_r throws_r hits_1713 hr_76 batting_avg_295 runs_per_ab_132 2b_avg_53 3b_avg_4 hr_avg_13 rbi_avg_108 bb_avg_95 so_avg_104 ibb_avg_3 hbp_avg_12 sb_47 sb_pct_na",
+    "pk": "loretma01"
   },
   {
     "playerID": "markani01",
@@ -7237,7 +7351,8 @@
     "category": "fielder",
     "debut_year": 2006,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_rf total_games_2154 bats_l throws_l hits_2388 hr_189 batting_avg_288 runs_per_ab_135 2b_avg_62 3b_avg_3 hr_avg_23 rbi_avg_126 bb_avg_107 so_avg_148 ibb_avg_10 hbp_avg_6 sb_66 sb_pct_67"
+    "embeddings_str": "fielder primary_position_rf total_games_2154 bats_l throws_l hits_2388 hr_189 batting_avg_288 runs_per_ab_135 2b_avg_62 3b_avg_3 hr_avg_23 rbi_avg_126 bb_avg_107 so_avg_148 ibb_avg_10 hbp_avg_6 sb_66 sb_pct_67",
+    "pk": "markani01"
   },
   {
     "playerID": "martida01",
@@ -7334,7 +7449,8 @@
     },
     "debut_year": 1986,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_cf total_games_1919 bats_l throws_l hits_1599 hr_91 batting_avg_276 runs_per_ab_137 2b_avg_41 3b_avg_12 hr_avg_16 rbi_avg_100 bb_avg_98 so_avg_154 ibb_avg_8 hbp_avg_5 sb_183 sb_pct_66"
+    "embeddings_str": "fielder primary_position_cf total_games_1919 bats_l throws_l hits_1599 hr_91 batting_avg_276 runs_per_ab_137 2b_avg_41 3b_avg_12 hr_avg_16 rbi_avg_100 bb_avg_98 so_avg_154 ibb_avg_8 hbp_avg_5 sb_183 sb_pct_66",
+    "pk": "martida01"
   },
   {
     "playerID": "martied01",
@@ -7390,7 +7506,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_dh total_games_2055 bats_r throws_r hits_2247 hr_309 batting_avg_312 runs_per_ab_169 2b_avg_71 3b_avg_2 hr_avg_43 rbi_avg_175 bb_avg_178 so_avg_167 ibb_avg_16 hbp_avg_12 sb_49 sb_pct_na"
+    "embeddings_str": "fielder primary_position_dh total_games_2055 bats_r throws_r hits_2247 hr_309 batting_avg_312 runs_per_ab_169 2b_avg_71 3b_avg_2 hr_avg_43 rbi_avg_175 bb_avg_178 so_avg_167 ibb_avg_16 hbp_avg_12 sb_49 sb_pct_na",
+    "pk": "martied01"
   },
   {
     "playerID": "martiru01",
@@ -7482,7 +7599,8 @@
     },
     "debut_year": 2006,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_c total_games_1693 bats_r throws_r hits_1416 hr_191 batting_avg_248 runs_per_ab_141 2b_avg_45 3b_avg_2 hr_avg_34 rbi_avg_135 bb_avg_139 so_avg_212 ibb_avg_8 hbp_avg_19 sb_101 sb_pct_66"
+    "embeddings_str": "fielder primary_position_c total_games_1693 bats_r throws_r hits_1416 hr_191 batting_avg_248 runs_per_ab_141 2b_avg_45 3b_avg_2 hr_avg_34 rbi_avg_135 bb_avg_139 so_avg_212 ibb_avg_8 hbp_avg_19 sb_101 sb_pct_66",
+    "pk": "martiru01"
   },
   {
     "playerID": "martiti02",
@@ -7541,7 +7659,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_1b total_games_2023 bats_l throws_r hits_1925 hr_339 batting_avg_271 runs_per_ab_142 2b_avg_51 3b_avg_3 hr_avg_48 rbi_avg_179 bb_avg_110 so_avg_150 ibb_avg_14 hbp_avg_8 sb_27 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2023 bats_l throws_r hits_1925 hr_339 batting_avg_271 runs_per_ab_142 2b_avg_51 3b_avg_3 hr_avg_48 rbi_avg_179 bb_avg_110 so_avg_150 ibb_avg_14 hbp_avg_8 sb_27 sb_pct_na",
+    "pk": "martiti02"
   },
   {
     "playerID": "martivi01",
@@ -7599,7 +7718,8 @@
     "category": "fielder",
     "debut_year": 2002,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_dh total_games_1973 bats_b throws_r hits_2153 hr_246 batting_avg_295 runs_per_ab_125 2b_avg_58 3b_avg_0 hr_avg_34 rbi_avg_161 bb_avg_100 so_avg_122 ibb_avg_16 hbp_avg_7 sb_7 sb_pct_na"
+    "embeddings_str": "fielder primary_position_dh total_games_1973 bats_b throws_r hits_2153 hr_246 batting_avg_295 runs_per_ab_125 2b_avg_58 3b_avg_0 hr_avg_34 rbi_avg_161 bb_avg_100 so_avg_122 ibb_avg_16 hbp_avg_7 sb_7 sb_pct_na",
+    "pk": "martivi01"
   },
   {
     "playerID": "mattido01",
@@ -7655,7 +7775,8 @@
     "category": "fielder",
     "debut_year": 1982,
     "final_year": 1995,
-    "embeddings_str": "fielder primary_position_1b total_games_1785 bats_l throws_l hits_2153 hr_222 batting_avg_307 runs_per_ab_144 2b_avg_63 3b_avg_3 hr_avg_32 rbi_avg_157 bb_avg_84 so_avg_63 ibb_avg_19 hbp_avg_3 sb_14 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1785 bats_l throws_l hits_2153 hr_222 batting_avg_307 runs_per_ab_144 2b_avg_63 3b_avg_3 hr_avg_32 rbi_avg_157 bb_avg_84 so_avg_63 ibb_avg_19 hbp_avg_3 sb_14 sb_pct_na",
+    "pk": "mattido01"
   },
   {
     "playerID": "mauerjo01",
@@ -7711,7 +7832,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_c total_games_1858 bats_l throws_r hits_2123 hr_143 batting_avg_306 runs_per_ab_147 2b_avg_62 3b_avg_4 hr_avg_21 rbi_avg_133 bb_avg_135 so_avg_149 ibb_avg_21 hbp_avg_4 sb_52 sb_pct_73"
+    "embeddings_str": "fielder primary_position_c total_games_1858 bats_l throws_r hits_2123 hr_143 batting_avg_306 runs_per_ab_147 2b_avg_62 3b_avg_4 hr_avg_21 rbi_avg_133 bb_avg_135 so_avg_149 ibb_avg_21 hbp_avg_4 sb_52 sb_pct_73",
+    "pk": "mauerjo01"
   },
   {
     "playerID": "mccanbr01",
@@ -7769,7 +7891,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_c total_games_1755 bats_l throws_r hits_1590 hr_282 batting_avg_262 runs_per_ab_122 2b_avg_48 3b_avg_1 hr_avg_46 rbi_avg_168 bb_avg_105 so_avg_174 ibb_avg_12 hbp_avg_12 sb_25 sb_pct_na"
+    "embeddings_str": "fielder primary_position_c total_games_1755 bats_l throws_r hits_1590 hr_282 batting_avg_262 runs_per_ab_122 2b_avg_48 3b_avg_1 hr_avg_46 rbi_avg_168 bb_avg_105 so_avg_174 ibb_avg_12 hbp_avg_12 sb_25 sb_pct_na",
+    "pk": "mccanbr01"
   },
   {
     "playerID": "mccutan01",
@@ -7829,7 +7952,8 @@
     "category": "fielder",
     "debut_year": 2009,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_cf total_games_1895 bats_r throws_r hits_1948 hr_287 batting_avg_277 runs_per_ab_159 2b_avg_56 3b_avg_7 hr_avg_41 rbi_avg_142 bb_avg_140 so_avg_219 ibb_avg_10 hbp_avg_12 sb_205 sb_pct_71"
+    "embeddings_str": "fielder primary_position_cf total_games_1895 bats_r throws_r hits_1948 hr_287 batting_avg_277 runs_per_ab_159 2b_avg_56 3b_avg_7 hr_avg_41 rbi_avg_142 bb_avg_140 so_avg_219 ibb_avg_10 hbp_avg_12 sb_205 sb_pct_71",
+    "pk": "mccutan01"
   },
   {
     "playerID": "mcgrifr01",
@@ -7890,7 +8014,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_1b total_games_2460 bats_l throws_l hits_2490 hr_493 batting_avg_284 runs_per_ab_154 2b_avg_50 3b_avg_3 hr_avg_56 rbi_avg_177 bb_avg_149 so_avg_215 ibb_avg_20 hbp_avg_4 sb_72 sb_pct_65"
+    "embeddings_str": "fielder primary_position_1b total_games_2460 bats_l throws_l hits_2490 hr_493 batting_avg_284 runs_per_ab_154 2b_avg_50 3b_avg_3 hr_avg_56 rbi_avg_177 bb_avg_149 so_avg_215 ibb_avg_20 hbp_avg_4 sb_72 sb_pct_65",
+    "pk": "mcgrifr01"
   },
   {
     "playerID": "mcgwima01",
@@ -7947,7 +8072,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_1b total_games_1874 bats_r throws_r hits_1626 hr_583 batting_avg_263 runs_per_ab_189 2b_avg_41 3b_avg_1 hr_avg_94 rbi_avg_229 bb_avg_213 so_avg_258 ibb_avg_24 hbp_avg_12 sb_12 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1874 bats_r throws_r hits_1626 hr_583 batting_avg_263 runs_per_ab_189 2b_avg_41 3b_avg_1 hr_avg_94 rbi_avg_229 bb_avg_213 so_avg_258 ibb_avg_24 hbp_avg_12 sb_12 sb_pct_na",
+    "pk": "mcgwima01"
   },
   {
     "playerID": "mclemma01",
@@ -8009,7 +8135,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_2b total_games_1832 bats_b throws_r hits_1602 hr_53 batting_avg_259 runs_per_ab_152 2b_avg_41 3b_avg_8 hr_avg_9 rbi_avg_99 bb_avg_141 so_avg_159 ibb_avg_5 hbp_avg_2 sb_272 sb_pct_70"
+    "embeddings_str": "fielder primary_position_2b total_games_1832 bats_b throws_r hits_1602 hr_53 batting_avg_259 runs_per_ab_152 2b_avg_41 3b_avg_8 hr_avg_9 rbi_avg_99 bb_avg_141 so_avg_159 ibb_avg_5 hbp_avg_2 sb_272 sb_pct_70",
+    "pk": "mclemma01"
   },
   {
     "playerID": "molinya01",
@@ -8098,7 +8225,8 @@
     },
     "debut_year": 2004,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_c total_games_2226 bats_r throws_r hits_2168 hr_176 batting_avg_277 runs_per_ab_99 2b_avg_52 3b_avg_1 hr_avg_23 rbi_avg_131 bb_avg_69 so_avg_118 ibb_avg_6 hbp_avg_10 sb_71 sb_pct_66"
+    "embeddings_str": "fielder primary_position_c total_games_2226 bats_r throws_r hits_2168 hr_176 batting_avg_277 runs_per_ab_99 2b_avg_52 3b_avg_1 hr_avg_23 rbi_avg_131 bb_avg_69 so_avg_118 ibb_avg_6 hbp_avg_10 sb_71 sb_pct_66",
+    "pk": "molinya01"
   },
   {
     "playerID": "offerjo01",
@@ -8160,7 +8288,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_ss total_games_1651 bats_b throws_r hits_1551 hr_57 batting_avg_273 runs_per_ab_148 2b_avg_44 3b_avg_13 hr_avg_10 rbi_avg_95 bb_avg_136 so_avg_161 ibb_avg_6 hbp_avg_3 sb_172 sb_pct_63"
+    "embeddings_str": "fielder primary_position_ss total_games_1651 bats_b throws_r hits_1551 hr_57 batting_avg_273 runs_per_ab_148 2b_avg_44 3b_avg_13 hr_avg_10 rbi_avg_95 bb_avg_136 so_avg_161 ibb_avg_6 hbp_avg_3 sb_172 sb_pct_63",
+    "pk": "offerjo01"
   },
   {
     "playerID": "olerujo01",
@@ -8220,7 +8349,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_1b total_games_2234 bats_l throws_l hits_2239 hr_255 batting_avg_295 runs_per_ab_150 2b_avg_66 3b_avg_2 hr_avg_34 rbi_avg_162 bb_avg_168 so_avg_134 ibb_avg_21 hbp_avg_12 sb_11 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2234 bats_l throws_l hits_2239 hr_255 batting_avg_295 runs_per_ab_150 2b_avg_66 3b_avg_2 hr_avg_34 rbi_avg_162 bb_avg_168 so_avg_134 ibb_avg_21 hbp_avg_12 sb_11 sb_pct_na",
+    "pk": "olerujo01"
   },
   {
     "playerID": "oneilpa01",
@@ -8310,7 +8440,8 @@
     },
     "debut_year": 1985,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_rf total_games_2053 bats_l throws_l hits_2105 hr_281 batting_avg_288 runs_per_ab_142 2b_avg_62 3b_avg_3 hr_avg_38 rbi_avg_173 bb_avg_122 so_avg_159 ibb_avg_15 hbp_avg_3 sb_141 sb_pct_66"
+    "embeddings_str": "fielder primary_position_rf total_games_2053 bats_l throws_l hits_2105 hr_281 batting_avg_288 runs_per_ab_142 2b_avg_62 3b_avg_3 hr_avg_38 rbi_avg_173 bb_avg_122 so_avg_159 ibb_avg_15 hbp_avg_3 sb_141 sb_pct_66",
+    "pk": "oneilpa01"
   },
   {
     "playerID": "ordonma01",
@@ -8367,7 +8498,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_rf total_games_1848 bats_r throws_r hits_2156 hr_294 batting_avg_309 runs_per_ab_154 2b_avg_61 3b_avg_3 hr_avg_42 rbi_avg_177 bb_avg_93 so_avg_122 ibb_avg_5 hbp_avg_6 sb_94 sb_pct_65"
+    "embeddings_str": "fielder primary_position_rf total_games_1848 bats_r throws_r hits_2156 hr_294 batting_avg_309 runs_per_ab_154 2b_avg_61 3b_avg_3 hr_avg_42 rbi_avg_177 bb_avg_93 so_avg_122 ibb_avg_5 hbp_avg_6 sb_94 sb_pct_65",
+    "pk": "ordonma01"
   },
   {
     "playerID": "ortizda01",
@@ -8424,7 +8556,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_dh total_games_2408 bats_l throws_l hits_2472 hr_541 batting_avg_286 runs_per_ab_164 2b_avg_73 3b_avg_2 hr_avg_63 rbi_avg_205 bb_avg_153 so_avg_203 ibb_avg_24 hbp_avg_4 sb_17 sb_pct_na"
+    "embeddings_str": "fielder primary_position_dh total_games_2408 bats_l throws_l hits_2472 hr_541 batting_avg_286 runs_per_ab_164 2b_avg_73 3b_avg_2 hr_avg_63 rbi_avg_205 bb_avg_153 so_avg_203 ibb_avg_24 hbp_avg_4 sb_17 sb_pct_na",
+    "pk": "ortizda01"
   },
   {
     "playerID": "palmera01",
@@ -8482,7 +8615,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_1b total_games_2831 bats_l throws_l hits_3020 hr_569 batting_avg_288 runs_per_ab_159 2b_avg_56 3b_avg_4 hr_avg_54 rbi_avg_175 bb_avg_129 so_avg_129 ibb_avg_16 hbp_avg_8 sb_97 sb_pct_71"
+    "embeddings_str": "fielder primary_position_1b total_games_2831 bats_l throws_l hits_3020 hr_569 batting_avg_288 runs_per_ab_159 2b_avg_56 3b_avg_4 hr_avg_54 rbi_avg_175 bb_avg_129 so_avg_129 ibb_avg_16 hbp_avg_8 sb_97 sb_pct_71",
+    "pk": "palmera01"
   },
   {
     "playerID": "pencehu01",
@@ -8541,7 +8675,8 @@
     "category": "fielder",
     "debut_year": 2007,
     "final_year": 2020,
-    "embeddings_str": "fielder primary_position_rf total_games_1707 bats_r throws_r hits_1791 hr_244 batting_avg_279 runs_per_ab_139 2b_avg_50 3b_avg_9 hr_avg_38 rbi_avg_147 bb_avg_81 so_avg_208 ibb_avg_3 hbp_avg_4 sb_120 sb_pct_69"
+    "embeddings_str": "fielder primary_position_rf total_games_1707 bats_r throws_r hits_1791 hr_244 batting_avg_279 runs_per_ab_139 2b_avg_50 3b_avg_9 hr_avg_38 rbi_avg_147 bb_avg_81 so_avg_208 ibb_avg_3 hbp_avg_4 sb_120 sb_pct_69",
+    "pk": "pencehu01"
   },
   {
     "playerID": "pendlte01",
@@ -8601,7 +8736,8 @@
     "category": "fielder",
     "debut_year": 1984,
     "final_year": 1998,
-    "embeddings_str": "fielder primary_position_3b total_games_1893 bats_b throws_r hits_1897 hr_140 batting_avg_270 runs_per_ab_121 2b_avg_51 3b_avg_6 hr_avg_20 rbi_avg_135 bb_avg_69 so_avg_139 ibb_avg_11 hbp_avg_2 sb_127 sb_pct_68"
+    "embeddings_str": "fielder primary_position_3b total_games_1893 bats_b throws_r hits_1897 hr_140 batting_avg_270 runs_per_ab_121 2b_avg_51 3b_avg_6 hr_avg_20 rbi_avg_135 bb_avg_69 so_avg_139 ibb_avg_11 hbp_avg_2 sb_127 sb_pct_68",
+    "pk": "pendlte01"
   },
   {
     "playerID": "peraljh01",
@@ -8659,7 +8795,8 @@
     "category": "fielder",
     "debut_year": 2003,
     "final_year": 2017,
-    "embeddings_str": "fielder primary_position_ss total_games_1798 bats_r throws_r hits_1761 hr_202 batting_avg_267 runs_per_ab_127 2b_avg_57 3b_avg_4 hr_avg_31 rbi_avg_132 bb_avg_92 so_avg_220 ibb_avg_4 hbp_avg_6 sb_17 sb_pct_na"
+    "embeddings_str": "fielder primary_position_ss total_games_1798 bats_r throws_r hits_1761 hr_202 batting_avg_267 runs_per_ab_127 2b_avg_57 3b_avg_4 hr_avg_31 rbi_avg_132 bb_avg_92 so_avg_220 ibb_avg_4 hbp_avg_6 sb_17 sb_pct_na",
+    "pk": "peraljh01"
   },
   {
     "playerID": "phillbr01",
@@ -8719,7 +8856,8 @@
     "category": "fielder",
     "debut_year": 2002,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_2b total_games_1902 bats_r throws_r hits_2029 hr_211 batting_avg_275 runs_per_ab_136 2b_avg_50 3b_avg_5 hr_avg_29 rbi_avg_129 bb_avg_57 so_avg_148 ibb_avg_5 hbp_avg_12 sb_209 sb_pct_71"
+    "embeddings_str": "fielder primary_position_2b total_games_1902 bats_r throws_r hits_2029 hr_211 batting_avg_275 runs_per_ab_136 2b_avg_50 3b_avg_5 hr_avg_29 rbi_avg_129 bb_avg_57 so_avg_148 ibb_avg_5 hbp_avg_12 sb_209 sb_pct_71",
+    "pk": "phillbr01"
   },
   {
     "playerID": "piazzmi01",
@@ -8779,7 +8917,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_c total_games_1912 bats_r throws_r hits_2127 hr_427 batting_avg_308 runs_per_ab_152 2b_avg_50 3b_avg_1 hr_avg_62 rbi_avg_193 bb_avg_110 so_avg_161 ibb_avg_21 hbp_avg_4 sb_17 sb_pct_na"
+    "embeddings_str": "fielder primary_position_c total_games_1912 bats_r throws_r hits_2127 hr_427 batting_avg_308 runs_per_ab_152 2b_avg_50 3b_avg_1 hr_avg_62 rbi_avg_193 bb_avg_110 so_avg_161 ibb_avg_21 hbp_avg_4 sb_17 sb_pct_na",
+    "pk": "piazzmi01"
   },
   {
     "playerID": "pierrju01",
@@ -8841,7 +8980,8 @@
     "category": "fielder",
     "debut_year": 2000,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_cf total_games_1994 bats_l throws_l hits_2217 hr_18 batting_avg_295 runs_per_ab_143 2b_avg_34 3b_avg_12 hr_avg_2 rbi_avg_69 bb_avg_62 so_avg_64 ibb_avg_1 hbp_avg_14 sb_614 sb_pct_75"
+    "embeddings_str": "fielder primary_position_cf total_games_1994 bats_l throws_l hits_2217 hr_18 batting_avg_295 runs_per_ab_143 2b_avg_34 3b_avg_12 hr_avg_2 rbi_avg_69 bb_avg_62 so_avg_64 ibb_avg_1 hbp_avg_14 sb_614 sb_pct_75",
+    "pk": "pierrju01"
   },
   {
     "playerID": "pierzaj01",
@@ -8903,7 +9043,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_c total_games_2059 bats_l throws_r hits_2043 hr_188 batting_avg_280 runs_per_ab_111 2b_avg_56 3b_avg_3 hr_avg_26 rbi_avg_125 bb_avg_42 so_avg_123 ibb_avg_9 hbp_avg_18 sb_15 sb_pct_na"
+    "embeddings_str": "fielder primary_position_c total_games_2059 bats_l throws_r hits_2043 hr_188 batting_avg_280 runs_per_ab_111 2b_avg_56 3b_avg_3 hr_avg_26 rbi_avg_125 bb_avg_42 so_avg_123 ibb_avg_9 hbp_avg_18 sb_15 sb_pct_na",
+    "pk": "pierzaj01"
   },
   {
     "playerID": "polanpl01",
@@ -8962,7 +9103,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_2b total_games_1927 bats_r throws_r hits_2142 hr_104 batting_avg_297 runs_per_ab_140 2b_avg_48 3b_avg_4 hr_avg_14 rbi_avg_100 bb_avg_59 so_avg_75 ibb_avg_2 hbp_avg_14 sb_81 sb_pct_73"
+    "embeddings_str": "fielder primary_position_2b total_games_1927 bats_r throws_r hits_2142 hr_104 batting_avg_297 runs_per_ab_140 2b_avg_48 3b_avg_4 hr_avg_14 rbi_avg_100 bb_avg_59 so_avg_75 ibb_avg_2 hbp_avg_14 sb_81 sb_pct_73",
+    "pk": "polanpl01"
   },
   {
     "playerID": "posadjo01",
@@ -9018,7 +9160,8 @@
     "category": "fielder",
     "debut_year": 1995,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_c total_games_1829 bats_b throws_r hits_1664 hr_275 batting_avg_273 runs_per_ab_148 2b_avg_62 3b_avg_2 hr_avg_45 rbi_avg_175 bb_avg_154 so_avg_239 ibb_avg_13 hbp_avg_12 sb_20 sb_pct_na"
+    "embeddings_str": "fielder primary_position_c total_games_1829 bats_b throws_r hits_1664 hr_275 batting_avg_273 runs_per_ab_148 2b_avg_62 3b_avg_2 hr_avg_45 rbi_avg_175 bb_avg_154 so_avg_239 ibb_avg_13 hbp_avg_12 sb_20 sb_pct_na",
+    "pk": "posadjo01"
   },
   {
     "playerID": "puckeki01",
@@ -9074,7 +9217,8 @@
     "category": "fielder",
     "debut_year": 1984,
     "final_year": 1995,
-    "embeddings_str": "fielder primary_position_cf total_games_1783 bats_r throws_r hits_2304 hr_207 batting_avg_318 runs_per_ab_148 2b_avg_57 3b_avg_8 hr_avg_29 rbi_avg_150 bb_avg_62 so_avg_133 ibb_avg_12 hbp_avg_8 sb_134 sb_pct_64"
+    "embeddings_str": "fielder primary_position_cf total_games_1783 bats_r throws_r hits_2304 hr_207 batting_avg_318 runs_per_ab_148 2b_avg_57 3b_avg_8 hr_avg_29 rbi_avg_150 bb_avg_62 so_avg_133 ibb_avg_12 hbp_avg_8 sb_134 sb_pct_64",
+    "pk": "puckeki01"
   },
   {
     "playerID": "pujolal01",
@@ -9165,7 +9309,8 @@
     },
     "debut_year": 2001,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_3080 bats_r throws_r hits_3384 hr_703 batting_avg_296 runs_per_ab_168 2b_avg_60 3b_avg_1 hr_avg_62 rbi_avg_194 bb_avg_120 so_avg_123 ibb_avg_28 hbp_avg_11 sb_117 sb_pct_73"
+    "embeddings_str": "fielder primary_position_1b total_games_3080 bats_r throws_r hits_3384 hr_703 batting_avg_296 runs_per_ab_168 2b_avg_60 3b_avg_1 hr_avg_62 rbi_avg_194 bb_avg_120 so_avg_123 ibb_avg_28 hbp_avg_11 sb_117 sb_pct_73",
+    "pk": "pujolal01"
   },
   {
     "playerID": "ramirar01",
@@ -9223,7 +9368,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2015,
-    "embeddings_str": "fielder primary_position_3b total_games_2194 bats_r throws_r hits_2303 hr_386 batting_avg_283 runs_per_ab_135 2b_avg_61 3b_avg_3 hr_avg_47 rbi_avg_174 bb_avg_78 so_avg_152 ibb_avg_7 hbp_avg_16 sb_29 sb_pct_na"
+    "embeddings_str": "fielder primary_position_3b total_games_2194 bats_r throws_r hits_2303 hr_386 batting_avg_283 runs_per_ab_135 2b_avg_61 3b_avg_3 hr_avg_47 rbi_avg_174 bb_avg_78 so_avg_152 ibb_avg_7 hbp_avg_16 sb_29 sb_pct_na",
+    "pk": "ramirar01"
   },
   {
     "playerID": "ramirha01",
@@ -9283,7 +9429,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_ss total_games_1668 bats_r throws_r hits_1834 hr_271 batting_avg_289 runs_per_ab_165 2b_avg_59 3b_avg_5 hr_avg_43 rbi_avg_144 bb_avg_104 so_avg_194 ibb_avg_10 hbp_avg_11 sb_281 sb_pct_75"
+    "embeddings_str": "fielder primary_position_ss total_games_1668 bats_r throws_r hits_1834 hr_271 batting_avg_289 runs_per_ab_165 2b_avg_59 3b_avg_5 hr_avg_43 rbi_avg_144 bb_avg_104 so_avg_194 ibb_avg_10 hbp_avg_11 sb_281 sb_pct_75",
+    "pk": "ramirha01"
   },
   {
     "playerID": "ramirma02",
@@ -9343,7 +9490,8 @@
     "category": "fielder",
     "debut_year": 1993,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_lf total_games_2302 bats_r throws_r hits_2574 hr_555 batting_avg_312 runs_per_ab_187 2b_avg_66 3b_avg_2 hr_avg_67 rbi_avg_222 bb_avg_161 so_avg_220 ibb_avg_26 hbp_avg_13 sb_38 sb_pct_na"
+    "embeddings_str": "fielder primary_position_lf total_games_2302 bats_r throws_r hits_2574 hr_555 batting_avg_312 runs_per_ab_187 2b_avg_66 3b_avg_2 hr_avg_67 rbi_avg_222 bb_avg_161 so_avg_220 ibb_avg_26 hbp_avg_13 sb_38 sb_pct_na",
+    "pk": "ramirma02"
   },
   {
     "playerID": "renteed01",
@@ -9405,7 +9553,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_ss total_games_2152 bats_r throws_r hits_2327 hr_140 batting_avg_286 runs_per_ab_147 2b_avg_54 3b_avg_4 hr_avg_17 rbi_avg_113 bb_avg_88 so_avg_145 ibb_avg_5 hbp_avg_4 sb_294 sb_pct_73"
+    "embeddings_str": "fielder primary_position_ss total_games_2152 bats_r throws_r hits_2327 hr_140 batting_avg_286 runs_per_ab_147 2b_avg_54 3b_avg_4 hr_avg_17 rbi_avg_113 bb_avg_88 so_avg_145 ibb_avg_5 hbp_avg_4 sb_294 sb_pct_73",
+    "pk": "renteed01"
   },
   {
     "playerID": "reyesjo01",
@@ -9497,7 +9646,8 @@
     },
     "debut_year": 2003,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_ss total_games_1877 bats_b throws_r hits_2138 hr_145 batting_avg_283 runs_per_ab_156 2b_avg_51 3b_avg_17 hr_avg_19 rbi_avg_95 bb_avg_78 so_avg_121 ibb_avg_7 hbp_avg_1 sb_517 sb_pct_80"
+    "embeddings_str": "fielder primary_position_ss total_games_1877 bats_b throws_r hits_2138 hr_145 batting_avg_283 runs_per_ab_156 2b_avg_51 3b_avg_17 hr_avg_19 rbi_avg_95 bb_avg_78 so_avg_121 ibb_avg_7 hbp_avg_1 sb_517 sb_pct_80",
+    "pk": "reyesjo01"
   },
   {
     "playerID": "reynoma01",
@@ -9593,7 +9743,8 @@
     },
     "debut_year": 2007,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_3b total_games_1688 bats_r throws_r hits_1283 hr_298 batting_avg_236 runs_per_ab_146 2b_avg_47 3b_avg_3 hr_avg_55 rbi_avg_160 bb_avg_130 so_avg_355 ibb_avg_5 hbp_avg_10 sb_64 sb_pct_67"
+    "embeddings_str": "fielder primary_position_3b total_games_1688 bats_r throws_r hits_1283 hr_298 batting_avg_236 runs_per_ab_146 2b_avg_47 3b_avg_3 hr_avg_55 rbi_avg_160 bb_avg_130 so_avg_355 ibb_avg_5 hbp_avg_10 sb_64 sb_pct_67",
+    "pk": "reynoma01"
   },
   {
     "playerID": "riosal01",
@@ -9652,7 +9803,8 @@
     "category": "fielder",
     "debut_year": 2004,
     "final_year": 2015,
-    "embeddings_str": "fielder primary_position_rf total_games_1691 bats_r throws_r hits_1778 hr_169 batting_avg_277 runs_per_ab_138 2b_avg_58 3b_avg_10 hr_avg_26 rbi_avg_124 bb_avg_62 so_avg_174 ibb_avg_4 hbp_avg_7 sb_253 sb_pct_77"
+    "embeddings_str": "fielder primary_position_rf total_games_1691 bats_r throws_r hits_1778 hr_169 batting_avg_277 runs_per_ab_138 2b_avg_58 3b_avg_10 hr_avg_26 rbi_avg_124 bb_avg_62 so_avg_174 ibb_avg_4 hbp_avg_7 sb_253 sb_pct_77",
+    "pk": "riosal01"
   },
   {
     "playerID": "ripkeca01",
@@ -9708,7 +9860,8 @@
     "category": "fielder",
     "debut_year": 1981,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_ss total_games_3001 bats_r throws_r hits_3184 hr_431 batting_avg_276 runs_per_ab_143 2b_avg_52 3b_avg_4 hr_avg_37 rbi_avg_147 bb_avg_98 so_avg_113 ibb_avg_9 hbp_avg_6 sb_36 sb_pct_na"
+    "embeddings_str": "fielder primary_position_ss total_games_3001 bats_r throws_r hits_3184 hr_431 batting_avg_276 runs_per_ab_143 2b_avg_52 3b_avg_4 hr_avg_37 rbi_avg_147 bb_avg_98 so_avg_113 ibb_avg_9 hbp_avg_6 sb_36 sb_pct_na",
+    "pk": "ripkeca01"
   },
   {
     "playerID": "rodrial01",
@@ -9766,7 +9919,8 @@
     "category": "fielder",
     "debut_year": 1994,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_ss total_games_2784 bats_r throws_r hits_3115 hr_696 batting_avg_295 runs_per_ab_191 2b_avg_52 3b_avg_3 hr_avg_66 rbi_avg_197 bb_avg_127 so_avg_216 ibb_avg_9 hbp_avg_17 sb_329 sb_pct_81"
+    "embeddings_str": "fielder primary_position_ss total_games_2784 bats_r throws_r hits_3115 hr_696 batting_avg_295 runs_per_ab_191 2b_avg_52 3b_avg_3 hr_avg_66 rbi_avg_197 bb_avg_127 so_avg_216 ibb_avg_9 hbp_avg_17 sb_329 sb_pct_81",
+    "pk": "rodrial01"
   },
   {
     "playerID": "rodriiv01",
@@ -9827,7 +9981,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_c total_games_2543 bats_r throws_r hits_2844 hr_311 batting_avg_296 runs_per_ab_141 2b_avg_60 3b_avg_5 hr_avg_32 rbi_avg_139 bb_avg_53 so_avg_154 ibb_avg_7 hbp_avg_6 sb_127 sb_pct_66"
+    "embeddings_str": "fielder primary_position_c total_games_2543 bats_r throws_r hits_2844 hr_311 batting_avg_296 runs_per_ab_141 2b_avg_60 3b_avg_5 hr_avg_32 rbi_avg_139 bb_avg_53 so_avg_154 ibb_avg_7 hbp_avg_6 sb_127 sb_pct_66",
+    "pk": "rodriiv01"
   },
   {
     "playerID": "rolensc01",
@@ -9886,7 +10041,8 @@
     "category": "fielder",
     "debut_year": 1996,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_3b total_games_2038 bats_r throws_r hits_2077 hr_316 batting_avg_281 runs_per_ab_164 2b_avg_70 3b_avg_6 hr_avg_43 rbi_avg_174 bb_avg_122 so_avg_191 ibb_avg_8 hbp_avg_17 sb_118 sb_pct_71"
+    "embeddings_str": "fielder primary_position_3b total_games_2038 bats_r throws_r hits_2077 hr_316 batting_avg_281 runs_per_ab_164 2b_avg_70 3b_avg_6 hr_avg_43 rbi_avg_174 bb_avg_122 so_avg_191 ibb_avg_8 hbp_avg_17 sb_118 sb_pct_71",
+    "pk": "rolensc01"
   },
   {
     "playerID": "rolliji01",
@@ -9944,7 +10100,8 @@
     "category": "fielder",
     "debut_year": 2000,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_ss total_games_2275 bats_b throws_r hits_2455 hr_231 batting_avg_264 runs_per_ab_153 2b_avg_55 3b_avg_12 hr_avg_25 rbi_avg_101 bb_avg_87 so_avg_136 ibb_avg_6 hbp_avg_4 sb_470 sb_pct_82"
+    "embeddings_str": "fielder primary_position_ss total_games_2275 bats_b throws_r hits_2455 hr_231 batting_avg_264 runs_per_ab_153 2b_avg_55 3b_avg_12 hr_avg_25 rbi_avg_101 bb_avg_87 so_avg_136 ibb_avg_6 hbp_avg_4 sb_470 sb_pct_82",
+    "pk": "rolliji01"
   },
   {
     "playerID": "salmoti01",
@@ -10002,7 +10159,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_rf total_games_1672 bats_r throws_r hits_1674 hr_299 batting_avg_282 runs_per_ab_166 2b_avg_57 3b_avg_4 hr_avg_50 rbi_avg_171 bb_avg_163 so_avg_229 ibb_avg_8 hbp_avg_11 sb_48 sb_pct_na"
+    "embeddings_str": "fielder primary_position_rf total_games_1672 bats_r throws_r hits_1674 hr_299 batting_avg_282 runs_per_ab_166 2b_avg_57 3b_avg_4 hr_avg_50 rbi_avg_171 bb_avg_163 so_avg_229 ibb_avg_8 hbp_avg_11 sb_48 sb_pct_na",
+    "pk": "salmoti01"
   },
   {
     "playerID": "samueju01",
@@ -10064,7 +10222,8 @@
     "category": "fielder",
     "debut_year": 1983,
     "final_year": 1998,
-    "embeddings_str": "fielder primary_position_2b total_games_1720 bats_r throws_r hits_1578 hr_161 batting_avg_259 runs_per_ab_144 2b_avg_47 3b_avg_17 hr_avg_26 rbi_avg_116 bb_avg_72 so_avg_237 ibb_avg_6 hbp_avg_12 sb_396 sb_pct_73"
+    "embeddings_str": "fielder primary_position_2b total_games_1720 bats_r throws_r hits_1578 hr_161 batting_avg_259 runs_per_ab_144 2b_avg_47 3b_avg_17 hr_avg_26 rbi_avg_116 bb_avg_72 so_avg_237 ibb_avg_6 hbp_avg_12 sb_396 sb_pct_73",
+    "pk": "samueju01"
   },
   {
     "playerID": "sandere02",
@@ -10127,7 +10286,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_rf total_games_1777 bats_r throws_r hits_1666 hr_305 batting_avg_267 runs_per_ab_166 2b_avg_55 3b_avg_10 hr_avg_49 rbi_avg_158 bb_avg_108 so_avg_259 ibb_avg_8 hbp_avg_11 sb_304 sb_pct_73"
+    "embeddings_str": "fielder primary_position_rf total_games_1777 bats_r throws_r hits_1666 hr_305 batting_avg_267 runs_per_ab_166 2b_avg_55 3b_avg_10 hr_avg_49 rbi_avg_158 bb_avg_108 so_avg_259 ibb_avg_8 hbp_avg_11 sb_304 sb_pct_73",
+    "pk": "sandere02"
   },
   {
     "playerID": "santaca01",
@@ -10186,7 +10346,8 @@
     "category": "fielder",
     "debut_year": 2010,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_1784 bats_b throws_r hits_1533 hr_278 batting_avg_242 runs_per_ab_145 2b_avg_53 3b_avg_3 hr_avg_44 rbi_avg_146 bb_avg_181 so_avg_197 ibb_avg_10 hbp_avg_5 sb_48 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1784 bats_b throws_r hits_1533 hr_278 batting_avg_242 runs_per_ab_145 2b_avg_53 3b_avg_3 hr_avg_44 rbi_avg_146 bb_avg_181 so_avg_197 ibb_avg_10 hbp_avg_5 sb_48 sb_pct_na",
+    "pk": "santaca01"
   },
   {
     "playerID": "santibe01",
@@ -10250,7 +10411,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_c total_games_1978 bats_r throws_r hits_1830 hr_217 batting_avg_263 runs_per_ab_109 2b_avg_46 3b_avg_6 hr_avg_31 rbi_avg_132 bb_avg_62 so_avg_183 ibb_avg_7 hbp_avg_5 sb_91 sb_pct_57"
+    "embeddings_str": "fielder primary_position_c total_games_1978 bats_r throws_r hits_1830 hr_217 batting_avg_263 runs_per_ab_109 2b_avg_46 3b_avg_6 hr_avg_31 rbi_avg_132 bb_avg_62 so_avg_183 ibb_avg_7 hbp_avg_5 sb_91 sb_pct_57",
+    "pk": "santibe01"
   },
   {
     "playerID": "saxst01",
@@ -10309,7 +10471,8 @@
     "category": "fielder",
     "debut_year": 1981,
     "final_year": 1994,
-    "embeddings_str": "fielder primary_position_2b total_games_1769 bats_r throws_r hits_1949 hr_54 batting_avg_281 runs_per_ab_132 2b_avg_40 3b_avg_7 hr_avg_8 rbi_avg_79 bb_avg_80 so_avg_84 ibb_avg_7 hbp_avg_3 sb_444 sb_pct_71"
+    "embeddings_str": "fielder primary_position_2b total_games_1769 bats_r throws_r hits_1949 hr_54 batting_avg_281 runs_per_ab_132 2b_avg_40 3b_avg_7 hr_avg_8 rbi_avg_79 bb_avg_80 so_avg_84 ibb_avg_7 hbp_avg_3 sb_444 sb_pct_71",
+    "pk": "saxst01"
   },
   {
     "playerID": "sheffga01",
@@ -10372,7 +10535,8 @@
     "category": "fielder",
     "debut_year": 1988,
     "final_year": 2009,
-    "embeddings_str": "fielder primary_position_rf total_games_2576 bats_r throws_r hits_2689 hr_509 batting_avg_292 runs_per_ab_177 2b_avg_51 3b_avg_3 hr_avg_55 rbi_avg_182 bb_avg_160 so_avg_127 ibb_avg_14 hbp_avg_15 sb_253 sb_pct_71"
+    "embeddings_str": "fielder primary_position_rf total_games_2576 bats_r throws_r hits_2689 hr_509 batting_avg_292 runs_per_ab_177 2b_avg_51 3b_avg_3 hr_avg_55 rbi_avg_182 bb_avg_160 so_avg_127 ibb_avg_14 hbp_avg_15 sb_253 sb_pct_71",
+    "pk": "sheffga01"
   },
   {
     "playerID": "sierrru01",
@@ -10436,7 +10600,8 @@
     "category": "fielder",
     "debut_year": 1986,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_rf total_games_2186 bats_b throws_r hits_2152 hr_306 batting_avg_268 runs_per_ab_135 2b_avg_53 3b_avg_7 hr_avg_38 rbi_avg_164 bb_avg_76 so_avg_154 ibb_avg_13 hbp_avg_1 sb_142 sb_pct_73"
+    "embeddings_str": "fielder primary_position_rf total_games_2186 bats_b throws_r hits_2152 hr_306 batting_avg_268 runs_per_ab_135 2b_avg_53 3b_avg_7 hr_avg_38 rbi_avg_164 bb_avg_76 so_avg_154 ibb_avg_13 hbp_avg_1 sb_142 sb_pct_73",
+    "pk": "sierrru01"
   },
   {
     "playerID": "snowjt01",
@@ -10495,7 +10660,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_1b total_games_1716 bats_l throws_l hits_1509 hr_189 batting_avg_268 runs_per_ab_141 2b_avg_52 3b_avg_3 hr_avg_34 rbi_avg_155 bb_avg_135 so_avg_202 ibb_avg_11 hbp_avg_11 sb_20 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1716 bats_l throws_l hits_1509 hr_189 batting_avg_268 runs_per_ab_141 2b_avg_52 3b_avg_3 hr_avg_34 rbi_avg_155 bb_avg_135 so_avg_202 ibb_avg_11 hbp_avg_11 sb_20 sb_pct_na",
+    "pk": "snowjt01"
   },
   {
     "playerID": "soriaal01",
@@ -10554,7 +10720,8 @@
     "category": "fielder",
     "debut_year": 1999,
     "final_year": 2014,
-    "embeddings_str": "fielder primary_position_lf total_games_1975 bats_r throws_r hits_2095 hr_412 batting_avg_270 runs_per_ab_149 2b_avg_62 3b_avg_4 hr_avg_53 rbi_avg_150 bb_avg_64 so_avg_233 ibb_avg_9 hbp_avg_11 sb_289 sb_pct_77"
+    "embeddings_str": "fielder primary_position_lf total_games_1975 bats_r throws_r hits_2095 hr_412 batting_avg_270 runs_per_ab_149 2b_avg_62 3b_avg_4 hr_avg_53 rbi_avg_150 bb_avg_64 so_avg_233 ibb_avg_9 hbp_avg_11 sb_289 sb_pct_77",
+    "pk": "soriaal01"
   },
   {
     "playerID": "sosasa01",
@@ -10613,7 +10780,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_rf total_games_2354 bats_r throws_r hits_2408 hr_609 batting_avg_273 runs_per_ab_167 2b_avg_43 3b_avg_5 hr_avg_69 rbi_avg_189 bb_avg_105 so_avg_262 ibb_avg_17 hbp_avg_7 sb_234 sb_pct_69"
+    "embeddings_str": "fielder primary_position_rf total_games_2354 bats_r throws_r hits_2408 hr_609 batting_avg_273 runs_per_ab_167 2b_avg_43 3b_avg_5 hr_avg_69 rbi_avg_189 bb_avg_105 so_avg_262 ibb_avg_17 hbp_avg_7 sb_234 sb_pct_69",
+    "pk": "sosasa01"
   },
   {
     "playerID": "stairma01",
@@ -10681,7 +10849,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2011,
-    "embeddings_str": "fielder primary_position_rf total_games_1895 bats_l throws_r hits_1366 hr_265 batting_avg_262 runs_per_ab_148 2b_avg_56 3b_avg_2 hr_avg_51 rbi_avg_173 bb_avg_138 so_avg_216 ibb_avg_11 hbp_avg_11 sb_30 sb_pct_na"
+    "embeddings_str": "fielder primary_position_rf total_games_1895 bats_l throws_r hits_1366 hr_265 batting_avg_262 runs_per_ab_148 2b_avg_56 3b_avg_2 hr_avg_51 rbi_avg_173 bb_avg_138 so_avg_216 ibb_avg_11 hbp_avg_11 sb_30 sb_pct_na",
+    "pk": "stairma01"
   },
   {
     "playerID": "surhobj01",
@@ -10739,7 +10908,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_lf total_games_2313 bats_l throws_r hits_2326 hr_188 batting_avg_282 runs_per_ab_129 2b_avg_53 3b_avg_5 hr_avg_23 rbi_avg_140 bb_avg_78 so_avg_102 ibb_avg_10 hbp_avg_4 sb_141 sb_pct_63"
+    "embeddings_str": "fielder primary_position_lf total_games_2313 bats_l throws_r hits_2326 hr_188 batting_avg_282 runs_per_ab_129 2b_avg_53 3b_avg_5 hr_avg_23 rbi_avg_140 bb_avg_78 so_avg_102 ibb_avg_10 hbp_avg_4 sb_141 sb_pct_63",
+    "pk": "surhobj01"
   },
   {
     "playerID": "suzukic01",
@@ -10830,7 +11000,8 @@
     },
     "debut_year": 2001,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_rf total_games_2653 bats_l throws_r hits_3089 hr_117 batting_avg_311 runs_per_ab_143 2b_avg_36 3b_avg_10 hr_avg_12 rbi_avg_79 bb_avg_65 so_avg_109 ibb_avg_18 hbp_avg_6 sb_509 sb_pct_81"
+    "embeddings_str": "fielder primary_position_rf total_games_2653 bats_l throws_r hits_3089 hr_117 batting_avg_311 runs_per_ab_143 2b_avg_36 3b_avg_10 hr_avg_12 rbi_avg_79 bb_avg_65 so_avg_109 ibb_avg_18 hbp_avg_6 sb_509 sb_pct_81",
+    "pk": "suzukic01"
   },
   {
     "playerID": "suzukku01",
@@ -10890,7 +11061,8 @@
     "category": "fielder",
     "debut_year": 2007,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_c total_games_1635 bats_r throws_r hits_1421 hr_143 batting_avg_255 runs_per_ab_107 2b_avg_53 3b_avg_1 hr_avg_26 rbi_avg_131 bb_avg_70 so_avg_135 ibb_avg_4 hbp_avg_21 sb_20 sb_pct_na"
+    "embeddings_str": "fielder primary_position_c total_games_1635 bats_r throws_r hits_1421 hr_143 batting_avg_255 runs_per_ab_107 2b_avg_53 3b_avg_1 hr_avg_26 rbi_avg_131 bb_avg_70 so_avg_135 ibb_avg_4 hbp_avg_21 sb_20 sb_pct_na",
+    "pk": "suzukku01"
   },
   {
     "playerID": "teixema01",
@@ -10949,7 +11121,8 @@
     "category": "fielder",
     "debut_year": 2003,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_1b total_games_1862 bats_b throws_r hits_1862 hr_409 batting_avg_268 runs_per_ab_158 2b_avg_59 3b_avg_3 hr_avg_59 rbi_avg_187 bb_avg_132 so_avg_208 ibb_avg_13 hbp_avg_16 sb_26 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_1862 bats_b throws_r hits_1862 hr_409 batting_avg_268 runs_per_ab_158 2b_avg_59 3b_avg_3 hr_avg_59 rbi_avg_187 bb_avg_132 so_avg_208 ibb_avg_13 hbp_avg_16 sb_26 sb_pct_na",
+    "pk": "teixema01"
   },
   {
     "playerID": "tejadmi01",
@@ -11010,7 +11183,8 @@
     "category": "fielder",
     "debut_year": 1997,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_ss total_games_2171 bats_r throws_r hits_2407 hr_307 batting_avg_285 runs_per_ab_146 2b_avg_55 3b_avg_3 hr_avg_36 rbi_avg_154 bb_avg_66 so_avg_128 ibb_avg_9 hbp_avg_14 sb_85 sb_pct_69"
+    "embeddings_str": "fielder primary_position_ss total_games_2171 bats_r throws_r hits_2407 hr_307 batting_avg_285 runs_per_ab_146 2b_avg_55 3b_avg_3 hr_avg_36 rbi_avg_154 bb_avg_66 so_avg_128 ibb_avg_9 hbp_avg_14 sb_85 sb_pct_69",
+    "pk": "tejadmi01"
   },
   {
     "playerID": "thomafr04",
@@ -11068,7 +11242,8 @@
     "category": "fielder",
     "debut_year": 1990,
     "final_year": 2008,
-    "embeddings_str": "fielder primary_position_dh total_games_2322 bats_r throws_r hits_2468 hr_521 batting_avg_301 runs_per_ab_182 2b_avg_60 3b_avg_1 hr_avg_64 rbi_avg_208 bb_avg_203 so_avg_170 ibb_avg_20 hbp_avg_11 sb_32 sb_pct_na"
+    "embeddings_str": "fielder primary_position_dh total_games_2322 bats_r throws_r hits_2468 hr_521 batting_avg_301 runs_per_ab_182 2b_avg_60 3b_avg_1 hr_avg_64 rbi_avg_208 bb_avg_203 so_avg_170 ibb_avg_20 hbp_avg_11 sb_32 sb_pct_na",
+    "pk": "thomafr04"
   },
   {
     "playerID": "thomeji01",
@@ -11129,7 +11304,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_1b total_games_2543 bats_l throws_r hits_2328 hr_612 batting_avg_276 runs_per_ab_188 2b_avg_54 3b_avg_3 hr_avg_73 rbi_avg_202 bb_avg_207 so_avg_303 ibb_avg_21 hbp_avg_8 sb_19 sb_pct_na"
+    "embeddings_str": "fielder primary_position_1b total_games_2543 bats_l throws_r hits_2328 hr_612 batting_avg_276 runs_per_ab_188 2b_avg_54 3b_avg_3 hr_avg_73 rbi_avg_202 bb_avg_207 so_avg_303 ibb_avg_21 hbp_avg_8 sb_19 sb_pct_na",
+    "pk": "thomeji01"
   },
   {
     "playerID": "uptonju01",
@@ -11190,7 +11366,8 @@
     "category": "fielder",
     "debut_year": 2007,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_lf total_games_1845 bats_r throws_r hits_1754 hr_325 batting_avg_261 runs_per_ab_157 2b_avg_52 3b_avg_6 hr_avg_48 rbi_avg_149 bb_avg_117 so_avg_293 ibb_avg_7 hbp_avg_12 sb_151 sb_pct_72"
+    "embeddings_str": "fielder primary_position_lf total_games_1845 bats_r throws_r hits_1754 hr_325 batting_avg_261 runs_per_ab_157 2b_avg_52 3b_avg_6 hr_avg_48 rbi_avg_149 bb_avg_117 so_avg_293 ibb_avg_7 hbp_avg_12 sb_151 sb_pct_72",
+    "pk": "uptonju01"
   },
   {
     "playerID": "uribeju01",
@@ -11252,7 +11429,8 @@
     "category": "fielder",
     "debut_year": 2001,
     "final_year": 2016,
-    "embeddings_str": "fielder primary_position_ss total_games_1826 bats_r throws_r hits_1568 hr_199 batting_avg_255 runs_per_ab_118 2b_avg_52 3b_avg_7 hr_avg_32 rbi_avg_132 bb_avg_63 so_avg_199 ibb_avg_4 hbp_avg_7 sb_48 sb_pct_na"
+    "embeddings_str": "fielder primary_position_ss total_games_1826 bats_r throws_r hits_1568 hr_199 batting_avg_255 runs_per_ab_118 2b_avg_52 3b_avg_7 hr_avg_32 rbi_avg_132 bb_avg_63 so_avg_199 ibb_avg_4 hbp_avg_7 sb_48 sb_pct_na",
+    "pk": "uribeju01"
   },
   {
     "playerID": "utleych01",
@@ -11309,7 +11487,8 @@
     "category": "fielder",
     "debut_year": 2003,
     "final_year": 2018,
-    "embeddings_str": "fielder primary_position_2b total_games_1937 bats_l throws_r hits_1885 hr_259 batting_avg_275 runs_per_ab_161 2b_avg_60 3b_avg_8 hr_avg_38 rbi_avg_149 bb_avg_106 so_avg_174 ibb_avg_9 hbp_avg_30 sb_154 sb_pct_88"
+    "embeddings_str": "fielder primary_position_2b total_games_1937 bats_l throws_r hits_1885 hr_259 batting_avg_275 runs_per_ab_161 2b_avg_60 3b_avg_8 hr_avg_38 rbi_avg_149 bb_avg_106 so_avg_174 ibb_avg_9 hbp_avg_30 sb_154 sb_pct_88",
+    "pk": "utleych01"
   },
   {
     "playerID": "valenjo03",
@@ -11369,7 +11548,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2007,
-    "embeddings_str": "fielder primary_position_ss total_games_1678 bats_b throws_r hits_1348 hr_249 batting_avg_243 runs_per_ab_157 2b_avg_55 3b_avg_7 hr_avg_45 rbi_avg_147 bb_avg_114 so_avg_234 ibb_avg_10 hbp_avg_5 sb_136 sb_pct_71"
+    "embeddings_str": "fielder primary_position_ss total_games_1678 bats_b throws_r hits_1348 hr_249 batting_avg_243 runs_per_ab_157 2b_avg_55 3b_avg_7 hr_avg_45 rbi_avg_147 bb_avg_114 so_avg_234 ibb_avg_10 hbp_avg_5 sb_136 sb_pct_71",
+    "pk": "valenjo03"
   },
   {
     "playerID": "vanslan01",
@@ -11428,7 +11608,8 @@
     "category": "fielder",
     "debut_year": 1983,
     "final_year": 1995,
-    "embeddings_str": "fielder primary_position_cf total_games_1658 bats_l throws_r hits_1562 hr_164 batting_avg_274 runs_per_ab_146 2b_avg_51 3b_avg_16 hr_avg_29 rbi_avg_139 bb_avg_117 so_avg_186 ibb_avg_10 hbp_avg_5 sb_245 sb_pct_81"
+    "embeddings_str": "fielder primary_position_cf total_games_1658 bats_l throws_r hits_1562 hr_164 batting_avg_274 runs_per_ab_146 2b_avg_51 3b_avg_16 hr_avg_29 rbi_avg_139 bb_avg_117 so_avg_186 ibb_avg_10 hbp_avg_5 sb_245 sb_pct_81",
+    "pk": "vanslan01"
   },
   {
     "playerID": "vaughgr01",
@@ -11488,7 +11669,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_lf total_games_1731 bats_r throws_r hits_1475 hr_355 batting_avg_242 runs_per_ab_167 2b_avg_47 3b_avg_4 hr_avg_58 rbi_avg_176 bb_avg_142 so_avg_248 ibb_avg_9 hbp_avg_6 sb_121 sb_pct_67"
+    "embeddings_str": "fielder primary_position_lf total_games_1731 bats_r throws_r hits_1475 hr_355 batting_avg_242 runs_per_ab_167 2b_avg_47 3b_avg_4 hr_avg_58 rbi_avg_176 bb_avg_142 so_avg_248 ibb_avg_9 hbp_avg_6 sb_121 sb_pct_67",
+    "pk": "vaughgr01"
   },
   {
     "playerID": "venturo01",
@@ -11580,7 +11762,8 @@
     },
     "debut_year": 1989,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_3b total_games_2079 bats_l throws_r hits_1885 hr_294 batting_avg_267 runs_per_ab_142 2b_avg_48 3b_avg_2 hr_avg_42 rbi_avg_167 bb_avg_152 so_avg_167 ibb_avg_19 hbp_avg_3 sb_24 sb_pct_na"
+    "embeddings_str": "fielder primary_position_3b total_games_2079 bats_l throws_r hits_1885 hr_294 batting_avg_267 runs_per_ab_142 2b_avg_48 3b_avg_2 hr_avg_42 rbi_avg_167 bb_avg_152 so_avg_167 ibb_avg_19 hbp_avg_3 sb_24 sb_pct_na",
+    "pk": "venturo01"
   },
   {
     "playerID": "vizcajo01",
@@ -11643,7 +11826,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_ss total_games_1820 bats_b throws_r hits_1453 hr_36 batting_avg_270 runs_per_ab_118 2b_avg_38 3b_avg_9 hr_avg_7 rbi_avg_89 bb_avg_70 so_avg_136 ibb_avg_6 hbp_avg_3 sb_74 sb_pct_54"
+    "embeddings_str": "fielder primary_position_ss total_games_1820 bats_b throws_r hits_1453 hr_36 batting_avg_270 runs_per_ab_118 2b_avg_38 3b_avg_9 hr_avg_7 rbi_avg_89 bb_avg_70 so_avg_136 ibb_avg_6 hbp_avg_3 sb_74 sb_pct_54",
+    "pk": "vizcajo01"
   },
   {
     "playerID": "vizquom01",
@@ -11704,7 +11888,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2012,
-    "embeddings_str": "fielder primary_position_ss total_games_2968 bats_b throws_r hits_2877 hr_80 batting_avg_272 runs_per_ab_137 2b_avg_43 3b_avg_7 hr_avg_8 rbi_avg_90 bb_avg_97 so_avg_103 ibb_avg_2 hbp_avg_5 sb_404 sb_pct_71"
+    "embeddings_str": "fielder primary_position_ss total_games_2968 bats_b throws_r hits_2877 hr_80 batting_avg_272 runs_per_ab_137 2b_avg_43 3b_avg_7 hr_avg_8 rbi_avg_90 bb_avg_97 so_avg_103 ibb_avg_2 hbp_avg_5 sb_404 sb_pct_71",
+    "pk": "vizquom01"
   },
   {
     "playerID": "vottojo01",
@@ -11760,7 +11945,8 @@
     "category": "fielder",
     "debut_year": 2007,
     "final_year": 2022,
-    "embeddings_str": "fielder primary_position_1b total_games_1991 bats_l throws_r hits_2093 hr_342 batting_avg_297 runs_per_ab_163 2b_avg_64 3b_avg_3 hr_avg_49 rbi_avg_157 bb_avg_190 so_avg_224 ibb_avg_21 hbp_avg_11 sb_80 sb_pct_73"
+    "embeddings_str": "fielder primary_position_1b total_games_1991 bats_l throws_r hits_2093 hr_342 batting_avg_297 runs_per_ab_163 2b_avg_64 3b_avg_3 hr_avg_49 rbi_avg_157 bb_avg_190 so_avg_224 ibb_avg_21 hbp_avg_11 sb_80 sb_pct_73",
+    "pk": "vottojo01"
   },
   {
     "playerID": "walkela01",
@@ -11818,7 +12004,8 @@
     "category": "fielder",
     "debut_year": 1989,
     "final_year": 2005,
-    "embeddings_str": "fielder primary_position_rf total_games_1988 bats_l throws_r hits_2160 hr_383 batting_avg_313 runs_per_ab_196 2b_avg_68 3b_avg_9 hr_avg_55 rbi_avg_190 bb_avg_132 so_avg_178 ibb_avg_17 hbp_avg_20 sb_230 sb_pct_75"
+    "embeddings_str": "fielder primary_position_rf total_games_1988 bats_l throws_r hits_2160 hr_383 batting_avg_313 runs_per_ab_196 2b_avg_68 3b_avg_9 hr_avg_55 rbi_avg_190 bb_avg_132 so_avg_178 ibb_avg_17 hbp_avg_20 sb_230 sb_pct_75",
+    "pk": "walkela01"
   },
   {
     "playerID": "wellsve01",
@@ -11876,7 +12063,8 @@
     "category": "fielder",
     "debut_year": 1999,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_cf total_games_1731 bats_r throws_r hits_1794 hr_270 batting_avg_270 runs_per_ab_140 2b_avg_57 3b_avg_5 hr_avg_41 rbi_avg_144 bb_avg_71 so_avg_144 ibb_avg_4 hbp_avg_5 sb_109 sb_pct_75"
+    "embeddings_str": "fielder primary_position_cf total_games_1731 bats_r throws_r hits_1794 hr_270 batting_avg_270 runs_per_ab_140 2b_avg_57 3b_avg_5 hr_avg_41 rbi_avg_144 bb_avg_71 so_avg_144 ibb_avg_4 hbp_avg_5 sb_109 sb_pct_75",
+    "pk": "wellsve01"
   },
   {
     "playerID": "whitede03",
@@ -11937,7 +12125,8 @@
     "category": "fielder",
     "debut_year": 1985,
     "final_year": 2001,
-    "embeddings_str": "fielder primary_position_cf total_games_1941 bats_b throws_r hits_1934 hr_208 batting_avg_263 runs_per_ab_153 2b_avg_51 3b_avg_10 hr_avg_28 rbi_avg_115 bb_avg_74 so_avg_208 ibb_avg_4 hbp_avg_12 sb_346 sb_pct_78"
+    "embeddings_str": "fielder primary_position_cf total_games_1941 bats_b throws_r hits_1934 hr_208 batting_avg_263 runs_per_ab_153 2b_avg_51 3b_avg_10 hr_avg_28 rbi_avg_115 bb_avg_74 so_avg_208 ibb_avg_4 hbp_avg_12 sb_346 sb_pct_78",
+    "pk": "whitede03"
   },
   {
     "playerID": "willibe02",
@@ -11993,7 +12182,8 @@
     "category": "fielder",
     "debut_year": 1991,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_cf total_games_2076 bats_b throws_r hits_2336 hr_287 batting_avg_297 runs_per_ab_174 2b_avg_57 3b_avg_7 hr_avg_36 rbi_avg_160 bb_avg_136 so_avg_154 ibb_avg_12 hbp_avg_5 sb_147 sb_pct_63"
+    "embeddings_str": "fielder primary_position_cf total_games_2076 bats_b throws_r hits_2336 hr_287 batting_avg_297 runs_per_ab_174 2b_avg_57 3b_avg_7 hr_avg_36 rbi_avg_160 bb_avg_136 so_avg_154 ibb_avg_12 hbp_avg_5 sb_147 sb_pct_63",
+    "pk": "willibe02"
   },
   {
     "playerID": "willima04",
@@ -12051,7 +12241,8 @@
     "category": "fielder",
     "debut_year": 1987,
     "final_year": 2003,
-    "embeddings_str": "fielder primary_position_3b total_games_1866 bats_r throws_r hits_1878 hr_378 batting_avg_268 runs_per_ab_142 2b_avg_48 3b_avg_5 hr_avg_54 rbi_avg_174 bb_avg_67 so_avg_195 ibb_avg_12 hbp_avg_8 sb_53 sb_pct_60"
+    "embeddings_str": "fielder primary_position_3b total_games_1866 bats_r throws_r hits_1878 hr_378 batting_avg_268 runs_per_ab_142 2b_avg_48 3b_avg_5 hr_avg_54 rbi_avg_174 bb_avg_67 so_avg_195 ibb_avg_12 hbp_avg_8 sb_53 sb_pct_60",
+    "pk": "willima04"
   },
   {
     "playerID": "winnra01",
@@ -12111,7 +12302,8 @@
     "category": "fielder",
     "debut_year": 1998,
     "final_year": 2010,
-    "embeddings_str": "fielder primary_position_cf total_games_1717 bats_b throws_r hits_1759 hr_110 batting_avg_284 runs_per_ab_140 2b_avg_59 3b_avg_10 hr_avg_18 rbi_avg_107 bb_avg_85 so_avg_163 ibb_avg_4 hbp_avg_9 sb_215 sb_pct_72"
+    "embeddings_str": "fielder primary_position_cf total_games_1717 bats_b throws_r hits_1759 hr_110 batting_avg_284 runs_per_ab_140 2b_avg_59 3b_avg_10 hr_avg_18 rbi_avg_107 bb_avg_85 so_avg_163 ibb_avg_4 hbp_avg_9 sb_215 sb_pct_72",
+    "pk": "winnra01"
   },
   {
     "playerID": "younger01",
@@ -12173,7 +12365,8 @@
     "category": "fielder",
     "debut_year": 1992,
     "final_year": 2006,
-    "embeddings_str": "fielder primary_position_2b total_games_1730 bats_r throws_r hits_1731 hr_79 batting_avg_283 runs_per_ab_163 2b_avg_53 3b_avg_8 hr_avg_13 rbi_avg_89 bb_avg_108 so_avg_76 ibb_avg_2 hbp_avg_15 sb_465 sb_pct_73"
+    "embeddings_str": "fielder primary_position_2b total_games_1730 bats_r throws_r hits_1731 hr_79 batting_avg_283 runs_per_ab_163 2b_avg_53 3b_avg_8 hr_avg_13 rbi_avg_89 bb_avg_108 so_avg_76 ibb_avg_2 hbp_avg_15 sb_465 sb_pct_73",
+    "pk": "younger01"
   },
   {
     "playerID": "youngmi02",
@@ -12231,7 +12424,8 @@
     "category": "fielder",
     "debut_year": 2000,
     "final_year": 2013,
-    "embeddings_str": "fielder primary_position_ss total_games_1970 bats_r throws_r hits_2375 hr_185 batting_avg_300 runs_per_ab_144 2b_avg_56 3b_avg_8 hr_avg_23 rbi_avg_130 bb_avg_73 so_avg_156 ibb_avg_4 hbp_avg_3 sb_90 sb_pct_75"
+    "embeddings_str": "fielder primary_position_ss total_games_1970 bats_r throws_r hits_2375 hr_185 batting_avg_300 runs_per_ab_144 2b_avg_56 3b_avg_8 hr_avg_23 rbi_avg_130 bb_avg_73 so_avg_156 ibb_avg_4 hbp_avg_3 sb_90 sb_pct_75",
+    "pk": "youngmi02"
   },
   {
     "playerID": "zeileto01",
@@ -12330,7 +12524,8 @@
     },
     "debut_year": 1989,
     "final_year": 2004,
-    "embeddings_str": "fielder primary_position_3b total_games_2158 bats_r throws_r hits_2004 hr_253 batting_avg_265 runs_per_ab_130 2b_avg_52 3b_avg_3 hr_avg_33 rbi_avg_147 bb_avg_125 so_avg_169 ibb_avg_6 hbp_avg_6 sb_53 sb_pct_51"
+    "embeddings_str": "fielder primary_position_3b total_games_2158 bats_r throws_r hits_2004 hr_253 batting_avg_265 runs_per_ab_130 2b_avg_52 3b_avg_3 hr_avg_33 rbi_avg_147 bb_avg_125 so_avg_169 ibb_avg_6 hbp_avg_6 sb_53 sb_pct_51",
+    "pk": "zeileto01"
   },
   {
     "playerID": "zimmery01",
@@ -12386,7 +12581,8 @@
     "category": "fielder",
     "debut_year": 2005,
     "final_year": 2021,
-    "embeddings_str": "fielder primary_position_3b total_games_1799 bats_r throws_r hits_1846 hr_284 batting_avg_277 runs_per_ab_145 2b_avg_63 3b_avg_3 hr_avg_43 rbi_avg_159 bb_avg_97 so_avg_208 ibb_avg_6 hbp_avg_5 sb_43 sb_pct_na"
+    "embeddings_str": "fielder primary_position_3b total_games_1799 bats_r throws_r hits_1846 hr_284 batting_avg_277 runs_per_ab_145 2b_avg_63 3b_avg_3 hr_avg_43 rbi_avg_159 bb_avg_97 so_avg_208 ibb_avg_6 hbp_avg_5 sb_43 sb_pct_na",
+    "pk": "zimmery01"
   },
   {
     "playerID": "zobribe01",
@@ -12478,6 +12674,7 @@
     },
     "debut_year": 2006,
     "final_year": 2019,
-    "embeddings_str": "fielder primary_position_2b total_games_1651 bats_b throws_r hits_1566 hr_167 batting_avg_266 runs_per_ab_150 2b_avg_59 3b_avg_7 hr_avg_28 rbi_avg_131 bb_avg_141 so_avg_169 ibb_avg_6 hbp_avg_5 sb_116 sb_pct_70"
+    "embeddings_str": "fielder primary_position_2b total_games_1651 bats_b throws_r hits_1566 hr_167 batting_avg_266 runs_per_ab_150 2b_avg_59 3b_avg_7 hr_avg_28 rbi_avg_131 bb_avg_141 so_avg_169 ibb_avg_6 hbp_avg_5 sb_116 sb_pct_70",
+    "pk": "zobribe01"
   }
 ]

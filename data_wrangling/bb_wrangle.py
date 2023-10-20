@@ -626,6 +626,7 @@ def filter_documents():
         doc = documents[key]
         if doc['birthYear'] >= 1960:
             if doc['teams']['total_games'] > games_threshold:
+                doc['pk'] = doc['playerID']
                 filtered_docs.append(doc)
 
     print('filtered_docs len: {}'.format(len(filtered_docs)))
