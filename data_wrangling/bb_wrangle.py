@@ -19,8 +19,8 @@ Usage:
   python bb_wrangle.py add_embeddings_to_documents 2010
   -
   python bb_wrangle.py scan_documents
-  puthon bb_wrangle.py flatten_documents
-  puthon bb_wrangle.py filter_documents
+  python bb_wrangle.py flatten_documents
+  python bb_wrangle.py filter_documents
 Options:
   -h --help     Show this screen.
   --version     Show version.
