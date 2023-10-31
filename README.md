@@ -29,6 +29,8 @@ three Azure Cosmos DB APIs and Python.
 ## Primary Requirements
 
 - Python 3.x
+  - Python 3.11.6 is recommended, not 3.12.x
+  - See https://www.python.org/downloads/release/python-3116/
 - Azure PaaS Services: OpenAI, Cosmos DB account(s), Cognitive Search
 
 ## How to Use

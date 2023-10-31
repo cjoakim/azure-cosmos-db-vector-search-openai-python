@@ -13,8 +13,8 @@ python3 -m venv venv
 echo 'activating new venv ...'
 source venv/bin/activate
 
-echo 'upgrading pip ...'
-python -m pip install --upgrade pip 
+# echo 'upgrading pip ...'
+# python -m pip install --upgrade pip 
 
 echo 'install pip-tools ...'
 pip install --upgrade pip-tools

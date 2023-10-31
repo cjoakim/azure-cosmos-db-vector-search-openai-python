@@ -1,5 +1,7 @@
 # This file lists the Python libraries used in the virtual enviroment.
 # See the venv.ps1 and venv.sh scripts in this directory.
+# Python 3.11.6 is recommended;
+# see https://www.python.org/downloads/release/python-3116/
 # Chris Joakim, Microsoft
 
 # Standard core libraries
