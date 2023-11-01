@@ -18,6 +18,8 @@
 
 **/documents_with_embeddings.json
 **/documents_with_embeddings.zip
+**/documents_with_embeddings_flat.json
+**/data/wrangled/players/
 
 data/seanhahman-baseballdatabank-2023.1/downloaded/
 

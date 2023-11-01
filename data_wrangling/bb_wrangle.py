@@ -19,8 +19,10 @@ Usage:
   python bb_wrangle.py add_embeddings_to_documents 2010
   -
   python bb_wrangle.py scan_documents
-  python bb_wrangle.py flatten_documents
   python bb_wrangle.py filter_documents
+  -
+  python bb_wrangle.py flatten_vectorized_documents
+  python bb_wrangle.py split_vectorized_documents 1970 500
 Options:
   -h --help     Show this screen.
   --version     Show version.
@@ -598,19 +600,53 @@ def scan_documents():
     data['earliest_debut'] = earliest_debut
     FS.write_json(counter.get_data(), 'tmp/scan_documents.json')
 
-def flatten_documents():
-    #print(f'=== flatten_documents')
-    # python bb_wrangle.py flatten_documents > ../data/wrangled/documents_with_embeddings_flat.json
+def flatten_vectorized_documents():
+    #print(f'=== flatten_vectorized_documents')
+    # python bb_wrangle.py flatten_vectorized_documents > ../data/wrangled/documents_with_embeddings_flat.json
     infile = '../data/wrangled/documents_with_embeddings.json'
+    outfile = 'tmp/flat.json'
     documents = FS.read_json(infile)
     counter = Counter()
     keys = documents.keys()
     #print('keys len: {}'.format(len(keys)))
 
+    with open(outfile, "at") as out:
+        for idx, key in enumerate(sorted(keys)):
+            doc = documents[key]
+            out.write(json.dumps(doc))
+            out.write(os.linesep)
+
+def split_vectorized_documents(min_debut_year, min_games):
+    print('=== split_vectorized_documents, min_debut_year: {}'.format(min_debut_year))
+    infile = '../data/wrangled/documents_with_embeddings.json'
+    outdir = '../data/wrangled/players'
+    documents = FS.read_json(infile)
+    counter = Counter()
+    keys = documents.keys()
+    list_lines = []
+
     for idx, key in enumerate(sorted(keys)):
-        doc = documents[key]
-        print(json.dumps(doc))
-            
+        try:
+            doc = documents[key]
+            playerID  = doc['playerID']
+            firstName = doc['nameFirst']
+            lastName  = doc['nameLast']
+            debutYear = doc['debut_year']
+            games     = doc['teams']['total_games']
+
+            if debutYear >= min_debut_year:
+                if games >= min_games:
+                    outfile = '{}/{}.json'.format(outdir, key)
+                    FS.write_json(doc, outfile)
+                    list_lines.append(f'{playerID}|{debutYear}|{firstName}|{lastName}')
+        except Exception as e:
+            print('exception on key: {}'.format(key))
+            print(e)
+
+    print('{} players extracted'.format(len(list_lines)))
+    outfile = '{}/player_list.csv'.format(outdir)
+    FS.write_lines(list_lines, outfile)
+
 def filter_documents():
     print(f'=== filter_documents')
     infile = '../data/wrangled/documents.json'
@@ -743,8 +779,12 @@ if __name__ == "__main__":
                 add_embeddings(min_debut_year)
             elif func == 'scan_documents':
                 scan_documents()
-            elif func == 'flatten_documents':
-                flatten_documents()
+            elif func == 'flatten_vectorized_documents':
+                flatten_vectorized_documents()
+            elif func == 'split_vectorized_documents':
+                min_debut_year = int(sys.argv[2])
+                min_games      = int(sys.argv[3])
+                split_vectorized_documents(min_debut_year, min_games)
             elif func == 'filter_documents':
                 filter_documents()
             else:
