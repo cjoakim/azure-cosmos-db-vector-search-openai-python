@@ -21,6 +21,7 @@ Usage:
   python bb_wrangle.py scan_documents
   python bb_wrangle.py filter_documents
   -
+  python bb_wrangle.py flatten_documents
   python bb_wrangle.py flatten_vectorized_documents
   python bb_wrangle.py split_vectorized_documents 1970 500
 Options:
@@ -600,6 +601,24 @@ def scan_documents():
     data['earliest_debut'] = earliest_debut
     FS.write_json(counter.get_data(), 'tmp/scan_documents.json')
 
+def flatten_documents():
+    infile = '../data/wrangled/documents.json'
+    outfile = 'tmp/documents_flat.json'
+    documents = FS.read_json(infile)
+    counter = Counter()
+    keys = documents.keys()
+    lines = list()
+    with open(outfile, "at") as out:
+        for idx, key in enumerate(sorted(keys)):
+            doc = documents[key]
+            if len(doc['deathYear']) > 0:
+                doc['deathYear'] = int(float(doc['deathYear']))
+            else:
+                doc['deathYear'] = -1
+            out.write(json.dumps(doc))
+            lines.append(json.dumps(doc))
+    FS.write_lines(lines, outfile)
+
 def flatten_vectorized_documents():
     #print(f'=== flatten_vectorized_documents')
     # python bb_wrangle.py flatten_vectorized_documents > ../data/wrangled/documents_with_embeddings_flat.json
@@ -779,6 +798,8 @@ if __name__ == "__main__":
                 add_embeddings(min_debut_year)
             elif func == 'scan_documents':
                 scan_documents()
+            elif func == 'flatten_documents':
+                flatten_documents()
             elif func == 'flatten_vectorized_documents':
                 flatten_vectorized_documents()
             elif func == 'split_vectorized_documents':
