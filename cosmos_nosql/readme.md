@@ -1,1 +1,1 @@
-# azure-vector-search : Cosmos DB vCore Mongo API
+# azure-vector-search : Cosmos DB NoSQL API
